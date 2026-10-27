@@ -1,0 +1,66 @@
+[
+  {
+    "repo": "ura-hcmut/UIT-VSFC",
+    "revision": "c572aed01a811a1dbc68e9aed9f9e684980a10a2",
+    "file": "README.md",
+    "url": "https://huggingface.co/datasets/ura-hcmut/UIT-VSFC/resolve/c572aed01a811a1dbc68e9aed9f9e684980a10a2/README.md",
+    "sha256": "8960ee394fe4259fa1fba06da1c15a010cebc3f3d34d6b1c8703247076ba096f",
+    "size_bytes": 567
+  },
+  {
+    "repo": "ura-hcmut/UIT-VSFC",
+    "revision": "c572aed01a811a1dbc68e9aed9f9e684980a10a2",
+    "file": "UIT-VSFC_test.csv",
+    "url": "https://huggingface.co/datasets/ura-hcmut/UIT-VSFC/resolve/c572aed01a811a1dbc68e9aed9f9e684980a10a2/UIT-VSFC_test.csv",
+    "sha256": "e528e33091e5ef0f933d6064ad432dac98ebac13576595961d50dcaac46c59cf",
+    "size_bytes": 278746
+  },
+  {
+    "repo": "ura-hcmut/UIT-VSFC",
+    "revision": "c572aed01a811a1dbc68e9aed9f9e684980a10a2",
+    "file": "UIT-VSFC_train.csv",
+    "url": "https://huggingface.co/datasets/ura-hcmut/UIT-VSFC/resolve/c572aed01a811a1dbc68e9aed9f9e684980a10a2/UIT-VSFC_train.csv",
+    "sha256": "9e839fb8f13a5251f8a465243d52e46f25794fc8ace4f265de41c1609fe564f0",
+    "size_bytes": 1010046
+  },
+  {
+    "repo": "ura-hcmut/UIT-VSFC",
+    "revision": "c572aed01a811a1dbc68e9aed9f9e684980a10a2",
+    "file": "UIT-VSFC_valid.csv",
+    "url": "https://huggingface.co/datasets/ura-hcmut/UIT-VSFC/resolve/c572aed01a811a1dbc68e9aed9f9e684980a10a2/UIT-VSFC_valid.csv",
+    "sha256": "b1d5833efd5f28ad62a24541183d5c7292e72a5b6f786a5d6544c1634a980ea8",
+    "size_bytes": 134178
+  },
+  {
+    "repo": "ura-hcmut/UIT-VSMEC",
+    "revision": "ab642b189eff31fdb781cca7c4c34dee3ee0f1de",
+    "file": "README.md",
+    "url": "https://huggingface.co/datasets/ura-hcmut/UIT-VSMEC/resolve/ab642b189eff31fdb781cca7c4c34dee3ee0f1de/README.md",
+    "sha256": "39283a83cb59844ca5c2481a01d5f87166b22c485f0ebfa7e670f0b29b526fba",
+    "size_bytes": 526
+  },
+  {
+    "repo": "ura-hcmut/UIT-VSMEC",
+    "revision": "ab642b189eff31fdb781cca7c4c34dee3ee0f1de",
+    "file": "test.csv",
+    "url": "https://huggingface.co/datasets/ura-hcmut/UIT-VSMEC/resolve/ab642b189eff31fdb781cca7c4c34dee3ee0f1de/test.csv",
+    "sha256": "96b6dc3c533696399a6eca823afe55259f7ebc4a68409fce68ead224cf565481",
+    "size_bytes": 57164
+  },
+  {
+    "repo": "ura-hcmut/UIT-VSMEC",
+    "revision": "ab642b189eff31fdb781cca7c4c34dee3ee0f1de",
+    "file": "train.csv",
+    "url": "https://huggingface.co/datasets/ura-hcmut/UIT-VSMEC/resolve/ab642b189eff31fdb781cca7c4c34dee3ee0f1de/train.csv",
+    "sha256": "14e931c58cc27ac11a64ad7f84d78c02b2884c3e32ebb21960f78fb5c2ebc1a5",
+    "size_bytes": 463018
+  },
+  {
+    "repo": "ura-hcmut/UIT-VSMEC",
+    "revision": "ab642b189eff31fdb781cca7c4c34dee3ee0f1de",
+    "file": "validation.csv",
+    "url": "https://huggingface.co/datasets/ura-hcmut/UIT-VSMEC/resolve/ab642b189eff31fdb781cca7c4c34dee3ee0f1de/validation.csv",
+    "sha256": "487fecba839616b78fd7984a4f9bce7162099c0414757e5efbda620553e02816",
+    "size_bytes": 57833
+  }
+]

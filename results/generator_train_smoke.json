@@ -1,0 +1,122 @@
+[
+  {
+    "family": "fold",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.604
+  },
+  {
+    "family": "fold",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.809
+  },
+  {
+    "family": "fold",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.892
+  },
+  {
+    "family": "tone",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.642
+  },
+  {
+    "family": "tone",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.837
+  },
+  {
+    "family": "tone",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.919
+  },
+  {
+    "family": "keyboard",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.643
+  },
+  {
+    "family": "keyboard",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.837
+  },
+  {
+    "family": "keyboard",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.919
+  },
+  {
+    "family": "delete",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.642
+  },
+  {
+    "family": "delete",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.836
+  },
+  {
+    "family": "delete",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.918
+  },
+  {
+    "family": "swap",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.642
+  },
+  {
+    "family": "swap",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.836
+  },
+  {
+    "family": "swap",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.918
+  },
+  {
+    "family": "repeat",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.643
+  },
+  {
+    "family": "repeat",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.837
+  },
+  {
+    "family": "repeat",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.919
+  },
+  {
+    "family": "whitespace",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.655
+  },
+  {
+    "family": "whitespace",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.845
+  },
+  {
+    "family": "whitespace",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.926
+  },
+  {
+    "family": "teencode",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.075
+  },
+  {
+    "family": "teencode",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.165
+  },
+  {
+    "family": "teencode",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.238
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "UIT-VSFC": {
+    "word": {
+      "alpha": 1.0
+    },
+    "char": {
+      "alpha": 1.0
+    },
+    "svm": {
+      "C": 0.5
+    },
+    "folded": {
+      "alpha": 1.0
+    },
+    "concat": {
+      "alpha": 1.0
+    },
+    "aug": {
+      "alpha": 1.0
+    },
+    "uniform": {
+      "alpha": 1.0,
+      "lam": 0.3
+    },
+    "capc": {
+      "alpha": 1.0,
+      "lam": 3.0
+    },
+    "shuffled": {
+      "alpha": 1.0,
+      "lam": 0.3
+    }
+  },
+  "UIT-VSMEC": {
+    "word": {
+      "alpha": 1.0
+    },
+    "char": {
+      "alpha": 1.0
+    },
+    "svm": {
+      "C": 0.5
+    },
+    "folded": {
+      "alpha": 1.0
+    },
+    "concat": {
+      "alpha": 1.0
+    },
+    "aug": {
+      "alpha": 1.0
+    },
+    "uniform": {
+      "alpha": 1.0,
+      "lam": 0.3
+    },
+    "capc": {
+      "alpha": 1.0,
+      "lam": 0.3
+    },
+    "shuffled": {
+      "alpha": 1.0,
+      "lam": 0.3
+    }
+  }
+}
