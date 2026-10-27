@@ -1,0 +1,13 @@
+{
+  "completed_protocol_version": "v1_corrected_keyboard",
+  "fit_counts": {
+    "validation_search": 48,
+    "five_run_test": 90,
+    "seed17_repeat_fit": 18,
+    "total_final_protocol": 156
+  },
+  "invalid_partial_attempt": "audit/superseded_keyboard_v0",
+  "excluded_from_main_results": true,
+  "neural_models_run": false,
+  "human_semantic_validation_run": false
+}

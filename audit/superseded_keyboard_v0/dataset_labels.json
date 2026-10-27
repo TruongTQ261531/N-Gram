@@ -1,0 +1,16 @@
+{
+  "UIT-VSFC": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "UIT-VSMEC": [
+    "Anger",
+    "Disgust",
+    "Enjoyment",
+    "Fear",
+    "Other",
+    "Sadness",
+    "Surprise"
+  ]
+}

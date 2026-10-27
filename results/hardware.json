@@ -1,0 +1,5 @@
+{
+  "cpuinfo": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "visible_cpus": 3,
+  "notes": "Container-visible CPU. No clock/governor or physical host isolation guarantee. Peak RSS includes interpreter, imports, data slice, model and inference working set. Values are not attributable solely to model tensors."
+}

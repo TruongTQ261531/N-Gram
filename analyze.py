@@ -2,6 +2,7 @@
 import os
 os.environ['OPENBLAS_NUM_THREADS']='1'
 os.environ['MPLCONFIGDIR']='/tmp/ngram-mpl'
+os.environ['XDG_CACHE_HOME']='/tmp/ngram-xdg'
 import json,hashlib,time
 from pathlib import Path
 import numpy as np,pandas as pd

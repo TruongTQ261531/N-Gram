@@ -1,0 +1,1352 @@
+[
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "clean",
+    "severity": 0,
+    "changed_sentence_fraction": 0.0,
+    "changed_token_fraction": 0.0,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "fullfold",
+    "severity": 1,
+    "changed_sentence_fraction": 0.9985549132947977,
+    "changed_token_fraction": 0.7592771959383047,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.75578034682081
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "nfd",
+    "severity": 0,
+    "changed_sentence_fraction": 0.9985549132947977,
+    "changed_token_fraction": 0.7429326042070423,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "fold",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.5939306358381503,
+    "changed_token_fraction": 0.07994544619042888,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "fold",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8020231213872833,
+    "changed_token_fraction": 0.1542165796611007,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "fold",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.8930635838150289,
+    "changed_token_fraction": 0.22467784400343535,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "tone",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6604046242774566,
+    "changed_token_fraction": 0.09248650721485993,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "tone",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8526011560693642,
+    "changed_token_fraction": 0.1806972230347489,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "tone",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9234104046242775,
+    "changed_token_fraction": 0.26687178150719854,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "keyboard",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6632947976878613,
+    "changed_token_fraction": 0.09430295811814889,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "keyboard",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8583815028901735,
+    "changed_token_fraction": 0.18532178472260427,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "keyboard",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9263005780346821,
+    "changed_token_fraction": 0.27019343680509683,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "delete",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6589595375722543,
+    "changed_token_fraction": 0.0922220956657433,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "delete",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8540462427745664,
+    "changed_token_fraction": 0.18227648694374537,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "delete",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9248554913294798,
+    "changed_token_fraction": 0.2668805110607324,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "swap",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6589595375722543,
+    "changed_token_fraction": 0.09150727098902213,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "swap",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8540462427745664,
+    "changed_token_fraction": 0.17968937725100803,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "swap",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9248554913294798,
+    "changed_token_fraction": 0.2656098397672732,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "repeat",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6632947976878613,
+    "changed_token_fraction": 0.09330403793183419,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "repeat",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8583815028901735,
+    "changed_token_fraction": 0.18454905120999351,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "repeat",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9263005780346821,
+    "changed_token_fraction": 0.2712976815205265,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "whitespace",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6632947976878613,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 12.486994219653178
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "whitespace",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8554913294797688,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 11.218208092485549
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "whitespace",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9190751445086706,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 10.002890173410405
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "teencode",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.08959537572254335,
+    "changed_token_fraction": 0.007432478321016721,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "teencode",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.17052023121387283,
+    "changed_token_fraction": 0.01485361547871313,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "family": "teencode",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.23121387283236994,
+    "changed_token_fraction": 0.021752295747565376,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "clean",
+    "severity": 0,
+    "changed_sentence_fraction": 0.0,
+    "changed_token_fraction": 0.0,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "fullfold",
+    "severity": 1,
+    "changed_sentence_fraction": 0.9985549132947977,
+    "changed_token_fraction": 0.7592771959383047,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.75578034682081
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "nfd",
+    "severity": 0,
+    "changed_sentence_fraction": 0.9985549132947977,
+    "changed_token_fraction": 0.7429326042070423,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "fold",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6011560693641619,
+    "changed_token_fraction": 0.07743541362199406,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "fold",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8135838150289018,
+    "changed_token_fraction": 0.1573340669829477,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "fold",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9104046242774566,
+    "changed_token_fraction": 0.23642152029092595,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "tone",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.661849710982659,
+    "changed_token_fraction": 0.09010759887021802,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "tone",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8569364161849711,
+    "changed_token_fraction": 0.18453550116006165,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "tone",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.930635838150289,
+    "changed_token_fraction": 0.2703544741785903,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "keyboard",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6647398843930635,
+    "changed_token_fraction": 0.0899557514800578,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "keyboard",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8583815028901735,
+    "changed_token_fraction": 0.18346442181013534,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "keyboard",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9320809248554913,
+    "changed_token_fraction": 0.2754888856141353,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "delete",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6575144508670521,
+    "changed_token_fraction": 0.08831582781430879,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "delete",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8540462427745664,
+    "changed_token_fraction": 0.18103530473508578,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "delete",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.930635838150289,
+    "changed_token_fraction": 0.27111684166308675,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "swap",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6575144508670521,
+    "changed_token_fraction": 0.08814230789647556,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "swap",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8540462427745664,
+    "changed_token_fraction": 0.1814513475867343,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "swap",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.930635838150289,
+    "changed_token_fraction": 0.27068555026182045,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "repeat",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6647398843930635,
+    "changed_token_fraction": 0.09179160817786206,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "repeat",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8583815028901735,
+    "changed_token_fraction": 0.18698658538345403,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "repeat",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9320809248554913,
+    "changed_token_fraction": 0.2749552057467204,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "whitespace",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6647398843930635,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 12.459537572254336
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "whitespace",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.846820809248555,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 11.197976878612717
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "whitespace",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9176300578034682,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 9.864161849710984
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "teencode",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.0838150289017341,
+    "changed_token_fraction": 0.005452984256763734,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "teencode",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.1777456647398844,
+    "changed_token_fraction": 0.013726415933579228,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 29,
+    "family": "teencode",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.2384393063583815,
+    "changed_token_fraction": 0.020179990891925428,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "clean",
+    "severity": 0,
+    "changed_sentence_fraction": 0.0,
+    "changed_token_fraction": 0.0,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "fullfold",
+    "severity": 1,
+    "changed_sentence_fraction": 0.9985549132947977,
+    "changed_token_fraction": 0.7592771959383047,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.75578034682081
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "nfd",
+    "severity": 0,
+    "changed_sentence_fraction": 0.9985549132947977,
+    "changed_token_fraction": 0.7429326042070423,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "fold",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.5722543352601156,
+    "changed_token_fraction": 0.0729376093048872,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "fold",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8005780346820809,
+    "changed_token_fraction": 0.1506562434225237,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "fold",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9089595375722543,
+    "changed_token_fraction": 0.22846125804747577,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "tone",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6401734104046243,
+    "changed_token_fraction": 0.08682025536541903,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "tone",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8526011560693642,
+    "changed_token_fraction": 0.17860221999420875,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "tone",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9407514450867052,
+    "changed_token_fraction": 0.2732894225628223,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "keyboard",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6430635838150289,
+    "changed_token_fraction": 0.08760386374427973,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "keyboard",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8554913294797688,
+    "changed_token_fraction": 0.17821696590205516,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "keyboard",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9436416184971098,
+    "changed_token_fraction": 0.26925380354922906,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "delete",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6372832369942196,
+    "changed_token_fraction": 0.08601594493677947,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "delete",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8526011560693642,
+    "changed_token_fraction": 0.17585871462744912,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "delete",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9407514450867052,
+    "changed_token_fraction": 0.26478510199492455,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "swap",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6372832369942196,
+    "changed_token_fraction": 0.08567227835711788,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "swap",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8526011560693642,
+    "changed_token_fraction": 0.17883623288486364,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "swap",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9407514450867052,
+    "changed_token_fraction": 0.2693495613634125,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "repeat",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6430635838150289,
+    "changed_token_fraction": 0.0872442683738213,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "repeat",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8554913294797688,
+    "changed_token_fraction": 0.18103796251717558,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "repeat",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9436416184971098,
+    "changed_token_fraction": 0.2732698464756028,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "whitespace",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6459537572254336,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 12.523121387283236
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "whitespace",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8453757225433526,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 11.186416184971097
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "whitespace",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9205202312138728,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 9.891618497109826
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "teencode",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.07514450867052024,
+    "changed_token_fraction": 0.005786426158417505,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "teencode",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.14739884393063585,
+    "changed_token_fraction": 0.011926206386388081,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 43,
+    "family": "teencode",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.21820809248554912,
+    "changed_token_fraction": 0.01826203445649623,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "clean",
+    "severity": 0,
+    "changed_sentence_fraction": 0.0,
+    "changed_token_fraction": 0.0,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "fullfold",
+    "severity": 1,
+    "changed_sentence_fraction": 0.9985549132947977,
+    "changed_token_fraction": 0.7592771959383047,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.75578034682081
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "nfd",
+    "severity": 0,
+    "changed_sentence_fraction": 0.9985549132947977,
+    "changed_token_fraction": 0.7429326042070423,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "fold",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.5939306358381503,
+    "changed_token_fraction": 0.07462835163614398,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "fold",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8049132947976878,
+    "changed_token_fraction": 0.14901111146047766,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "fold",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9017341040462428,
+    "changed_token_fraction": 0.22773596891668788,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "tone",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6473988439306358,
+    "changed_token_fraction": 0.08853170374319876,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "tone",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8526011560693642,
+    "changed_token_fraction": 0.17565163669275347,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "tone",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9335260115606936,
+    "changed_token_fraction": 0.2714497562165089,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "keyboard",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6517341040462428,
+    "changed_token_fraction": 0.08921146578153645,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "keyboard",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8526011560693642,
+    "changed_token_fraction": 0.17863205719957234,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "keyboard",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.934971098265896,
+    "changed_token_fraction": 0.27697255524894354,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "delete",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6430635838150289,
+    "changed_token_fraction": 0.08761416803822435,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "delete",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8511560693641619,
+    "changed_token_fraction": 0.17621346012201763,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "delete",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.930635838150289,
+    "changed_token_fraction": 0.27229099377032706,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "swap",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6430635838150289,
+    "changed_token_fraction": 0.08783335367129169,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "swap",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8511560693641619,
+    "changed_token_fraction": 0.1722679338712368,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "swap",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.930635838150289,
+    "changed_token_fraction": 0.26452617847090315,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "repeat",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6517341040462428,
+    "changed_token_fraction": 0.08938224208041674,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "repeat",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8526011560693642,
+    "changed_token_fraction": 0.17584320027739814,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "repeat",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.934971098265896,
+    "changed_token_fraction": 0.2685688490225118,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "whitespace",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6473988439306358,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 12.479768786127167
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "whitespace",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8424855491329479,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 11.25
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "whitespace",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9219653179190751,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 9.995664739884393
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "teencode",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.08092485549132948,
+    "changed_token_fraction": 0.005866002531446995,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "teencode",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.16184971098265896,
+    "changed_token_fraction": 0.01416948194426707,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 71,
+    "family": "teencode",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.22832369942196531,
+    "changed_token_fraction": 0.02199955589750776,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "clean",
+    "severity": 0,
+    "changed_sentence_fraction": 0.0,
+    "changed_token_fraction": 0.0,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "fullfold",
+    "severity": 1,
+    "changed_sentence_fraction": 0.9985549132947977,
+    "changed_token_fraction": 0.7592771959383047,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.75578034682081
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "nfd",
+    "severity": 0,
+    "changed_sentence_fraction": 0.9985549132947977,
+    "changed_token_fraction": 0.7429326042070423,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "fold",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.565028901734104,
+    "changed_token_fraction": 0.07306512067967606,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "fold",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8164739884393064,
+    "changed_token_fraction": 0.1550282587347785,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "fold",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.903179190751445,
+    "changed_token_fraction": 0.2295574046693832,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "tone",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6271676300578035,
+    "changed_token_fraction": 0.0892427209710713,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "tone",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8728323699421965,
+    "changed_token_fraction": 0.1833276145705999,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "tone",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9407514450867052,
+    "changed_token_fraction": 0.27305527862274326,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "keyboard",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6329479768786127,
+    "changed_token_fraction": 0.0874776236288482,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "keyboard",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8757225433526011,
+    "changed_token_fraction": 0.18440272408070202,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "keyboard",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9407514450867052,
+    "changed_token_fraction": 0.27616981185484774,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "delete",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6228323699421965,
+    "changed_token_fraction": 0.08558406478854214,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "delete",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8728323699421965,
+    "changed_token_fraction": 0.18142592118234352,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "delete",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9393063583815029,
+    "changed_token_fraction": 0.27153612416397743,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "swap",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6228323699421965,
+    "changed_token_fraction": 0.08674424208675126,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "swap",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8728323699421965,
+    "changed_token_fraction": 0.18303315198477288,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "swap",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9393063583815029,
+    "changed_token_fraction": 0.27001370356483334,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "repeat",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6329479768786127,
+    "changed_token_fraction": 0.08880908745823253,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "repeat",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8757225433526011,
+    "changed_token_fraction": 0.1870350445664286,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "repeat",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.9407514450867052,
+    "changed_token_fraction": 0.27497821448629456,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "whitespace",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.6184971098265896,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 12.530346820809248
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "whitespace",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.8554913294797688,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 11.20086705202312
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "whitespace",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.930635838150289,
+    "changed_token_fraction": null,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 9.914739884393063
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "teencode",
+    "severity": 0.1,
+    "changed_sentence_fraction": 0.08815028901734104,
+    "changed_token_fraction": 0.006874732560092572,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "teencode",
+    "severity": 0.2,
+    "changed_sentence_fraction": 0.17196531791907516,
+    "changed_token_fraction": 0.014018804958601718,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 101,
+    "family": "teencode",
+    "severity": 0.3,
+    "changed_sentence_fraction": 0.22976878612716764,
+    "changed_token_fraction": 0.020226544011930234,
+    "mean_original_tokens": 13.796242774566474,
+    "mean_noisy_tokens": 13.796242774566474
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "dataset": "UIT-VSFC",
+    "method": "word",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "method": "char",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "method": "svm",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "method": "folded",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "method": "concat",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "method": "aug",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "method": "uniform",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "method": "capc",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "method": "shuffled",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "method": "word",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "method": "char",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "method": "svm",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "method": "folded",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "method": "concat",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "method": "aug",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "method": "uniform",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "method": "capc",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "method": "shuffled",
+    "seed": 17,
+    "repeat_predictions_identical": true
+  }
+]

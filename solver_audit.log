@@ -1,0 +1,19 @@
+  dataset   method                   iterations  relative_normal_equation_residual  hit_max_iter
+ UIT-VSFC     word                 [42, 42, 42]                           0.000017         False
+ UIT-VSFC     char                 [48, 49, 48]                           0.000019         False
+ UIT-VSFC      svm                          115                                NaN         False
+ UIT-VSFC   folded                 [50, 49, 50]                           0.000016         False
+ UIT-VSFC   concat                 [48, 48, 48]                           0.000018         False
+ UIT-VSFC      aug                 [42, 44, 44]                           0.000019         False
+ UIT-VSFC  uniform                 [51, 51, 51]                           0.000025         False
+ UIT-VSFC     capc                 [89, 88, 90]                           0.000064         False
+ UIT-VSFC shuffled                 [48, 50, 48]                           0.000023         False
+UIT-VSMEC     word [24, 24, 23, 24, 23, 24, 24]                           0.000027         False
+UIT-VSMEC     char [27, 27, 27, 27, 26, 27, 27]                           0.000029         False
+UIT-VSMEC      svm                           47                                NaN         False
+UIT-VSMEC   folded [28, 27, 27, 28, 27, 27, 28]                           0.000029         False
+UIT-VSMEC   concat [27, 26, 27, 27, 26, 26, 27]                           0.000027         False
+UIT-VSMEC      aug [26, 25, 24, 24, 25, 24, 26]                           0.000027         False
+UIT-VSMEC  uniform [27, 27, 28, 27, 26, 27, 29]                           0.000039         False
+UIT-VSMEC     capc [25, 26, 27, 25, 25, 25, 27]                           0.000030         False
+UIT-VSMEC shuffled [25, 26, 26, 27, 24, 25, 25]                           0.000033         False

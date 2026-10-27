@@ -1,0 +1,19 @@
+dataset,method,serialized_bytes,latency_p50_ms,latency_p95_ms,latency_n,fit_seconds,note
+UIT-VSFC,word,844799,0.589341000022614,1.3169614499361155,450,0.16975078400014354,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSFC,char,1783290,0.9733935000895144,2.4104489500132327,450,1.0323529459999463,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSFC,svm,1783390,0.5322129999285607,1.39708399990468,450,0.6667768059999162,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSFC,folded,1783292,0.864168500015694,1.968098150052809,450,0.9053686190000008,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSFC,concat,2503292,1.9068694999759828,3.3990886999845316,450,2.229880908999803,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSFC,aug,1783289,0.9262815000283808,1.7658753500768387,450,3.1542546270000003,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSFC,uniform,1783309,0.9175484998422689,1.7361735498866437,450,6.5336481249999,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSFC,capc,1783306,0.9654819999695974,2.50606629995218,450,39.21521086300004,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSFC,shuffled,1783310,0.9478519999674972,2.23964609986069,450,8.221228533000158,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSMEC,word,1044030,0.7720549999703508,2.8999210499591714,450,0.12378290899982858,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSMEC,char,2737671,1.2036894999027936,2.484936100006507,450,0.5840296979999948,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSMEC,svm,2737819,0.7133314999236973,2.2991244000422717,450,0.4396971440000925,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSMEC,folded,2737673,1.0498440000219489,2.535533799994026,450,0.5508892230000129,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSMEC,concat,4417673,3.569598500007487,97.4125867999298,450,1.2646823029999723,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSMEC,aug,2737670,1.9092965000027107,14.683486950036688,450,1.5441664099998889,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSMEC,uniform,2737690,1.1298040000156107,2.8506882000783644,450,2.534912005000024,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSMEC,capc,2737687,1.1167904999638267,2.8241830999945696,450,2.256388548999894,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds
+UIT-VSMEC,shuffled,2737691,1.084694500036676,2.2877812000615445,450,2.22838258600018,method-specific transform plus normalize and predict; shared feature prep and augmentation excluded from fit_seconds

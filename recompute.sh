@@ -8,4 +8,7 @@ python test_integrity.py
 python -u study.py select
 python -u study.py evaluate
 python -u analyze.py
+python profile_inference.py
+python audit_solver.py
+python make_report.py
 python verify_results.py --metrics-only
