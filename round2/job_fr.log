@@ -1,0 +1,36 @@
+FIT Allocine-FR 17 clean
+DONE Allocine-FR 17 clean clean 0.8494 robust@3 0.8069
+FIT Allocine-FR 17 canonical
+DONE Allocine-FR 17 canonical clean 0.8464 robust@3 0.8464
+FIT Allocine-FR 17 random
+DONE Allocine-FR 17 random clean 0.8468 robust@3 0.8084
+FIT Allocine-FR 17 greedy
+DONE Allocine-FR 17 greedy clean 0.8494 robust@3 0.8259
+FIT Allocine-FR 17 unary
+DONE Allocine-FR 17 unary clean 0.8593 robust@3 0.8544
+FIT Allocine-FR 17 bolt
+DONE Allocine-FR 17 bolt clean 0.8504 robust@3 0.8259
+FIT Allocine-FR 29 clean
+DONE Allocine-FR 29 clean clean 0.8508 robust@3 0.8049
+FIT Allocine-FR 29 canonical
+DONE Allocine-FR 29 canonical clean 0.8448 robust@3 0.8449
+FIT Allocine-FR 29 random
+DONE Allocine-FR 29 random clean 0.8484 robust@3 0.8094
+FIT Allocine-FR 29 greedy
+DONE Allocine-FR 29 greedy clean 0.8494 robust@3 0.8259
+FIT Allocine-FR 29 unary
+DONE Allocine-FR 29 unary clean 0.8593 robust@3 0.8554
+FIT Allocine-FR 29 bolt
+DONE Allocine-FR 29 bolt clean 0.8499 robust@3 0.8249
+FIT Allocine-FR 43 clean
+DONE Allocine-FR 43 clean clean 0.8499 robust@3 0.8049
+FIT Allocine-FR 43 canonical
+DONE Allocine-FR 43 canonical clean 0.8479 robust@3 0.8479
+FIT Allocine-FR 43 random
+DONE Allocine-FR 43 random clean 0.8453 robust@3 0.8084
+FIT Allocine-FR 43 greedy
+DONE Allocine-FR 43 greedy clean 0.8494 robust@3 0.8249
+FIT Allocine-FR 43 unary
+DONE Allocine-FR 43 unary clean 0.8598 robust@3 0.8554
+FIT Allocine-FR 43 bolt
+DONE Allocine-FR 43 bolt clean 0.8499 robust@3 0.8249

@@ -1,0 +1,2675 @@
+[
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 11.771425361999718,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.19114963335557758,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0018926927143271474,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 17,
+    "method": "clean",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 5.967927101999521,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.26714970200935345,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0026351058127539882,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 17,
+    "method": "canonical",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 17.37124596099966,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.21376459268223746,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0045278739393579785,
+        "witness_blocks": 2
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "random",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 81.46533997200095,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.19114963335568708,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0018926927200469143,
+        "witness_blocks": 1,
+        "separation_gap": 0.23857327949939805,
+        "separation_is_exact": false
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.22182490331907917,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0045693911612793865,
+        "witness_blocks": 2,
+        "separation_gap": 0.13189701229544687,
+        "separation_is_exact": false
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.2378825461616113,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005925197249251054,
+        "witness_blocks": 3,
+        "separation_gap": 0.02981910477712324,
+        "separation_is_exact": false
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.2431406150393715,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006341544182874214,
+        "witness_blocks": 4,
+        "separation_gap": 0.00951921935137795,
+        "separation_is_exact": false
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.24529358661615305,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006257694458785859,
+        "witness_blocks": 5,
+        "separation_gap": 0.003643916492040905,
+        "separation_is_exact": false
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.246103440924396,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00592734128405514,
+        "witness_blocks": 6,
+        "separation_gap": 0.0013052998531250526,
+        "separation_is_exact": false
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "greedy",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 88.37922010700095,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.30784372936397736,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0033629756897814735,
+        "witness_blocks": 1,
+        "separation_gap": 0.3247606685227247,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.3424620003440976,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0030932542082390915,
+        "witness_blocks": 2,
+        "separation_gap": 0.16715302267277854,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.36115768213674543,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00749921819844062,
+        "witness_blocks": 3,
+        "separation_gap": 0.021913280603821084,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.36462930754566947,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.01134342662823297,
+        "witness_blocks": 4,
+        "separation_gap": 0.004539708743038939,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.36535197319693263,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.01365496913978448,
+        "witness_blocks": 5,
+        "separation_gap": 0.0008026416930327906,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.36542305064029423,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.011811503326840356,
+        "witness_blocks": 6,
+        "separation_gap": 0.0001286710423837878,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "unary",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 71.36624451999887,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.19114963335568708,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0018926927200469143,
+        "witness_blocks": 1,
+        "separation_gap": 0.24219404703784597,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.22161239050240722,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0050071159755902695,
+        "witness_blocks": 2,
+        "separation_gap": 0.13236815545273017,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.23797044123801703,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006268805006335039,
+        "witness_blocks": 3,
+        "separation_gap": 0.03213883154419195,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.24335463789486061,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006046864721049494,
+        "witness_blocks": 4,
+        "separation_gap": 0.010469531606135674,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.2456783000355832,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006273298397651804,
+        "witness_blocks": 5,
+        "separation_gap": 0.004328124482392365,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.24652161380713608,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005692972807537145,
+        "witness_blocks": 6,
+        "separation_gap": 0.001854698832519791,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "bolt",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 3.95252462100143,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.19121277927150626,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003180101848723741,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 29,
+    "method": "clean",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 3.810063708000598,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.26757136620020583,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004237866311254872,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 29,
+    "method": "canonical",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 10.184360241000832,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.21323557147873431,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0062970492022068406,
+        "witness_blocks": 2
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "random",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 99.26150293699902,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.1912127792714981,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003180101849052606,
+        "witness_blocks": 1,
+        "separation_gap": 0.2384460510932052,
+        "separation_is_exact": false
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.22143998935805115,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003549101276037861,
+        "witness_blocks": 2,
+        "separation_gap": 0.12513994983392834,
+        "separation_is_exact": false
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.23808629854341778,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006147058616965141,
+        "witness_blocks": 3,
+        "separation_gap": 0.029468789650039517,
+        "separation_is_exact": false
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.24308479100102462,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006278846861443949,
+        "witness_blocks": 4,
+        "separation_gap": 0.009484032511466428,
+        "separation_is_exact": false
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.2452578458196667,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006207872997618913,
+        "witness_blocks": 5,
+        "separation_gap": 0.003746767042888788,
+        "separation_is_exact": false
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.24610176403377226,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006546325830818328,
+        "witness_blocks": 6,
+        "separation_gap": 0.0013518137923957674,
+        "separation_is_exact": false
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "greedy",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 122.40595906400085,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.3076853097493852,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004377979779132235,
+        "witness_blocks": 1,
+        "separation_gap": 0.32670687637968926,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.3424903021626152,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0039314736537277555,
+        "witness_blocks": 2,
+        "separation_gap": 0.16860493352557027,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.36110112686029444,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00611022136798663,
+        "witness_blocks": 3,
+        "separation_gap": 0.021766765294522983,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.3647072870712116,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.01180280748458647,
+        "witness_blocks": 4,
+        "separation_gap": 0.0046033349691028125,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.3654517209017519,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.011882615132971647,
+        "witness_blocks": 5,
+        "separation_gap": 0.0007330885284592692,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.3654657426585761,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.01426117059886781,
+        "witness_blocks": 6,
+        "separation_gap": 0.00012366700957711085,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "unary",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 68.85023872800048,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.1912127792714981,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003180101849052606,
+        "witness_blocks": 1,
+        "separation_gap": 0.24198371136090846,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.2214269038631127,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004175724871649841,
+        "witness_blocks": 2,
+        "separation_gap": 0.1291006085545539,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.23811469065004875,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006643791905753863,
+        "witness_blocks": 3,
+        "separation_gap": 0.03224426702697064,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.2434308359169606,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0064997813427960524,
+        "witness_blocks": 4,
+        "separation_gap": 0.010424291875633068,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.24567752230149836,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006584992456966039,
+        "witness_blocks": 5,
+        "separation_gap": 0.004462659268749947,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.2465342321333156,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006546316776300115,
+        "witness_blocks": 6,
+        "separation_gap": 0.0018451865427379366,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "bolt",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 3.9768327439996938,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.19122801445999243,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003477950727512165,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 43,
+    "method": "clean",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 4.067068013999233,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.26748053417850526,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004593057855155894,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 43,
+    "method": "canonical",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 12.305813491000663,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.21380729333963017,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0056477538770945985,
+        "witness_blocks": 2
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "random",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 88.56170294000003,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.1912280144597433,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003477950740216659,
+        "witness_blocks": 1,
+        "separation_gap": 0.23827928978176155,
+        "separation_is_exact": false
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.221631367422171,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.008827991980172901,
+        "witness_blocks": 2,
+        "separation_gap": 0.1286612143135084,
+        "separation_is_exact": false
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.23805377178566878,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005958216037298426,
+        "witness_blocks": 3,
+        "separation_gap": 0.02958760559146345,
+        "separation_is_exact": false
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.243061704779107,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00603064796614666,
+        "witness_blocks": 4,
+        "separation_gap": 0.009520447540980526,
+        "separation_is_exact": false
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.24529112077149212,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005849511795374148,
+        "witness_blocks": 5,
+        "separation_gap": 0.0036212260119850015,
+        "separation_is_exact": false
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.2461143636788038,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006060789946705162,
+        "witness_blocks": 6,
+        "separation_gap": 0.0012812016480520105,
+        "separation_is_exact": false
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "greedy",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 86.7701032699988,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.3076531524207364,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006358162120281206,
+        "witness_blocks": 1,
+        "separation_gap": 0.3216162813696833,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.3423997164266392,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003424533029888682,
+        "witness_blocks": 2,
+        "separation_gap": 0.16579621953281226,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.3611882242660598,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006652061799315072,
+        "witness_blocks": 3,
+        "separation_gap": 0.02121617397046882,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.36459800174110946,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.008731030513311717,
+        "witness_blocks": 4,
+        "separation_gap": 0.00456694121634782,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.3653788480203756,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.015161965784316195,
+        "witness_blocks": 5,
+        "separation_gap": 0.0007010481041409555,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.36542030886472304,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.014155582190015156,
+        "witness_blocks": 6,
+        "separation_gap": 0.00011293395215150603,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "unary",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSFC",
+    "seconds": 122.7342584020007,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.1912280144597433,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003477950740216659,
+        "witness_blocks": 1,
+        "separation_gap": 0.24179666622896695,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.22139792560555036,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003955332411677778,
+        "witness_blocks": 2,
+        "separation_gap": 0.1276970903458746,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.23791729185697952,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006050322476585417,
+        "witness_blocks": 3,
+        "separation_gap": 0.031956822335087065,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.24337489028232365,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006836255243808905,
+        "witness_blocks": 4,
+        "separation_gap": 0.010349768638631102,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.24565683593284854,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006688837342009697,
+        "witness_blocks": 5,
+        "separation_gap": 0.004411513292582991,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.24651675382820887,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006003749388220483,
+        "witness_blocks": 6,
+        "separation_gap": 0.0019218829106967261,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "bolt",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 3.2231824730006338,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.2733284012767656,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005473300660335873,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 17,
+    "method": "clean",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 3.115457054998842,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.3988369948352166,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004701881435548677,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 17,
+    "method": "canonical",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 9.431861192000724,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.30231574140279993,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0043919039505432205,
+        "witness_blocks": 2
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "random",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 189.58485982699858,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.27332840127676494,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005473300660247485,
+        "witness_blocks": 1,
+        "separation_gap": 0.21516817373593788,
+        "separation_is_exact": false
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.3250724194432668,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0027066569042359444,
+        "witness_blocks": 2,
+        "separation_gap": 0.09442756577002975,
+        "separation_is_exact": false
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.34467793232778154,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003228668536712632,
+        "witness_blocks": 3,
+        "separation_gap": 0.018581519517719247,
+        "separation_is_exact": false
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.3500203437491294,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0028912135097887842,
+        "witness_blocks": 4,
+        "separation_gap": 0.005425466682947189,
+        "separation_is_exact": false
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.35202584673009085,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002983799858137081,
+        "witness_blocks": 5,
+        "separation_gap": 0.00125523323789678,
+        "separation_is_exact": false
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.3526363082648133,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0028353033561952256,
+        "witness_blocks": 6,
+        "separation_gap": 0.0,
+        "separation_is_exact": false
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "greedy",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 188.84551721099888,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.4104468768615814,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002359790521323297,
+        "witness_blocks": 1,
+        "separation_gap": 0.2749125574130305,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.46737108946357253,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002414185554285628,
+        "witness_blocks": 2,
+        "separation_gap": 0.10418765068425073,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.48827399872306765,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002439469386813057,
+        "witness_blocks": 3,
+        "separation_gap": 0.01700370397469564,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.49305043623097133,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002360607792363198,
+        "witness_blocks": 4,
+        "separation_gap": 0.0037162828074147614,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.49441421750293435,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00275310648959549,
+        "witness_blocks": 5,
+        "separation_gap": 0.0008812952175304423,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.49470341853053845,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003779240480439223,
+        "witness_blocks": 6,
+        "separation_gap": 0.00014680761121499408,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "unary",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 121.89658107499963,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.27332840127676494,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005473300660247485,
+        "witness_blocks": 1,
+        "separation_gap": 0.22015822544017583,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.32499654281910173,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002778851333718953,
+        "witness_blocks": 2,
+        "separation_gap": 0.09728790483848787,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.34489156790794506,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003017155836119635,
+        "witness_blocks": 3,
+        "separation_gap": 0.020390064773997796,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.35050478590134415,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0031315140817662155,
+        "witness_blocks": 4,
+        "separation_gap": 0.00684379487377329,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.35266165065989274,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0030083946251950743,
+        "witness_blocks": 5,
+        "separation_gap": 0.002405121820428624,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.3532895035609856,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029154839537450104,
+        "witness_blocks": 6,
+        "separation_gap": 0.0007783370034497028,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "bolt",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 4.832060113998523,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.2733921648783664,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004533291747072911,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 29,
+    "method": "clean",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 3.337906157999896,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.39893665297732356,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00402714374169961,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 29,
+    "method": "canonical",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 14.047293634001107,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.30164154644356433,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0069182546453665636,
+        "witness_blocks": 2
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "random",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 200.55308491699907,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.27339216487836715,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004533291747047154,
+        "witness_blocks": 1,
+        "separation_gap": 0.21578265376259365,
+        "separation_is_exact": false
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.32514418416540986,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005284600260560477,
+        "witness_blocks": 2,
+        "separation_gap": 0.09432481535879572,
+        "separation_is_exact": false
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.34465171894250723,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029910461275646037,
+        "witness_blocks": 3,
+        "separation_gap": 0.018374249068031756,
+        "separation_is_exact": false
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.3500042248130328,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029334462980705345,
+        "witness_blocks": 4,
+        "separation_gap": 0.005406807314237871,
+        "separation_is_exact": false
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.3520131329290861,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029820131496781986,
+        "witness_blocks": 5,
+        "separation_gap": 0.0012369183530347438,
+        "separation_is_exact": false
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.3526260899999268,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0028816095173391895,
+        "witness_blocks": 6,
+        "separation_gap": 0.0,
+        "separation_is_exact": false
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "greedy",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 221.8573080569986,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.4104265840157274,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003887983143142752,
+        "witness_blocks": 1,
+        "separation_gap": 0.27624884024980767,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.4674323193884292,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002266928143397962,
+        "witness_blocks": 2,
+        "separation_gap": 0.10562329887386268,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.48825150838798587,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029478733526121996,
+        "witness_blocks": 3,
+        "separation_gap": 0.017026052898336863,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.4930144969889525,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0021185720599626898,
+        "witness_blocks": 4,
+        "separation_gap": 0.0038118287595222955,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.4944274525296917,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0032732057535645666,
+        "witness_blocks": 5,
+        "separation_gap": 0.0008665568789975042,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.4947106098897549,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003914653572146754,
+        "witness_blocks": 6,
+        "separation_gap": 0.00014025276300133616,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "unary",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 211.3366176619984,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.27339216487836715,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004533291747047154,
+        "witness_blocks": 1,
+        "separation_gap": 0.2208063064408209,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.32499250243623606,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0022425650286291374,
+        "witness_blocks": 2,
+        "separation_gap": 0.0977627024747752,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.3449293621406164,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0031148132900211847,
+        "witness_blocks": 3,
+        "separation_gap": 0.02032293024117865,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.3504753149392684,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0030552601542583957,
+        "witness_blocks": 4,
+        "separation_gap": 0.006887615300404826,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.3526625615423711,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029974239774911583,
+        "witness_blocks": 5,
+        "separation_gap": 0.0023930025531107013,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.3532874583903707,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002893210117082922,
+        "witness_blocks": 6,
+        "separation_gap": 0.000792126852609043,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "bolt",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 4.739599817999988,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.2733488593586787,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0020968965110812776,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 43,
+    "method": "clean",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 4.161255872999391,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.3988469914258501,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0028102620120132823,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 43,
+    "method": "canonical",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 13.039830478999647,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.3025121410070237,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0028768774658350328,
+        "witness_blocks": 2
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "random",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 201.33930169800078,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.2733488593586804,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002096896511126108,
+        "witness_blocks": 1,
+        "separation_gap": 0.215411483875245,
+        "separation_is_exact": false
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.32491539573466044,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0027222337097124153,
+        "witness_blocks": 2,
+        "separation_gap": 0.09503176906106148,
+        "separation_is_exact": false
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.34453595157748074,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0028253806143048333,
+        "witness_blocks": 3,
+        "separation_gap": 0.0189481066540354,
+        "separation_is_exact": false
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.3499366455665843,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002980984098824295,
+        "witness_blocks": 4,
+        "separation_gap": 0.005504206622647223,
+        "separation_is_exact": false
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.35197464388451916,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003069562098582445,
+        "witness_blocks": 5,
+        "separation_gap": 0.0013203109430681703,
+        "separation_is_exact": false
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.3526144456924257,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029314276919222134,
+        "witness_blocks": 6,
+        "separation_gap": 0.0,
+        "separation_is_exact": false
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "greedy",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 167.5708105779995,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.41048836664669075,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004862337991410431,
+        "witness_blocks": 1,
+        "separation_gap": 0.276716433394423,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.4674084449012194,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002974181343706296,
+        "witness_blocks": 2,
+        "separation_gap": 0.10655216357593605,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.4882507346953795,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00270029621864271,
+        "witness_blocks": 3,
+        "separation_gap": 0.016937371127377476,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.49305858567123395,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002204276081252526,
+        "witness_blocks": 4,
+        "separation_gap": 0.003728126628044337,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.49442918089818777,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00318742223963425,
+        "witness_blocks": 5,
+        "separation_gap": 0.0008647894765060338,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.4947171616610141,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003785135483905534,
+        "witness_blocks": 6,
+        "separation_gap": 0.0001413036403087875,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "unary",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seconds": 131.71046636500068,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.2733488593586804,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002096896511126108,
+        "witness_blocks": 1,
+        "separation_gap": 0.2203944623525972,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.32483548346344726,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0022959698755863544,
+        "witness_blocks": 2,
+        "separation_gap": 0.09803339414121132,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.3448491524016598,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029464690629556973,
+        "witness_blocks": 3,
+        "separation_gap": 0.020407900058079798,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.3504857781139338,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0030277875767057046,
+        "witness_blocks": 4,
+        "separation_gap": 0.006863377225277079,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.3526508046116759,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029699464650515465,
+        "witness_blocks": 5,
+        "separation_gap": 0.0024270042447055995,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.35328649807545986,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029107720708753215,
+        "witness_blocks": 6,
+        "separation_gap": 0.0007934083661564895,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "bolt",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 5.968231980999917,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.1775228044299061,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.009490853040505653,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 17,
+    "method": "clean",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 5.486097212000459,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.06496291818919755,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.03786747930100388,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.0001,
+    "eta": 0.0,
+    "seed": 17,
+    "method": "canonical",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 14.70517000900145,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.033598513797444246,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004417983568488691,
+        "witness_blocks": 2
+      }
+    ],
+    "alpha": 0.0001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "random",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 84.67862369700015,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.17752280413179536,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.009490851153994548,
+        "witness_blocks": 1,
+        "separation_gap": 0.04440804053774702,
+        "separation_is_exact": false
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.19166563727962188,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.011208649325239456,
+        "witness_blocks": 2,
+        "separation_gap": 0.02604084631247669,
+        "separation_is_exact": false
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.19729165963897582,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0033785187663770027,
+        "witness_blocks": 3,
+        "separation_gap": 0.0035494517086241406,
+        "separation_is_exact": false
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.19880018345736797,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0013778978521178941,
+        "witness_blocks": 4,
+        "separation_gap": 0.0008014259593547846,
+        "separation_is_exact": false
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.19912101096664095,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.001799950212623787,
+        "witness_blocks": 5,
+        "separation_gap": 0.0,
+        "separation_is_exact": false
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.1991833305709651,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0013373028054868843,
+        "witness_blocks": 6,
+        "separation_gap": 0.0,
+        "separation_is_exact": false
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "greedy",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 182.11629562300004,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.33158784167108346,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.02009835894778294,
+        "witness_blocks": 1,
+        "separation_gap": 0.046841104543288326,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.3364434050525013,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0019351187848104625,
+        "witness_blocks": 2,
+        "separation_gap": 0.012414462943299676,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.33863923628244935,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006292628070746463,
+        "witness_blocks": 3,
+        "separation_gap": 0.002109017709975347,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.33924378565407903,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004201689860915074,
+        "witness_blocks": 4,
+        "separation_gap": 0.0006253792054643492,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.33934067687692904,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0035317350673935047,
+        "witness_blocks": 5,
+        "separation_gap": 0.00012441567768961548,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.3393728544264378,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005904198766963257,
+        "witness_blocks": 6,
+        "separation_gap": 2.7015072885661073e-05,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "unary",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 90.19550156199875,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.17752280413179536,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.009490851153994548,
+        "witness_blocks": 1,
+        "separation_gap": 0.04518098432547121,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.19136114896682332,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003764723691158953,
+        "witness_blocks": 2,
+        "separation_gap": 0.025001390358208142,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.1971375353091394,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003829553987436474,
+        "witness_blocks": 3,
+        "separation_gap": 0.0041178357961116074,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.1989778719437938,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00303542587154531,
+        "witness_blocks": 4,
+        "separation_gap": 0.0010109539473424911,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.19931809166987602,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0018070632860947172,
+        "witness_blocks": 5,
+        "separation_gap": 0.0001999804334872346,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.19933345887552367,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0012894639528712839,
+        "witness_blocks": 6,
+        "separation_gap": 5.3021004062736576e-05,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 17,
+    "method": "bolt",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 5.977284013999451,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.17919117017102468,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.011145225197848706,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 29,
+    "method": "clean",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 5.940718477999326,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.06274370762219922,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.008109339132130853,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.0001,
+    "eta": 0.0,
+    "seed": 29,
+    "method": "canonical",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 37.74195193199921,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.03236516862342403,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003878225122989129,
+        "witness_blocks": 2
+      }
+    ],
+    "alpha": 0.0001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "random",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 84.47931656699984,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.17919117017286745,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.011145225194335213,
+        "witness_blocks": 1,
+        "separation_gap": 0.04469278485552977,
+        "separation_is_exact": false
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.19140945607353238,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.014017250123986599,
+        "witness_blocks": 2,
+        "separation_gap": 0.026194315915206434,
+        "separation_is_exact": false
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.19685046617054341,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004159635680528033,
+        "witness_blocks": 3,
+        "separation_gap": 0.0041426216627276635,
+        "separation_is_exact": false
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.19881332034205007,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0027459219305937814,
+        "witness_blocks": 4,
+        "separation_gap": 0.0007204870029210997,
+        "separation_is_exact": false
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.19911590080992891,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0016436163807407422,
+        "witness_blocks": 5,
+        "separation_gap": 1.4909529781476083e-05,
+        "separation_is_exact": false
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.19916660843334866,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0014136630075467943,
+        "witness_blocks": 6,
+        "separation_gap": 0.0,
+        "separation_is_exact": false
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "greedy",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 87.47355514499941,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.3305954833522847,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00701245618664864,
+        "witness_blocks": 1,
+        "separation_gap": 0.046869090975833805,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.3368602451741439,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005514119767498294,
+        "witness_blocks": 2,
+        "separation_gap": 0.014520923286087561,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.33883509695186753,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.01692584499615784,
+        "witness_blocks": 3,
+        "separation_gap": 0.0027486141764743732,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.33918446446597866,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006568322885663273,
+        "witness_blocks": 4,
+        "separation_gap": 0.0008455883196111791,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.33932424328881616,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0035443137740934494,
+        "witness_blocks": 5,
+        "separation_gap": 0.00018872183878204662,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.3393675282306641,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0038736422073001996,
+        "witness_blocks": 6,
+        "separation_gap": 4.142441745852432e-05,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "unary",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 164.4055184029985,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.17919117017286745,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.011145225194335213,
+        "witness_blocks": 1,
+        "separation_gap": 0.04548325853221874,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.19090102919768592,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004928735110772171,
+        "witness_blocks": 2,
+        "separation_gap": 0.02565499899694007,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.19709728757037143,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005069957239445327,
+        "witness_blocks": 3,
+        "separation_gap": 0.004097043189268429,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.19906012173746224,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002705942668713875,
+        "witness_blocks": 4,
+        "separation_gap": 0.0009546818313825312,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.19929416897776422,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0015650550660995853,
+        "witness_blocks": 5,
+        "separation_gap": 0.000240012102145859,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.19933692007575346,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0013351761481182997,
+        "witness_blocks": 6,
+        "separation_gap": 4.7221292525712055e-05,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 29,
+    "method": "bolt",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 13.268646508999154,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.17754260506951985,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0067294475967367645,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.0,
+    "seed": 43,
+    "method": "clean",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 10.2803253710008,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.06315114595608859,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.010147410506317732,
+        "witness_blocks": 1
+      }
+    ],
+    "alpha": 0.0001,
+    "eta": 0.0,
+    "seed": 43,
+    "method": "canonical",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 24.015623438999683,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.03604561988646762,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.013968127254223531,
+        "witness_blocks": 2
+      }
+    ],
+    "alpha": 0.0001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "random",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 134.1419100210005,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.17754260508174274,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006729447669568311,
+        "witness_blocks": 1,
+        "separation_gap": 0.044849155157811293,
+        "separation_is_exact": false
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.1910613050785394,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0029899563186936984,
+        "witness_blocks": 2,
+        "separation_gap": 0.024624635794742444,
+        "separation_is_exact": false
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.1970358944216631,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.00263779792947042,
+        "witness_blocks": 3,
+        "separation_gap": 0.003805022754238274,
+        "separation_is_exact": false
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.1988425655792413,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0019427664784430927,
+        "witness_blocks": 4,
+        "separation_gap": 0.0007083016180061408,
+        "separation_is_exact": false
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.19910465978326974,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0014210238627236948,
+        "witness_blocks": 5,
+        "separation_gap": 0.0,
+        "separation_is_exact": false
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.19916235469596877,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0013234059354302447,
+        "witness_blocks": 6,
+        "separation_gap": 0.0,
+        "separation_is_exact": false
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "greedy",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 125.42629723499886,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.3314124918604653,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.02496529421708406,
+        "witness_blocks": 1,
+        "separation_gap": 0.046795261562042056,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.3365155894793115,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.002401630238707293,
+        "witness_blocks": 2,
+        "separation_gap": 0.012534262195458612,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.33875710865973097,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004052527520604579,
+        "witness_blocks": 3,
+        "separation_gap": 0.0024182591382176932,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.3392095150082372,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0034033729775006538,
+        "witness_blocks": 4,
+        "separation_gap": 0.0006791337202218806,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.3393651253829858,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.004376702052884241,
+        "witness_blocks": 5,
+        "separation_gap": 0.00016458131481944527,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.3393750132484077,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.003464071286876589,
+        "witness_blocks": 6,
+        "separation_gap": 3.122243587189155e-05,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "unary",
+    "budget": 3,
+    "maxiter": 50
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seconds": 131.34609822199855,
+    "rounds": [
+      {
+        "round": 0,
+        "restricted_objective": 0.17754260508174274,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.006729447669568311,
+        "witness_blocks": 1,
+        "separation_gap": 0.04563149927643065,
+        "separation_is_exact": true
+      },
+      {
+        "round": 1,
+        "restricted_objective": 0.19119444530890256,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.010115084226432152,
+        "witness_blocks": 2,
+        "separation_gap": 0.02469244820955649,
+        "separation_is_exact": true
+      },
+      {
+        "round": 2,
+        "restricted_objective": 0.19739917208407226,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.011295525754323401,
+        "witness_blocks": 3,
+        "separation_gap": 0.0037629575121785608,
+        "separation_is_exact": true
+      },
+      {
+        "round": 3,
+        "restricted_objective": 0.19905951609175232,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.005468216328636661,
+        "witness_blocks": 4,
+        "separation_gap": 0.0009154522813069332,
+        "separation_is_exact": true
+      },
+      {
+        "round": 4,
+        "restricted_objective": 0.19931168141927907,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.0014661292561380845,
+        "witness_blocks": 5,
+        "separation_gap": 0.00021844763769124365,
+        "separation_is_exact": true
+      },
+      {
+        "round": 5,
+        "restricted_objective": 0.19933773685585804,
+        "optimizer_success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 50,
+        "gradient_norm": 0.001444627649479023,
+        "witness_blocks": 6,
+        "separation_gap": 4.538778079626882e-05,
+        "separation_is_exact": true
+      }
+    ],
+    "alpha": 0.001,
+    "eta": 0.7,
+    "seed": 43,
+    "method": "bolt",
+    "budget": 3,
+    "maxiter": 50
+  }
+]

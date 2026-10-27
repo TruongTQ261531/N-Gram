@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "UIT-VSFC",
+    "model_bytes": 766729,
+    "warm_predict_and_certify_p50_ms": 0.9613530000933679,
+    "warm_predict_and_certify_p95_ms": 1.7513548511487895,
+    "cold_form_cache_p50_ms": 2.012423999076418,
+    "cold_form_cache_p95_ms": 3.327735450056934,
+    "warm_measurements": 450,
+    "cold_measurements": 50,
+    "peak_process_rss_mib": 561.4296875,
+    "notes": "Prediction plus exact budget-3 invariance check for predicted class; preloaded model; Numba warm. Peak includes interpreter, dependencies, model, input slice and transformed-token cache. Fresh process per dataset; no training or full-corpus loader in worker."
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "model_bytes": 1986215,
+    "warm_predict_and_certify_p50_ms": 1.1776475002989173,
+    "warm_predict_and_certify_p95_ms": 2.4095425002997213,
+    "cold_form_cache_p50_ms": 1.699599000858143,
+    "cold_form_cache_p95_ms": 2.4489943500157096,
+    "warm_measurements": 450,
+    "cold_measurements": 50,
+    "peak_process_rss_mib": 561.4296875,
+    "notes": "Prediction plus exact budget-3 invariance check for predicted class; preloaded model; Numba warm. Peak includes interpreter, dependencies, model, input slice and transformed-token cache. Fresh process per dataset; no training or full-corpus loader in worker."
+  },
+  {
+    "dataset": "Allocine-FR",
+    "model_bytes": 650475,
+    "warm_predict_and_certify_p50_ms": 2.2577734998776577,
+    "warm_predict_and_certify_p95_ms": 5.225749700639422,
+    "cold_form_cache_p50_ms": 3.218485499928647,
+    "cold_form_cache_p95_ms": 10.60115929958556,
+    "warm_measurements": 450,
+    "cold_measurements": 50,
+    "peak_process_rss_mib": 561.4296875,
+    "notes": "Prediction plus exact budget-3 invariance check for predicted class; preloaded model; Numba warm. Peak includes interpreter, dependencies, model, input slice and transformed-token cache. Fresh process per dataset; no training or full-corpus loader in worker."
+  }
+]

@@ -1,0 +1,16 @@
+PREPARE UIT-VSFC [11426, 1583, 3166]
+PREPARE UIT-VSMEC [5548, 685, 692]
+Traceback (most recent call last):
+  File "/workspace/work/round2/run.py", line 99, in <module>
+    if __name__=='__main__':{'prepare':prepare,'select':select,'final':final}[sys.argv[1]]()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/round2/run.py", line 41, in prepare
+    en=Encoder(list(tr.text));train_docs=[en.encode(r.text,r.row_id) for r in tr.itertuples()];dev_docs=[en.encode(r.text,r.row_id) for r in dv.itertuples()]
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/round2/core.py", line 39, in __init__
+    for t in normalize(text).split()[:128]:tt.update(variants(t))
+                                                     ^^^^^^^^^^^
+  File "/workspace/work/round2/core.py", line 22, in variants
+    assert all(len(s)==len(t) for s in forms),(t,forms)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('́', ['́', ''])

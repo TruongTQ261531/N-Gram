@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ARC2021",
+    "url": "https://aclanthology.org/2021.emnlp-main.82.pdf",
+    "pdf_sha256": "556a4a2c58f69e9f8c536a0df782142978743650aca48ce7b781d078bf5af9af",
+    "sections_inspected": "intro, Section 4.2, soundness/complexity theorem"
+  },
+  {
+    "name": "LipsLev2025",
+    "url": "https://arxiv.org/pdf/2501.13676",
+    "pdf_sha256": "2eb0eb53705e5aff03017b1dc7c79f1249b9059c99266ada6f0e0cc888456f14",
+    "sections_inspected": "intro/related work, Sections 4.1-4.2"
+  }
+]

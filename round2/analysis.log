@@ -1,0 +1,35 @@
+    dataset    method  budget  clean_f1  accuracy  robust_accuracy  robust_balanced_accuracy  loose_accuracy  greedy_survival  greedy_missed
+Allocine-FR      bolt       3  0.850021  0.850092         0.825246                  0.825846        0.791396         0.825246       0.000000
+Allocine-FR canonical       3  0.846355  0.846423         0.846423                  0.847011        0.846423         0.846423       0.000000
+Allocine-FR     clean       3  0.850031  0.850092         0.805569                  0.806510        0.745206         0.805736       0.333333
+Allocine-FR    greedy       3  0.849352  0.849425         0.825579                  0.826221        0.791562         0.825746       0.333333
+Allocine-FR    random       3  0.846842  0.846923         0.808738                  0.809247        0.756712         0.809405       1.333333
+Allocine-FR     unary       3  0.859485  0.859596         0.855094                  0.855433        0.854927         0.855094       0.000000
+   UIT-VSFC      bolt       3  0.731525  0.861339         0.837334                  0.728074        0.807538         0.838387       3.333333
+   UIT-VSFC canonical       3  0.722200  0.848705         0.848705                  0.765914        0.848705         0.848705       0.000000
+   UIT-VSFC     clean       3  0.736884  0.871657         0.693409                  0.583722        0.524847         0.695831       7.666667
+   UIT-VSFC    greedy       3  0.732037  0.861445         0.836071                  0.725368        0.807117         0.837966       6.000000
+   UIT-VSFC    random       3  0.735013  0.868709         0.800905                  0.676594        0.704359         0.803011       6.666667
+   UIT-VSFC     unary       3  0.689414  0.809644         0.794378                  0.741196        0.794378         0.794378       0.000000
+  UIT-VSMEC      bolt       3  0.532990  0.546724         0.461946                  0.436487        0.385838         0.463391       1.000000
+  UIT-VSMEC canonical       3  0.504672  0.519750         0.519750                  0.508253        0.519750         0.519750       0.000000
+  UIT-VSMEC     clean       3  0.538167  0.552987         0.269750                  0.232211        0.140655         0.274566       3.333333
+  UIT-VSMEC    greedy       3  0.532986  0.546724         0.465800                  0.438467        0.384875         0.465800       0.000000
+  UIT-VSMEC    random       3  0.543414  0.555877         0.355491                  0.328035        0.218208         0.361753       4.333333
+  UIT-VSMEC     unary       3  0.487788  0.503372         0.467726                  0.486675        0.467726         0.467726       0.000000
+    dataset         contrast  budget  balanced_robust_delta    ci_low   ci_high  bootstrap
+   UIT-VSFC     bolt - clean       3               0.144352  0.124630  0.165504       2000
+   UIT-VSFC bolt - canonical       3              -0.037841 -0.054380 -0.022456       2000
+   UIT-VSFC    bolt - random       3               0.051480  0.038203  0.066143       2000
+   UIT-VSFC    bolt - greedy       3               0.002706  0.000176  0.006334       2000
+   UIT-VSFC     bolt - unary       3              -0.013122 -0.034843  0.007441       2000
+  UIT-VSMEC     bolt - clean       3               0.204276  0.166709  0.240763       2000
+  UIT-VSMEC bolt - canonical       3              -0.071766 -0.098980 -0.047568       2000
+  UIT-VSMEC    bolt - random       3               0.108453  0.080158  0.135656       2000
+  UIT-VSMEC    bolt - greedy       3              -0.001979 -0.004494  0.000268       2000
+  UIT-VSMEC     bolt - unary       3              -0.050188 -0.085383 -0.014042       2000
+Allocine-FR     bolt - clean       3               0.019336  0.011755  0.027211       2000
+Allocine-FR bolt - canonical       3              -0.021165 -0.029999 -0.012557       2000
+Allocine-FR    bolt - random       3               0.016599  0.008010  0.024992       2000
+Allocine-FR    bolt - greedy       3              -0.000376 -0.002005  0.001261       2000
+Allocine-FR     bolt - unary       3              -0.029588 -0.041884 -0.016124       2000

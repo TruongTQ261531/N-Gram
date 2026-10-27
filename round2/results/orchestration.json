@@ -1,0 +1,9 @@
+{
+  "numerical_threads_per_fit": 1,
+  "cpu_quota_cores": 2,
+  "execution": "VSFC sequential original final loop; VSMEC and French isolated dataset jobs using the same run.final function, selected config and seeds. Parent stopped after complete VSFC artifacts to avoid duplicate VSMEC. At most two numerical jobs concurrent.",
+  "timing_limitation": "Training wall times may reflect resource competition; no controlled per-model training-speed ranking claimed. Inference is profiled after training finishes.",
+  "completed_final_fits": 54,
+  "completed_repeat_fits": 3,
+  "development_fits": 42
+}

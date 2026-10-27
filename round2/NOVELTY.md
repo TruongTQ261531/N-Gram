@@ -28,3 +28,13 @@ Evidence required to call this a strong submission candidate: exactness against 
 ## Current novelty verdict
 
 No identical complete implementation was located in the targeted searches. This is weak negative search evidence, not verification that the algorithm is globally new. Closest broad ideas are already present in ARC and older finite-state/robust optimization work. Therefore novelty is **plausible only at a narrow, architecture-specific method level and unconfirmed for Q1** before results and a full closest-method comparison. The final report must preserve this limitation even if benchmark scores improve.
+
+## Method-section inspection after the abstract screen
+
+Downloaded official ARC and LipsLev PDFs and inspected the relevant method sections. ARC Section 4.2 explicitly merges sets of recurrent states using interval abstractions and gives soundness/complexity bounds; LipsLev Section 4.1 uses a global Lipschitz margin-radius certificate. These support a precise distinction: BOLT's oracle is exact for its restricted additive/pairwise lattice, whereas the compared neural certificates bound a richer model or broader perturbation set. They do NOT support claiming that BOLT invented programmable certification or dynamic programming. A practical exact specialization may still be incremental; a Q1 novelty claim needs matched evidence and a defensible reason that this specialization matters. Full PDFs are retained only locally, not redistributed with the project.
+
+## Additional directions checked instead of relabeling them as novel
+
+A conformal wrapper or calibrated uncertainty set would reduce reliance on hand-checking new semantic labels, but the broad ideas already appear in [Conformal Uncertainty Sets for Robust Optimization](https://proceedings.mlr.press/v152/johnstone21a/johnstone21a.pdf), [Verifiably Robust Conformal Prediction](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0814a342597d65e0832fc7ec9b42c317-Abstract-Conference.html), and [One Sample is Enough to Make Conformal Prediction Robust](https://proceedings.neurips.cc/paper_files/paper/2025/hash/6b7ad970648ac578b05692b7a4d03740-Abstract-Conference.html). Adding such a wrapper alone is not treated as verified new Q1-level novelty. No conformal experiment or new coverage guarantee is claimed here.
+
+The optional primal-dual coordinate routine audits convergence of the SAME frozen squared-hinge objective on a development subset. Its Fenchel dual, coordinate ascent, and cutting-plane ideas are established. It is not presented as a newly invented general solver or substituted into the confirmation scores. Numerical proof obligations are checked against an independently formulated convex epigraph QP.
