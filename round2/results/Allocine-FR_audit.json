@@ -1,0 +1,18 @@
+{
+  "before_new_cleaning": [
+    5000,
+    1000,
+    2000
+  ],
+  "sizes": [
+    5000,
+    1000,
+    1999
+  ],
+  "labels": [
+    0,
+    1
+  ],
+  "source_original_audit": {},
+  "test_status": "independent confirmation"
+}

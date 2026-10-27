@@ -1,0 +1,93 @@
+{
+  "before_new_cleaning": [
+    5548,
+    685,
+    692
+  ],
+  "sizes": [
+    5548,
+    685,
+    692
+  ],
+  "labels": [
+    "Anger",
+    "Disgust",
+    "Enjoyment",
+    "Fear",
+    "Other",
+    "Sadness",
+    "Surprise"
+  ],
+  "source_original_audit": {
+    "file_row_counts": [
+      5548,
+      686,
+      693
+    ],
+    "dropped_missing": [
+      0,
+      0,
+      0
+    ],
+    "original_sizes": [
+      5548,
+      686,
+      693
+    ],
+    "class_counts_original": [
+      {
+        "Enjoyment": 1558,
+        "Disgust": 1071,
+        "Other": 1021,
+        "Sadness": 947,
+        "Anger": 391,
+        "Fear": 318,
+        "Surprise": 242
+      },
+      {
+        "Enjoyment": 214,
+        "Other": 141,
+        "Disgust": 135,
+        "Sadness": 86,
+        "Anger": 49,
+        "Fear": 31,
+        "Surprise": 30
+      },
+      {
+        "Enjoyment": 193,
+        "Disgust": 132,
+        "Other": 129,
+        "Sadness": 116,
+        "Fear": 46,
+        "Anger": 40,
+        "Surprise": 37
+      }
+    ],
+    "exact_duplicate_extra_rows": [
+      4,
+      0,
+      1
+    ],
+    "conflicting_text_groups": [
+      1,
+      0,
+      0
+    ],
+    "overlap_exact": {
+      "train_dev": 1,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "overlap_folded": {
+      "train_dev": 1,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "primary_sizes": [
+      5548,
+      685,
+      692
+    ]
+  },
+  "test_status": "exploratory: test scores previously inspected in CAPC"
+}
