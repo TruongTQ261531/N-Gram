@@ -1,0 +1,27 @@
+{
+  "dataset": "fiqa",
+  "corpus": 57638,
+  "queries": 6648,
+  "duplicate_ids": 0,
+  "identical_corpus_texts": 39,
+  "char": {
+    "vocabulary": 758156,
+    "nnz": 54133083,
+    "index_bytes": 666775629,
+    "seconds": 44.81816513800004
+  },
+  "word": {
+    "vocabulary": 80398,
+    "nnz": 4848183,
+    "index_bytes": 61613716,
+    "seconds": 4.058289201000207
+  },
+  "screen": {
+    "eligible_queries": 500,
+    "selected_queries": 20
+  },
+  "confirmation": {
+    "eligible_queries": 648,
+    "selected_queries": 100
+  }
+}

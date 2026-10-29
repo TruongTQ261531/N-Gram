@@ -1,0 +1,242 @@
+[
+  {
+    "repo": "BeIR/scifact",
+    "revision": "b3b5335604bf5ee3c4447671af975ea25143d4f5",
+    "path": "README.md",
+    "local": "data/scifact/source/README.md",
+    "url": "https://huggingface.co/datasets/BeIR/scifact/resolve/b3b5335604bf5ee3c4447671af975ea25143d4f5/README.md",
+    "sha256": "b5f57be1839fdb75867073986a019a78afe0a149950f79d1165509efc5e5cf2f",
+    "bytes": 10407,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/scifact",
+    "revision": "b3b5335604bf5ee3c4447671af975ea25143d4f5",
+    "path": "corpus/corpus-00000-of-00001.parquet",
+    "local": "data/scifact/source/corpus/corpus-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/BeIR/scifact/resolve/b3b5335604bf5ee3c4447671af975ea25143d4f5/corpus/corpus-00000-of-00001.parquet",
+    "sha256": "243324b35f03d82bd6d98a5f575966876e86cad7ce16e5333a35b1b793dc4f45",
+    "bytes": 4469916,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/scifact",
+    "revision": "b3b5335604bf5ee3c4447671af975ea25143d4f5",
+    "path": "queries/queries-00000-of-00001.parquet",
+    "local": "data/scifact/source/queries/queries-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/BeIR/scifact/resolve/b3b5335604bf5ee3c4447671af975ea25143d4f5/queries/queries-00000-of-00001.parquet",
+    "sha256": "1c37956c5dc8b810b60302323c24d1a9e79e26411ba8f5ad9d0888642e2a9034",
+    "bytes": 64982,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/scifact-qrels",
+    "revision": "2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029",
+    "path": "README.md",
+    "local": "data/scifact/qrels/README.md",
+    "url": "https://huggingface.co/datasets/BeIR/scifact-qrels/resolve/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/README.md",
+    "sha256": "fd34a2830e557f1e32d46d0b34a218d280c9800ee4071579610d4ff587b4fd45",
+    "bytes": 13995,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/scifact-qrels",
+    "revision": "2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029",
+    "path": "test.tsv",
+    "local": "data/scifact/qrels/test.tsv",
+    "url": "https://huggingface.co/datasets/BeIR/scifact-qrels/resolve/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/test.tsv",
+    "sha256": "0864bb985e0ca2367ba217977e72004d549054b2b06666ed9d4825ac7c21284c",
+    "bytes": 5389,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/scifact-qrels",
+    "revision": "2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029",
+    "path": "train.tsv",
+    "local": "data/scifact/qrels/train.tsv",
+    "url": "https://huggingface.co/datasets/BeIR/scifact-qrels/resolve/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/train.tsv",
+    "sha256": "a53f2114831916c096b6c37d9e54da68cef4efdcdbd5ed46533601af972acf1d",
+    "bytes": 14502,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/nfcorpus",
+    "revision": "b5026a0e96e8a7ac4f95f482a596389289d46269",
+    "path": "README.md",
+    "local": "data/nfcorpus/source/README.md",
+    "url": "https://huggingface.co/datasets/BeIR/nfcorpus/resolve/b5026a0e96e8a7ac4f95f482a596389289d46269/README.md",
+    "sha256": "f989282ab56b5a7b9cf2328e2e96bc6a74207fe16b9bd517fe9a2d289b692eb6",
+    "bytes": 10512,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/nfcorpus",
+    "revision": "b5026a0e96e8a7ac4f95f482a596389289d46269",
+    "path": "corpus/corpus-00000-of-00001.parquet",
+    "local": "data/nfcorpus/source/corpus/corpus-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/BeIR/nfcorpus/resolve/b5026a0e96e8a7ac4f95f482a596389289d46269/corpus/corpus-00000-of-00001.parquet",
+    "sha256": "f2a1c0b570a5efdf23cfa36f5e573d062cc113c6e7251e22c69b323a33ea895e",
+    "bytes": 3157570,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/nfcorpus",
+    "revision": "b5026a0e96e8a7ac4f95f482a596389289d46269",
+    "path": "queries/queries-00000-of-00001.parquet",
+    "local": "data/nfcorpus/source/queries/queries-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/BeIR/nfcorpus/resolve/b5026a0e96e8a7ac4f95f482a596389289d46269/queries/queries-00000-of-00001.parquet",
+    "sha256": "edd2b878b8130fb3b5e3c4b9428ddc1e67fbd6eedf8ae099fca3b87838ba6b29",
+    "bytes": 80929,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/nfcorpus-qrels",
+    "revision": "a451b3b26d3ae1358f259c1a3a4dd61fcea35a65",
+    "path": "README.md",
+    "local": "data/nfcorpus/qrels/README.md",
+    "url": "https://huggingface.co/datasets/BeIR/nfcorpus-qrels/resolve/a451b3b26d3ae1358f259c1a3a4dd61fcea35a65/README.md",
+    "sha256": "fd34a2830e557f1e32d46d0b34a218d280c9800ee4071579610d4ff587b4fd45",
+    "bytes": 13995,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/nfcorpus-qrels",
+    "revision": "a451b3b26d3ae1358f259c1a3a4dd61fcea35a65",
+    "path": "dev.tsv",
+    "local": "data/nfcorpus/qrels/dev.tsv",
+    "url": "https://huggingface.co/datasets/BeIR/nfcorpus-qrels/resolve/a451b3b26d3ae1358f259c1a3a4dd61fcea35a65/dev.tsv",
+    "sha256": "b1d38b5e8f78c4a5820bce2b7ec2db54911d7690dc601e76811846b211180bd8",
+    "bytes": 258218,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/nfcorpus-qrels",
+    "revision": "a451b3b26d3ae1358f259c1a3a4dd61fcea35a65",
+    "path": "test.tsv",
+    "local": "data/nfcorpus/qrels/test.tsv",
+    "url": "https://huggingface.co/datasets/BeIR/nfcorpus-qrels/resolve/a451b3b26d3ae1358f259c1a3a4dd61fcea35a65/test.tsv",
+    "sha256": "f8fba6ef3d4dd9c3a242a8ba4ae38276fc3622fce7dcbae764766d564542fd2a",
+    "bytes": 279572,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/nfcorpus-qrels",
+    "revision": "a451b3b26d3ae1358f259c1a3a4dd61fcea35a65",
+    "path": "train.tsv",
+    "local": "data/nfcorpus/qrels/train.tsv",
+    "url": "https://huggingface.co/datasets/BeIR/nfcorpus-qrels/resolve/a451b3b26d3ae1358f259c1a3a4dd61fcea35a65/train.tsv",
+    "sha256": "6336b80f9bffc4f063f3aa450047ad35c0b7c534efe4a6ba35e16dbace047f6a",
+    "bytes": 2504643,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/fiqa",
+    "revision": "979c07a7cb5ccc6ca009792241fa1250b98055dd",
+    "path": "README.md",
+    "local": "data/fiqa/source/README.md",
+    "url": "https://huggingface.co/datasets/BeIR/fiqa/resolve/979c07a7cb5ccc6ca009792241fa1250b98055dd/README.md",
+    "sha256": "aa8389d527feaffdf7ac73b708914155df2781ad9d2a8d146287f1abc7fc762f",
+    "bytes": 10413,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/fiqa",
+    "revision": "979c07a7cb5ccc6ca009792241fa1250b98055dd",
+    "path": "corpus/corpus-00000-of-00001.parquet",
+    "local": "data/fiqa/source/corpus/corpus-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/BeIR/fiqa/resolve/979c07a7cb5ccc6ca009792241fa1250b98055dd/corpus/corpus-00000-of-00001.parquet",
+    "sha256": "b36bb07dab3bfad488190818828e749a52faf5ba391c1d51dac8b06064576f99",
+    "bytes": 27700817,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/fiqa",
+    "revision": "979c07a7cb5ccc6ca009792241fa1250b98055dd",
+    "path": "queries/queries-00000-of-00001.parquet",
+    "local": "data/fiqa/source/queries/queries-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/BeIR/fiqa/resolve/979c07a7cb5ccc6ca009792241fa1250b98055dd/queries/queries-00000-of-00001.parquet",
+    "sha256": "e9b3863724ffd538d8efff19684ef8ae495bdbddd96b35e81bdc39e3e22860d6",
+    "bytes": 321680,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/fiqa-qrels",
+    "revision": "252958f2d646e22cab6d0c72dd3f0d5de6d0655a",
+    "path": "README.md",
+    "local": "data/fiqa/qrels/README.md",
+    "url": "https://huggingface.co/datasets/BeIR/fiqa-qrels/resolve/252958f2d646e22cab6d0c72dd3f0d5de6d0655a/README.md",
+    "sha256": "fd34a2830e557f1e32d46d0b34a218d280c9800ee4071579610d4ff587b4fd45",
+    "bytes": 13995,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/fiqa-qrels",
+    "revision": "252958f2d646e22cab6d0c72dd3f0d5de6d0655a",
+    "path": "dev.tsv",
+    "local": "data/fiqa/qrels/dev.tsv",
+    "url": "https://huggingface.co/datasets/BeIR/fiqa-qrels/resolve/252958f2d646e22cab6d0c72dd3f0d5de6d0655a/dev.tsv",
+    "sha256": "03b27e547cd29dc721c3b93ce8ddd70df6b2d0ce954d8ef3659d386e8cd72c11",
+    "bytes": 18327,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/fiqa-qrels",
+    "revision": "252958f2d646e22cab6d0c72dd3f0d5de6d0655a",
+    "path": "test.tsv",
+    "local": "data/fiqa/qrels/test.tsv",
+    "url": "https://huggingface.co/datasets/BeIR/fiqa-qrels/resolve/252958f2d646e22cab6d0c72dd3f0d5de6d0655a/test.tsv",
+    "sha256": "6adc2a640dcdd22bb8b3858f89107adef2a7c3db20a63550dfa7a0f71e379e44",
+    "bytes": 25256,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  },
+  {
+    "repo": "BeIR/fiqa-qrels",
+    "revision": "252958f2d646e22cab6d0c72dd3f0d5de6d0655a",
+    "path": "train.tsv",
+    "local": "data/fiqa/qrels/train.tsv",
+    "url": "https://huggingface.co/datasets/BeIR/fiqa-qrels/resolve/252958f2d646e22cab6d0c72dd3f0d5de6d0655a/train.tsv",
+    "sha256": "e46a99529aa61b12e086a5c057e4e0ecaeda9502e53d5fe855efce778f1ec59a",
+    "bytes": 209842,
+    "card_license": [
+      "cc-by-sa-4.0"
+    ]
+  }
+]

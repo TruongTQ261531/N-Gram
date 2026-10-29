@@ -1,0 +1,48 @@
+{
+  "datasets": [
+    "scifact",
+    "nfcorpus",
+    "fiqa"
+  ],
+  "screen_queries": 20,
+  "confirmation_queries": 100,
+  "max_query_tokens": 32,
+  "ngram_lengths": [
+    3,
+    4,
+    5
+  ],
+  "bm25_k1": 1.2,
+  "bm25_b": 0.75,
+  "budget_max": 3,
+  "top_k": [
+    1,
+    5,
+    10
+  ],
+  "attack_seeds": [
+    17,
+    29,
+    43
+  ],
+  "attack_samples_per_seed_budget": 10,
+  "scope": "at most B original whitespace tokens, each raw or one allowed delete/swap/repeat/QWERTY-neighbor operation",
+  "selection": "SHA256(dataset|phase|query-id), first fixed count; no score-dependent filtering",
+  "retention_k": [
+    1,
+    5,
+    10,
+    20,
+    50
+  ],
+  "primary_retention_k": 10,
+  "envelope_max_cuts": 40,
+  "graph_max_checks": 120,
+  "graph_max_candidates": 80,
+  "pareto_max_points": 20000,
+  "pareto_max_front": 1000,
+  "enumeration_max_states": 2000,
+  "reference_max_matrix_entries": 2000000,
+  "mip_seconds": 1.0,
+  "highs_threads": 1
+}

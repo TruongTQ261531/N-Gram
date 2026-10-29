@@ -1,0 +1,27 @@
+{
+  "dataset": "scifact",
+  "corpus": 5183,
+  "queries": 1109,
+  "duplicate_ids": 0,
+  "identical_corpus_texts": 0,
+  "char": {
+    "vocabulary": 309379,
+    "nnz": 8732210,
+    "index_bytes": 111221825,
+    "seconds": 9.481017239999801
+  },
+  "word": {
+    "vocabulary": 35946,
+    "nnz": 633946,
+    "index_bytes": 8595198,
+    "seconds": 0.7351130729998658
+  },
+  "screen": {
+    "eligible_queries": 809,
+    "selected_queries": 20
+  },
+  "confirmation": {
+    "eligible_queries": 300,
+    "selected_queries": 100
+  }
+}

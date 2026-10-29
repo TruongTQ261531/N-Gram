@@ -1,0 +1,50 @@
+{
+  "scifact_char": {
+    "sha256": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+    "shape": [
+      5183,
+      309379
+    ],
+    "nnz": 8732210
+  },
+  "scifact_word": {
+    "sha256": "51957fd9c37a392703885d916c4f96e401e1df187efa7bb2f6a219076bfb8040",
+    "shape": [
+      5183,
+      35946
+    ],
+    "nnz": 633946
+  },
+  "nfcorpus_char": {
+    "sha256": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+    "shape": [
+      3633,
+      229261
+    ],
+    "nnz": 6433317
+  },
+  "nfcorpus_word": {
+    "sha256": "e2599355efc3ebdadd0462b240c7b2ec6840f563b76f2215351bcc214a6427e0",
+    "shape": [
+      3633,
+      26469
+    ],
+    "nnz": 478356
+  },
+  "fiqa_char": {
+    "sha256": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+    "shape": [
+      57638,
+      758156
+    ],
+    "nnz": 54133083
+  },
+  "fiqa_word": {
+    "sha256": "d23bfe6b11cea5868552ed768b8b07a52114437b8a1b20424613e06514db6f96",
+    "shape": [
+      57638,
+      80398
+    ],
+    "nnz": 4848183
+  }
+}

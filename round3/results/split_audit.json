@@ -1,0 +1,20 @@
+{
+  "scifact": {
+    "screen_test_id_overlap": 0,
+    "confirmation_text_in_screen": 0,
+    "screen_count": 20,
+    "confirmation_count": 100
+  },
+  "nfcorpus": {
+    "screen_test_id_overlap": 0,
+    "confirmation_text_in_screen": 0,
+    "screen_count": 20,
+    "confirmation_count": 100
+  },
+  "fiqa": {
+    "screen_test_id_overlap": 0,
+    "confirmation_text_in_screen": 0,
+    "screen_count": 20,
+    "confirmation_count": 100
+  }
+}
