@@ -1,0 +1,2 @@
+# The BOLT dependency set also contains all CAPC requirements.
+-r round2/requirements.txt
