@@ -1,0 +1,31 @@
+{
+  "integrated_date": "2026-10-29",
+  "timezone": "Asia/Bangkok",
+  "status": "research_archive_not_q1_ready",
+  "methods": {
+    "CAPC": {
+      "source_commit": "d3e7de0732eaedbebcf612dbf5261b82d5a9ff01",
+      "code": "study.py",
+      "report": "REPORT_VI.md",
+      "protocol_fits": 156,
+      "novelty": "not established",
+      "decision": "no_go_for_current_candidate"
+    },
+    "BOLT": {
+      "source_commit": "0d04b8db6c87431315aeababee5e2e145e29c3a5",
+      "code": "round2/run.py",
+      "report": "round2/REPORT_VI.md",
+      "protocol_fits": 99,
+      "novelty": "not established",
+      "decision": "insufficient_evidence_for_q1"
+    }
+  },
+  "hybrid_method_implemented": false,
+  "hybrid_method_evaluated": false,
+  "new_human_annotations": 0,
+  "scientific_artifacts_modified": false,
+  "documentation_changes": "Unified README; original CAPC README preserved; only README entry in results/checksums.sha256 refreshed.",
+  "original_capc_readme_sha256": "0395202ba1f2171f1e921e5ade113700a12e4cf2b0ca95b2a03e65d87eb362a9",
+  "q1_goal": "not achieved",
+  "verification": "python verify_all.py"
+}
