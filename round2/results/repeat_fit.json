@@ -1,0 +1,20 @@
+[
+  {
+    "dataset": "UIT-VSFC",
+    "seed": 17,
+    "weights_bitwise_equal": true,
+    "predictions_identical": true
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "seed": 17,
+    "weights_bitwise_equal": true,
+    "predictions_identical": true
+  },
+  {
+    "dataset": "Allocine-FR",
+    "seed": 17,
+    "weights_bitwise_equal": true,
+    "predictions_identical": true
+  }
+]

@@ -1,0 +1,8 @@
+test_binary (__main__.DualTest.test_binary) ... ok
+test_seven_class (__main__.DualTest.test_seven_class) ... ok
+test_three_class (__main__.DualTest.test_three_class) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.286s
+
+OK

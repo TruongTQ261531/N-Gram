@@ -1,0 +1,48 @@
+{
+  "metric_rows_checked": 270,
+  "diagnostic_rows_checked": 162,
+  "reload_checks": [
+    {
+      "dataset": "UIT-VSFC",
+      "rows": 100,
+      "predictions_and_certificates_equal": true,
+      "margin_max_abs_error": 0.0
+    },
+    {
+      "dataset": "UIT-VSMEC",
+      "rows": 100,
+      "predictions_and_certificates_equal": true,
+      "margin_max_abs_error": 0.0
+    },
+    {
+      "dataset": "Allocine-FR",
+      "rows": 100,
+      "predictions_and_certificates_equal": true,
+      "margin_max_abs_error": 0.0
+    }
+  ],
+  "exhaustive_real_prefix_class_comparisons": 180,
+  "exhaustive_real_max_error": 6.661338147750939e-16,
+  "all_budget_monotonic": true,
+  "no_false_factor_certificates": true,
+  "repeat_fit": [
+    {
+      "dataset": "UIT-VSFC",
+      "seed": 17,
+      "weights_bitwise_equal": true,
+      "predictions_identical": true
+    },
+    {
+      "dataset": "UIT-VSMEC",
+      "seed": 17,
+      "weights_bitwise_equal": true,
+      "predictions_identical": true
+    },
+    {
+      "dataset": "Allocine-FR",
+      "seed": 17,
+      "weights_bitwise_equal": true,
+      "predictions_identical": true
+    }
+  ]
+}

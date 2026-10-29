@@ -1,0 +1,7 @@
+/workspace/work/round2/audit_milp.py:14: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  d=en.encode(r.text,r.row_id);n,q=d.ids.shape;u,e=en.potentials(W,d,en.tables(W));yy=int(np.asarray(en.features([d])@W).argmax(1))
+/workspace/work/round2/audit_milp.py:14: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  d=en.encode(r.text,r.row_id);n,q=d.ids.shape;u,e=en.potentials(W,d,en.tables(W));yy=int(np.asarray(en.features([d])@W).argmax(1))
+/workspace/work/round2/audit_milp.py:14: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  d=en.encode(r.text,r.row_id);n,q=d.ids.shape;u,e=en.potentials(W,d,en.tables(W));yy=int(np.asarray(en.features([d])@W).argmax(1))
+MILP cross-checks: 45 max error: 2.6645352591003757e-15

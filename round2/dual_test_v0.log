@@ -1,0 +1,15 @@
+test_reference_convex_qp (__main__.DualTest.test_reference_convex_qp) ... FAIL
+
+======================================================================
+FAIL: test_reference_convex_qp (__main__.DualTest.test_reference_convex_qp)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/work/round2/test_dual.py", line 12, in test_reference_convex_qp
+    primal=.5*alpha*np.sum(W*W)+np.sum(lam*hh*hh);self.assertGreaterEqual(primal-dv,-1e-10);self.assertLess(primal-dv,1e-7)
+                                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: np.float64(2.9480392804703826e-07) not less than 1e-07
+
+----------------------------------------------------------------------
+Ran 1 test in 1.311s
+
+FAILED (failures=1)

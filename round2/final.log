@@ -1,0 +1,37 @@
+FIT UIT-VSFC 17 clean
+DONE UIT-VSFC 17 clean clean 0.7362 robust@3 0.6924
+FIT UIT-VSFC 17 canonical
+DONE UIT-VSFC 17 canonical clean 0.7211 robust@3 0.8484
+FIT UIT-VSFC 17 random
+DONE UIT-VSFC 17 random clean 0.7369 robust@3 0.8029
+FIT UIT-VSFC 17 greedy
+DONE UIT-VSFC 17 greedy clean 0.7327 robust@3 0.8354
+FIT UIT-VSFC 17 unary
+DONE UIT-VSFC 17 unary clean 0.6888 robust@3 0.7944
+FIT UIT-VSFC 17 bolt
+DONE UIT-VSFC 17 bolt clean 0.7327 robust@3 0.837
+FIT UIT-VSFC 29 clean
+DONE UIT-VSFC 29 clean clean 0.7382 robust@3 0.693
+FIT UIT-VSFC 29 canonical
+DONE UIT-VSFC 29 canonical clean 0.7237 robust@3 0.8497
+FIT UIT-VSFC 29 random
+DONE UIT-VSFC 29 random clean 0.7318 robust@3 0.7991
+FIT UIT-VSFC 29 greedy
+DONE UIT-VSFC 29 greedy clean 0.7336 robust@3 0.8361
+FIT UIT-VSFC 29 unary
+DONE UIT-VSFC 29 unary clean 0.6899 robust@3 0.7944
+FIT UIT-VSFC 29 bolt
+DONE UIT-VSFC 29 bolt clean 0.7307 robust@3 0.8373
+FIT UIT-VSFC 43 clean
+DONE UIT-VSFC 43 clean clean 0.7362 robust@3 0.6949
+FIT UIT-VSFC 43 canonical
+DONE UIT-VSFC 43 canonical clean 0.7217 robust@3 0.8481
+FIT UIT-VSFC 43 random
+DONE UIT-VSFC 43 random clean 0.7364 robust@3 0.8007
+FIT UIT-VSFC 43 greedy
+DONE UIT-VSFC 43 greedy clean 0.7298 robust@3 0.8367
+FIT UIT-VSFC 43 unary
+DONE UIT-VSFC 43 unary clean 0.6896 robust@3 0.7944
+FIT UIT-VSFC 43 bolt
+DONE UIT-VSFC 43 bolt clean 0.7312 robust@3 0.8377
+FIT UIT-VSMEC 17 clean

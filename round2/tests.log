@@ -1,0 +1,12 @@
+test_budget_monotone (__main__.OracleTests.test_budget_monotone) ... ok
+test_canonical_invariant (__main__.OracleTests.test_canonical_invariant) ... ok
+test_exhaustive (__main__.OracleTests.test_exhaustive) ... ok
+test_feature_factorization (__main__.OracleTests.test_feature_factorization) ... ok
+test_interaction_counterexample (__main__.OracleTests.test_interaction_counterexample) ... ok
+test_training_gradient (__main__.OracleTests.test_training_gradient) ... ok
+test_variants (__main__.OracleTests.test_variants) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.973s
+
+OK

@@ -1,0 +1,23 @@
+name: Verify BOLT exact-oracle study
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: round2/requirements.txt
+      - run: pip install -r round2/requirements.txt
+      - name: Verify recorded configuration, metrics and hashes
+        run: python round2/verify_recorded.py
+      - name: Check exact oracle and training gradients
+        run: python round2/test_lattice.py
+      - name: Check primal-dual audit against reference QPs
+        run: python round2/test_dual.py
+      - name: Run exported model without a corpus or pickle
+        run: python round2/predict.py --model round2/results/UIT-VSFC_bolt_model.npz --text 'bài giảng rất tốt' --budget 3

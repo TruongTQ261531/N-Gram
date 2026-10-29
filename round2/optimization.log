@@ -1,0 +1,23 @@
+[
+  {
+    "dataset": "UIT-VSFC",
+    "full_objective": 0.24837631263965587,
+    "full_subgradient_norm": 0.010180436849768168,
+    "strong_convexity_gap_upper": 0.051820647226058815,
+    "meaning": "F(W)-F* <= ||g||^2/(2 alpha), using one exact-max witness subgradient. Loose at nonsmooth ties. No claim of a small gap unless the value supports it."
+  },
+  {
+    "dataset": "UIT-VSMEC",
+    "full_objective": 0.3540678405644353,
+    "full_subgradient_norm": 0.004163797347273825,
+    "strong_convexity_gap_upper": 0.008668604174582269,
+    "meaning": "F(W)-F* <= ||g||^2/(2 alpha), using one exact-max witness subgradient. Loose at nonsmooth ties. No claim of a small gap unless the value supports it."
+  },
+  {
+    "dataset": "Allocine-FR",
+    "full_objective": 0.1993864798795864,
+    "full_subgradient_norm": 0.0015683641215477903,
+    "strong_convexity_gap_upper": 0.001229883008879186,
+    "meaning": "F(W)-F* <= ||g||^2/(2 alpha), using one exact-max witness subgradient. Loose at nonsmooth ties. No claim of a small gap unless the value supports it."
+  }
+]

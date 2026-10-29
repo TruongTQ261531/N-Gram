@@ -1,0 +1,11 @@
+{
+  "selected_sha256": "f9554b1e2a20374cf795b28d97b73a29fcc1cbbeca33154ab7b2b8abd59d5e90",
+  "protocol_sha256": "402d291ed9aec333bcc5d05f4d5438a07c89f2d3056c3d582246d446930e3039",
+  "source_hashes": {
+    "core.py": "b372008348c851eb070e9756d7b827ab3002787852c5b5386747a544b26d6241",
+    "lattice.py": "b76aed5ad0bd7d5d8fd336a46fbcecec9fc045bac6faaf9ca208dd5a5dd210b6",
+    "run.py": "1bb2ab9744451b797fb28f62c6ed262768c8b1255ab658c73a15172f5bbf34ef"
+  },
+  "unix_time": 1793102494.3228245,
+  "french_test_predictions_exist": false
+}

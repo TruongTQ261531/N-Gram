@@ -1,0 +1,26 @@
+[
+  {
+    "repo": "tblard/allocine",
+    "revision": "a4654f4896408912913a62ace89614879a549287",
+    "path": "allocine/train-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/tblard/allocine/resolve/a4654f4896408912913a62ace89614879a549287/allocine/train-00000-of-00001.parquet",
+    "bytes": 59970147,
+    "sha256": "5cdabde7b62d2d56a2bc24e790cb9697057645103b607c281d82092bc5d53307"
+  },
+  {
+    "repo": "tblard/allocine",
+    "revision": "a4654f4896408912913a62ace89614879a549287",
+    "path": "allocine/validation-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/tblard/allocine/resolve/a4654f4896408912913a62ace89614879a549287/allocine/validation-00000-of-00001.parquet",
+    "bytes": 7575258,
+    "sha256": "c2a25489c7f923475a11756071acc20df1a967b58042ca853698800164e731aa"
+  },
+  {
+    "repo": "tblard/allocine",
+    "revision": "a4654f4896408912913a62ace89614879a549287",
+    "path": "allocine/test-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/tblard/allocine/resolve/a4654f4896408912913a62ace89614879a549287/allocine/test-00000-of-00001.parquet",
+    "bytes": 7580549,
+    "sha256": "0e313c31e2db65eae40072f525eb0bc3567817baad70a85f798836b1e5be5a88"
+  }
+]

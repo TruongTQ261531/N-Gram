@@ -1,0 +1,150 @@
+{
+  "scope": "development training subset only; diagnostic, not substituted into final test models",
+  "training_n": 2000,
+  "alpha": 0.001,
+  "eta": 0.7,
+  "primal_dual_seconds": 57.51466754500143,
+  "rounds": [
+    {
+      "outer": 0,
+      "primal": 0.2641445188616415,
+      "dual": 0.07507199728194675,
+      "gap": 0.18907252157969473,
+      "witness_rows": 8000,
+      "new_witnesses": 3984,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 1,
+      "primal": 0.18153679962431937,
+      "dual": 0.0913719881591853,
+      "gap": 0.09016481146513407,
+      "witness_rows": 11984,
+      "new_witnesses": 3936,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 2,
+      "primal": 0.12558877665106477,
+      "dual": 0.10003831993516518,
+      "gap": 0.02555045671589959,
+      "witness_rows": 15920,
+      "new_witnesses": 3806,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 3,
+      "primal": 0.11349859330865177,
+      "dual": 0.10315335996000248,
+      "gap": 0.010345233348649285,
+      "witness_rows": 19726,
+      "new_witnesses": 3351,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 4,
+      "primal": 0.10968436585089164,
+      "dual": 0.10454930288184244,
+      "gap": 0.005135062969049198,
+      "witness_rows": 23077,
+      "new_witnesses": 2733,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 5,
+      "primal": 0.10798733451884607,
+      "dual": 0.10523878377449035,
+      "gap": 0.0027485507443557183,
+      "witness_rows": 25810,
+      "new_witnesses": 2038,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 6,
+      "primal": 0.10714754872697851,
+      "dual": 0.10554268967472316,
+      "gap": 0.001604859052255353,
+      "witness_rows": 27848,
+      "new_witnesses": 1418,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 7,
+      "primal": 0.10673415998485591,
+      "dual": 0.10569994497081714,
+      "gap": 0.0010342150140387751,
+      "witness_rows": 29266,
+      "new_witnesses": 971,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 8,
+      "primal": 0.10644034964559963,
+      "dual": 0.10578809997366427,
+      "gap": 0.0006522496719353621,
+      "witness_rows": 30237,
+      "new_witnesses": 666,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 9,
+      "primal": 0.1062502260903301,
+      "dual": 0.10583208874741155,
+      "gap": 0.00041813734291853977,
+      "witness_rows": 30903,
+      "new_witnesses": 500,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 10,
+      "primal": 0.1061281001980636,
+      "dual": 0.10585622269706277,
+      "gap": 0.00027187750100082786,
+      "witness_rows": 31403,
+      "new_witnesses": 416,
+      "coordinate_epochs": 50
+    },
+    {
+      "outer": 11,
+      "primal": 0.10604766691365247,
+      "dual": 0.10586949258087096,
+      "gap": 0.00017817433278151384,
+      "witness_rows": 31819,
+      "new_witnesses": 317,
+      "coordinate_epochs": 50
+    }
+  ],
+  "reference_restricted_plus_separation_objective": 0.11446386666898456,
+  "reference_gradient_norm": 0.0074410477169236525,
+  "dual_validation": {
+    "macro_f1": 0.7418052609998105,
+    "accuracy": 0.8862918509159823,
+    "robust_balanced": [
+      0.7226981934495272,
+      0.7148923699175241,
+      0.7000388010183608
+    ],
+    "robust_accuracy": [
+      0.8862918509159823,
+      0.8749210360075805,
+      0.8597599494630449
+    ],
+    "objective": 0.7246354232338764
+  },
+  "reference_validation": {
+    "macro_f1": 0.7382121683573121,
+    "accuracy": 0.8825015792798484,
+    "robust_balanced": [
+      0.7200375177083704,
+      0.7138880088761604,
+      0.6865306559222644
+    ],
+    "robust_accuracy": [
+      0.8825015792798484,
+      0.8736576121288693,
+      0.852179406190777
+    ],
+    "objective": 0.7192107503782622
+  },
+  "warning": "Primal-dual coordinate ascent and cutting planes are established techniques. This is a solver/convergence audit, not a claim of a new general optimization algorithm. Validation-only changes here do not modify the frozen confirmation configuration."
+}

@@ -1,0 +1,16 @@
+PREPARE UIT-VSFC [11426, 1583, 3166]
+PREPARE UIT-VSMEC [5548, 685, 692]
+Traceback (most recent call last):
+  File "/workspace/work/round2/run.py", line 99, in <module>
+    if __name__=='__main__':{'prepare':prepare,'select':select,'final':final}[sys.argv[1]]()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/round2/run.py", line 40, in prepare
+    tr,dv,te,le,au=load(ds);print('PREPARE',ds,au['sizes'],flush=True)
+                   ^^^^^^^^
+  File "/workspace/work/round2/run.py", line 24, in load
+    for d in [tr,dv,te]:d['text']=d.text.map(lambda s:' '.join(normalize(s).split()[:128]))
+                                  ^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'text'

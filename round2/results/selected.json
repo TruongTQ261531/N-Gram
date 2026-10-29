@@ -1,0 +1,368 @@
+{
+  "UIT-VSFC": {
+    "clean": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.7441041541763477,
+        "accuracy": 0.8856601389766267,
+        "robust_balanced": [
+          0.717720841457108,
+          0.6474620332337059,
+          0.5537517205506003
+        ],
+        "robust_accuracy": [
+          0.8856601389766267,
+          0.8218572331017057,
+          0.7428932406822489
+        ],
+        "objective": 0.6723555155342503
+      }
+    },
+    "canonical": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.7324247963340641,
+        "accuracy": 0.8768161718256475,
+        "robust_balanced": [
+          0.716017136814724,
+          0.716017136814724,
+          0.716017136814724
+        ],
+        "robust_accuracy": [
+          0.8768161718256475,
+          0.8768161718256475,
+          0.8768161718256475
+        ],
+        "objective": 0.724220966574394
+      }
+    },
+    "random": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.756618362798831,
+        "accuracy": 0.8894504106127605,
+        "robust_balanced": [
+          0.7288032490673374,
+          0.6862957176669746,
+          0.6489618967563032
+        ],
+        "robust_accuracy": [
+          0.8894504106127605,
+          0.852179406190777,
+          0.8111181301326595
+        ],
+        "objective": 0.712123585005235
+      }
+    },
+    "greedy": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.7395469356952761,
+        "accuracy": 0.8843967150979154,
+        "robust_balanced": [
+          0.7214559574246825,
+          0.7080208282418311,
+          0.6869447345972125
+        ],
+        "robust_accuracy": [
+          0.8843967150979154,
+          0.8711307643714467,
+          0.8528111181301327
+        ],
+        "objective": 0.7185148585573989
+      }
+    },
+    "unary": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": false,
+      "screen_validation": {
+        "macro_f1": 0.7138335809467827,
+        "accuracy": 0.8515476942514214,
+        "robust_balanced": [
+          0.7474000602230424,
+          0.7210357236892788,
+          0.7069515775761895
+        ],
+        "robust_accuracy": [
+          0.8515476942514214,
+          0.8376500315855969,
+          0.8237523689197725
+        ],
+        "objective": 0.7139136157897585
+      }
+    },
+    "bolt": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.7382121683573121,
+        "accuracy": 0.8825015792798484,
+        "robust_balanced": [
+          0.7200375177083704,
+          0.7138880088761604,
+          0.6865306559222644
+        ],
+        "robust_accuracy": [
+          0.8825015792798484,
+          0.8736576121288693,
+          0.852179406190777
+        ],
+        "objective": 0.7192107503782622
+      }
+    }
+  },
+  "UIT-VSMEC": {
+    "clean": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.44824326602543335,
+        "accuracy": 0.48613138686131385,
+        "robust_balanced": [
+          0.43306444661744575,
+          0.3038828972182558,
+          0.1962548055864041
+        ],
+        "robust_accuracy": [
+          0.48613138686131385,
+          0.3562043795620438,
+          0.24525547445255474
+        ],
+        "objective": 0.34915605871388167
+      }
+    },
+    "canonical": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": false,
+      "screen_validation": {
+        "macro_f1": 0.4151419378087531,
+        "accuracy": 0.46715328467153283,
+        "robust_balanced": [
+          0.4076797453470401,
+          0.4076797453470401,
+          0.4076797453470401
+        ],
+        "robust_accuracy": [
+          0.46715328467153283,
+          0.46715328467153283,
+          0.46715328467153283
+        ],
+        "objective": 0.41141084157789654
+      }
+    },
+    "random": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.45197823456426167,
+        "accuracy": 0.49343065693430654,
+        "robust_balanced": [
+          0.4390531748653467,
+          0.3246429521109192,
+          0.26512178673919085
+        ],
+        "robust_accuracy": [
+          0.49343065693430654,
+          0.3795620437956204,
+          0.3051094890510949
+        ],
+        "objective": 0.3734303019946583
+      }
+    },
+    "greedy": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.44150225785164204,
+        "accuracy": 0.48905109489051096,
+        "robust_balanced": [
+          0.4295051396399225,
+          0.38020641356539925,
+          0.3298334295025449
+        ],
+        "robust_accuracy": [
+          0.48905109489051096,
+          0.43795620437956206,
+          0.38248175182481753
+        ],
+        "objective": 0.39826108969280705
+      }
+    },
+    "unary": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": false,
+      "screen_validation": {
+        "macro_f1": 0.4224729340618253,
+        "accuracy": 0.4583941605839416,
+        "robust_balanced": [
+          0.44626472072515727,
+          0.41255083135150755,
+          0.38195487720538257
+        ],
+        "robust_accuracy": [
+          0.4583941605839416,
+          0.4248175182481752,
+          0.3970802919708029
+        ],
+        "objective": 0.4098628941701352
+      }
+    },
+    "bolt": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.44485114996178066,
+        "accuracy": 0.491970802919708,
+        "robust_balanced": [
+          0.4323578005558166,
+          0.3833359869077385,
+          0.3249073211281607
+        ],
+        "robust_accuracy": [
+          0.491970802919708,
+          0.44233576642335765,
+          0.381021897810219
+        ],
+        "objective": 0.39948640198986507
+      }
+    }
+  },
+  "Allocine-FR": {
+    "clean": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.8368980612883052,
+        "accuracy": 0.837,
+        "robust_balanced": [
+          0.8378351340536214,
+          0.8149259703881553,
+          0.7949979991996798
+        ],
+        "robust_accuracy": [
+          0.837,
+          0.814,
+          0.794
+        ],
+        "objective": 0.8209300230411114
+      }
+    },
+    "canonical": {
+      "alpha": 0.0001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.8399481431983963,
+        "accuracy": 0.84,
+        "robust_balanced": [
+          0.8406962785114045,
+          0.8406962785114045,
+          0.8406962785114045
+        ],
+        "robust_accuracy": [
+          0.84,
+          0.84,
+          0.84
+        ],
+        "objective": 0.8403222108549004
+      }
+    },
+    "random": {
+      "alpha": 0.0001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.8369280852856109,
+        "accuracy": 0.837,
+        "robust_balanced": [
+          0.8377551020408163,
+          0.8148459383753501,
+          0.8039415766306522
+        ],
+        "robust_accuracy": [
+          0.837,
+          0.814,
+          0.803
+        ],
+        "objective": 0.823160921394306
+      }
+    },
+    "greedy": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.8298666154264944,
+        "accuracy": 0.83,
+        "robust_balanced": [
+          0.8308923569427771,
+          0.8179471788715487,
+          0.8109643857543016
+        ],
+        "robust_accuracy": [
+          0.83,
+          0.817,
+          0.81
+        ],
+        "objective": 0.8221611988697097
+      }
+    },
+    "unary": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.8339574931182383,
+        "accuracy": 0.834,
+        "robust_balanced": [
+          0.8346538615446178,
+          0.8315926370548219,
+          0.8255902360944378
+        ],
+        "robust_accuracy": [
+          0.834,
+          0.831,
+          0.825
+        ],
+        "objective": 0.8312744648464341
+      }
+    },
+    "bolt": {
+      "alpha": 0.001,
+      "eta": 0.7,
+      "clean_constraint_feasible": true,
+      "screen_validation": {
+        "macro_f1": 0.832895559724828,
+        "accuracy": 0.833,
+        "robust_balanced": [
+          0.8338335334133653,
+          0.8179071628651461,
+          0.8079431772709084
+        ],
+        "robust_accuracy": [
+          0.833,
+          0.817,
+          0.807
+        ],
+        "objective": 0.8229103648964277
+      }
+    }
+  }
+}
