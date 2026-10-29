@@ -1,0 +1,26 @@
+nfcorpus development 1 / 20 seconds 0.16 docs 0 pair [3633, 3633, 3633] joint [3633, 3633, 3633]
+/workspace/work/round3/rank_bound.py:62: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(m),1.],A_ub=A,b_ub=np.zeros(len(cuts)),bounds=list(zip(np.zeros(m),caps))+[(None,None)],method='highs',options={'dual_feasibility_tolerance':1e-8,'primal_feasibility_tolerance':1e-8,'threads':1})
+/workspace/work/round3/rank_bound.py:102: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(S),-np.ones(m)],A_ub=A,b_ub=np.r_[np.ones(m),budget],A_eq=eq.tocsr(),b_eq=np.ones(len(D)),bounds=[(0,1)]*(S+m),method='highs',options={'threads':1})
+/workspace/work/round3/mip_reference.py:22: RuntimeWarning: Unrecognized options detected: {'threads'}. These will be passed to HiGHS verbatim.
+  r=milp(c,integrality=np.ones(S+m),bounds=Bounds(np.zeros(S+m),np.ones(S+m)),constraints=LinearConstraint(sparse.vstack(rows,format='csc'),np.concatenate(lo),np.concatenate(hi)),options={'time_limit':seconds,'mip_rel_gap':0.,'threads':1})
+nfcorpus development 2 / 20 seconds 6.01 docs 3632 pair [6, 122, 1494] joint [4, 112, 1476]
+nfcorpus development 3 / 20 seconds 3.69 docs 3343 pair [3, 17, 25] joint [2, 8, 15]
+nfcorpus development 4 / 20 seconds 4.81 docs 3633 pair [24, 751, 3137] joint [10, 712, 3102]
+nfcorpus development 5 / 20 seconds 0.22 docs 518 pair [14, 14, 14] joint [10, 10, 10]
+nfcorpus development 6 / 20 seconds 1.01 docs 3549 pair [407, 407, 407] joint [249, 249, 249]
+nfcorpus development 7 / 20 seconds 3.84 docs 3633 pair [15, 588, 3285] joint [6, 550, 3261]
+nfcorpus development 8 / 20 seconds 10.88 docs 3632 pair [149, 2744, 3450] joint [45, 2697, 3391]
+nfcorpus development 9 / 20 seconds 8.09 docs 3631 pair [3014, 3598, 3598] joint [2546, 3596, 3596]
+nfcorpus development 10 / 20 seconds 0.37 docs 3082 pair [27, 27, 27] joint [17, 17, 17]
+nfcorpus development 11 / 20 seconds 3.79 docs 3627 pair [25, 263, 1056] joint [17, 251, 1033]
+nfcorpus development 12 / 20 seconds 3.21 docs 3626 pair [44, 395, 880] joint [43, 391, 866]
+nfcorpus development 13 / 20 seconds 3.49 docs 3594 pair [751, 751, 751] joint [385, 385, 385]
+nfcorpus development 14 / 20 seconds 0.33 docs 1229 pair [2, 2, 4] joint [2, 2, 3]
+nfcorpus development 15 / 20 seconds 0.81 docs 2982 pair [144, 144, 144] joint [73, 73, 73]
+nfcorpus development 16 / 20 seconds 5.53 docs 3632 pair [44, 1036, 2665] joint [34, 1022, 2626]
+nfcorpus development 17 / 20 seconds 0.06 docs 0 pair [3633, 3633, 3633] joint [3633, 3633, 3633]
+nfcorpus development 18 / 20 seconds 17.5 docs 3626 pair [3, 35, 1086] joint [2, 31, 1076]
+nfcorpus development 19 / 20 seconds 5.88 docs 3633 pair [85, 2343, 3533] joint [65, 2337, 3517]
+nfcorpus development 20 / 20 seconds 4.08 docs 3620 pair [18, 119, 626] joint [11, 108, 575]

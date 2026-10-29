@@ -1,0 +1,265 @@
+[
+  {
+    "arxiv": "2209.06691",
+    "title": "Certified Robustness to Word Substitution Ranking Attack for Neural Ranking Models",
+    "authors": [
+      "Wu, Chen",
+      "Zhang, Ruqing",
+      "Guo, Jiafeng",
+      "Chen, Wei",
+      "Fan, Yixing",
+      "de Rijke, Maarten",
+      "Cheng, Xueqi"
+    ],
+    "date": "2022/09/14",
+    "url": "https://arxiv.org/abs/2209.06691",
+    "abstract_page_sha256": "294aa2cdcd21abc66b35ac6bd017f8fbe5196f500f637942e775de7e3fa1db1e",
+    "full_html_fetched": false,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2512.23307",
+    "title": "RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking",
+    "authors": [
+      "Liu, Jiawei",
+      "Chen, Zhuo",
+      "Zhu, Rui",
+      "Chen, Miaokun",
+      "Gong, Yuyang",
+      "Lu, Wei",
+      "Wang, Xiaofeng"
+    ],
+    "date": "2025/12/29",
+    "url": "https://arxiv.org/abs/2512.23307",
+    "abstract_page_sha256": "8e892954167c15b75d1515c28ccfa548c501d8bf5eba22bf58dc7bfc23fac9e7",
+    "full_html_fetched": true,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2609.21595",
+    "title": "Evaluating In-Context Learning and Retrieval Strategies for Devanagari Post-OCR Correction",
+    "authors": [
+      "Bhandari, Abhishek",
+      "Harit, Gaurav"
+    ],
+    "date": "2026/09/18",
+    "url": "https://arxiv.org/abs/2609.21595",
+    "abstract_page_sha256": "9cea650e80f23b57ce9e20a459b0a11a7351022a6efb27c008f94fa5431928a4",
+    "full_html_fetched": false,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2606.17721",
+    "title": "Understanding and Debugging Failures in N-Gram-Based Generative Retrieval",
+    "authors": [
+      "Takacs, Richard",
+      "Bracher, Adrian",
+      "Vakulenko, Svitlana"
+    ],
+    "date": "2026/06/16",
+    "url": "https://arxiv.org/abs/2606.17721",
+    "abstract_page_sha256": "43ee10b988e6a53047d7867029cc044bd39f72ff7de35d0c3aa2c145c537b722",
+    "full_html_fetched": true,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2610.32164",
+    "title": "PersonalQuery-Benchmark:Evaluating Retrieval Robustness to Personalized User Expression Differences",
+    "authors": [
+      "Liang, Wenyu",
+      "Yin, Hongzhi",
+      "Wu, Tongtong",
+      "Liu, Fan",
+      "Dai, Kexin",
+      "Wang, Weiqing"
+    ],
+    "date": "2026/10/23",
+    "url": "https://arxiv.org/abs/2610.32164",
+    "abstract_page_sha256": "6b5c617a5eb585fc8757eb91ea817e84cda396fe1691fd3a4409a51e6fec67b0",
+    "full_html_fetched": false,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2205.09638",
+    "title": "Certified Error Control of Candidate Set Pruning for Two-Stage Relevance Ranking",
+    "authors": [
+      "Li, Minghan",
+      "Zhang, Xinyu",
+      "Xin, Ji",
+      "Zhang, Hongyang",
+      "Lin, Jimmy"
+    ],
+    "date": "2022/05/19",
+    "url": "https://arxiv.org/abs/2205.09638",
+    "abstract_page_sha256": "fdca3311442d181005f10deed9355f852623cc7dec542b99f63392ba277dcaa0",
+    "full_html_fetched": true,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2610.21325",
+    "title": "CertEx: Exact Visual Retrieval at Scale by Certified Exclusion",
+    "authors": [
+      "Zhao, Dongfang"
+    ],
+    "date": "2026/10/15",
+    "url": "https://arxiv.org/abs/2610.21325",
+    "abstract_page_sha256": "b74423d10c3f99bda60359c5b01d41ae0930b7ffcfdd6ca3e38e721ad2114f47",
+    "full_html_fetched": true,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2610.24991",
+    "title": "Certified Sparse Attention via Perturbed Retrieval",
+    "authors": [
+      "Li, Runguo"
+    ],
+    "date": "2026/10/18",
+    "url": "https://arxiv.org/abs/2610.24991",
+    "abstract_page_sha256": "fb270b08e2fd11cbf77431a622b749c25d7490c20513cfbbe920c1be430cc52b",
+    "full_html_fetched": false,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2608.06516",
+    "title": "CertBind from Multimodal Connectivity to Certifiable Retrieval Decisions",
+    "authors": [
+      "Cao, Shuheng",
+      "Zhang, Zhenhao",
+      "Chen, Ruiqi",
+      "Cao, Renjie",
+      "Zhang, Weijia",
+      "Zhang, Siyu",
+      "Liu, Jiaxin",
+      "Zeng, Xiangyu",
+      "Geng, Haotian",
+      "Gu, Fan"
+    ],
+    "date": "2026/08/06",
+    "url": "https://arxiv.org/abs/2608.06516",
+    "abstract_page_sha256": "f8e989590bcd23f1104a94976bac0dc713e1c11d368d639362fd4d5ece34d506",
+    "full_html_fetched": true,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2607.14157",
+    "title": "Certified Domain Consistency for Multi-Domain Retrieval: Label-Free Per-Domain Contamination Control with Conformal Risk Guarantees",
+    "authors": [
+      "Manoharan, Jayakumar"
+    ],
+    "date": "2026/07/14",
+    "url": "https://arxiv.org/abs/2607.14157",
+    "abstract_page_sha256": "9564755a2bece5563a58df5a59a43a3c1e53783989b3dd6d68c9bd8f8d577ec2",
+    "full_html_fetched": true,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2405.15556",
+    "title": "Certifiably Robust RAG against Retrieval Corruption",
+    "authors": [
+      "Xiang, Chong",
+      "Wu, Tong",
+      "Zhong, Zexuan",
+      "Wagner, David",
+      "Chen, Danqi",
+      "Mittal, Prateek"
+    ],
+    "date": "2024/05/24",
+    "url": "https://arxiv.org/abs/2405.15556",
+    "abstract_page_sha256": "e90c399fe93d66b232cb819da3d92c505dba588641c8b9da5f6de4ea31b22360",
+    "full_html_fetched": false,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2402.03181",
+    "title": "C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models",
+    "authors": [
+      "Kang, Mintong",
+      "G\u00fcrel, Nezihe Merve",
+      "Yu, Ning",
+      "Song, Dawn",
+      "Li, Bo"
+    ],
+    "date": "2024/02/05",
+    "url": "https://arxiv.org/abs/2402.03181",
+    "abstract_page_sha256": "efc20dda0e72beef7a864f3ff9206552142843dc411653f87bd8bde936e5c4c0",
+    "full_html_fetched": false,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2507.23335",
+    "title": "Scalable and Precise Patch Robustness Certification for Deep Learning Models with Top-k Predictions",
+    "authors": [
+      "Zhou, Qilin",
+      "Wang, Haipeng",
+      "Wei, Zhengyuan",
+      "Chan, W. K."
+    ],
+    "date": "2025/07/31",
+    "url": "https://arxiv.org/abs/2507.23335",
+    "abstract_page_sha256": "b3342b56412dab672e674b1ce66e218bb0dafb7d2ee7b34a68bb27ea6fb2c613",
+    "full_html_fetched": true,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2610.14996",
+    "title": "Certify the Decision, Not Every Score: Exact Top-k Selection from Few Evaluations",
+    "authors": [
+      "Sui, Yuhe",
+      "Tang, Yingzhi"
+    ],
+    "date": "2026/10/10",
+    "url": "https://arxiv.org/abs/2610.14996",
+    "abstract_page_sha256": "bdbe405d409279b2dc3639315c6e38182fb1353067e8add2a61f1bb9e877552c",
+    "full_html_fetched": false,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2610.29395",
+    "title": "CertMoE: Robustness Certification for Mixture-of-Experts LLMs via Routing-Aware Smoothing",
+    "authors": [
+      "Wang, Qingyue",
+      "Gao, Yudong",
+      "Wang, Lixia",
+      "Huang, Ruixuan",
+      "Yuan, Yuanyuan",
+      "Song, Yangqiu",
+      "Wang, Shuai"
+    ],
+    "date": "2026/10/21",
+    "url": "https://arxiv.org/abs/2610.29395",
+    "abstract_page_sha256": "8f2604db16298a98366313fc00c7bf119c5a3ba738827bb12e0b5be44ef5513a",
+    "full_html_fetched": false,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "2011.07633",
+    "title": "Almost Tight L0-norm Certified Robustness of Top-k Predictions against Adversarial Perturbations",
+    "authors": [
+      "Jia, Jinyuan",
+      "Wang, Binghui",
+      "Cao, Xiaoyu",
+      "Liu, Hongbin",
+      "Gong, Neil Zhenqiang"
+    ],
+    "date": "2020/11/15",
+    "url": "https://arxiv.org/abs/2011.07633",
+    "abstract_page_sha256": "faa9d3aa058677b991c1dbae5353e4de3b4a3cdfbebced75f991250aacd74545",
+    "full_html_fetched": false,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  },
+  {
+    "arxiv": "1912.09899",
+    "title": "Certified Robustness for Top-k Predictions against Adversarial Perturbations via Randomized Smoothing",
+    "authors": [
+      "Jia, Jinyuan",
+      "Cao, Xiaoyu",
+      "Wang, Binghui",
+      "Gong, Neil Zhenqiang"
+    ],
+    "date": "2019/12/20",
+    "url": "https://arxiv.org/abs/1912.09899",
+    "abstract_page_sha256": "850e90c8d4d700cd4ea19ccb9250c4fe2d405139fcfacbf88de83d28812044bd",
+    "full_html_fetched": false,
+    "inspection_depth": "see RELATED_WORK_UPDATE.md; fetch does not imply complete review"
+  }
+]

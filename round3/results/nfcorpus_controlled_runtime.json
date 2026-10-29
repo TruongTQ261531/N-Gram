@@ -1,0 +1,23 @@
+{
+  "dataset": "nfcorpus",
+  "startup_load_transpose_seconds": 0.28545472900077584,
+  "blas": [
+    {
+      "api": "openblas",
+      "threads": 1
+    },
+    {
+      "api": "openblas",
+      "threads": 1
+    },
+    {
+      "api": "openmp",
+      "threads": 1
+    }
+  ],
+  "peak_process_mib": 657.25,
+  "profile_queries": 10,
+  "replayed_queries": 100,
+  "warmed_index": true,
+  "includes_jit": false
+}

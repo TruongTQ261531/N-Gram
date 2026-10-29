@@ -1,0 +1,48 @@
+Fontconfig error: No writable cache directories
+ dataset  budget       method  certified  queries
+ scifact       1    pair_enum         88      100
+ scifact       1 best_lp_enum         88      100
+ scifact       1     proposed         88      100
+ scifact       2    pair_enum         60      100
+ scifact       2 best_lp_enum         63      100
+ scifact       2     proposed         68      100
+ scifact       3    pair_enum         39      100
+ scifact       3 best_lp_enum         41      100
+ scifact       3     proposed         49      100
+nfcorpus       1    pair_enum         38      100
+nfcorpus       1 best_lp_enum         38      100
+nfcorpus       1     proposed         38      100
+nfcorpus       2    pair_enum         19      100
+nfcorpus       2 best_lp_enum         21      100
+nfcorpus       2     proposed         25      100
+nfcorpus       3    pair_enum         16      100
+nfcorpus       3 best_lp_enum         17      100
+nfcorpus       3     proposed         19      100
+    fiqa       1    pair_enum         58      100
+    fiqa       1 best_lp_enum         58      100
+    fiqa       1     proposed         58      100
+    fiqa       2    pair_enum         13      100
+    fiqa       2 best_lp_enum         15      100
+    fiqa       2     proposed         20      100
+    fiqa       3    pair_enum          3      100
+    fiqa       3 best_lp_enum          4      100
+    fiqa       3     proposed          6      100
+ dataset  budget  k     baseline  difference  ci_low  ci_high  wins  losses  paired_exact_p  holm_primary_p
+ scifact       1 10    pair_enum        0.00    0.00     0.00     0       0        1.000000        1.000000
+ scifact       1 10 best_lp_enum        0.00    0.00     0.00     0       0        1.000000        1.000000
+ scifact       2 10    pair_enum        0.08    0.03     0.14     8       0        0.007812        0.132812
+ scifact       2 10 best_lp_enum        0.05    0.01     0.09     5       0        0.062500        0.812500
+ scifact       3 10    pair_enum        0.10    0.05     0.17    10       0        0.001953        0.035156
+ scifact       3 10 best_lp_enum        0.08    0.03     0.14     8       0        0.007812        0.132812
+nfcorpus       1 10    pair_enum        0.00    0.00     0.00     0       0        1.000000        1.000000
+nfcorpus       1 10 best_lp_enum        0.00    0.00     0.00     0       0        1.000000        1.000000
+nfcorpus       2 10    pair_enum        0.06    0.02     0.11     6       0        0.031250        0.437500
+nfcorpus       2 10 best_lp_enum        0.04    0.01     0.08     4       0        0.125000        1.000000
+nfcorpus       3 10    pair_enum        0.03    0.00     0.07     3       0        0.250000        1.000000
+nfcorpus       3 10 best_lp_enum        0.02    0.00     0.05     2       0        0.500000        1.000000
+    fiqa       1 10    pair_enum        0.00    0.00     0.00     0       0        1.000000        1.000000
+    fiqa       1 10 best_lp_enum        0.00    0.00     0.00     0       0        1.000000        1.000000
+    fiqa       2 10    pair_enum        0.07    0.02     0.12     7       0        0.015625        0.234375
+    fiqa       2 10 best_lp_enum        0.05    0.01     0.10     5       0        0.062500        0.812500
+    fiqa       3 10    pair_enum        0.03    0.00     0.07     3       0        0.250000        1.000000
+    fiqa       3 10 best_lp_enum        0.02    0.00     0.05     2       0        0.500000        1.000000

@@ -1,5 +1,7 @@
 # Targeted prior-art audit — before confirmation
 
+Historical preconfirmation checkpoint. The experiments are now reported in [REPORT_VI.md](REPORT_VI.md), with a separate independent-query replication. [RELATED_WORK_UPDATE.md](RELATED_WORK_UPDATE.md) adds sources through October 2026, including important CostCert/top-K overlap. The original preconfirmation assessment below is preserved; completed experiments do not establish global originality or Q1 acceptance.
+
 Checked 29 October 2026. This is a targeted screen, NOT proof that no identical method exists. No Q1 acceptance or global originality is guaranteed.
 
 ## Closest sources and overlap

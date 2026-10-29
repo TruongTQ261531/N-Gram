@@ -1,0 +1,5 @@
+scifact graph_smoke 1 / 5 seconds 1.96 docs 5156 pair [1, 12, 149] joint [1, 8, 146]
+scifact graph_smoke 2 / 5 seconds 1.65 docs 5145 pair [2, 82, 302] joint [2, 79, 292]
+scifact graph_smoke 3 / 5 seconds 2.03 docs 5151 pair [2, 12, 36] joint [2, 6, 27]
+scifact graph_smoke 4 / 5 seconds 1.41 docs 4866 pair [5, 35, 130] joint [4, 23, 124]
+scifact graph_smoke 5 / 5 seconds 1.63 docs 5180 pair [23, 239, 1069] joint [15, 205, 995]

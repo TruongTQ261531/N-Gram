@@ -1,0 +1,6 @@
+{
+  "posthoc": true,
+  "new_p_values": false,
+  "numerical_lp_objectives_are_not_formally_verified_lower_bounds": true,
+  "reason": "Distinguish actual matched generic-LP runs from optimizer/cap artifacts and positive-qrel utility from mere stability. Near-integer threshold effects and source numerical assumptions remain visible."
+}

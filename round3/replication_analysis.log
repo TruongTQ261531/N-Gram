@@ -1,0 +1,20 @@
+mkdir -p failed for path /home/agent/.config/matplotlib: [Errno 30] Read-only file system: '/home/agent/.config/matplotlib'
+Matplotlib created a temporary cache directory at /tmp/matplotlib-_0_8vit3 because there was an issue with the default path (/home/agent/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+ dataset       method  queries  certified  coverage   ci_low  ci_high  judged_relevant_winners  judged_relevant_certified  useful_coverage
+ scifact    pair_enum      199        111  0.557789 0.487437 0.623116                      108                         76         0.381910
+ scifact best_lp_enum      199        115  0.577889 0.507538 0.643216                      108                         79         0.396985
+ scifact     proposed      199        123  0.618090 0.547739 0.683417                      108                         83         0.417085
+nfcorpus    pair_enum      223         37  0.165919 0.121076 0.215247                      102                         26         0.116592
+nfcorpus best_lp_enum      223         41  0.183857 0.139013 0.237668                      102                         29         0.130045
+nfcorpus     proposed      223         45  0.201794 0.152466 0.255605                      102                         31         0.139013
+    fiqa    pair_enum      548         67  0.122263 0.096715 0.151460                      101                         37         0.067518
+    fiqa best_lp_enum      548         71  0.129562 0.102190 0.158759                      101                         37         0.067518
+    fiqa     proposed      548         91  0.166058 0.136861 0.197126                      101                         44         0.080292
+ dataset     baseline  queries  difference   ci_low  ci_high  wins  losses  paired_exact_p  holm_primary_p
+ scifact    pair_enum      199    0.060302 0.030151 0.095477    12       0    4.882812e-04             NaN
+ scifact best_lp_enum      199    0.040201 0.015075 0.070352     8       0    7.812500e-03        0.015625
+nfcorpus    pair_enum      223    0.035874 0.013453 0.062780     8       0    7.812500e-03             NaN
+nfcorpus best_lp_enum      223    0.017937 0.004484 0.035874     4       0    1.250000e-01        0.125000
+    fiqa    pair_enum      548    0.043796 0.027372 0.062044    24       0    1.192093e-07             NaN
+    fiqa best_lp_enum      548    0.036496 0.021898 0.052920    20       0    1.907349e-06        0.000006

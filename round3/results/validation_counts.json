@@ -1,0 +1,14 @@
+{
+  "exhaustive_pair_budget_comparisons": 1200,
+  "randomized_enumerated_lp_eligible": 49,
+  "randomized_enumerated_lp_generated": 60,
+  "pareto_exhaustive_cases": 200,
+  "mip_exhaustive_cases": 25,
+  "unit_tests": 18,
+  "primary_random_predictions": 27000,
+  "primary_controlled_replays": 300,
+  "real_query_fixtures": 12,
+  "real_query_fixture_independent_enumerations": 8,
+  "synthetic_gap_instances": 3,
+  "decimal_80_digit_interval_checks": 210
+}

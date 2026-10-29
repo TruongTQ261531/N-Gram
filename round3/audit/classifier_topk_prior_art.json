@@ -1,0 +1,18 @@
+[
+  {
+    "arxiv": "2011.07633",
+    "url": "https://arxiv.org/abs/2011.07633",
+    "title": [
+      "[2011.07633] Almost Tight L0-norm Certified Robustness of Top-k Predictions against Adversarial Perturbations"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "1912.09899",
+    "url": "https://arxiv.org/abs/1912.09899",
+    "title": [
+      "[1912.09899] Certified Robustness for Top-k Predictions against Adversarial Perturbations via Randomized Smoothing"
+    ],
+    "abstract_was_accessed": true
+  }
+]

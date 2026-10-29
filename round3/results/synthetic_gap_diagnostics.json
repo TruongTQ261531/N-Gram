@@ -1,0 +1,412 @@
+{
+  "scope": "generic additive factors, NOT an asserted physical BM25 keyboard realization",
+  "rows": [
+    {
+      "alternatives": 3,
+      "exact_count": 1,
+      "lp_upper": 3.0,
+      "generic_lp_objective": 3.0,
+      "discrete_cover_upper": 1,
+      "mip": {
+        "seconds": 0.005060197001512279,
+        "success": true,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "matrix_entries": 12,
+        "variables": 7,
+        "count_upper": 1.0,
+        "gap": 0.0,
+        "nodes": 0,
+        "choices": [
+          1
+        ],
+        "feasible_count": 1.0,
+        "optimal_count": 1
+      },
+      "graph": {
+        "count_upper": 1,
+        "groups": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "checks": [
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.4999999999999999,
+            "peak_front": 2,
+            "left": 0,
+            "right": 1
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.4999999999999999,
+            "peak_front": 2,
+            "left": 0,
+            "right": 2
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.4999999999999999,
+            "peak_front": 2,
+            "left": 1,
+            "right": 2
+          }
+        ]
+      }
+    },
+    {
+      "alternatives": 4,
+      "exact_count": 1,
+      "lp_upper": 4.0,
+      "generic_lp_objective": 4.0,
+      "discrete_cover_upper": 1,
+      "mip": {
+        "seconds": 0.001472801999625517,
+        "success": true,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "matrix_entries": 20,
+        "variables": 9,
+        "count_upper": 1.0,
+        "gap": 0.0,
+        "nodes": 0,
+        "choices": [
+          1
+        ],
+        "feasible_count": 1.0,
+        "optimal_count": 1
+      },
+      "graph": {
+        "count_upper": 1,
+        "groups": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "checks": [
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.3333333333333332,
+            "peak_front": 2,
+            "left": 0,
+            "right": 1
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.3333333333333332,
+            "peak_front": 2,
+            "left": 0,
+            "right": 2
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.3333333333333332,
+            "peak_front": 2,
+            "left": 1,
+            "right": 2
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.3333333333333332,
+            "peak_front": 2,
+            "left": 0,
+            "right": 3
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.3333333333333332,
+            "peak_front": 2,
+            "left": 1,
+            "right": 3
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.3333333333333332,
+            "peak_front": 2,
+            "left": 2,
+            "right": 3
+          }
+        ]
+      }
+    },
+    {
+      "alternatives": 8,
+      "exact_count": 1,
+      "lp_upper": 8.0,
+      "generic_lp_objective": 8.0,
+      "discrete_cover_upper": 1,
+      "mip": {
+        "seconds": 0.001598611999725108,
+        "success": true,
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "matrix_entries": 72,
+        "variables": 17,
+        "count_upper": 1.0,
+        "gap": 0.0,
+        "nodes": 0,
+        "choices": [
+          1
+        ],
+        "feasible_count": 1.0,
+        "optimal_count": 1
+      },
+      "graph": {
+        "count_upper": 1,
+        "groups": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "checks": [
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 0,
+            "right": 1
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 0,
+            "right": 2
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 1,
+            "right": 2
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 0,
+            "right": 3
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 1,
+            "right": 3
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 2,
+            "right": 3
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 0,
+            "right": 4
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 1,
+            "right": 4
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 2,
+            "right": 4
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 3,
+            "right": 4
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 0,
+            "right": 5
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 1,
+            "right": 5
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 2,
+            "right": 5
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 3,
+            "right": 5
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 4,
+            "right": 5
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 0,
+            "right": 6
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 1,
+            "right": 6
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 2,
+            "right": 6
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 3,
+            "right": 6
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 4,
+            "right": 6
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 5,
+            "right": 6
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 0,
+            "right": 7
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 1,
+            "right": 7
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 2,
+            "right": 7
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 3,
+            "right": 7
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 4,
+            "right": 7
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 5,
+            "right": 7
+          },
+          {
+            "incompatible": true,
+            "method": "pareto",
+            "upper": -0.1428571428571428,
+            "peak_front": 2,
+            "left": 6,
+            "right": 7
+          }
+        ]
+      }
+    }
+  ]
+}

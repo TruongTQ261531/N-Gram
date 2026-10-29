@@ -1,0 +1,26 @@
+[
+  {
+    "arxiv": "2507.23335",
+    "url": "https://arxiv.org/abs/2507.23335",
+    "title": [
+      "[2507.23335] Scalable and Precise Patch Robustness Certification for Deep Learning Models with Top-k Predictions"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "2610.14996",
+    "url": "https://arxiv.org/abs/2610.14996",
+    "title": [
+      "[2610.14996] Certify the Decision, Not Every Score: Exact Top-k Selection from Few Evaluations"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "2610.29395",
+    "url": "https://arxiv.org/abs/2610.29395",
+    "title": [
+      "[2610.29395] CertMoE: Robustness Certification for Mixture-of-Experts LLMs via Routing-Aware Smoothing"
+    ],
+    "abstract_was_accessed": true
+  }
+]

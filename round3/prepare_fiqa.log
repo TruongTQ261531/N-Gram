@@ -1,0 +1,2 @@
+prepared fiqa char {'vocabulary': 758156, 'nnz': 54133083, 'index_bytes': 666775629, 'seconds': 44.81816513800004}
+prepared fiqa word {'vocabulary': 80398, 'nnz': 4848183, 'index_bytes': 61613716, 'seconds': 4.058289201000207}

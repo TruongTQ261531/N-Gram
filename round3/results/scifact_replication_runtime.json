@@ -1,0 +1,18 @@
+{
+  "blas": [
+    {
+      "api": "openblas",
+      "threads": 1
+    },
+    {
+      "api": "openblas",
+      "threads": 1
+    },
+    {
+      "api": "openmp",
+      "threads": 1
+    }
+  ],
+  "peak_process_mib": 877.5390625,
+  "queries": 199
+}

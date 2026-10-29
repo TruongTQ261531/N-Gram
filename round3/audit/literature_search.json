@@ -1,0 +1,1957 @@
+{
+  "unix_time": 1793266641.3538811,
+  "searches": [
+    {
+      "query": "certified robustness information retrieval query",
+      "url": "https://arxiv.org/search/?query=certified%20robustness%20information%20retrieval%20query&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [],
+      "bytes": 15291
+    },
+    {
+      "query": "certified top-k ranking discrete perturbations",
+      "url": "https://arxiv.org/search/?query=certified%20top-k%20ranking%20discrete%20perturbations&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [],
+      "bytes": 15285
+    },
+    {
+      "query": "ngram retrieval robustness certification",
+      "url": "https://arxiv.org/search/?query=ngram%20retrieval%20robustness%20certification&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [],
+      "bytes": 15267
+    },
+    {
+      "query": "ranking robustness integer programming query",
+      "url": "https://arxiv.org/search/?query=ranking%20robustness%20integer%20programming%20query&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [],
+      "bytes": 15279
+    },
+    {
+      "query": "certified ranking",
+      "url": "https://arxiv.org/search/?query=certified%20ranking&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Ancestor Lifting of Quasi-Cyclic Additive Codes and  Certified  Quantum Codes",
+          "url": "https://arxiv.org/abs/2610.36700"
+        },
+        {
+          "title": "When Can a Learned Design Surrogate Be Trusted in a Self-Driving Microfluidics Laboratory? An Offline Closed-Loop Framework Built and Tested on Six Public Tables",
+          "url": "https://arxiv.org/abs/2610.36395"
+        },
+        {
+          "title": "Hidden Convexity in Multi-Retailer Cold-Chain Allocation: A Cholesky-Spectral Second-Order Cone Programming Approach",
+          "url": "https://arxiv.org/abs/2610.36350"
+        },
+        {
+          "title": "Infinity Machine: a self-improving AI agent for research",
+          "url": "https://arxiv.org/abs/2610.35579"
+        },
+        {
+          "title": "One Loss Resolves Signed  Rank -One Gradient Fibers: Exact Decoding on Cycle and Theta Blocks",
+          "url": "https://arxiv.org/abs/2610.35531"
+        },
+        {
+          "title": "Population Capacity and the Geometry of Thermomajorization",
+          "url": "https://arxiv.org/abs/2610.35433"
+        },
+        {
+          "title": "Comparing classical and quantum QUBO solvers: optimality, trajectory diagnostics, and limits of solver selection",
+          "url": "https://arxiv.org/abs/2610.35126"
+        },
+        {
+          "title": "Rank -one Factored Gradient Descent without Restricted Isometry: Application to Quantum Pure State Tomography on Multi-Qubits",
+          "url": "https://arxiv.org/abs/2610.34696"
+        },
+        {
+          "title": "Asymptotic  Rank  of Complete Graph Tensors",
+          "url": "https://arxiv.org/abs/2610.34273"
+        },
+        {
+          "title": "A genus-two spectral curve of the Riemann $\u039e$-function: Real Structure and  Certified  Arithmetic Separation of Periods",
+          "url": "https://arxiv.org/abs/2610.32694"
+        },
+        {
+          "title": "Auditing the Hand-Written Inputs of Learned Access Control",
+          "url": "https://arxiv.org/abs/2610.31388"
+        },
+        {
+          "title": "Ground-Truth-First Benchmarking of Reinforcement Learning via Converse Optimality: From Smooth, Fully Observed Systems to Non-Smooth or Partially Observed Tasks",
+          "url": "https://arxiv.org/abs/2610.30954"
+        },
+        {
+          "title": "Primal-Dual Representation Learning for Low- Rank  Constrained MDPs",
+          "url": "https://arxiv.org/abs/2610.30756"
+        },
+        {
+          "title": "Adaptive Restart under Unknown KL Geometry in Stochastic Weakly-Convex Optimization",
+          "url": "https://arxiv.org/abs/2610.30650"
+        },
+        {
+          "title": "Rank  Ceiling for Twiddle-Perturbation Faults on the Forward NTT",
+          "url": "https://arxiv.org/abs/2610.30383"
+        },
+        {
+          "title": "When Thoughts Become Memory: Unifying In-Context Learning and Fine-Tuning",
+          "url": "https://arxiv.org/abs/2610.29419"
+        },
+        {
+          "title": "Irreducibility of the Cuboid Polynomial $Q_{p,q}(t)$ via the  Rank -One Chabauty-Coleman Method",
+          "url": "https://arxiv.org/abs/2610.25319"
+        },
+        {
+          "title": "Exact probability laws of random inner products: Dirichlet splines, overlaps, uncertainty, and Bargmann invariants",
+          "url": "https://arxiv.org/abs/2610.25196"
+        },
+        {
+          "title": "Energy-minimized interpolatory B-spline lofting for sequences of closed contours",
+          "url": "https://arxiv.org/abs/2610.24569"
+        },
+        {
+          "title": "When Opposite Premises Translate Identically: A Source-Conditioned Diagnostic for Multilingual Commonsense Items",
+          "url": "https://arxiv.org/abs/2610.24428"
+        },
+        {
+          "title": "Learning to Search for Executable Patternmaking from  Certified  Programs",
+          "url": "https://arxiv.org/abs/2610.21579"
+        },
+        {
+          "title": "The Lov\u00e1sz number is not alone: a continuum of R\u00e9nyi points in the entanglement-assisted spectrum of graphs",
+          "url": "https://arxiv.org/abs/2610.20775"
+        },
+        {
+          "title": "Towards  Certifiable  State Estimation under Observability Degeneracy",
+          "url": "https://arxiv.org/abs/2610.20490"
+        },
+        {
+          "title": "Benign Degeneracy for First-Order Methods in Exact Boolean Moment-SOS Relaxations",
+          "url": "https://arxiv.org/abs/2610.20270"
+        },
+        {
+          "title": "High-Girth QLDPC Codes from Circulant and Affine Permutation Matrices",
+          "url": "https://arxiv.org/abs/2610.19451"
+        }
+      ],
+      "bytes": 250528
+    },
+    {
+      "query": "query robustness",
+      "url": "https://arxiv.org/search/?query=query%20robustness&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence",
+          "url": "https://arxiv.org/abs/2610.37633"
+        },
+        {
+          "title": "Retrieve to Act: Motion Primitive Graph Retrieval for  Robust  VLA Execution",
+          "url": "https://arxiv.org/abs/2610.37215"
+        },
+        {
+          "title": "Is Your LLM Relay Serving What It Claims? A low-cost and high-power test for LLM Relay Auditing",
+          "url": "https://arxiv.org/abs/2610.37086"
+        },
+        {
+          "title": "Detecting and Mitigating  Query -Based System Prompt Leakage Attacks",
+          "url": "https://arxiv.org/abs/2610.36295"
+        },
+        {
+          "title": "PushAround: Collaborative Path Clearing via Physics-Informed Hybrid Search",
+          "url": "https://arxiv.org/abs/2610.35062"
+        },
+        {
+          "title": "SentryBench: A Cost-Sensitive Benchmark for Adversarial  Robustness  of Tool-Using LLM Agents in Public-Safety Deployments",
+          "url": "https://arxiv.org/abs/2610.34535"
+        },
+        {
+          "title": "Nemo: Efficient Caching with Index Pushdown for Disaggregated OLTP Databases",
+          "url": "https://arxiv.org/abs/2610.33306"
+        },
+        {
+          "title": "MedCaseAgent: From Multimodal Clinical Evidence to Rare Disease Case Reports",
+          "url": "https://arxiv.org/abs/2610.32258"
+        },
+        {
+          "title": "PersonalQuery-Benchmark:Evaluating Retrieval  Robustness  to Personalized User Expression Differences",
+          "url": "https://arxiv.org/abs/2610.32164"
+        },
+        {
+          "title": "Efficient and Optimal Learning of Discrete Distributions with Person-Level Privacy",
+          "url": "https://arxiv.org/abs/2610.31612"
+        },
+        {
+          "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+          "url": "https://arxiv.org/abs/2610.31329"
+        },
+        {
+          "title": "TRIAD: Benchmarking Omni-Modal Ambiguity in Multimodal Large Language Models",
+          "url": "https://arxiv.org/abs/2610.30841"
+        },
+        {
+          "title": "Asking Less, Adapting Better: Feedback-Efficient Test-Time Adaptation for Vision-and-Language Navigation",
+          "url": "https://arxiv.org/abs/2610.30643"
+        },
+        {
+          "title": "Model-intrinsic, Weight-level, and Training-free Spectral Fingerprinting for Large Language Models",
+          "url": "https://arxiv.org/abs/2610.30626"
+        },
+        {
+          "title": "Better Reasoning, Not Just Bigger Models: A Structure-Grounded Framework for Efficient and Reliable Inference",
+          "url": "https://arxiv.org/abs/2610.30611"
+        },
+        {
+          "title": "Think-Capture: Active 3D Geometry Acquisition for Spatial Reasoning in Vision-Language Models",
+          "url": "https://arxiv.org/abs/2610.29232"
+        },
+        {
+          "title": "Beyond Binary Labels: Diagnostic Evaluation of LLM Safety with Prompt-Level Rubrics",
+          "url": "https://arxiv.org/abs/2610.29225"
+        },
+        {
+          "title": "Progressive Learning from Content to Relevance to Personalization for CTR Prediction",
+          "url": "https://arxiv.org/abs/2610.29138"
+        },
+        {
+          "title": "Depth-guided Geometric Adaptation for Few-shot Image Classification",
+          "url": "https://arxiv.org/abs/2610.28856"
+        },
+        {
+          "title": "Can AI Chat Replace Traditional Search? Evidence from a RAG-based Live Events Experiment",
+          "url": "https://arxiv.org/abs/2610.28639"
+        },
+        {
+          "title": "P$^3$-VLM: A Point-based Alternative for Grounded 3D Vision-Language Models",
+          "url": "https://arxiv.org/abs/2610.28018"
+        },
+        {
+          "title": "OmniVLoc: Topo-metric Visual Localization for Omnidirectional Cameras",
+          "url": "https://arxiv.org/abs/2610.27522"
+        },
+        {
+          "title": "When PTQ Calibration Helps or Hurts: Dose-Driven Collapse and Validation-Gated Abstention in Quantized Text Embedders",
+          "url": "https://arxiv.org/abs/2610.27397"
+        },
+        {
+          "title": "MultiCard: Multiple Attribute Cardinality Estimation via Deep Learning",
+          "url": "https://arxiv.org/abs/2610.27019"
+        },
+        {
+          "title": "CaMeWM: A Causal Medical World Model for Generative Tumor Evolution and Treatment Planning",
+          "url": "https://arxiv.org/abs/2610.26923"
+        }
+      ],
+      "bytes": 258667
+    },
+    {
+      "query": "ngram retrieval",
+      "url": "https://arxiv.org/search/?query=ngram%20retrieval&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Understanding and Debugging Failures in N-Gram-Based Generative  Retrieval",
+          "url": "https://arxiv.org/abs/2606.17721"
+        },
+        {
+          "title": "Enhancing Embedding Representation Stability in Recommendation Systems with Semantic ID",
+          "url": "https://arxiv.org/abs/2504.02137"
+        },
+        {
+          "title": "Crosslingual Transfer Learning for Low-Resource Languages Based on Multilingual Colexification Graphs",
+          "url": "https://arxiv.org/abs/2305.12818"
+        },
+        {
+          "title": "Ngram -LSTM Open Rate Prediction Model (NLORP) and Error_accuracy@C metric: Simple effective, and easy to implement approach to predict open rates for marketing email",
+          "url": "https://arxiv.org/abs/2302.00651"
+        },
+        {
+          "title": "Political and Economic Patterns in COVID-19 News: From Lockdown to Vaccination",
+          "url": "https://arxiv.org/abs/2212.13875"
+        },
+        {
+          "title": "Autoregressive Search Engines: Generating Substrings as Document Identifiers",
+          "url": "https://arxiv.org/abs/2204.10628"
+        },
+        {
+          "title": "The General Index of Software Engineering Papers",
+          "url": "https://arxiv.org/abs/2204.03254"
+        },
+        {
+          "title": "Interactive query expansion for professional search applications",
+          "url": "https://arxiv.org/abs/2106.13528"
+        },
+        {
+          "title": "Using Machine Learning and Natural Language Processing to Review and Classify the Medical Literature on Cancer Susceptibility Genes",
+          "url": "https://arxiv.org/abs/1904.12617"
+        },
+        {
+          "title": "Exploiting Web Images for Dataset Construction: A Domain Robust Approach",
+          "url": "https://arxiv.org/abs/1611.07156"
+        },
+        {
+          "title": "A fully data-driven method to identify (correlated) changes in diachronic corpora",
+          "url": "https://arxiv.org/abs/1508.06374"
+        }
+      ],
+      "bytes": 65337
+    },
+    {
+      "query": "certified ranking",
+      "field": "title",
+      "url": "https://arxiv.org/search/?query=certified%20ranking&searchtype=title&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Certifying  Capacity and Gaps of the  Rank -Dependent Gain-Sharing Framework for  Ranking",
+          "url": "https://arxiv.org/abs/2610.17545"
+        },
+        {
+          "title": "Spectral-NFP:  Certified  Low- Rank  Curvature Majorization for Accelerating WMMSE",
+          "url": "https://arxiv.org/abs/2609.27369"
+        },
+        {
+          "title": "Certified  local  rank  and uniqueness barriers for a 48-term matrix-multiplication decomposition",
+          "url": "https://arxiv.org/abs/2609.13596"
+        },
+        {
+          "title": "From  Certifying   Rank  $k$ Projectors To Non-Positivity, Entanglement, And Non-Hermitian Witnesses Through Traces Of Matrix Powers",
+          "url": "https://arxiv.org/abs/2609.09557"
+        },
+        {
+          "title": "Comparison Patrols on Drifting Orders:  Certified   Rank  Maintenance, Evolving Planar Maxima, and Selection under Drifting Fitness",
+          "url": "https://arxiv.org/abs/2606.15022"
+        },
+        {
+          "title": "RankGuardPolar Private Public Finite Length Polar Codes with  Rank - Certified  Leakage",
+          "url": "https://arxiv.org/abs/2605.11356"
+        },
+        {
+          "title": "RobustMask:  Certified  Robustness against Adversarial Neural  Ranking  Attack via Randomized Masking",
+          "url": "https://arxiv.org/abs/2512.23307"
+        },
+        {
+          "title": "Neural Operators Which  Certifiably  Simultaneously Solve Infinitely Many Convex Programs using Logarithmic  Rank  and Linear Complexity",
+          "url": "https://arxiv.org/abs/2508.14995"
+        },
+        {
+          "title": "Certifying  sets of quantum observables with any full- rank  state",
+          "url": "https://arxiv.org/abs/2309.05735"
+        },
+        {
+          "title": "Disjunctive Branch-and-Bound for  Certifiably  Optimal Low- Rank  Matrix Completion",
+          "url": "https://arxiv.org/abs/2305.12292"
+        },
+        {
+          "title": "Certified  Robustness to Word Substitution  Ranking  Attack for Neural  Ranking  Models",
+          "url": "https://arxiv.org/abs/2209.06691"
+        },
+        {
+          "title": "Certified  Error Control of Candidate Set Pruning for Two-Stage Relevance  Ranking",
+          "url": "https://arxiv.org/abs/2205.09638"
+        },
+        {
+          "title": "Certifiably  Optimal Low  Rank  Factor Analysis",
+          "url": "https://arxiv.org/abs/1604.06837"
+        }
+      ],
+      "bytes": 74143
+    },
+    {
+      "query": "certified retrieval",
+      "field": "title",
+      "url": "https://arxiv.org/search/?query=certified%20retrieval&searchtype=title&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Certified  Sparse Attention via Perturbed  Retrieval",
+          "url": "https://arxiv.org/abs/2610.24991"
+        },
+        {
+          "title": "CertEx: Exact Visual  Retrieval  at Scale by  Certified  Exclusion",
+          "url": "https://arxiv.org/abs/2610.21325"
+        },
+        {
+          "title": "A Functional Pilot for  Certified  Freshness-Aware Semantic--Spatial Range  Retrieval",
+          "url": "https://arxiv.org/abs/2609.19855"
+        },
+        {
+          "title": "HCC+: Hyperbolic Guarding for  Certified  Attention  Retrieval",
+          "url": "https://arxiv.org/abs/2608.24971"
+        },
+        {
+          "title": "RAGSentinel:  Certifiable  Geometric Consensus for Robust  Retrieval -Augmented Generation",
+          "url": "https://arxiv.org/abs/2608.23965"
+        },
+        {
+          "title": "CertBind from Multimodal Connectivity to  Certifiable   Retrieval  Decisions",
+          "url": "https://arxiv.org/abs/2608.06516"
+        },
+        {
+          "title": "Certified  Domain Consistency for Multi-Domain  Retrieval : Label-Free Per-Domain Contamination Control with Conformal Risk Guarantees",
+          "url": "https://arxiv.org/abs/2607.14157"
+        },
+        {
+          "title": "Certifiably  Robust RAG against  Retrieval  Corruption",
+          "url": "https://arxiv.org/abs/2405.15556"
+        },
+        {
+          "title": "C-RAG:  Certified  Generation Risks for  Retrieval -Augmented Language Models",
+          "url": "https://arxiv.org/abs/2402.03181"
+        }
+      ],
+      "bytes": 55094
+    },
+    {
+      "query": "query perturbation",
+      "field": "title",
+      "url": "https://arxiv.org/search/?query=query%20perturbation&searchtype=title&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Probing Association Instability with Track-State  Perturbations  for Clip-Level Active Learning in  Query -Propagation Multi-Object Tracking",
+          "url": "https://arxiv.org/abs/2608.17224"
+        },
+        {
+          "title": "Testing for LLM response differences: the case of a composite null consisting of semantically irrelevant  query   perturbations",
+          "url": "https://arxiv.org/abs/2509.10963"
+        },
+        {
+          "title": "Structure Disruption: Subverting Malicious Diffusion-Based Inpainting via Self-Attention  Query   Perturbation",
+          "url": "https://arxiv.org/abs/2505.19425"
+        },
+        {
+          "title": "Object-Aware  Query   Perturbation  for Cross-Modal Image-Text Retrieval",
+          "url": "https://arxiv.org/abs/2407.12346"
+        },
+        {
+          "title": "Differentially Private Range  Queries  with Correlated Input  Perturbation",
+          "url": "https://arxiv.org/abs/2402.07066"
+        },
+        {
+          "title": "PGADA:  Perturbation -Guided Adversarial Alignment for Few-shot Learning Under the Support- Query  Shift",
+          "url": "https://arxiv.org/abs/2205.03817"
+        },
+        {
+          "title": "Automating Cyber Threat Hunting Using NLP, Automated  Query  Generation, and Genetic  Perturbation",
+          "url": "https://arxiv.org/abs/2104.11576"
+        },
+        {
+          "title": "Improving Model Robustness by Adaptively Correcting  Perturbation  Levels with Active  Queries",
+          "url": "https://arxiv.org/abs/2103.14824"
+        },
+        {
+          "title": "LiveSketch:  Query   Perturbations  for Guided Sketch-based Visual Search",
+          "url": "https://arxiv.org/abs/1904.06611"
+        },
+        {
+          "title": "An $\\tilde{O}(\\frac{1}{\\sqrt{T}})$-error online algorithm for retrieving heavily  perturbated  statistical databases in the low-dimensional  querying  mode",
+          "url": "https://arxiv.org/abs/1504.01117"
+        },
+        {
+          "title": "Building Confidential and Efficient  Query  Services in the Cloud with RASP Data  Perturbation",
+          "url": "https://arxiv.org/abs/1212.0610"
+        }
+      ],
+      "bytes": 62049
+    },
+    {
+      "query": "certified robustness ranking",
+      "field": "abstract",
+      "url": "https://arxiv.org/search/?query=certified%20robustness%20ranking&searchtype=abstract&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Ground-Truth-First Benchmarking of Reinforcement Learning via Converse Optimality: From Smooth, Fully Observed Systems to Non-Smooth or Partially Observed Tasks",
+          "url": "https://arxiv.org/abs/2610.30954"
+        },
+        {
+          "title": "Towards Certifiable State Estimation under Observability Degeneracy",
+          "url": "https://arxiv.org/abs/2610.20490"
+        },
+        {
+          "title": "LBA-CBF: Rapidly Adaptive Safety Filters via Parallel Dynamics Inference",
+          "url": "https://arxiv.org/abs/2610.08765"
+        },
+        {
+          "title": "Dynamical low-rank equilibrium computation for stochastic games between advanced persistent threats and moving target defense",
+          "url": "https://arxiv.org/abs/2610.06885"
+        },
+        {
+          "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
+          "url": "https://arxiv.org/abs/2610.00025"
+        },
+        {
+          "title": "Selective Elicitation as a Commercial Influence Channel: A Reproducible Synthetic Shopping-Agent Stress Test",
+          "url": "https://arxiv.org/abs/2609.36614"
+        },
+        {
+          "title": "PhysioTRACE: Provenance-Aware Stress Tests for Physiological Foundation Models",
+          "url": "https://arxiv.org/abs/2609.34466"
+        },
+        {
+          "title": "From Intents to Algorithms: Verified Algorithm Discovery for Transport Networks",
+          "url": "https://arxiv.org/abs/2609.27386"
+        },
+        {
+          "title": "GAUGE: A Formal Framework for Measuring Cryptographic Security under Heterogeneous Adversary Cost Models",
+          "url": "https://arxiv.org/abs/2609.17281"
+        },
+        {
+          "title": "Observation Design for Certified Control Authority: Projection--Estimability Separation and Active-Face Equivalence",
+          "url": "https://arxiv.org/abs/2609.05962"
+        },
+        {
+          "title": "JKO-RAG: Distributional Retrieval as Wasserstein Free-Energy Gradient Flow",
+          "url": "https://arxiv.org/abs/2607.24776"
+        },
+        {
+          "title": "Agentic Autoresearch for CT Reconstruction",
+          "url": "https://arxiv.org/abs/2607.22824"
+        },
+        {
+          "title": "Contact-Persistent Full Actuation for Aerial Physical Interaction",
+          "url": "https://arxiv.org/abs/2607.19708"
+        },
+        {
+          "title": "Degeneracy-Guided List Compression for Greedy Graph Coloring",
+          "url": "https://arxiv.org/abs/2607.17029"
+        },
+        {
+          "title": "Operational Concealment of Measurement Incompatibility by Quantum Channels: Rank Loss versus Contraction",
+          "url": "https://arxiv.org/abs/2607.11762"
+        },
+        {
+          "title": "Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators",
+          "url": "https://arxiv.org/abs/2607.07196"
+        },
+        {
+          "title": "A Prototypical Decision-Support Tool for Household Energy Management: A New Zealand Case Study",
+          "url": "https://arxiv.org/abs/2606.15513"
+        },
+        {
+          "title": "Robustness Verification of Recurrent Neural Networks with Abstraction Refinement",
+          "url": "https://arxiv.org/abs/2606.12490"
+        },
+        {
+          "title": "Robust certification of high-dimensional quantum devices",
+          "url": "https://arxiv.org/abs/2605.04338"
+        },
+        {
+          "title": "A Unified Calibration Framework for Coordinate and Kinematic Parameters in Dual-Arm Robots",
+          "url": "https://arxiv.org/abs/2603.14809"
+        },
+        {
+          "title": "Computable Bernstein Certificates for Cross-Fitted Clipped Covariance Estimation",
+          "url": "https://arxiv.org/abs/2602.14020"
+        },
+        {
+          "title": "Theory of Minimal Weight Perturbations in Deep Networks and its Applications for Low-Rank Activated Backdoor Attacks",
+          "url": "https://arxiv.org/abs/2601.16880"
+        },
+        {
+          "title": "RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking",
+          "url": "https://arxiv.org/abs/2512.23307"
+        },
+        {
+          "title": "Local Topological Constraints on Berry Curvature in Spin--Orbit Coupled BECs",
+          "url": "https://arxiv.org/abs/2512.19282"
+        },
+        {
+          "title": "Natural Geometry of Robust Data Attribution: From Convex Models to Deep Networks",
+          "url": "https://arxiv.org/abs/2512.09103"
+        },
+        {
+          "title": "A Compliance-Preserving Retrieval System for Aircraft MRO Task Search",
+          "url": "https://arxiv.org/abs/2511.15383"
+        },
+        {
+          "title": "Addressing Benchmarking Gaps in Large Language Models for Health and Medicine with Dynamic Red-Teaming",
+          "url": "https://arxiv.org/abs/2508.00923"
+        },
+        {
+          "title": "Detecting quantum non-Gaussianity with a single quadrature",
+          "url": "https://arxiv.org/abs/2507.23005"
+        },
+        {
+          "title": "Experimental Certification of Quantum Measurements with Maximally Mixed States",
+          "url": "https://arxiv.org/abs/2504.16484"
+        },
+        {
+          "title": "RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness",
+          "url": "https://arxiv.org/abs/2502.17159"
+        },
+        {
+          "title": "Retention Score: Quantifying Jailbreak Risks for Vision Language Models",
+          "url": "https://arxiv.org/abs/2412.17544"
+        },
+        {
+          "title": "Stochastic BIQA: Median Randomized Smoothing for Certified Blind Image Quality Assessment",
+          "url": "https://arxiv.org/abs/2411.12575"
+        },
+        {
+          "title": "Certifying sets of quantum observables with any full-rank state",
+          "url": "https://arxiv.org/abs/2309.05735"
+        },
+        {
+          "title": "A Moment-SOS Hierarchy for Robust Polynomial Matrix Inequality Optimization with SOS-Convexity",
+          "url": "https://arxiv.org/abs/2304.12628"
+        },
+        {
+          "title": "Auditing and Generating Synthetic Data with Controllable Trust Trade-offs",
+          "url": "https://arxiv.org/abs/2304.10819"
+        },
+        {
+          "title": "SkinGPT-4: An Interactive Dermatology Diagnostic System with Visual Large Language Model",
+          "url": "https://arxiv.org/abs/2304.10691"
+        },
+        {
+          "title": "GREAT Score: Global Robustness Evaluation of Adversarial Perturbation using Generative Models",
+          "url": "https://arxiv.org/abs/2304.09875"
+        },
+        {
+          "title": "Tight Certification of Adversarially Trained Neural Networks via Nonconvex Low-Rank Semidefinite Relaxations",
+          "url": "https://arxiv.org/abs/2211.17244"
+        },
+        {
+          "title": "Bearing-based Relative Localization for Robotic Swarm with Partially Mutual Observations",
+          "url": "https://arxiv.org/abs/2210.08265"
+        },
+        {
+          "title": "Certified Robustness to Word Substitution Ranking Attack for Neural Ranking Models",
+          "url": "https://arxiv.org/abs/2209.06691"
+        },
+        {
+          "title": "Adversarial robustness via robust low rank representations",
+          "url": "https://arxiv.org/abs/2007.06555"
+        },
+        {
+          "title": "On the Tightness of Semidefinite Relaxations for Certifying Robustness to Adversarial Examples",
+          "url": "https://arxiv.org/abs/2006.06759"
+        },
+        {
+          "title": "Device-independent characterization of quantum instruments",
+          "url": "https://arxiv.org/abs/1812.02628"
+        },
+        {
+          "title": "Self-testing of binary observables based on commutation",
+          "url": "https://arxiv.org/abs/1702.06845"
+        }
+      ],
+      "bytes": 229426
+    },
+    {
+      "query": "top-k robustness",
+      "url": "https://arxiv.org/search/?query=top-k%20robustness&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Strategic Calibration in LLM Multi-Agent Systems: Audited Pivot Scoring for Truthful Elicitation",
+          "url": "https://arxiv.org/abs/2610.33728"
+        },
+        {
+          "title": "CertMoE:  Robustness  Certification for Mixture-of-Experts LLMs via Routing-Aware Smoothing",
+          "url": "https://arxiv.org/abs/2610.29395"
+        },
+        {
+          "title": "VISH-ASR: Viterbi-Guided Selection of Hotwords for Speech-LLM Contextual ASR",
+          "url": "https://arxiv.org/abs/2610.27867"
+        },
+        {
+          "title": "CityPaint: A Free Lunch from 2D Diffusion for City-Scale 3D Texturing",
+          "url": "https://arxiv.org/abs/2610.27564"
+        },
+        {
+          "title": "Learnable Pilot Design for OFDM-based Deep Joint Source-Channel Coding",
+          "url": "https://arxiv.org/abs/2610.25979"
+        },
+        {
+          "title": "Congestion Price Uncertainty From Interconnection Queue by Monte Carlo Sampling",
+          "url": "https://arxiv.org/abs/2610.20950"
+        },
+        {
+          "title": "A Two-Level Clinical Novelty Prioritization Framework for Disease Trajectories Discovered from Longitudinal Electronic Health Records",
+          "url": "https://arxiv.org/abs/2610.20512"
+        },
+        {
+          "title": "Retrieval Over Training: Similarity search-based Model Selection for Time Series Anomaly Detection",
+          "url": "https://arxiv.org/abs/2610.20243"
+        },
+        {
+          "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
+          "url": "https://arxiv.org/abs/2610.19068"
+        },
+        {
+          "title": "ChampionKV: Head-Wise Adaptive Budget Allocation for KV Cache Compression",
+          "url": "https://arxiv.org/abs/2610.18026"
+        },
+        {
+          "title": "Certify the Decision, Not Every Score: Exact  Top - k  Selection from Few Evaluations",
+          "url": "https://arxiv.org/abs/2610.14996"
+        },
+        {
+          "title": "Safeguarding LLMs via Model-Agnostic Latent Safety Signals from Dark Knowledge",
+          "url": "https://arxiv.org/abs/2610.07532"
+        },
+        {
+          "title": "Distributionally  Robust  Mixture-of-Experts Training",
+          "url": "https://arxiv.org/abs/2610.07207"
+        },
+        {
+          "title": "Request Order Matters: Cache-History Sensitivity in Selective KV-Cache Reuse for Rolling Agents",
+          "url": "https://arxiv.org/abs/2610.05833"
+        },
+        {
+          "title": "Code-Switching Spoken Language Identification as Multi-Label Set Prediction",
+          "url": "https://arxiv.org/abs/2610.01450"
+        },
+        {
+          "title": "SpikeMoE: Brain-Inspired Competitive Routing for Flexible Spiking Mixture-of-Experts",
+          "url": "https://arxiv.org/abs/2610.01418"
+        },
+        {
+          "title": "Compression Footprints as Security Signals for Model-Poisoning Defense in Federated Learning",
+          "url": "https://arxiv.org/abs/2609.40312"
+        },
+        {
+          "title": "Re-ranking and Late Interaction Drive Retrieval Quality: A Controlled Comparison of RAG Strategies for Scientific Question Answering",
+          "url": "https://arxiv.org/abs/2609.38473"
+        },
+        {
+          "title": "Programs-of-Layers in LLMs through the Lens of Cortical Areas",
+          "url": "https://arxiv.org/abs/2609.31360"
+        },
+        {
+          "title": "CORE-STACK+: Meta-Learning for Deep Stacked Generalization",
+          "url": "https://arxiv.org/abs/2609.26905"
+        },
+        {
+          "title": "Co-occurrence Patterns of LoRA Adapters in Production Diffusion Model Inference Services",
+          "url": "https://arxiv.org/abs/2609.23321"
+        },
+        {
+          "title": "AsyncCouple-Flow: Asynchronous Cross-Modal Coupling and Flow Matching for Spatio-Temporal Forecasting",
+          "url": "https://arxiv.org/abs/2609.16573"
+        },
+        {
+          "title": "A Generative AI Integrated Multimodal Framework for Low-Latency Multi-Camera Person Re-Identification",
+          "url": "https://arxiv.org/abs/2609.14419"
+        },
+        {
+          "title": "Introspective Uncertainty Estimation for LLM-Based Code Generation",
+          "url": "https://arxiv.org/abs/2609.13975"
+        },
+        {
+          "title": "Pre-retrieval Query Clustering for Adaptive  Top - k  Document Retrieval in RAG Systems",
+          "url": "https://arxiv.org/abs/2609.13489"
+        },
+        {
+          "title": "Beyond Argmax: A Mechanistic Study of Semantic Retention in Frozen Foundation-Model Composition for Generalized Few-Shot 3D Segmentation",
+          "url": "https://arxiv.org/abs/2609.12099"
+        },
+        {
+          "title": "Reliability-Aware Hybrid- K  Ensemble Selection for Cervical Cytology Classification: Integrating Discrimination, Calibration, and Selective Prediction",
+          "url": "https://arxiv.org/abs/2609.09189"
+        },
+        {
+          "title": "Bridging Network Psychometrics and Artificial Intelligence: An Ising-Potts Model with LLM-Derived Weights",
+          "url": "https://arxiv.org/abs/2609.08797"
+        },
+        {
+          "title": "What Eviction Destroys: A Restore-Counterfactual Audit of Forgetting in Agent Memory",
+          "url": "https://arxiv.org/abs/2609.08279"
+        },
+        {
+          "title": "Intrinsic Temporal Adaptation of CLIP for Partially Relevant Video Retrieval",
+          "url": "https://arxiv.org/abs/2609.04800"
+        },
+        {
+          "title": "Grounded Decoding for Autoregressive Speech Enhancement via Adaptive Code-Space Grounding and Local LLM Refinement",
+          "url": "https://arxiv.org/abs/2609.04245"
+        },
+        {
+          "title": "Radiative and Dynamical Controls on the Land-Ocean Warming Contrast in Climate Models",
+          "url": "https://arxiv.org/abs/2609.03658"
+        },
+        {
+          "title": "Overfitting Mitigation via Singular Value Decomposition in Minimum Bayes Risk Decoding",
+          "url": "https://arxiv.org/abs/2609.01135"
+        },
+        {
+          "title": "A Constant Metric Distortion Protocol for Approval Voting Given Plurality Polls",
+          "url": "https://arxiv.org/abs/2608.28340"
+        },
+        {
+          "title": "Entity-Memory Graph Retrieval Improves Evidence Coverage in Long-Conversation Question Answering",
+          "url": "https://arxiv.org/abs/2608.27925"
+        },
+        {
+          "title": "ReliableRAG: Combating Misinformation in Retrieval-Augmented Generation via Reliability-Guided Reasoning Chains",
+          "url": "https://arxiv.org/abs/2608.25487"
+        },
+        {
+          "title": "MoE-based Feature Adapter for Prompt-free Binary Coronary Artery Segmentation in X-ray Angiography",
+          "url": "https://arxiv.org/abs/2608.24783"
+        },
+        {
+          "title": "EvoWiki: Incremental State Overwriting and Traceable Question Answering for Cross-Meeting Knowledge Evolution",
+          "url": "https://arxiv.org/abs/2608.23265"
+        },
+        {
+          "title": "ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts",
+          "url": "https://arxiv.org/abs/2608.22510"
+        },
+        {
+          "title": "SSR-GRPO: Integrating Supervision and Semantic IDs into Reinforcement Learning for Dense Retrieval in E-commerce",
+          "url": "https://arxiv.org/abs/2608.19595"
+        },
+        {
+          "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
+          "url": "https://arxiv.org/abs/2608.18940"
+        },
+        {
+          "title": "Architecture-Dependent Causal Transfer of Activation States Across Large Language Models",
+          "url": "https://arxiv.org/abs/2608.16347"
+        },
+        {
+          "title": "Coverage Is Not Containment: A Fundamental Limit of Admission-Time Defenses Against Coordinated Poisoning of Vector Retrieval",
+          "url": "https://arxiv.org/abs/2608.16044"
+        },
+        {
+          "title": "Stress-Testing DANTE under Detector Domain Shift: a Representation-Coherent Reanalysis of LIGO O4a",
+          "url": "https://arxiv.org/abs/2608.15166"
+        },
+        {
+          "title": "Prof- K : Probabilistic One-Pass Filtering for Efficient  Top - k  Selection",
+          "url": "https://arxiv.org/abs/2608.12573"
+        },
+        {
+          "title": "When Can You Trust Offline Evaluation of Equal-Cost  Top - k  Allocation? A Controlled, Reproducible Benchmark and Practitioner's Guide",
+          "url": "https://arxiv.org/abs/2608.12489"
+        },
+        {
+          "title": "Retrieval-Augmented Vision Foundation Models for  Robust  Leukemia Cell Classification across Multiple Microscopy Datasets",
+          "url": "https://arxiv.org/abs/2608.10657"
+        },
+        {
+          "title": "One-Time Training for All Grains: Open-Set Grain Recognition and Quantitative Analysis",
+          "url": "https://arxiv.org/abs/2608.09345"
+        },
+        {
+          "title": "PSP: Low-Overhead Packet-Level Load Balancing for Stale-State and Bandwidth-Asymmetric Networks",
+          "url": "https://arxiv.org/abs/2608.08425"
+        },
+        {
+          "title": "Fast LapSum: Exact Differentiable  Top - $k$  at Million Scale",
+          "url": "https://arxiv.org/abs/2608.06912"
+        }
+      ],
+      "bytes": 254004
+    },
+    {
+      "query": "robustness conflict graph",
+      "url": "https://arxiv.org/search/?query=robustness%20conflict%20graph&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "HiP3R: Hierarchical Pose  Graphs  for Long-Horizon 3D Reconstruction",
+          "url": "https://arxiv.org/abs/2610.31635"
+        },
+        {
+          "title": "GNN-Guided Local Refinement for Efficient Layout Decomposition with DSA-MP",
+          "url": "https://arxiv.org/abs/2610.22214"
+        },
+        {
+          "title": "Bridging the Topological Divide: Dual-Branch  Graph  Distillation with Semantic Priors for  Robust  Cold-Start Recommendation",
+          "url": "https://arxiv.org/abs/2610.19578"
+        },
+        {
+          "title": "Dynamic  Conflict  Clustering with Lightweight Learning and Strategic Repair for Distributed Constraint Satisfaction",
+          "url": "https://arxiv.org/abs/2610.15658"
+        },
+        {
+          "title": "SIGN-MAPPO: State-Intent-Aware  Graph  Multi-Agent Reinforcement Learning for Cooperative Driving under Imperfect V2X",
+          "url": "https://arxiv.org/abs/2610.15577"
+        },
+        {
+          "title": "The Invisible Scheduler: Dragging a Sprite Can Change What a Scratch Program Does",
+          "url": "https://arxiv.org/abs/2609.36147"
+        },
+        {
+          "title": "HitMem: Hierarchical Temporal 3D Memory with Multi-Modal Context-Aware Retrieval for Dynamic Environments",
+          "url": "https://arxiv.org/abs/2609.00950"
+        },
+        {
+          "title": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
+          "url": "https://arxiv.org/abs/2608.31137"
+        },
+        {
+          "title": "From Security Events to  Conflict  States: A Three-layer Cyber Defense Scenario Model for Enhanced Cyber Situational Awareness",
+          "url": "https://arxiv.org/abs/2608.27215"
+        },
+        {
+          "title": "Resilient Spectrum Scheduling for Colocated Space Networks",
+          "url": "https://arxiv.org/abs/2608.14755"
+        },
+        {
+          "title": "Structure-Guided Spatiotemporal Attention  Graph  Neural Network for Traffic Flow Prediction",
+          "url": "https://arxiv.org/abs/2608.14177"
+        },
+        {
+          "title": "CONFER:  Conflict -Aware Evidence Negotiation for Regime-Calibrated Weak Supervision in Multimodal Emotion Recognition",
+          "url": "https://arxiv.org/abs/2608.07867"
+        },
+        {
+          "title": "Degeneracy-Guided List Compression for Greedy  Graph  Coloring",
+          "url": "https://arxiv.org/abs/2607.17029"
+        },
+        {
+          "title": "MIRAGE: Defending Long-Form RAG Against Misinformation Pollution",
+          "url": "https://arxiv.org/abs/2607.05069"
+        },
+        {
+          "title": "SGF-CDNet: A Consistency-Discrepancy  Graph  Network over Semantic-Geometric Fused Nodes for Face Forgery Detection",
+          "url": "https://arxiv.org/abs/2607.03883"
+        },
+        {
+          "title": "Back to Basics: Improving Molecular Understanding in LLMs via SMILES- Graph  Translation",
+          "url": "https://arxiv.org/abs/2607.03007"
+        },
+        {
+          "title": "Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline",
+          "url": "https://arxiv.org/abs/2606.27347"
+        },
+        {
+          "title": "A Causal Model of Theory of Mind in  Conflict  for Artificial Intelligence",
+          "url": "https://arxiv.org/abs/2606.16944"
+        },
+        {
+          "title": "When Metrics Disagree: A Meta-Analysis of Knowledge- Graph -Completion Model Benchmarking",
+          "url": "https://arxiv.org/abs/2606.10287"
+        },
+        {
+          "title": "ConMem: Structured Memory-Guided Adaptation in Training-Free Multi-Agent Systems",
+          "url": "https://arxiv.org/abs/2606.08702"
+        },
+        {
+          "title": "CausalAlpha: A Real-Time Geopolitical Risk Index from OSINT Channels for Causal Discovery in Financial Markets",
+          "url": "https://arxiv.org/abs/2606.07049"
+        },
+        {
+          "title": "The Sword, Shield, and Achilles' Heel: Characterizing the Linguistic Inductive Bias of Large Language Models for Spatial Reasoning in Navigation Planning",
+          "url": "https://arxiv.org/abs/2605.31404"
+        },
+        {
+          "title": "LoRe: Adaptive Interaction-Evaluation Routing with Per-Step Interaction Budgets for Iterative  Graph  Solvers",
+          "url": "https://arxiv.org/abs/2605.29005"
+        },
+        {
+          "title": "Self-supervised Adversarial Purification for  Graph  Neural Networks",
+          "url": "https://arxiv.org/abs/2605.23239"
+        },
+        {
+          "title": "Beyond Pairs: Your Language Model is Secretly Optimizing a Preference  Graph",
+          "url": "https://arxiv.org/abs/2605.08037"
+        },
+        {
+          "title": "One World, Dual Timeline: Decoupled Spatio-Temporal Gaussian Scene  Graph  for 4D Cooperative Driving Reconstruction",
+          "url": "https://arxiv.org/abs/2605.07910"
+        },
+        {
+          "title": "PC-MNet: Dual-Level Congruity Modeling for Multimodal Sarcasm Detection via Polarity-Modulated Attention",
+          "url": "https://arxiv.org/abs/2605.02447"
+        },
+        {
+          "title": "Scalable Production Scheduling: Linear Complexity via Unified Homogeneous  Graphs",
+          "url": "https://arxiv.org/abs/2604.23841"
+        },
+        {
+          "title": "Frequency-guided Multi-level Reasoning for Scene  Graph  Generation in Video",
+          "url": "https://arxiv.org/abs/2604.17298"
+        },
+        {
+          "title": "GAM: Hierarchical  Graph -based Agentic Memory for LLM Agents",
+          "url": "https://arxiv.org/abs/2604.12285"
+        },
+        {
+          "title": "Reviewing the Reviewer:  Graph -Enhanced LLMs for E-commerce Appeal Adjudication",
+          "url": "https://arxiv.org/abs/2603.19267"
+        },
+        {
+          "title": "Are Dilemmas and  Conflicts  in LLM Alignment Solvable? A View from Priority  Graph",
+          "url": "https://arxiv.org/abs/2603.15527"
+        },
+        {
+          "title": "Super Research: Answering Highly Complex Questions with Large Language Models through Super Deep and Super Wide Research",
+          "url": "https://arxiv.org/abs/2603.00582"
+        },
+        {
+          "title": "High Dimensional Procedural Content Generation",
+          "url": "https://arxiv.org/abs/2602.18943"
+        },
+        {
+          "title": "Exponential Conic Optimization for Multi-Regime Service System Design under Congestion and Tail-Risk Control",
+          "url": "https://arxiv.org/abs/2602.16021"
+        },
+        {
+          "title": "PhysDrape: Learning Explicit Forces and Collision Constraints for Physically Realistic Garment Draping",
+          "url": "https://arxiv.org/abs/2602.08020"
+        },
+        {
+          "title": "Topology-Aware Subset Repair via Entropy-Guided Density and  Graph  Decomposition",
+          "url": "https://arxiv.org/abs/2601.19671"
+        },
+        {
+          "title": "Learning to Collaborate: An Orchestrated-Decentralized Framework for Peer-to-Peer LLM Federation",
+          "url": "https://arxiv.org/abs/2601.17133"
+        },
+        {
+          "title": "CORE: Code-based Inverse Self-Training Framework with  Graph  Expansion for Virtual Agents",
+          "url": "https://arxiv.org/abs/2601.02201"
+        },
+        {
+          "title": "Areon: Latency-Friendly and Resilient Multi-Proposer Consensus",
+          "url": "https://arxiv.org/abs/2511.23025"
+        },
+        {
+          "title": "From  Graphs  to Hypergraphs: Enhancing Aspect-Based Sentiment Analysis via Multi-Level Relational Modeling",
+          "url": "https://arxiv.org/abs/2511.14142"
+        },
+        {
+          "title": "Structure-Aware Encodings of Argumentation Properties for Clique-width",
+          "url": "https://arxiv.org/abs/2511.10767"
+        },
+        {
+          "title": "TruthfulRAG: Resolving Factual-level  Conflicts  in Retrieval-Augmented Generation with Knowledge  Graphs",
+          "url": "https://arxiv.org/abs/2511.10375"
+        },
+        {
+          "title": "Autonomous Reactive Masonry Construction using Collaborative Heterogeneous Aerial Robots with Experimental Demonstration",
+          "url": "https://arxiv.org/abs/2510.15114"
+        },
+        {
+          "title": "Measuring Physical-World Privacy Awareness of Large Language Models: An Evaluation Benchmark",
+          "url": "https://arxiv.org/abs/2510.02356"
+        },
+        {
+          "title": "KG-EDAS: A Meta-Metric Framework for Evaluating Knowledge  Graph  Completion Models",
+          "url": "https://arxiv.org/abs/2508.15357"
+        },
+        {
+          "title": "Knowledge  Graph -Infused Fine-Tuning for Structured Reasoning in Large Language Models",
+          "url": "https://arxiv.org/abs/2508.14427"
+        },
+        {
+          "title": "Causally-Guided Pairwise Transformer -- Towards Foundational Digital Twins in Process Industry",
+          "url": "https://arxiv.org/abs/2508.13111"
+        },
+        {
+          "title": "Differentiated Information Mining: A Semi-supervised Learning Framework for GNNs",
+          "url": "https://arxiv.org/abs/2508.08769"
+        },
+        {
+          "title": "Circuit-Aware SAT Solving: Guiding CDCL via Conditional Probabilities",
+          "url": "https://arxiv.org/abs/2508.04235"
+        }
+      ],
+      "bytes": 251016
+    },
+    {
+      "query": "robust ranking verification",
+      "url": "https://arxiv.org/search/?query=robust%20ranking%20verification&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Towards Certifiable State Estimation under Observability Degeneracy",
+          "url": "https://arxiv.org/abs/2610.20490"
+        },
+        {
+          "title": "Diffusion-Generated Image Watermarking: A Two-Axis Taxonomy and Three Protocol-Bounded Case Studies",
+          "url": "https://arxiv.org/abs/2610.09755"
+        },
+        {
+          "title": "Economic resources, sporting efficiency and uncertainty: a stochastic optimization model of football performance in Africa",
+          "url": "https://arxiv.org/abs/2610.06967"
+        },
+        {
+          "title": "How  Robust  Are Neural Audio Codecs for African Speech? A Multi-Task Benchmark and the Limits of Perceptual Quality",
+          "url": "https://arxiv.org/abs/2610.00154"
+        },
+        {
+          "title": "From Intents to Algorithms: Verified Algorithm Discovery for Transport Networks",
+          "url": "https://arxiv.org/abs/2609.27386"
+        },
+        {
+          "title": "New lower bounds for CDS and $f$-routing",
+          "url": "https://arxiv.org/abs/2609.24291"
+        },
+        {
+          "title": "Fine-Grained Anomaly Perception in Wild UGC-Enhanced Images: A Comprehensive Dataset and Difference-Fusion Framework",
+          "url": "https://arxiv.org/abs/2609.02529"
+        },
+        {
+          "title": "World-Coherent Decoding: Self-Verifying Test-Time Planning for World Action Models",
+          "url": "https://arxiv.org/abs/2609.02159"
+        },
+        {
+          "title": "Toward Sub-1 kB Identity-Preserving Face Compression: A Benchmark of Codecs, a Custom Learned Codec, and Studies of Resolution, Demographic Fairness, Recompression, and Adversarial  Robustness",
+          "url": "https://arxiv.org/abs/2608.22866"
+        },
+        {
+          "title": "SR-TL1: A Square-Root TL1-Norm Framework for  Robust  SMV DoA Estimation under Highly-Coherent Dictionaries",
+          "url": "https://arxiv.org/abs/2608.20943"
+        },
+        {
+          "title": "VOS-Agent: The 1st Place Solution for the 8th LSVOS Challenge (MOSEv2 Track)",
+          "url": "https://arxiv.org/abs/2608.12721"
+        },
+        {
+          "title": "A corpus-specific clinical RAG system matches or outperforms newer frontier LLMs on HealthBench",
+          "url": "https://arxiv.org/abs/2608.12138"
+        },
+        {
+          "title": "TRACE Bench: Task-driven Roleplay Agentic Checklist Evaluation",
+          "url": "https://arxiv.org/abs/2608.11236"
+        },
+        {
+          "title": "LLM Ensemble Fault Classification for Automotive HiL Validation",
+          "url": "https://arxiv.org/abs/2608.10710"
+        },
+        {
+          "title": "VERDICT: Training-Free Step-Wise  Verification  of Multimodal Reasoning via Disagreement-Aware Consensus",
+          "url": "https://arxiv.org/abs/2608.10665"
+        },
+        {
+          "title": "Improving Debugging in  Verification -Aware Languages Through Automated Fault Localization: A Case Study in Dafny",
+          "url": "https://arxiv.org/abs/2608.05399"
+        },
+        {
+          "title": "LEAP: Lean Environment-Feedback via Adaptive Pruning for Code RL in GPU Kernel Generation",
+          "url": "https://arxiv.org/abs/2608.01804"
+        },
+        {
+          "title": "SymPerturb converts symptom-network structure into testable intervention priorities",
+          "url": "https://arxiv.org/abs/2607.28673"
+        },
+        {
+          "title": "RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs",
+          "url": "https://arxiv.org/abs/2607.20116"
+        },
+        {
+          "title": "MTVDiff: Multimodal Conditional Latent Diffusion for Enhanced Thermal-to-Visible Face Translation",
+          "url": "https://arxiv.org/abs/2607.19886"
+        },
+        {
+          "title": "DS@GT ARC at AnimalCLEF 2026: Species-Aware Graph Construction for Multi-Species Animal Re-Identification",
+          "url": "https://arxiv.org/abs/2607.16453"
+        },
+        {
+          "title": "A Geometry-Limited Identification Floor and Its Consequences for Voice-Clone Attribution in Professional Voice Actors",
+          "url": "https://arxiv.org/abs/2607.15694"
+        },
+        {
+          "title": "Compete Then Collaborate: Frontier AI Teachers Build a Verifiable Curriculum to Improve a Coding Student Beyond Imitation",
+          "url": "https://arxiv.org/abs/2607.08255"
+        },
+        {
+          "title": "Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators",
+          "url": "https://arxiv.org/abs/2607.07196"
+        },
+        {
+          "title": "A Prototypical Decision-Support Tool for Household Energy Management: A New Zealand Case Study",
+          "url": "https://arxiv.org/abs/2606.15513"
+        },
+        {
+          "title": "Robustness   Verification  of Recurrent Neural Networks with Abstraction Refinement",
+          "url": "https://arxiv.org/abs/2606.12490"
+        },
+        {
+          "title": "Intrinsic Selection and Particle Resampling for Inference-Time Scaling Beyond Domain Verifiability",
+          "url": "https://arxiv.org/abs/2606.08850"
+        },
+        {
+          "title": "A Training-Efficient Transformer-Based Anti-Spoofing Network for Logical Access in ASVspoof 5",
+          "url": "https://arxiv.org/abs/2606.02980"
+        },
+        {
+          "title": "Same Patient, Different Words, Different Diagnosis? Evaluating Semantic Stability in Clinical LLMs",
+          "url": "https://arxiv.org/abs/2605.30646"
+        },
+        {
+          "title": "LoRA-Key: User-Centric LoRA Watermarking for Text-to-Image Diffusion Models",
+          "url": "https://arxiv.org/abs/2605.29569"
+        },
+        {
+          "title": "OmniEgo-R$^2$: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026",
+          "url": "https://arxiv.org/abs/2605.24481"
+        },
+        {
+          "title": "A Nash Equilibrium Framework For Training-Free Multimodal Step  Verification",
+          "url": "https://arxiv.org/abs/2605.20033"
+        },
+        {
+          "title": "CMAG: Concept-Scaffolded Retrieval for Marketplace Avatar Generation",
+          "url": "https://arxiv.org/abs/2605.18680"
+        },
+        {
+          "title": "BIDO: A Biometric Identity Online Authentication Framework",
+          "url": "https://arxiv.org/abs/2605.16908"
+        },
+        {
+          "title": "Efficient Transported Distributional and Quantile Treatment Effects with Surrogate-Assisted Missing Primary Outcomes",
+          "url": "https://arxiv.org/abs/2605.02154"
+        },
+        {
+          "title": "Geometric and Spectral Alignment for Deep Neural Network I",
+          "url": "https://arxiv.org/abs/2605.02108"
+        },
+        {
+          "title": "Beyond Shortcuts: Mitigating Visual Illusions in Frozen VLMs via Qualitative Reasoning",
+          "url": "https://arxiv.org/abs/2604.26250"
+        },
+        {
+          "title": "Green-Red Watermarking for Recommender Systems",
+          "url": "https://arxiv.org/abs/2604.23568"
+        },
+        {
+          "title": "Complete Cyclic Subtask Graphs for Tool-Using LLM Agents: Flexibility, Cost, and Bottlenecks in Long-Horizon Workflows",
+          "url": "https://arxiv.org/abs/2604.22820"
+        },
+        {
+          "title": "Fact4ac at the Financial Misinformation Detection Challenge Task: Reference-Free Financial Misinformation Detection via Fine-Tuning and Few-Shot Prompting of Large Language Models",
+          "url": "https://arxiv.org/abs/2604.14640"
+        },
+        {
+          "title": "Authorship Impersonation via LLM Prompting does not Evade Authorship  Verification  Methods",
+          "url": "https://arxiv.org/abs/2603.29454"
+        },
+        {
+          "title": "MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome",
+          "url": "https://arxiv.org/abs/2603.28407"
+        },
+        {
+          "title": "PeopleSearchBench: Evaluating AI-Powered People Search Platforms with Criteria-Grounded  Verification",
+          "url": "https://arxiv.org/abs/2603.27476"
+        },
+        {
+          "title": "What and When to Learn: CURriculum  Ranking  Loss for Large-Scale Speaker  Verification",
+          "url": "https://arxiv.org/abs/2603.24432"
+        },
+        {
+          "title": "InfiCoEvalChain: A Blockchain-Based Decentralized Framework for Collaborative LLM Evaluation",
+          "url": "https://arxiv.org/abs/2602.08229"
+        },
+        {
+          "title": "From Task Solving to  Robust  Real-World Adaptation in LLM Agents",
+          "url": "https://arxiv.org/abs/2602.02760"
+        },
+        {
+          "title": "From Classification to  Ranking : Enhancing LLM Reasoning Capabilities for MBTI Personality Detection",
+          "url": "https://arxiv.org/abs/2601.18582"
+        },
+        {
+          "title": "ForgetMark: Stealthy Fingerprint Embedding via Targeted Unlearning in Language Models",
+          "url": "https://arxiv.org/abs/2601.08189"
+        },
+        {
+          "title": "RLPO: Residual Listwise Preference Optimization for Long-Context Review  Ranking",
+          "url": "https://arxiv.org/abs/2601.07449"
+        },
+        {
+          "title": "Privacy-Preserving AI-Enabled Decentralized Learning and Employment Records System",
+          "url": "https://arxiv.org/abs/2601.02720"
+        }
+      ],
+      "bytes": 261023
+    },
+    {
+      "query": "robust top-k query",
+      "url": "https://arxiv.org/search/?query=robust%20top-k%20query&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Retrieval Over Training: Similarity search-based Model Selection for Time Series Anomaly Detection",
+          "url": "https://arxiv.org/abs/2610.20243"
+        },
+        {
+          "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
+          "url": "https://arxiv.org/abs/2610.19068"
+        },
+        {
+          "title": "Certify the Decision, Not Every Score: Exact  Top - k  Selection from Few Evaluations",
+          "url": "https://arxiv.org/abs/2610.14996"
+        },
+        {
+          "title": "Safeguarding LLMs via Model-Agnostic Latent Safety Signals from Dark Knowledge",
+          "url": "https://arxiv.org/abs/2610.07532"
+        },
+        {
+          "title": "Re-ranking and Late Interaction Drive Retrieval Quality: A Controlled Comparison of RAG Strategies for Scientific Question Answering",
+          "url": "https://arxiv.org/abs/2609.38473"
+        },
+        {
+          "title": "A Generative AI Integrated Multimodal Framework for Low-Latency Multi-Camera Person Re-Identification",
+          "url": "https://arxiv.org/abs/2609.14419"
+        },
+        {
+          "title": "Pre-retrieval  Query  Clustering for Adaptive  Top - k  Document Retrieval in RAG Systems",
+          "url": "https://arxiv.org/abs/2609.13489"
+        },
+        {
+          "title": "Intrinsic Temporal Adaptation of CLIP for Partially Relevant Video Retrieval",
+          "url": "https://arxiv.org/abs/2609.04800"
+        },
+        {
+          "title": "Entity-Memory Graph Retrieval Improves Evidence Coverage in Long-Conversation Question Answering",
+          "url": "https://arxiv.org/abs/2608.27925"
+        },
+        {
+          "title": "ReliableRAG: Combating Misinformation in Retrieval-Augmented Generation via Reliability-Guided Reasoning Chains",
+          "url": "https://arxiv.org/abs/2608.25487"
+        },
+        {
+          "title": "Coverage Is Not Containment: A Fundamental Limit of Admission-Time Defenses Against Coordinated Poisoning of Vector Retrieval",
+          "url": "https://arxiv.org/abs/2608.16044"
+        },
+        {
+          "title": "One-Time Training for All Grains: Open-Set Grain Recognition and Quantitative Analysis",
+          "url": "https://arxiv.org/abs/2608.09345"
+        },
+        {
+          "title": "RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs",
+          "url": "https://arxiv.org/abs/2607.20116"
+        },
+        {
+          "title": "Total Variation Distance Estimation in Autoregressive Models",
+          "url": "https://arxiv.org/abs/2607.19510"
+        },
+        {
+          "title": "A Step Forward Towards Trustworthy Risk-Aware Facial Retrieval (RA-FR)",
+          "url": "https://arxiv.org/abs/2607.16279"
+        },
+        {
+          "title": "Combating Textual Noise and Redundancy: Entropy-Aware Dense Visual Token Pruning",
+          "url": "https://arxiv.org/abs/2607.02484"
+        },
+        {
+          "title": "AVOC: Enhancing Hour-Level Audio-Video Understanding in Omni-Modal LLMs via Retrieval-Inspired Token Compression",
+          "url": "https://arxiv.org/abs/2606.24286"
+        },
+        {
+          "title": "EHR-Complex: Benchmarking Medical Agents for Complex Clinical Reasoning",
+          "url": "https://arxiv.org/abs/2606.23301"
+        },
+        {
+          "title": "Tail-Aware Adaptive- k :  Query -Adaptive Context Selection for Retrieval-Augmented Generation",
+          "url": "https://arxiv.org/abs/2606.11907"
+        },
+        {
+          "title": "AdaGATE: Adaptive Gap-Aware Token-Efficient Evidence Assembly for Multi-Hop Retrieval-Augmented Generation",
+          "url": "https://arxiv.org/abs/2605.05245"
+        },
+        {
+          "title": "OCRR: A Benchmark for Online Correction Recovery under Distribution Shift",
+          "url": "https://arxiv.org/abs/2605.03153"
+        },
+        {
+          "title": "HingeMem: Boundary Guided Long-Term Memory with  Query  Adaptive Retrieval for Scalable Dialogues",
+          "url": "https://arxiv.org/abs/2604.06845"
+        },
+        {
+          "title": "Can You Trust the Vectors in Your Vector Database? Black-Hole Attack from Embedding Space Defects",
+          "url": "https://arxiv.org/abs/2604.05480"
+        },
+        {
+          "title": "LITTA: Late-Interaction and Test-Time Alignment for Visually-Grounded Multimodal Retrieval",
+          "url": "https://arxiv.org/abs/2603.26683"
+        },
+        {
+          "title": "ProGRank: Probe-Gradient Reranking to Defend Dense-Retriever RAG from Corpus Poisoning",
+          "url": "https://arxiv.org/abs/2603.22934"
+        },
+        {
+          "title": "ToolFlood: Beyond Selection -- Hiding Valid Tools from LLM Agents via Semantic Covering",
+          "url": "https://arxiv.org/abs/2603.13950"
+        },
+        {
+          "title": "Adversarial Hubness Detector: Detecting Hubness Poisoning in Retrieval-Augmented Generation Systems",
+          "url": "https://arxiv.org/abs/2602.22427"
+        },
+        {
+          "title": "Real-Time Loop Closure Detection in Visual SLAM via NetVLAD and Faiss",
+          "url": "https://arxiv.org/abs/2602.01673"
+        },
+        {
+          "title": "$\\mathbb{R}^{2k}$ is Theoretically Large Enough for Embedding-based  Top - $k$  Retrieval",
+          "url": "https://arxiv.org/abs/2601.20844"
+        },
+        {
+          "title": "S$^3$-Attention:Attention-Aligned Endogenous Retrieval for Memory-Bounded Long-Context Inference",
+          "url": "https://arxiv.org/abs/2601.17702"
+        },
+        {
+          "title": "De-Anonymization at Scale via Tournament-Style Attribution",
+          "url": "https://arxiv.org/abs/2601.12407"
+        },
+        {
+          "title": "LLM-Assisted Pseudo-Relevance Feedback",
+          "url": "https://arxiv.org/abs/2601.11238"
+        },
+        {
+          "title": "AdaGReS:Adaptive Greedy Context Selection via Redundancy-Aware Scoring for Token-Budgeted RAG",
+          "url": "https://arxiv.org/abs/2512.25052"
+        },
+        {
+          "title": "Explicit and Non-asymptotic  Query  Complexities of Rank-Based Zeroth-order Algorithms on Smooth Functions",
+          "url": "https://arxiv.org/abs/2512.16200"
+        },
+        {
+          "title": "Encoder-Free Knowledge-Graph Reasoning with LLMs via Hyperdimensional Path Retrieval",
+          "url": "https://arxiv.org/abs/2512.09369"
+        },
+        {
+          "title": "From Features to Reference Points: Lightweight and Adaptive Fusion for Cooperative Autonomous Driving",
+          "url": "https://arxiv.org/abs/2511.18757"
+        },
+        {
+          "title": "PRISM: Prompt-Refined In-Context System Modelling for Financial Retrieval",
+          "url": "https://arxiv.org/abs/2511.14130"
+        },
+        {
+          "title": "Towards LLM-Powered Task-Aware Retrieval of Scientific Workflows for Galaxy",
+          "url": "https://arxiv.org/abs/2511.01757"
+        },
+        {
+          "title": "Cognitive Alignment in Personality Reasoning: Leveraging Prototype Theory for MBTI Inference",
+          "url": "https://arxiv.org/abs/2511.00115"
+        },
+        {
+          "title": "CPATTA: Conformal Supervision Allocation For Active Test-Time Adaptation",
+          "url": "https://arxiv.org/abs/2509.25692"
+        },
+        {
+          "title": "Adversarial Distilled Retrieval-Augmented Guarding Model for Online Malicious Intent Detection",
+          "url": "https://arxiv.org/abs/2509.14622"
+        },
+        {
+          "title": "Filtered Approximate Nearest Neighbor Search: A Unified Benchmark and Systematic Experimental Study [Experiment, Analysis & Benchmark]",
+          "url": "https://arxiv.org/abs/2509.07789"
+        },
+        {
+          "title": "CARPO: Leveraging Listwise Learning-to-Rank for Context-Aware  Query  Plan Optimization",
+          "url": "https://arxiv.org/abs/2509.03102"
+        },
+        {
+          "title": "Clone What You Can't Steal: Black-Box LLM Replication via Logit Leakage and Distillation",
+          "url": "https://arxiv.org/abs/2509.00973"
+        },
+        {
+          "title": "GMOR: A Lightweight  Robust  Point Cloud Registration Framework via Geometric Maximum Overlapping",
+          "url": "https://arxiv.org/abs/2508.17427"
+        },
+        {
+          "title": "F4-ITS: Fine-grained Feature Fusion for Food Image-Text Search",
+          "url": "https://arxiv.org/abs/2508.17037"
+        },
+        {
+          "title": "K -order Ranking Preference Optimization for Large Language Models",
+          "url": "https://arxiv.org/abs/2506.00441"
+        },
+        {
+          "title": "CPA-RAG:Covert Poisoning Attacks on Retrieval-Augmented Generation in Large Language Models",
+          "url": "https://arxiv.org/abs/2505.19864"
+        },
+        {
+          "title": "Generalizable Vision-Language Few-Shot Adaptation with Predictive Prompts and Negative Learning",
+          "url": "https://arxiv.org/abs/2505.11758"
+        },
+        {
+          "title": "AttentionDrop: A Novel Regularization Method for Transformer Models",
+          "url": "https://arxiv.org/abs/2504.12088"
+        }
+      ],
+      "bytes": 258794
+    },
+    {
+      "query": "top-k verification",
+      "url": "https://arxiv.org/search/?query=top-k%20verification&searchtype=all&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "ASNER: Software Architecture Recovery with Adaptive Semantic Neighborhoods and Evidence-Grounded Refinement",
+          "url": "https://arxiv.org/abs/2610.36894"
+        },
+        {
+          "title": "VISH-ASR: Viterbi-Guided Selection of Hotwords for Speech-LLM Contextual ASR",
+          "url": "https://arxiv.org/abs/2610.27867"
+        },
+        {
+          "title": "Efficient Test-time Adaptation through Candidate  Verification  and Divergence Shifts",
+          "url": "https://arxiv.org/abs/2610.06147"
+        },
+        {
+          "title": "Agentic-ZTA: A Multi-Agent Architecture for Autonomous Zero Trust Enforcement",
+          "url": "https://arxiv.org/abs/2610.05782"
+        },
+        {
+          "title": "RVQ Position Aware Speculative Decoding for On Device Text to Speech",
+          "url": "https://arxiv.org/abs/2609.37007"
+        },
+        {
+          "title": "RheoSampling: Resolving the One-Hot Dilemma in Stochastic Dynamic-Tree Speculative Decoding",
+          "url": "https://arxiv.org/abs/2609.21827"
+        },
+        {
+          "title": "TATK: Triple-Aware  Top - K  Learning with Knowledge-Grounded  Verification  for LLM-based Sequential Recommendation",
+          "url": "https://arxiv.org/abs/2609.14565"
+        },
+        {
+          "title": "Recommendation Retrievers Need Verifiers: Universal Generative Reranking for Sequential Recommendations",
+          "url": "https://arxiv.org/abs/2609.12270"
+        },
+        {
+          "title": "SureRoute: Toward a Hallucination-Free Self-Improving Platform for Retrosynthesis",
+          "url": "https://arxiv.org/abs/2609.05450"
+        },
+        {
+          "title": "G2D: Generative-to-Discriminative Collaborative Inference for Zero-Shot Image Classification",
+          "url": "https://arxiv.org/abs/2608.26744"
+        },
+        {
+          "title": "Ghost Echoes: Semantic Erasure Failure in Retrieval-Backed Applications",
+          "url": "https://arxiv.org/abs/2608.20352"
+        },
+        {
+          "title": "Logos: Certified Order-Sensitive SQL Rewrites with Mechanized Semantics and LLM Guidance",
+          "url": "https://arxiv.org/abs/2608.15709"
+        },
+        {
+          "title": "From Positionwise Confidence to Prefix Scheduling: Verifier Skipping in Speculative Decoding",
+          "url": "https://arxiv.org/abs/2608.14787"
+        },
+        {
+          "title": "The Trust-Free Aggregation Layer of the Unicity Infrastructure",
+          "url": "https://arxiv.org/abs/2608.05316"
+        },
+        {
+          "title": "AsymSpec: Efficient Cloud-Edge Speculative Decoding over Asymmetric Networks",
+          "url": "https://arxiv.org/abs/2608.04974"
+        },
+        {
+          "title": "Automorphism-Induced Non-Canonicity in  Top - k  Explanations of Graph Neural Networks",
+          "url": "https://arxiv.org/abs/2607.26344"
+        },
+        {
+          "title": "A Knowledge-Grounded Behavioral Reasoning Framework for Training-Free Urban Healthcare OD Prediction",
+          "url": "https://arxiv.org/abs/2607.21906"
+        },
+        {
+          "title": "SonicSampler: Unified Tile-Aware Kernels for LLM Sampling and Speculative  Verification",
+          "url": "https://arxiv.org/abs/2607.20475"
+        },
+        {
+          "title": "RIM: A Retrieval-In-Matching Framework for Cross-Domain Global Visual Localization of UAVs",
+          "url": "https://arxiv.org/abs/2607.20116"
+        },
+        {
+          "title": "Where Does Agent Reliability Come From? A Cross-Benchmark Decomposition of  Verification  Loops, Specialist Models, and Scaffolding in a Production Enterprise Agent",
+          "url": "https://arxiv.org/abs/2607.17044"
+        },
+        {
+          "title": "Trees from Marginals: Autoregressive drafting with factorized priors",
+          "url": "https://arxiv.org/abs/2607.06763"
+        },
+        {
+          "title": "D^2SD: Accelerating Speculative Decoding with Dual Diffusion Draft Models",
+          "url": "https://arxiv.org/abs/2606.04446"
+        },
+        {
+          "title": "MarginGate: Sparse Margin-Triggered  Verification  for Batch-Invariant LLM Inference",
+          "url": "https://arxiv.org/abs/2605.30218"
+        },
+        {
+          "title": "Engineering Quantum Criticality in the Integer Quantum Hall Regime through a Screening Layer",
+          "url": "https://arxiv.org/abs/2605.30129"
+        },
+        {
+          "title": "PipeANN-Filter: An Efficient Filtered Vector Search System on SSD",
+          "url": "https://arxiv.org/abs/2605.17992"
+        },
+        {
+          "title": "From Indiscriminate to Targeted: Functionally Critical Signal-Driven Assertion Generation using LLMs for Efficient RTL  Verification",
+          "url": "https://arxiv.org/abs/2604.08932"
+        },
+        {
+          "title": "HIVE: Query, Hypothesize, Verify An LLM Framework for Multimodal Reasoning-Intensive Retrieval",
+          "url": "https://arxiv.org/abs/2604.07220"
+        },
+        {
+          "title": "P$^2$RAG: Efficient Privacy-Preserving RAG Service Supporting Arbitrary  Top - $k$  Retrieval",
+          "url": "https://arxiv.org/abs/2603.14778"
+        },
+        {
+          "title": "V3DB: Audit-on-Demand Zero-Knowledge Proofs for Verifiable Vector Search over Committed Snapshots",
+          "url": "https://arxiv.org/abs/2603.03065"
+        },
+        {
+          "title": "Verification  and Identification in ECG biometric on large-scale",
+          "url": "https://arxiv.org/abs/2602.02776"
+        },
+        {
+          "title": "Top - k  on a Budget: Adaptive Ranking with Weak and Strong Oracles",
+          "url": "https://arxiv.org/abs/2601.20989"
+        },
+        {
+          "title": "RLPO: Residual Listwise Preference Optimization for Long-Context Review Ranking",
+          "url": "https://arxiv.org/abs/2601.07449"
+        },
+        {
+          "title": "CodeFlowLM: Incremental Just-In-Time Defect Prediction with Pretrained Language Models and Exploratory Insights into Defect Localization",
+          "url": "https://arxiv.org/abs/2512.00231"
+        },
+        {
+          "title": "Global Resolution: Optimal Multi-Draft Speculative Sampling via Convex Minimization",
+          "url": "https://arxiv.org/abs/2511.15898"
+        },
+        {
+          "title": "Natural Language Edge Labelling: Decoupling Intent from Execution in Structured LM Reasoning",
+          "url": "https://arxiv.org/abs/2510.04817"
+        },
+        {
+          "title": "Higher-order spacings in the superposed spectra of random matrices with comparison to spacing ratios and application to complex systems",
+          "url": "https://arxiv.org/abs/2510.00503"
+        },
+        {
+          "title": "Bounded PCTL Model Checking of Large Language Model Outputs",
+          "url": "https://arxiv.org/abs/2509.18836"
+        },
+        {
+          "title": "Discrete optimal transport is a strong audio adversarial attack",
+          "url": "https://arxiv.org/abs/2509.14959"
+        },
+        {
+          "title": "ClaimIQ at CheckThat! 2025: Comparing Prompted and Fine-Tuned Language Models for Verifying Numerical Claims",
+          "url": "https://arxiv.org/abs/2509.11492"
+        },
+        {
+          "title": "MeVe: A Modular System for Memory  Verification  and Effective Context Control in Language Models",
+          "url": "https://arxiv.org/abs/2509.01514"
+        },
+        {
+          "title": "Scalable and Precise Patch Robustness Certification for Deep Learning Models with  Top - k  Predictions",
+          "url": "https://arxiv.org/abs/2507.23335"
+        },
+        {
+          "title": "Knowledge Fusion via Bidirectional Information Aggregation",
+          "url": "https://arxiv.org/abs/2507.08704"
+        },
+        {
+          "title": "Leveraging Large Language Models for Information  Verification  -- an Engineering Approach",
+          "url": "https://arxiv.org/abs/2506.18274"
+        },
+        {
+          "title": "APOLLO: Automated LLM and Lean Collaboration for Advanced Formal Reasoning",
+          "url": "https://arxiv.org/abs/2505.05758"
+        },
+        {
+          "title": "TextInPlace: Indoor Visual Place Recognition in Repetitive Structures with Scene Text Spotting and  Verification",
+          "url": "https://arxiv.org/abs/2503.06501"
+        },
+        {
+          "title": "NetChain: Authenticated Blockchain  Top - k  Graph Data Queries and its Application in Asset Management",
+          "url": "https://arxiv.org/abs/2501.15077"
+        },
+        {
+          "title": "Gaussian Rank  Verification",
+          "url": "https://arxiv.org/abs/2501.14142"
+        },
+        {
+          "title": "SimGRAG: Leveraging Similar Subgraphs for Knowledge Graphs Driven Retrieval-Augmented Generation",
+          "url": "https://arxiv.org/abs/2412.15272"
+        },
+        {
+          "title": "Efficient Inference for Large Language Model-based Generative Recommendation",
+          "url": "https://arxiv.org/abs/2410.05165"
+        },
+        {
+          "title": "Revisiting Black-Box Model Ownership  Verification  through Information Theory",
+          "url": "https://arxiv.org/abs/2409.06130"
+        }
+      ],
+      "bytes": 252741
+    },
+    {
+      "query": "top-k robustness",
+      "field": "title",
+      "url": "https://arxiv.org/search/?query=top-k%20robustness&searchtype=title&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Scalable and Precise Patch  Robustness  Certification for Deep Learning Models with  Top - k  Predictions",
+          "url": "https://arxiv.org/abs/2507.23335"
+        },
+        {
+          "title": "Efficient and Responsible Adaptation of Large Language Models for  Robust  and Equitable  Top - k  Recommendations",
+          "url": "https://arxiv.org/abs/2501.04762"
+        },
+        {
+          "title": "Efficient and Responsible Adaptation of Large Language Models for  Robust   Top - k  Recommendations",
+          "url": "https://arxiv.org/abs/2405.00824"
+        },
+        {
+          "title": "Robust  Representation Learning for Unified Online  Top - K  Recommendation",
+          "url": "https://arxiv.org/abs/2310.15492"
+        },
+        {
+          "title": "Almost Tight L0-norm Certified  Robustness  of  Top - k  Predictions against Adversarial Perturbations",
+          "url": "https://arxiv.org/abs/2011.07633"
+        },
+        {
+          "title": "Certified  Robustness  for  Top - k  Predictions against Adversarial Perturbations via Randomized Smoothing",
+          "url": "https://arxiv.org/abs/1912.09899"
+        },
+        {
+          "title": "Incremental  Top - k  List Comparison Approach to  Robust  Multi-Structure Model Fitting",
+          "url": "https://arxiv.org/abs/1105.6277"
+        }
+      ]
+    },
+    {
+      "query": "top-k certification",
+      "field": "title",
+      "url": "https://arxiv.org/search/?query=top-k%20certification&searchtype=title&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Scalable and Precise Patch Robustness  Certification  for Deep Learning Models with  Top - k  Predictions",
+          "url": "https://arxiv.org/abs/2507.23335"
+        }
+      ]
+    },
+    {
+      "query": "ranking robustness",
+      "field": "title",
+      "url": "https://arxiv.org/search/?query=ranking%20robustness&searchtype=title&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Robust  exponential lower bounds for fermionic and bosonic Gaussian  ranks",
+          "url": "https://arxiv.org/abs/2610.02172"
+        },
+        {
+          "title": "Reverse Item Response Theory for Sparsity- Robust   Ranking  in Fragmented Cancer Drug-Response Matrices",
+          "url": "https://arxiv.org/abs/2610.00002"
+        },
+        {
+          "title": "Robust  low- rank  tensor completion via factorized weighted tensor schatten-p norm minimization",
+          "url": "https://arxiv.org/abs/2609.14307"
+        },
+        {
+          "title": "Robust   Rank  Aggregation for Multimodal Speech-Based Alzheimer's Disease Detection",
+          "url": "https://arxiv.org/abs/2609.09948"
+        },
+        {
+          "title": "Are Near-Tied LLM  Rankings   Robust  to Family-DIF-Guided Benchmark Recomposition?",
+          "url": "https://arxiv.org/abs/2609.00482"
+        },
+        {
+          "title": "Adaptive Doubly  Robust  Off-Policy Evaluation for  Ranking  Policies under Diverse User Behavior",
+          "url": "https://arxiv.org/abs/2608.29600"
+        },
+        {
+          "title": "High-order  robust  basis-update & Galerkin integrators for dynamical low- rank  approximation",
+          "url": "https://arxiv.org/abs/2608.27749"
+        },
+        {
+          "title": "Incident-Data  Robustness  Analysis of the OWASP Top 10 for LLM Applications (2026): How a Community-Expert  Ranking  Holds Up Against a Large-Scale LLM Incident Corpus",
+          "url": "https://arxiv.org/abs/2608.19266"
+        },
+        {
+          "title": "DrEM: Dual-Side  Robust  Ensemble  Ranking  from Noisy User Preference Predictions in Video Recommendation",
+          "url": "https://arxiv.org/abs/2608.12778"
+        },
+        {
+          "title": "ARC: Augmented- Rank  Conformalization for Changepoint Localization --- Finite-Sample Validity and Distribution- Robust  Efficiency",
+          "url": "https://arxiv.org/abs/2608.08424"
+        },
+        {
+          "title": "Robust  Low-Tubal- Rank  Tensor Completion under Cross-Concentrated Sampling",
+          "url": "https://arxiv.org/abs/2608.03928"
+        },
+        {
+          "title": "Breaking the Periodicity Assumption:  Robust  Tensorial Multi-View Clustering via Graph-Spectral Low- Rank  Learning",
+          "url": "https://arxiv.org/abs/2607.25295"
+        },
+        {
+          "title": "To Erase, or Not to Erase:  Robust  Training-Free Concept Erasure with Preservation aware Adaptive  Ranked  Subspace Expansion",
+          "url": "https://arxiv.org/abs/2607.23492"
+        },
+        {
+          "title": "ThRIve: Thermally  Robust  CNN Inference via Low- Rank  Adaptation in Heterogeneous PIM Architectures",
+          "url": "https://arxiv.org/abs/2607.17091"
+        },
+        {
+          "title": "DARA: Degradation-Aware Low- Rank  Residual Adaptation with Original-to-Corrupted Distillation for Corruption- Robust  Animal Re-Identification",
+          "url": "https://arxiv.org/abs/2607.16644"
+        },
+        {
+          "title": "RoME:  Robust  Mixture of Low- Rank  Experts against Multiple Adversarial Perturbations",
+          "url": "https://arxiv.org/abs/2607.06109"
+        },
+        {
+          "title": "Rank -Order N-of-M Codes for Sparse Distributed Memory: Disentangling Representation and Learning Effects in Noise  Robustness  Against Contemporary Neuromorphic Architectures",
+          "url": "https://arxiv.org/abs/2607.02967"
+        },
+        {
+          "title": "Heterogeneous LiDAR Early Fusion and Learned Re- Ranking  Strategy for  Robust  Long-Term Place Recognition in Unstructured Environments",
+          "url": "https://arxiv.org/abs/2606.13503"
+        },
+        {
+          "title": "Efficient and  Robust  Online Learning to  Rank  in Decentralized Systems",
+          "url": "https://arxiv.org/abs/2606.12246"
+        },
+        {
+          "title": "RankVR: Low- Rank  Structure Perception and Value Recalibration for  Robust  Composed Image Retrieval",
+          "url": "https://arxiv.org/abs/2606.11689"
+        },
+        {
+          "title": "Representation Curriculum: Stagewise Training for  Robust   Ranking  and Allocation",
+          "url": "https://arxiv.org/abs/2606.09891"
+        },
+        {
+          "title": "Rank -Aware Quantile Activation for Motion- Robust  Crop Segmentation in UAV Imagery",
+          "url": "https://arxiv.org/abs/2606.01118"
+        },
+        {
+          "title": "On the  Robustness  of Multilingual Text Embedding  Rankings  Across Learning Tasks, Languages, and Benchmark Datasets",
+          "url": "https://arxiv.org/abs/2605.31142"
+        },
+        {
+          "title": "Robust  Checkpoint Selection for Multimodal LLMs via Agentic Evaluation and Stability-Aware  Ranking",
+          "url": "https://arxiv.org/abs/2605.18852"
+        },
+        {
+          "title": "Robust  Player-Conditional Champion  Ranking  for League of Legends: Style Similarity, Mastery Priors, and Archetype-Constrained Discovery",
+          "url": "https://arxiv.org/abs/2605.18338"
+        },
+        {
+          "title": "HiP-LoRA: Budgeted Spectral Plasticity for  Robust  Low- Rank  Adaptation",
+          "url": "https://arxiv.org/abs/2604.17751"
+        },
+        {
+          "title": "Optimal  Robust  Adaptive Beamforming for a General- Rank  Signal Model via Equivalence of Maximin and Minimax SINR Problems",
+          "url": "https://arxiv.org/abs/2604.14713"
+        },
+        {
+          "title": "Robust  Low- Rank  Tensor Completion based on M-product with Weighted Correlated Total Variation and Sparse Regularization",
+          "url": "https://arxiv.org/abs/2604.13525"
+        },
+        {
+          "title": "CRISP:  Rank -Guided Iterative Squeezing for  Robust  Medical Image Segmentation under Domain Shift",
+          "url": "https://arxiv.org/abs/2604.05409"
+        },
+        {
+          "title": "MIRANDA: MId-feature  RANk -adversarial Domain Adaptation toward climate change- robust  ecological forecasting with deep learning",
+          "url": "https://arxiv.org/abs/2604.00800"
+        },
+        {
+          "title": "A  Robust  Low- Rank  Prior Model for Structured Cartoon-Texture Image Decomposition with Heavy-Tailed Noise",
+          "url": "https://arxiv.org/abs/2603.27579"
+        },
+        {
+          "title": "Robust  Updating of a Risk Prediction Model by Integrating External  Ranking  Information",
+          "url": "https://arxiv.org/abs/2603.10389"
+        },
+        {
+          "title": "Robust  Node Affinities via Jaccard-Biased Random Walks and  Rank  Aggregation",
+          "url": "https://arxiv.org/abs/2603.05375"
+        },
+        {
+          "title": "Robust  principal component analysis with  rank  and cardinality regularization under matrix factorization",
+          "url": "https://arxiv.org/abs/2603.03107"
+        },
+        {
+          "title": "Decentralized  Ranking  Aggregation via Gossip: Convergence and  Robustness",
+          "url": "https://arxiv.org/abs/2602.22847"
+        },
+        {
+          "title": "CaliCausalRank: Calibrated Multi-Objective Ad  Ranking  with  Robust  Counterfactual Utility Optimization",
+          "url": "https://arxiv.org/abs/2602.18786"
+        },
+        {
+          "title": "Quantization- Robust  LLM Unlearning via Low- Rank  Adaptation",
+          "url": "https://arxiv.org/abs/2602.13151"
+        },
+        {
+          "title": "Doubly  Robust  Estimation of Desirability of Outcome  Ranking  (DOOR) Probability with Application to MDRO Studies",
+          "url": "https://arxiv.org/abs/2602.10012"
+        },
+        {
+          "title": "Robust  low- rank  estimation with multiple binary responses using pairwise AUC loss",
+          "url": "https://arxiv.org/abs/2601.08618"
+        },
+        {
+          "title": "Robust  reduced  rank  regression under heavy-tailed noise and missing data via non-convex penalization",
+          "url": "https://arxiv.org/abs/2512.24450"
+        },
+        {
+          "title": "RobustMask: Certified  Robustness  against Adversarial Neural  Ranking  Attack via Randomized Masking",
+          "url": "https://arxiv.org/abs/2512.23307"
+        },
+        {
+          "title": "How Much is Too Much? Exploring LoRA  Rank  Trade-offs for Retaining Knowledge and Domain  Robustness",
+          "url": "https://arxiv.org/abs/2512.15634"
+        },
+        {
+          "title": "Semiparametric  rank -based regression models as  robust  alternatives to parametric mean-based counterparts for censored responses under detection-limit",
+          "url": "https://arxiv.org/abs/2512.10212"
+        },
+        {
+          "title": "Decomposed Trust: Privacy, Adversarial  Robustness , Ethics, and Fairness in Low- Rank  LLMs",
+          "url": "https://arxiv.org/abs/2511.22099"
+        },
+        {
+          "title": "When Top- ranked  Recommendations Fail: Modeling Multi-Granular Negative Feedback for Explainable and  Robust  Video Recommendation",
+          "url": "https://arxiv.org/abs/2511.18700"
+        },
+        {
+          "title": "Targeted Parameter Estimation for  Robust  Empirical Bayes  Ranking",
+          "url": "https://arxiv.org/abs/2511.16530"
+        },
+        {
+          "title": "Robust  Low- Rank  Sparse Framework for Video-Based Affective Computing",
+          "url": "https://arxiv.org/abs/2511.11406"
+        },
+        {
+          "title": "Hybrid second-order gradient histogram based global low- rank  sparse regression for  robust  face recognition",
+          "url": "https://arxiv.org/abs/2511.05893"
+        },
+        {
+          "title": "PreResQ-R1: Response-Preference Disentangled  Ranking -and-Scoring Reinforcement Optimization for  Robust  Visual Quality Assessment",
+          "url": "https://arxiv.org/abs/2511.05393"
+        },
+        {
+          "title": "Online Learning to  Rank  under Corruption: A  Robust  Cascading Bandits Approach",
+          "url": "https://arxiv.org/abs/2511.03074"
+        }
+      ]
+    },
+    {
+      "query": "robust top-k",
+      "field": "title",
+      "url": "https://arxiv.org/search/?query=robust%20top-k&searchtype=title&abstracts=show&order=-announced_date_first&size=50",
+      "results": [
+        {
+          "title": "Scalable and Precise Patch  Robustness  Certification for Deep Learning Models with  Top - k  Predictions",
+          "url": "https://arxiv.org/abs/2507.23335"
+        },
+        {
+          "title": "Efficient and Responsible Adaptation of Large Language Models for  Robust  and Equitable  Top - k  Recommendations",
+          "url": "https://arxiv.org/abs/2501.04762"
+        },
+        {
+          "title": "Efficient and Responsible Adaptation of Large Language Models for  Robust   Top - k  Recommendations",
+          "url": "https://arxiv.org/abs/2405.00824"
+        },
+        {
+          "title": "Robust  Representation Learning for Unified Online  Top - K  Recommendation",
+          "url": "https://arxiv.org/abs/2310.15492"
+        },
+        {
+          "title": "Almost Tight L0-norm Certified  Robustness  of  Top - k  Predictions against Adversarial Perturbations",
+          "url": "https://arxiv.org/abs/2011.07633"
+        },
+        {
+          "title": "Certified  Robustness  for  Top - k  Predictions against Adversarial Perturbations via Randomized Smoothing",
+          "url": "https://arxiv.org/abs/1912.09899"
+        },
+        {
+          "title": "Incremental  Top - k  List Comparison Approach to  Robust  Multi-Structure Model Fitting",
+          "url": "https://arxiv.org/abs/1105.6277"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2606.17721",
+    "bytes": 40815,
+    "title": [
+      "[2606.17721] Understanding and Debugging Failures in N-Gram-Based Generative Retrieval"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.32164",
+    "bytes": 42872,
+    "title": [
+      "[2610.32164] PersonalQuery-Benchmark:Evaluating Retrieval Robustness to Personalized User Expression Differences"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "url": "https://arxiv.org/html/2606.17721",
+    "bytes": 135082,
+    "title": [
+      "Understanding and Debugging Failures in N-Gram-Based Generative Retrieval"
+    ],
+    "abstract_was_accessed": false
+  },
+  {
+    "url": "https://arxiv.org/html/2512.23307",
+    "bytes": 400295,
+    "title": [
+      "RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking"
+    ],
+    "abstract_was_accessed": false
+  }
+]

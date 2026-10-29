@@ -1,0 +1,5 @@
+nfcorpus optimized_smoke 1 / 5 seconds 0.17 docs 0 pair [3633, 3633, 3633] joint [3633, 3633, 3633]
+nfcorpus optimized_smoke 2 / 5 seconds 1.64 docs 3632 pair [6, 122, 1494] joint [5, 112, 1476]
+nfcorpus optimized_smoke 3 / 5 seconds 0.7 docs 3343 pair [3, 17, 25] joint [2, 15, 21]
+nfcorpus optimized_smoke 4 / 5 seconds 2.99 docs 3633 pair [24, 751, 3137] joint [19, 712, 3102]
+nfcorpus optimized_smoke 5 / 5 seconds 0.23 docs 518 pair [14, 14, 14] joint [12, 12, 12]

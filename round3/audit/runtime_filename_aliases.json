@@ -1,0 +1,14 @@
+[
+  {
+    "original_file": "fiqa_replication_range_12364.127923625_302_runtime.json",
+    "normalized_alias": "fiqa_range_57_302_runtime.json",
+    "sha256": "f1754c68003f62ff4494482b48f00bb49e85d34859feb792ab79e0b44cc60329",
+    "reason": "start parameter reused as per-query timer; only final runtime metadata filename affected, per-query output range path was constructed before loop"
+  },
+  {
+    "original_file": "fiqa_replication_range_12481.092889007_548_runtime.json",
+    "normalized_alias": "fiqa_range_302_548_runtime.json",
+    "sha256": "d4a742d265d053b2619377cf3336e88ae827bf81ee1ad14e85706221b89224c5",
+    "reason": "start parameter reused as per-query timer; only final runtime metadata filename affected, per-query output range path was constructed before loop"
+  }
+]

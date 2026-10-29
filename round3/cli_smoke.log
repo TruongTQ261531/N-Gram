@@ -1,0 +1,2 @@
+/workspace/work/round3/rank_bound.py:62: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(m),1.],A_ub=A,b_ub=np.zeros(len(cuts)),bounds=list(zip(np.zeros(m),caps))+[(None,None)],method='highs',options={'dual_feasibility_tolerance':1e-8,'primal_feasibility_tolerance':1e-8,'threads':1})

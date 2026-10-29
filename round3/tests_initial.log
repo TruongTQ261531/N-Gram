@@ -1,0 +1,8 @@
+./opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/sklearn/feature_extraction/text.py:556: UserWarning: The parameter 'token_pattern' will not be used since 'analyzer' != 'word'
+  warnings.warn(
+....
+----------------------------------------------------------------------
+Ran 5 tests in 0.397s
+
+OK
+Independent exhaustive comparisons: 1200

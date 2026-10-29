@@ -1,0 +1,36 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2209.06691",
+    "bytes": 45808,
+    "title": [
+      "[2209.06691] Certified Robustness to Word Substitution Ranking Attack for Neural Ranking Models"
+    ],
+    "status": "fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2512.23307",
+    "bytes": 43624,
+    "title": [
+      "[2512.23307] RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking"
+    ],
+    "status": "fetched"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.21595",
+    "bytes": 43248,
+    "title": [
+      "[2609.21595] Evaluating In-Context Learning and Retrieval Strategies for Devanagari Post-OCR Correction"
+    ],
+    "status": "fetched"
+  },
+  {
+    "url": "https://proceedings.mlr.press/v80/wong18a.html",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "status": "failed"
+  },
+  {
+    "url": "https://www.sciencedirect.com/journal/information-processing-and-management/about/aims-and-scope",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "status": "failed"
+  }
+]

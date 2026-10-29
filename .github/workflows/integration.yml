@@ -12,5 +12,5 @@ jobs:
           python-version: '3.12'
       - name: Install offline-verification dependencies
         run: pip install numpy==2.3.5 pandas==2.2.3
-      - name: Verify both studies and integration manifests
+      - name: Verify all three studies and integration manifests
         run: python verify_all.py

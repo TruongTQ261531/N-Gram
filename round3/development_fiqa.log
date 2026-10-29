@@ -1,0 +1,26 @@
+/workspace/work/round3/rank_bound.py:62: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(m),1.],A_ub=A,b_ub=np.zeros(len(cuts)),bounds=list(zip(np.zeros(m),caps))+[(None,None)],method='highs',options={'dual_feasibility_tolerance':1e-8,'primal_feasibility_tolerance':1e-8,'threads':1})
+/workspace/work/round3/rank_bound.py:102: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(S),-np.ones(m)],A_ub=A,b_ub=np.r_[np.ones(m),budget],A_eq=eq.tocsr(),b_eq=np.ones(len(D)),bounds=[(0,1)]*(S+m),method='highs',options={'threads':1})
+/workspace/work/round3/mip_reference.py:22: RuntimeWarning: Unrecognized options detected: {'threads'}. These will be passed to HiGHS verbatim.
+  r=milp(c,integrality=np.ones(S+m),bounds=Bounds(np.zeros(S+m),np.ones(S+m)),constraints=LinearConstraint(sparse.vstack(rows,format='csc'),np.concatenate(lo),np.concatenate(hi)),options={'time_limit':seconds,'mip_rel_gap':0.,'threads':1})
+fiqa development 1 / 20 seconds 7.57 docs 54150 pair [17, 718, 5568] joint [11, 705, 5527]
+fiqa development 2 / 20 seconds 7.18 docs 43228 pair [19, 437, 1130] joint [11, 423, 1064]
+fiqa development 3 / 20 seconds 5.41 docs 28117 pair [23, 120, 380] joint [18, 112, 360]
+fiqa development 4 / 20 seconds 5.1 docs 21748 pair [3, 36, 312] joint [2, 30, 296]
+fiqa development 5 / 20 seconds 5.73 docs 35240 pair [8, 77, 568] joint [5, 70, 484]
+fiqa development 6 / 20 seconds 4.15 docs 26298 pair [2, 6, 83] joint [2, 4, 80]
+fiqa development 7 / 20 seconds 4.74 docs 32399 pair [2, 6, 56] joint [2, 5, 45]
+fiqa development 8 / 20 seconds 3.04 docs 22250 pair [1, 1, 42] joint [1, 1, 40]
+fiqa development 9 / 20 seconds 6.94 docs 37814 pair [3, 28, 187] joint [2, 20, 182]
+fiqa development 10 / 20 seconds 10.42 docs 42630 pair [11, 56, 423] joint [10, 52, 398]
+fiqa development 11 / 20 seconds 9.75 docs 51253 pair [5, 149, 1182] joint [4, 139, 1156]
+fiqa development 12 / 20 seconds 6.44 docs 41769 pair [80, 236, 980] joint [78, 222, 950]
+fiqa development 13 / 20 seconds 8.88 docs 48924 pair [4, 186, 1275] joint [2, 179, 1237]
+fiqa development 14 / 20 seconds 8.26 docs 50840 pair [5, 215, 2619] joint [4, 184, 2533]
+fiqa development 15 / 20 seconds 11.88 docs 56513 pair [256, 6530, 21075] joint [250, 6430, 20733]
+fiqa development 16 / 20 seconds 9.75 docs 56124 pair [61, 948, 7491] joint [47, 893, 7347]
+fiqa development 17 / 20 seconds 10.83 docs 49766 pair [25, 486, 2193] joint [12, 451, 2056]
+fiqa development 18 / 20 seconds 5.99 docs 39432 pair [32, 189, 557] joint [24, 175, 477]
+fiqa development 19 / 20 seconds 7.4 docs 34438 pair [9, 56, 188] joint [9, 51, 178]
+fiqa development 20 / 20 seconds 10.93 docs 47707 pair [215, 961, 2927] joint [200, 879, 2744]

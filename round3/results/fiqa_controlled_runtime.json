@@ -1,0 +1,23 @@
+{
+  "dataset": "fiqa",
+  "startup_load_transpose_seconds": 3.8338987909992284,
+  "blas": [
+    {
+      "api": "openblas",
+      "threads": 1
+    },
+    {
+      "api": "openblas",
+      "threads": 1
+    },
+    {
+      "api": "openmp",
+      "threads": 1
+    }
+  ],
+  "peak_process_mib": 3772.4375,
+  "profile_queries": 10,
+  "replayed_queries": 100,
+  "warmed_index": true,
+  "includes_jit": false
+}

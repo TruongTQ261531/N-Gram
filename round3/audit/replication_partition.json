@@ -1,0 +1,18 @@
+{
+  "execution_addendum_commit": "fb80e602df947ed12dc00d09c40e510f4e6cbe25",
+  "unix_time": 1793267006.7716672,
+  "prefix_queries": 57,
+  "prefix_sha256": "84dac1b07294667a3c74c128b0cfbd1af86547d61f79141dad8764a9637eb26c",
+  "ranges": [
+    [
+      57,
+      302
+    ],
+    [
+      302,
+      548
+    ]
+  ],
+  "interruption": "SIGINT after retaining complete rows; interrupted unfinished query rerun; no row filtering",
+  "math_source_identity_verified": true
+}

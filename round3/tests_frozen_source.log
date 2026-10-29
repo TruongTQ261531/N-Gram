@@ -1,0 +1,15 @@
+........./workspace/work/round3/rank_bound.py:62: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(m),1.],A_ub=A,b_ub=np.zeros(len(cuts)),bounds=list(zip(np.zeros(m),caps))+[(None,None)],method='highs',options={'dual_feasibility_tolerance':1e-8,'primal_feasibility_tolerance':1e-8,'threads':1})
+/workspace/work/round3/test_rank_bound.py:23: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(len(states)),-np.ones(m)],A_ub=A,b_ub=np.ones(m),A_eq=eq,b_eq=[1.],bounds=[(0,None)]*len(states)+[(0,1)]*m,method='highs',options={'threads':1})
+.../workspace/work/round3/mip_reference.py:22: RuntimeWarning: Unrecognized options detected: {'threads'}. These will be passed to HiGHS verbatim.
+  r=milp(c,integrality=np.ones(S+m),bounds=Bounds(np.zeros(S+m),np.ones(S+m)),constraints=LinearConstraint(sparse.vstack(rows,format='csc'),np.concatenate(lo),np.concatenate(hi)),options={'time_limit':seconds,'mip_rel_gap':0.,'threads':1})
+..../workspace/work/round3/rank_bound.py:102: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(S),-np.ones(m)],A_ub=A,b_ub=np.r_[np.ones(m),budget],A_eq=eq.tocsr(),b_eq=np.ones(len(D)),bounds=[(0,1)]*(S+m),method='highs',options={'threads':1})
+..
+----------------------------------------------------------------------
+Ran 18 tests in 2.134s
+
+OK
+Independent exhaustive comparisons: 1200
+High-precision dot-product interval checks: 210

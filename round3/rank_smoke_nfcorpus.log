@@ -1,0 +1,5 @@
+nfcorpus smoke 1 / 5 seconds 1.83 pair [3633, 3633, 3633] joint [3633, 3633, 3633]
+nfcorpus smoke 2 / 5 seconds 4.3 pair [6, 122, 1494] joint [5, 112, 1476]
+nfcorpus smoke 3 / 5 seconds 2.95 pair [3, 17, 25] joint [2, 15, 21]
+nfcorpus smoke 4 / 5 seconds 3.3 pair [24, 751, 3137] joint [19, 712, 3102]
+nfcorpus smoke 5 / 5 seconds 1.25 pair [14, 14, 14] joint [12, 12, 12]

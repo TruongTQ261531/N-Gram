@@ -1,7 +1,7 @@
 {
   "integrated_date": "2026-10-29",
   "timezone": "Asia/Bangkok",
-  "status": "research_archive_not_q1_ready",
+  "status": "research_candidate_with_independent_replication_novelty_unconfirmed",
   "methods": {
     "CAPC": {
       "source_commit": "d3e7de0732eaedbebcf612dbf5261b82d5a9ff01",
@@ -18,14 +18,27 @@
       "protocol_fits": 99,
       "novelty": "not established",
       "decision": "insufficient_evidence_for_q1"
+    },
+    "discrete_query_retention": {
+      "code": "round3/replay.py",
+      "report": "round3/REPORT_VI.md",
+      "manuscript": "round3/MANUSCRIPT.md",
+      "primary_queries": 300,
+      "independent_queries": 970,
+      "random_diagnostic_predictions": 27000,
+      "new_model_fits": 0,
+      "novelty": "targeted review only; global novelty unconfirmed",
+      "decision": "specific LP comparison supported on 2 of 3 datasets; not a Q1 guarantee",
+      "preconfirmation_commit": "8dd7972dc13d85159e908f9b6ea03c394289acd2",
+      "independent_preregistration_commit": "5fcf816da7d686427f518845c71e682d95626cee"
     }
   },
   "hybrid_method_implemented": false,
   "hybrid_method_evaluated": false,
   "new_human_annotations": 0,
-  "scientific_artifacts_modified": false,
-  "documentation_changes": "Unified README; original CAPC README preserved; only README entry in results/checksums.sha256 refreshed.",
+  "documentation_changes": "Third-round report, manuscript, reproduction and complete evidence added; unified entrypoints updated; old scientific outputs unchanged.",
   "original_capc_readme_sha256": "0395202ba1f2171f1e921e5ade113700a12e4cf2b0ca95b2a03e65d87eb362a9",
-  "q1_goal": "not achieved",
-  "verification": "python verify_all.py"
+  "q1_goal": "not established; no acceptance guarantee",
+  "verification": "python verify_all.py",
+  "legacy_scientific_artifacts_modified": false
 }

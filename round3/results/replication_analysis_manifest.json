@@ -1,0 +1,19 @@
+{
+  "independent_stage": true,
+  "pooled_with_primary": false,
+  "target": {
+    "budget": 2,
+    "k": 10,
+    "baseline": "best_lp_enum"
+  },
+  "bootstrap_replicates": 2000,
+  "seed_base": 20261101,
+  "holm_family_size": 3,
+  "queries": {
+    "scifact": 199,
+    "nfcorpus": 223,
+    "fiqa": 548
+  },
+  "original_method_commit": "8dd7972dc13d85159e908f9b6ea03c394289acd2",
+  "replication_precommit": "5fcf816da7d686427f518845c71e682d95626cee"
+}

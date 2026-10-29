@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/workspace/work/round3/experiment.py", line 83, in <module>
+    evaluate(a.dataset,a.phase,a.limit,a.label,a.audit_full)
+  File "/workspace/work/round3/experiment.py", line 26, in evaluate
+    'truncated':len(orig.split())>len(query.tokens),'states':sum(len(a) for a in query.features),'reference_id':str(I.ids[target]),
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/round3/experiment.py", line 26, in <genexpr>
+    'truncated':len(orig.split())>len(query.tokens),'states':sum(len(a) for a in query.features),'reference_id':str(I.ids[target]),
+                                                                 ^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/sparse/_base.py", line 448, in __len__
+    raise TypeError("sparse array length is ambiguous; use getnnz()"
+TypeError: sparse array length is ambiguous; use getnnz() or shape[0]

@@ -1,0 +1,5 @@
+nfcorpus graph_smoke 1 / 5 seconds 0.22 docs 0 pair [3633, 3633, 3633] joint [3633, 3633, 3633]
+nfcorpus graph_smoke 2 / 5 seconds 2.0 docs 3632 pair [6, 122, 1494] joint [4, 112, 1476]
+nfcorpus graph_smoke 3 / 5 seconds 1.46 docs 3343 pair [3, 17, 25] joint [2, 8, 15]
+nfcorpus graph_smoke 4 / 5 seconds 1.89 docs 3633 pair [24, 751, 3137] joint [12, 712, 3102]
+nfcorpus graph_smoke 5 / 5 seconds 0.23 docs 518 pair [14, 14, 14] joint [10, 10, 10]

@@ -1,0 +1,16 @@
+[
+  {
+    "dataset": "scifact",
+    "kind": "char",
+    "sha256": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+    "matched": true,
+    "seconds": 8.37630505800007
+  },
+  {
+    "dataset": "scifact",
+    "kind": "word",
+    "sha256": "51957fd9c37a392703885d916c4f96e401e1df187efa7bb2f6a219076bfb8040",
+    "matched": true,
+    "seconds": 0.6721734650000144
+  }
+]

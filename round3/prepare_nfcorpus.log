@@ -1,0 +1,2 @@
+prepared nfcorpus char {'vocabulary': 229261, 'nnz': 6433317, 'index_bytes': 81915213, 'seconds': 7.777240539999639}
+prepared nfcorpus word {'vocabulary': 26469, 'nnz': 478356, 'index_bytes': 6450116, 'seconds': 0.5820585540000138}

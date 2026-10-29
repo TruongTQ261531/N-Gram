@@ -62,3 +62,7 @@ Các profiler cần Linux/WSL và /proc; chạy khi không có training song son
 [README BOLT](round2/README.md), [giao thức](round2/PROTOCOL.md), [lý thuyết](round2/THEORY.md), [lịch sử](round2/RUN_HISTORY.md), [điều khoản](round2/DATA_LICENSE.md).
 
 Không so trực tiếp Macro-F1 dưới nhiễu lấy mẫu CAPC với RBA theo lattice BOLT. Không có pipeline hybrid được huấn luyện trong bản hợp nhất. Tái lập không tự chứng minh novelty, giữ nghĩa hoặc đóng góp Q1.
+
+## Vòng 3 — chứng nhận truy hồi
+
+Đọc [round3/REPRODUCE.md](round3/REPRODUCE.md) để kiểm chứng ngoại tuyến, chạy 18 unit test, dựng index nguồn được pin, chứng nhận truy vấn mới và tái lập riêng hai lượt 300/970 truy vấn. Không chạy lại trên bản công bố duy nhất hoặc đổi freeze để che các kết quả đã xem.

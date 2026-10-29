@@ -1,0 +1,74 @@
+[
+  {
+    "arxiv": "2205.09638",
+    "url": "https://arxiv.org/abs/2205.09638",
+    "title": [
+      "[2205.09638] Certified Error Control of Candidate Set Pruning for Two-Stage Relevance Ranking"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "2610.24991",
+    "url": "https://arxiv.org/abs/2610.24991",
+    "title": [
+      "[2610.24991] Certified Sparse Attention via Perturbed Retrieval"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "2610.21325",
+    "url": "https://arxiv.org/abs/2610.21325",
+    "title": [
+      "[2610.21325] CertEx: Exact Visual Retrieval at Scale by Certified Exclusion"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "2608.24971",
+    "url": "https://arxiv.org/abs/2608.24971",
+    "title": [
+      "[2608.24971] HCC+: Hyperbolic Guarding for Certified Attention Retrieval"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "2608.23965",
+    "url": "https://arxiv.org/abs/2608.23965",
+    "title": [
+      "[2608.23965] RAGSentinel: Certifiable Geometric Consensus for Robust Retrieval-Augmented Generation"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "2608.06516",
+    "url": "https://arxiv.org/abs/2608.06516",
+    "title": [
+      "[2608.06516] CertBind from Multimodal Connectivity to Certifiable Retrieval Decisions"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "2607.14157",
+    "url": "https://arxiv.org/abs/2607.14157",
+    "title": [
+      "[2607.14157] Certified Domain Consistency for Multi-Domain Retrieval: Label-Free Per-Domain Contamination Control with Conformal Risk Guarantees"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "2405.15556",
+    "url": "https://arxiv.org/abs/2405.15556",
+    "title": [
+      "[2405.15556] Certifiably Robust RAG against Retrieval Corruption"
+    ],
+    "abstract_was_accessed": true
+  },
+  {
+    "arxiv": "2402.03181",
+    "url": "https://arxiv.org/abs/2402.03181",
+    "title": [
+      "[2402.03181] C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models"
+    ],
+    "abstract_was_accessed": true
+  }
+]

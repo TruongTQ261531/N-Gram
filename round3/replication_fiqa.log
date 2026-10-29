@@ -1,0 +1,84 @@
+/workspace/work/round3/rank_bound.py:62: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(m),1.],A_ub=A,b_ub=np.zeros(len(cuts)),bounds=list(zip(np.zeros(m),caps))+[(None,None)],method='highs',options={'dual_feasibility_tolerance':1e-8,'primal_feasibility_tolerance':1e-8,'threads':1})
+/workspace/work/round3/rank_bound.py:102: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(S),-np.ones(m)],A_ub=A,b_ub=np.r_[np.ones(m),budget],A_eq=eq.tocsr(),b_eq=np.ones(len(D)),bounds=[(0,1)]*(S+m),method='highs',options={'threads':1})
+fiqa independent replication 1 / 548 pair 1480 bestLP 1393 proposed 1393
+fiqa independent replication 2 / 548 pair 775 bestLP 702 proposed 702
+fiqa independent replication 3 / 548 pair 3620 bestLP 3503 proposed 3503
+fiqa independent replication 4 / 548 pair 102 bestLP 86 proposed 86
+fiqa independent replication 5 / 548 pair 392 bestLP 360 proposed 360
+fiqa independent replication 6 / 548 pair 381 bestLP 370 proposed 370
+fiqa independent replication 7 / 548 pair 87 bestLP 84 proposed 84
+fiqa independent replication 8 / 548 pair 1 bestLP 1 proposed 1
+fiqa independent replication 9 / 548 pair 29 bestLP 25 proposed 18
+fiqa independent replication 10 / 548 pair 31 bestLP 28 proposed 25
+fiqa independent replication 11 / 548 pair 836 bestLP 832 proposed 832
+fiqa independent replication 12 / 548 pair 770 bestLP 671 proposed 671
+fiqa independent replication 13 / 548 pair 1909 bestLP 1901 proposed 1901
+fiqa independent replication 14 / 548 pair 159 bestLP 153 proposed 153
+fiqa independent replication 15 / 548 pair 506 bestLP 491 proposed 491
+fiqa independent replication 16 / 548 pair 358 bestLP 330 proposed 330
+fiqa independent replication 17 / 548 pair 50 bestLP 45 proposed 39
+fiqa independent replication 18 / 548 pair 966 bestLP 954 proposed 954
+fiqa independent replication 19 / 548 pair 129 bestLP 118 proposed 118
+fiqa independent replication 20 / 548 pair 570 bestLP 539 proposed 539
+fiqa independent replication 21 / 548 pair 295 bestLP 275 proposed 275
+fiqa independent replication 22 / 548 pair 900 bestLP 773 proposed 773
+fiqa independent replication 23 / 548 pair 137 bestLP 134 proposed 134
+fiqa independent replication 24 / 548 pair 33 bestLP 29 proposed 22
+fiqa independent replication 25 / 548 pair 375 bestLP 362 proposed 362
+fiqa independent replication 26 / 548 pair 41 bestLP 32 proposed 32
+fiqa independent replication 27 / 548 pair 295 bestLP 243 proposed 243
+fiqa independent replication 28 / 548 pair 2479 bestLP 2461 proposed 2461
+fiqa independent replication 29 / 548 pair 258 bestLP 229 proposed 229
+fiqa independent replication 30 / 548 pair 70 bestLP 65 proposed 60
+fiqa independent replication 31 / 548 pair 460 bestLP 453 proposed 453
+fiqa independent replication 32 / 548 pair 25 bestLP 24 proposed 17
+fiqa independent replication 33 / 548 pair 3161 bestLP 2995 proposed 2995
+fiqa independent replication 34 / 548 pair 3675 bestLP 3641 proposed 3641
+fiqa independent replication 35 / 548 pair 274 bestLP 228 proposed 228
+fiqa independent replication 36 / 548 pair 16 bestLP 14 proposed 9
+fiqa independent replication 37 / 548 pair 130 bestLP 122 proposed 122
+fiqa independent replication 38 / 548 pair 749 bestLP 736 proposed 736
+fiqa independent replication 39 / 548 pair 1430 bestLP 1410 proposed 1410
+fiqa independent replication 40 / 548 pair 688 bestLP 650 proposed 650
+fiqa independent replication 41 / 548 pair 894 bestLP 786 proposed 786
+fiqa independent replication 42 / 548 pair 4 bestLP 4 proposed 4
+fiqa independent replication 43 / 548 pair 1 bestLP 1 proposed 1
+fiqa independent replication 44 / 548 pair 16 bestLP 14 proposed 7
+fiqa independent replication 45 / 548 pair 25 bestLP 24 proposed 23
+fiqa independent replication 46 / 548 pair 919 bestLP 885 proposed 885
+fiqa independent replication 47 / 548 pair 2 bestLP 2 proposed 2
+fiqa independent replication 48 / 548 pair 1 bestLP 1 proposed 1
+fiqa independent replication 49 / 548 pair 2355 bestLP 2339 proposed 2339
+fiqa independent replication 50 / 548 pair 866 bestLP 857 proposed 857
+fiqa independent replication 51 / 548 pair 476 bestLP 469 proposed 469
+fiqa independent replication 52 / 548 pair 630 bestLP 623 proposed 623
+fiqa independent replication 53 / 548 pair 94 bestLP 75 proposed 75
+fiqa independent replication 54 / 548 pair 139 bestLP 133 proposed 133
+fiqa independent replication 55 / 548 pair 24 bestLP 19 proposed 8
+fiqa independent replication 56 / 548 pair 111 bestLP 101 proposed 101
+fiqa independent replication 57 / 548 pair 4 bestLP 3 proposed 2
+Traceback (most recent call last):
+  File "/workspace/work/round3/replication.py", line 74, in <module>
+    else:evaluate(a.dataset)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/round3/replication.py", line 51, in evaluate
+    text=effective(texts[qid]);start=time.perf_counter();p,detail=predict(I,text,'proposed',budget_max=2,audit_details=True)
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/round3/replay.py", line 27, in predict
+    point,L,U=ranges(F,lo,hi,0,np.arange(1,len(docs)),maximum)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/round3/rank_bound.py", line 13, in ranges
+    point,U,_,_=coupled_for_ref(scores,lo,hi,ref,candidates,bmax)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/round3/core.py", line 137, in coupled_for_ref
+    best_u=np.max(np.nextafter(h[:,cand]-l[:,ref,None],np.inf),axis=0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/fromnumeric.py", line 3164, in max
+    return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy/_core/fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
