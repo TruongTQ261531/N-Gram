@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Research data and local run artifacts
+data/
+__pycache__/
+*.pkl
+*_noise_review.csv
+.venv/
+superseded_keyboard_v0/

@@ -1,0 +1,11 @@
+dataset,contrast,delta,ci_low,ci_high,bootstrap_n,development_best_baseline,inference
+UIT-VSFC,capc - aug,-0.0009151476507148759,-0.004738592366324487,0.0030375437154392167,2000,svm,paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSFC,capc - char,0.0026113013936607254,-0.0041438015494294515,0.009549625657781358,2000,svm,paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSFC,capc - shuffled,-0.0013840040331027925,-0.0046922617504774194,0.0017980667099194983,2000,svm,paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSFC,capc - svm,-0.013351660742130234,-0.025939969279669118,-0.0015685311774717371,2000,svm,paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSFC,capc - uniform,-0.0026031217211525126,-0.005516989322729496,6.626723538311532e-05,2000,svm,paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSMEC,capc - aug,0.001873705368664047,-0.0006369835367950632,0.004782988112247055,2000,svm,paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSMEC,capc - char,0.009748200708571297,-0.0009009154244404072,0.021225587449989692,2000,svm,paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSMEC,capc - shuffled,0.0010141725208601127,-6.585392749509366e-05,0.002204620679506839,2000,svm,paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSMEC,capc - svm,-0.0005074922167658258,-0.016630455562915765,0.01662503212623658,2000,svm,paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSMEC,capc - uniform,0.0014777842519370088,-0.0011619135934789636,0.0042068623992504205,2000,svm,paired document bootstrap; training/noise runs averaged; conditional on fitted runs

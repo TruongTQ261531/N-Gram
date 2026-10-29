@@ -1,0 +1,20 @@
+name: Verify recorded experiment
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Verify published prediction arrays and checksums
+        run: python verify_results.py
+      - name: Download pinned source data
+        run: python download_data.py
+      - name: Check data and implementation integrity
+        run: python test_integrity.py

@@ -1,0 +1,33 @@
+Fontconfig error: No writable cache directories
+BOOT UIT-VSFC dev baseline svm
+BOOT UIT-VSMEC dev baseline svm
+  dataset   method  clean_f1  noise_mean_f1  noise_seed_sd  seen_family_mean_f1  heldout_family_mean_f1  worst_cell_f1  fullfold_f1  noise_ci_low  noise_ci_high
+ UIT-VSFC     word  0.725816       0.686020       0.002319             0.694115                0.677925       0.624770     0.370671      0.667897       0.704519
+ UIT-VSFC     char  0.730652       0.714841       0.002745             0.719014                0.710668       0.694618     0.522613      0.694948       0.734119
+ UIT-VSFC      svm  0.744601       0.730804       0.002765             0.734104                0.727503       0.708455     0.560208      0.708961       0.753007
+ UIT-VSFC   folded  0.711814       0.698254       0.002037             0.702932                0.693575       0.667058     0.711814      0.678907       0.717985
+ UIT-VSFC   concat  0.729722       0.717303       0.002448             0.721572                0.713034       0.689853     0.697973      0.696792       0.737116
+ UIT-VSFC      aug  0.726906       0.718367       0.002778             0.723512                0.713222       0.697340     0.711774      0.698900       0.737499
+ UIT-VSFC  uniform  0.729564       0.720055       0.002483             0.725662                0.714448       0.698094     0.714304      0.700394       0.739436
+ UIT-VSFC     capc  0.727084       0.717452       0.002943             0.723137                0.711767       0.693919     0.716280      0.697625       0.737109
+ UIT-VSFC shuffled  0.727831       0.718836       0.002100             0.724145                0.713526       0.697288     0.713014      0.699039       0.738010
+UIT-VSMEC     word  0.537419       0.486407       0.007076             0.495419                0.477395       0.417139     0.211474      0.454738       0.516686
+UIT-VSMEC     char  0.518535       0.498286       0.005385             0.504984                0.491589       0.455422     0.285739      0.462339       0.529721
+UIT-VSMEC      svm  0.538881       0.508542       0.008280             0.515400                0.501684       0.464641     0.278759      0.471934       0.542234
+UIT-VSMEC   folded  0.481349       0.456458       0.001931             0.460551                0.452365       0.403114     0.481349      0.419899       0.490492
+UIT-VSMEC   concat  0.529230       0.505108       0.003927             0.510227                0.499989       0.452461     0.423117      0.468172       0.537001
+UIT-VSMEC      aug  0.529488       0.506161       0.004079             0.516637                0.495684       0.451639     0.475662      0.471872       0.537661
+UIT-VSMEC  uniform  0.529337       0.506557       0.003664             0.516226                0.496888       0.452916     0.481187      0.472391       0.538292
+UIT-VSMEC     capc  0.531583       0.508035       0.004214             0.518325                0.497744       0.454635     0.478967      0.473638       0.539601
+UIT-VSMEC shuffled  0.531448       0.507020       0.003885             0.516865                0.497175       0.454930     0.477517      0.472536       0.538935
+  dataset        contrast     delta    ci_low   ci_high  bootstrap_n development_best_baseline                                                                           inference
+ UIT-VSFC      capc - aug -0.000915 -0.004739  0.003038         2000                       svm paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+ UIT-VSFC     capc - char  0.002611 -0.004144  0.009550         2000                       svm paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+ UIT-VSFC capc - shuffled -0.001384 -0.004692  0.001798         2000                       svm paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+ UIT-VSFC      capc - svm -0.013352 -0.025940 -0.001569         2000                       svm paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+ UIT-VSFC  capc - uniform -0.002603 -0.005517  0.000066         2000                       svm paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSMEC      capc - aug  0.001874 -0.000637  0.004783         2000                       svm paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSMEC     capc - char  0.009748 -0.000901  0.021226         2000                       svm paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSMEC capc - shuffled  0.001014 -0.000066  0.002205         2000                       svm paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSMEC      capc - svm -0.000507 -0.016630  0.016625         2000                       svm paired document bootstrap; training/noise runs averaged; conditional on fitted runs
+UIT-VSMEC  capc - uniform  0.001478 -0.001162  0.004207         2000                       svm paired document bootstrap; training/noise runs averaged; conditional on fitted runs

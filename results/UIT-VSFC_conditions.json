@@ -1,0 +1,110 @@
+[
+  {
+    "family": "clean",
+    "severity": 0
+  },
+  {
+    "family": "fullfold",
+    "severity": 1
+  },
+  {
+    "family": "nfd",
+    "severity": 0
+  },
+  {
+    "family": "fold",
+    "severity": 0.1
+  },
+  {
+    "family": "fold",
+    "severity": 0.2
+  },
+  {
+    "family": "fold",
+    "severity": 0.3
+  },
+  {
+    "family": "tone",
+    "severity": 0.1
+  },
+  {
+    "family": "tone",
+    "severity": 0.2
+  },
+  {
+    "family": "tone",
+    "severity": 0.3
+  },
+  {
+    "family": "keyboard",
+    "severity": 0.1
+  },
+  {
+    "family": "keyboard",
+    "severity": 0.2
+  },
+  {
+    "family": "keyboard",
+    "severity": 0.3
+  },
+  {
+    "family": "delete",
+    "severity": 0.1
+  },
+  {
+    "family": "delete",
+    "severity": 0.2
+  },
+  {
+    "family": "delete",
+    "severity": 0.3
+  },
+  {
+    "family": "swap",
+    "severity": 0.1
+  },
+  {
+    "family": "swap",
+    "severity": 0.2
+  },
+  {
+    "family": "swap",
+    "severity": 0.3
+  },
+  {
+    "family": "repeat",
+    "severity": 0.1
+  },
+  {
+    "family": "repeat",
+    "severity": 0.2
+  },
+  {
+    "family": "repeat",
+    "severity": 0.3
+  },
+  {
+    "family": "whitespace",
+    "severity": 0.1
+  },
+  {
+    "family": "whitespace",
+    "severity": 0.2
+  },
+  {
+    "family": "whitespace",
+    "severity": 0.3
+  },
+  {
+    "family": "teencode",
+    "severity": 0.1
+  },
+  {
+    "family": "teencode",
+    "severity": 0.2
+  },
+  {
+    "family": "teencode",
+    "severity": 0.3
+  }
+]

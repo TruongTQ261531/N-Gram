@@ -1,0 +1,17 @@
+test_actual_corruption (__main__.Integrity.test_actual_corruption) ... ok
+test_fold (__main__.Integrity.test_fold) ... ok
+test_identity (__main__.Integrity.test_identity) ... ok
+test_keyboard_no_identity_mapping (__main__.Integrity.test_keyboard_no_identity_mapping) ... ok
+test_nfd_transform (__main__.Integrity.test_nfd_transform) ... ok
+test_pair_penalty_identity (__main__.Integrity.test_pair_penalty_identity) ... ok
+test_ridge_penalty (__main__.Integrity.test_ridge_penalty) ... ok
+test_seed (__main__.Integrity.test_seed) ... ok
+test_splits (__main__.Integrity.test_splits) ... ok
+test_train_only_vocab (__main__.Integrity.test_train_only_vocab) ... ok
+test_unicode (__main__.Integrity.test_unicode) ... ok
+test_weight_bounds (__main__.Integrity.test_weight_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.606s
+
+OK
