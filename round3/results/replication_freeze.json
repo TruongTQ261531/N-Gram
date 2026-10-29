@@ -1,0 +1,37 @@
+{
+  "unix_time": 1793266401.0720093,
+  "method_preconfirmation_commit": "8dd7972dc13d85159e908f9b6ea03c394289acd2",
+  "new_metrics_exist": false,
+  "primary_target": {
+    "budget": 2,
+    "k": 10,
+    "baseline": "best_lp_enum",
+    "family_size": 3,
+    "alpha": 0.05
+  },
+  "files": {
+    "core.py": "ae55ede83f9f4d302ad73b89929afdc0d6f2e3cd628bfcc169527f5d77a1e2a2",
+    "rank_bound.py": "8718b985970b41f195fe02538ecf7d41d2e2b7cd6b55055cd810f65fbb7b53dc",
+    "screening.py": "de9c0f992bcdf072c5a66cdf4d08bd1b6bb230af6a6863f1eb7d974211f31c6f",
+    "compatibility.py": "c3dcf1b8053a968cac41afb70aa760aa246c49e94851360710271edd1560d9cb",
+    "enumeration.py": "11dd913526fbadad7eeaefa2d859e02260a507a145a743c46b801d1d9f557913",
+    "mip_reference.py": "12826475662024d0d2bdb6042f7048604283c5d31ad73265876e7936cf17f068",
+    "experiment.py": "15deffe30ec300f78b88db7c9fde75a74847cd9fcc4e0671c3b362371cd86350",
+    "run.py": "91e2c25828b2c1d54d6d85b506d8344052434a1ed95c963051130abaf8ad701a",
+    "PROTOCOL.md": "77aba1a345d98782cd0b1e04d47ebcbc7cd6a5dfae7ea6b127e17317de177c01",
+    "PROTOCOL_RETENTION.md": "62f1e00cf80f459a8b46468263c7a27e9ac1a329ce9b5fb8c88d695043ca8496",
+    "config.json": "f1be17da2b837afca51b3839c761b3678ab15071173bb4ee5c048eb24a4a6e4f",
+    "download_manifest.json": "5e4e0488d0a817f3f9d5c984dd1c871662a7e9f7da135eb887e8317d5d2ec29f",
+    "results/split_audit.json": "88a255fb9ab1f7b853d940d4fe6636304acbd65d3761af2de26d10edaf5b5f3f",
+    "results/index_fingerprints.json": "bd687a63808f2157337d8675f376735fbb8af9bd300ae5158426e0199cf39320",
+    "results/scifact_confirmation_ids.json": "38b2dbf180718932637ec51300a7b2bf7158a7c5945a1b6479405a8687bf536a",
+    "results/nfcorpus_confirmation_ids.json": "b0d660f331fa4b8134776cab648831e9b3538fa5fd0e96c8a27aa91f3f2e84b6",
+    "results/fiqa_confirmation_ids.json": "a069125398daf37c694337ac95fc3e8ed6507e29453843d796a6cb4fbc668e18",
+    "replay.py": "1572c1a29953e5f6724ef1ff3a442120e28bfbace8b6ebce41cc4a62366e248d",
+    "replication.py": "97eee1940999989a634d4d2cab369063381e383bbd8a7bc6ba19559d6fe7ed5d",
+    "PROTOCOL_REPLICATION.md": "3e5b7a811687df04a3623a61c809450dd295b9618cd9df6eb8bc306cdcd761ba",
+    "results/replication_ids.json": "718f28fb64fbcb0defd594953c0fe8d8fcca24bad38969ec3dfbc58b17a45362",
+    "results/replication_selection_audit.json": "4104dafe9a5a813b7afa13a433f2a010ab608e69969cc80c458f8748e2ac551d",
+    "results/primary_results_lock.json": "a5dd5276eb4c737da04f45dc835be71105783cf1b626a4162ffdd93428c9be0f"
+  }
+}

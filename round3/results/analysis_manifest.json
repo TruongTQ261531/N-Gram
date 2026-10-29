@@ -1,0 +1,25 @@
+{
+  "bootstrap_replicates": 2000,
+  "seed_base": 20261029,
+  "primary_k": 10,
+  "holm_family_size": 18,
+  "query_counts": {
+    "scifact": {
+      "queries": 100,
+      "random_diagnostic_samples": 9000,
+      "no_sampled_or_support_rank_violation": true
+    },
+    "nfcorpus": {
+      "queries": 100,
+      "random_diagnostic_samples": 9000,
+      "no_sampled_or_support_rank_violation": true
+    },
+    "fiqa": {
+      "queries": 100,
+      "random_diagnostic_samples": 9000,
+      "no_sampled_or_support_rank_violation": true
+    }
+  },
+  "conditional_intervals": true,
+  "q1_readiness": "not established by statistics alone"
+}

@@ -1,0 +1,28 @@
+{
+  "scifact": {
+    "official_test_queries": 300,
+    "primary_queries": 100,
+    "fresh_queries": 199,
+    "excluded": [
+      {
+        "query_id": "1292",
+        "reason": "effective_input_already_evaluated_or_duplicate"
+      }
+    ],
+    "development_queries": 20
+  },
+  "nfcorpus": {
+    "official_test_queries": 323,
+    "primary_queries": 100,
+    "fresh_queries": 223,
+    "excluded": [],
+    "development_queries": 20
+  },
+  "fiqa": {
+    "official_test_queries": 648,
+    "primary_queries": 100,
+    "fresh_queries": 548,
+    "excluded": [],
+    "development_queries": 20
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "confirmation_summary.csv": "d266a456e1d250a078995b591f7c88b0bd5251ee8b72d5be4a47e1fcd1068d7a",
+  "paired_differences.csv": "1594d7184b4e6531ed01eb31483ec296f24111cba24624134221037a64c40b59",
+  "analysis_manifest.json": "ca1cb5a854faf70085021bed90adb728b6df7e722b7e687c33776c17bf7c2d96",
+  "scifact_retention_confirmation.jsonl": "4435629b3a349f157f2dab54b528589c6d036ec34d1278bc34a32df10c5f60c7",
+  "nfcorpus_retention_confirmation.jsonl": "1bfe266a36744ff3ba005533fb1dfd514a59c6117b9e7e0bc63eb9dcec16e0a4",
+  "fiqa_retention_confirmation.jsonl": "191ed223018ecd9d1cefc9cd15d33c2090cacca31480f4e0d8048a68ca9cae54"
+}

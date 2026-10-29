@@ -1,0 +1,13 @@
+{
+  "observed_numeric_env_before_import": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null
+  },
+  "observed_blas_threads": 3,
+  "reason": "experiment imports numpy before core sets environment; changing environment after library initialization does not reset the pool",
+  "highs_threads": 1,
+  "classification": "execution-only protocol deviation; primary bounds retain their arithmetic error guards",
+  "correction": "controlled single-thread replay and isolated profiling; concurrent confirmation timings not used for speed claims",
+  "source_method_unchanged": true
+}
