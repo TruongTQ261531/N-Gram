@@ -1,0 +1,7 @@
+# Execution-only partitioning of the fixed FiQA replication
+
+The second-stage source/IDs/hypothesis were published at 5fcf816 before any fresh metrics. SciFact and NFCorpus finished successfully. FiQA is slower; after they finished only one of the two allowed CPU workers remained active.
+
+To use the already allowed two-worker concurrency, interrupt the single FiQA process, retain every complete original row and execution log, and run the remaining fixed ID sequence in two nonoverlapping ranges. The range adapter is copied from the frozen driver, with ONLY function arguments, ID slicing and range-specific output paths changed. Its predictor calls, parameters, arithmetic and per-query record generation remain byte-identical to the frozen function body. An assertion checks this identity before running. The old driver and replication freeze remain unchanged.
+
+Publish this adapter/addendum before running any range. Save the retained prefix length/hash and partition boundaries. Concatenate prefix and ranges in the original preregistered ID order, reject overlaps/missing/malformed rows, and keep the range files. Any interrupted incomplete query is rerun in full. This is an orchestration amendment, not a new statistical stage or method change. No sample-size change, metric-dependent selection, stopping rule, pooling, parameter change or p-value examination is permitted. Concurrent times are not isolated latency measurements.
