@@ -1,0 +1,21 @@
+{
+  "stage": "before any retrieval outcome on the32 selected full queries",
+  "parentMain": "94a9f0c16ab2bd312621682cb842fb9b439deabe",
+  "branch": "research/rank-equivalence-2026-10-30",
+  "files": {
+    "exact_pool_study/method.py": "8a23166fbee76af463490708099ca2ab3524b0c439b3520b4423f7d2270ddc27",
+    "exact_pool_study/run.py": "ea0f85ab2f3ca9be866c2099785c617d154be1763cc2485e9fcc4ad0847830dc",
+    "exact_pool_study/verify.py": "bc037629a3cca6408a108ac24775210fb0d6573b93849e678d9cdd659282b172",
+    "exact_pool_study/replay_sources.py": "d10b885d6b586d8e9180d7bdb30a5898b5195eac678ede69a01efe71394c002f",
+    "exact_pool_study/test_method.py": "fd321e73e7b44bc8edb2e2b025173780e73bdaf45461bb1cf3da4a42a38ce5d3",
+    "exact_pool_study/PROTOCOL.md": "6f9180925557b515704956955cb2e6ef09b930ec29b8489d8786597c24edba7a",
+    "exact_pool_study/selection.json": "35b1978360ca1c7a36d0103e7370b2176e8e2e0dd7a8e5e6047a0c5875853fba",
+    "exact_pool_study/development.json": "0dbc972a51fb446236c666b0cae3431092e2d1047edf31a78caa4a4cc2287f0b",
+    "pool_study/core.py": "f291b7ea17e2e3e8c0c88e0d361deb1cf8af44c783146d7a662e29446711b91b",
+    "pool_study/sources.json": "47e8d1db2bd2996fe7a611b9262a7631005f9119fed8dfa0947bba93e234f66c",
+    "pool_study/requirements.txt": "93574f0689385e1b0d4414e995b0ef7912cc5016568d87c2f0911c2d04fdf256",
+    "pool_study/results/arguana/environment.json": "f5ce3698306196dc783a036b0f6792c385cb2243e0d452ac8cadad204819ecd3",
+    "pool_study/results/scidocs/environment.json": "e0d4ac64aea968168c79557ce29c385d53e2fd1407d9c16c5ab1bbd95c506637",
+    ".github/workflows/exact-pool.yml": "11cfd3384d8730cd6a772c317272c96b5a293520a614467061fedd23a32c0c89"
+  }
+}

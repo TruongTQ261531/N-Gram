@@ -1,0 +1,117 @@
+{
+  "stage": "four already viewed original16-token records; exploratory, not new confirmation",
+  "rows": [
+    {
+      "dataset": "arguana",
+      "queryId": "test-digital-freedoms-piidfaihbg-pro03a",
+      "legacySeconds": 0.06139609499950893,
+      "compiledSeconds": 0.03444971300268662,
+      "modes": {
+        "none": {
+          "states": 1129,
+          "groups": 16,
+          "seconds": 0.006827078002970666
+        },
+        "score": {
+          "states": 994,
+          "groups": 16,
+          "seconds": 0.0027148610024596564
+        },
+        "text": {
+          "states": 997,
+          "groups": 15,
+          "seconds": 0.003038449998712167
+        },
+        "rank": {
+          "states": 909,
+          "groups": 15,
+          "seconds": 0.002812809998431476
+        }
+      }
+    },
+    {
+      "dataset": "arguana",
+      "queryId": "test-international-epdlhfcefp-pro04a",
+      "legacySeconds": 0.03448041700175963,
+      "compiledSeconds": 0.027341528002580162,
+      "modes": {
+        "none": {
+          "states": 1038,
+          "groups": 16,
+          "seconds": 0.004207322002912406
+        },
+        "score": {
+          "states": 826,
+          "groups": 16,
+          "seconds": 0.002727581999351969
+        },
+        "text": {
+          "states": 525,
+          "groups": 11,
+          "seconds": 0.001766935998603003
+        },
+        "rank": {
+          "states": 432,
+          "groups": 11,
+          "seconds": 0.0015964119993441273
+        }
+      }
+    },
+    {
+      "dataset": "scidocs",
+      "queryId": "beac53e8074b4822943a3374ff5e9fed98a891b8",
+      "legacySeconds": 0.4233992859990394,
+      "compiledSeconds": 0.07075426499795867,
+      "modes": {
+        "none": {
+          "states": 352,
+          "groups": 9,
+          "seconds": 0.0026334470021538436
+        },
+        "score": {
+          "states": 352,
+          "groups": 9,
+          "seconds": 0.005137772997841239
+        },
+        "text": {
+          "states": 352,
+          "groups": 9,
+          "seconds": 0.003985486997407861
+        },
+        "rank": {
+          "states": 352,
+          "groups": 9,
+          "seconds": 0.0014538280011038296
+        }
+      }
+    },
+    {
+      "dataset": "scidocs",
+      "queryId": "c5550a3478b24f7f1904c6beb8d9d1cf40d30b21",
+      "legacySeconds": 0.0833548359987617,
+      "compiledSeconds": 0.09763176799970097,
+      "modes": {
+        "none": {
+          "states": 352,
+          "groups": 9,
+          "seconds": 0.0021776649991807062
+        },
+        "score": {
+          "states": 352,
+          "groups": 9,
+          "seconds": 0.0019201690010959283
+        },
+        "text": {
+          "states": 352,
+          "groups": 9,
+          "seconds": 0.0016418880004493985
+        },
+        "rank": {
+          "states": 352,
+          "groups": 9,
+          "seconds": 0.0017280149986618198
+        }
+      }
+    }
+  ]
+}
