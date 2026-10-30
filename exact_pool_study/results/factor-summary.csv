@@ -1,0 +1,3 @@
+dataset,queries,medianScalarMs,medianUniqueMs,medianFactorSpeedup,allArchivedFactorsEqual
+arguana,16,215.21101249891217,140.3884654991998,1.4921466007783586,True
+scidocs,16,31.958272000338184,31.66821900049399,1.0042840357940028,True
