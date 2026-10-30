@@ -56,7 +56,8 @@
     "ordinaryMemoizationControl": true,
     "onlineSessionDecision": "no_go: no per-query median wins over memo in measured distinct/repeated5/20 conditions",
     "artifactVerificationDecision": "supported in declared fixed-scorer finite-channel scope",
-    "noveltyDecision": "specialization only; known bounds/equivalence/symmetry/caching; Q1 contribution not established"
+    "noveltyDecision": "specialization only; known bounds/equivalence/symmetry/caching; Q1 contribution not established",
+    "indicesRebuiltFromPinnedOriginalCorpora": 2
   },
   "reports": {
     "overview": "PROJECT_REVIEW_2026-10-30.md",
@@ -64,5 +65,6 @@
     "newProtocol": "exact_pool_study/PROTOCOL.md",
     "novelty": "exact_pool_study/RELATED_WORK.md",
     "paperDirection": "exact_pool_study/PAPER_DIRECTION.md"
-  }
+  },
+  "parentFilesByteIdentical": 894
 }

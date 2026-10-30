@@ -1,0 +1,9 @@
+{
+  "dataset": "arguana",
+  "documents": 8674,
+  "modelHash": "c75f97debd8947aa0803c85e872f1b6dc0439bb2ae6ac5e12a2a87c5c5843a2a",
+  "matchesFrozenStoredIntegerIndex": true,
+  "sourceFilesHashChecked": true,
+  "frozenParentFilesModified": false,
+  "seconds": 12.077235803000804
+}

@@ -27,9 +27,11 @@ python exact_pool_study/test_method.py
 python exact_pool_study/test_fast_factors.py
 ```
 
-For recomputation use a separate checkout and MOVE its `exact_pool_study/results` directory outside that checkout first, preserving the published evidence. The generators refuse overwrites. Download/build the pinned original indices using the parent pool_study instructions, or reuse indices built by your own trusted run. The mathematical target is the resulting canonical integer-weight hash, not every platform's floating log implementation.
+For recomputation use a separate checkout and MOVE its `exact_pool_study/results` directory outside that checkout first, preserving the published evidence. The generators refuse overwrites. Build indices with the helper below, which downloads/hash-checks pinned raw inputs into your data directory and NEVER rewrites frozen parent result/environment files. Alternatively reuse indices built by your own trusted run. The mathematical target is the resulting canonical integer-weight hash, not every platform's floating log implementation.
 
 ```bash
+python exact_pool_study/prepare_index.py --data /absolute/path/to/pool-data --dataset arguana
+python exact_pool_study/prepare_index.py --data /absolute/path/to/pool-data --dataset scidocs
 python exact_pool_study/run.py --data /absolute/path/to/pool-data --dataset arguana
 python exact_pool_study/run.py --data /absolute/path/to/pool-data --dataset scidocs
 python exact_pool_study/session_audit.py --data /absolute/path/to/pool-data --dataset arguana

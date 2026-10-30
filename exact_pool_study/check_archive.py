@@ -60,6 +60,9 @@ def main():
             assert factor['allArchivedFactorsEqual'] and factor['uniqueFormsScored']==len(row['uniqueFormTexts'])
             assert all(len(v)==3 and all(x>0 for x in v) for v in factor['factorSeconds'].values())
         source=json.loads((d/'source-replay.json').read_text());assert source['mismatches']==0 and source['queries']==16 and source['integerTokenDocumentScores']==score_cells and source['modelHash']==env['modelHash']
+        rebuilt=json.loads((d/'index-rebuild.json').read_text())
+        assert rebuilt['matchesFrozenStoredIntegerIndex'] and rebuilt['sourceFilesHashChecked'] and not rebuilt['frozenParentFilesModified']
+        assert rebuilt['modelHash']==env['modelHash'] and rebuilt['documents']==len(ids)
         with tempfile.TemporaryDirectory(prefix='exact-pool-verify-') as td:
             out=Path(td)/'report.json';subprocess.run([sys.executable,str(ROOT/'verify.py'),'--dataset',ds,'--output',str(out)],check=True)
             actual=json.loads(out.read_text());previous=json.loads((d/'verification.json').read_text())

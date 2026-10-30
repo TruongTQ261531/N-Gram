@@ -77,6 +77,7 @@ Compiler/unique-factor giảm thành phần công việc và exact pool giảm t
 -726839visited quotient states và14653862scorecells được kiểm tra từ representative ORIGINAL factor; kiểm tra coverage mọi original form, minimum cost, group multiplicity, ties và saturation/complete flag.
 -512conditional leaves được đối chiếu bằng full-corpus bounds không dùng compiled cache;857attaining witnesses đối chiếu trên toàn corpus.
 -86836463điểm integer token-form/document được dựng lại bằng gram extractor riêng và Python integer accumulation từ stored source index;0sai khác. Kiểm tra này nhắm scorer integer đã định, không formal-proof compiled libraries hoặc floating log builder.
+-Dựng lại cả hai index từ corpus byte gốc có hash pin, cho canonical integer-weight hash trùng bản đã khóa. Helper `prepare_index.py` tải/dựng cache ngoài repo và giữ nguyên mọi parent environment/result file, để đường tái lập không ghi đè bằng chứng cũ. Đây là audit sau kết quả, không phải tập test xác nhận mới.
 -Primary20request sets và toàn bộ supplemental/factor-audit answer hashes được dựng lại từ F; dữ liệu lưu đầy đủ request text/edits, method/order/timings, expected sets/hash và mọi source/freeze hash.
 -3nhóm test compiled/quotient và1nhóm unique-factor differential test đạt; runtime chỉ2CPU/8GiB, không GPU/paidAPI/nhãn mới. Các thời gian source/verifier chỉ là log kiểm tra, không dùng để so ranker production.
 
