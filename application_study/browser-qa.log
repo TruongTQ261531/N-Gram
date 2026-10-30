@@ -1,0 +1,63 @@
+{
+  "initial": {
+    "depth": "1",
+    "status": "Đã chứng nhận",
+    "ranks": 10,
+    "oracle": "1"
+  },
+  "corpusImportCSV": true,
+  "corpusImportJSON": true,
+  "corpusImportJSONL": true,
+  "userCorpusNotRelicensed": true,
+  "customCorpusDocuments": 8,
+  "tieWitnessStatus": true,
+  "htmlInjectionDidNotExecute": true,
+  "proofExportVerified": true,
+  "batchExportRecords": 2,
+  "batchExactOracles": 2,
+  "vietnameseAccentQuery": true,
+  "identityLatticeClearlyMarked": true,
+  "mobileNoBodyOverflow": true,
+  "navigation": true,
+  "uncaughtErrors": 0,
+  "applicationRequests": [
+    {
+      "url": "http://127.0.0.1:4173/",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/style.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/app.mjs",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/engine.mjs",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/data/demo-corpus.json",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/data/typos.json",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/data/data-license.json",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/worker.mjs",
+      "method": "GET"
+    }
+  ],
+  "screenshots": [
+    "studio-desktop.png",
+    "dataset-desktop.png",
+    "studio-mobile.png",
+    "research-mobile.png"
+  ]
+}

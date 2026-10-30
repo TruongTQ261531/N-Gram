@@ -40,5 +40,24 @@
   "original_capc_readme_sha256": "0395202ba1f2171f1e921e5ade113700a12e4cf2b0ca95b2a03e65d87eb362a9",
   "q1_goal": "not established; no acceptance guarantee",
   "verification": "python verify_all.py",
-  "legacy_scientific_artifacts_modified": false
+  "legacy_scientific_artifacts_modified": false,
+  "application_update_date": "2026-10-30",
+  "application": {
+    "url": "https://ngram-research-lab-tq261531.tealrook33.chatgpt.site",
+    "access": "owner-private",
+    "source": "webapp/",
+    "report": "application_study/REPORT_VI.md",
+    "scorer": "ngramlab-fixedpoint-v1; different from round3 float64",
+    "audit_cases": 288,
+    "synthetic_documents": 48,
+    "query_seeds": 48,
+    "source_families": 12,
+    "exact_states_verified": 334815,
+    "new_human_relevance_labels": 0,
+    "cover_improved_cases": 17,
+    "improved_acceptance_at_prespecified_caps": false,
+    "novelty": "candidate specialization; global novelty and Q1 suitability unconfirmed",
+    "deployment": "succeeded",
+    "preoutcome_commit": "8055553afd53d4477988910b1454c8640d075946"
+  }
 }

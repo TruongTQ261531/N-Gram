@@ -1,0 +1,12 @@
+✔ 64 independent full-text exhaustive checks, with graph caps and no enumeration (341.463442ms)
+✔ all exported token factors agree with independent full-query re-encoding (3.372551ms)
+✔ ties, empty/OOV scores and policy remain conservative (0.756314ms)
+✔ resource limits and invalid inputs do not produce a certificate (0.906415ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 362.965616

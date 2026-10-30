@@ -1,0 +1,15 @@
+{
+  "cases": 288,
+  "documents": 48,
+  "querySeeds": 48,
+  "families": 12,
+  "exactCases": 288,
+  "totalEnumeratedStates": 334815,
+  "modelHash": "ee3f8a81c50ea2d344eff168116506372db1cfa0f11d6d57d930b4c69d7f0a03",
+  "corpusHash": "45462c5ccc0216e4d4ce77882cca628679652705571d41bd0b9ba606935838db",
+  "uncompressedSha256": "714e69df26f36916865eb7a87349a7bfbbdf26ae978605f8d3fc68cef6397855",
+  "gzipSha256": "32d05cdd6615d790c934b6179abf12544b8df41ad61ab7d3cacf5115659cb480",
+  "bytes": 2588486,
+  "synthetic": true,
+  "noNewHumanLabels": true
+}

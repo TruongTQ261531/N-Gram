@@ -1,0 +1,21 @@
+{
+  "id": "appgdep_6ae4457d2a508191a262b165e9aa4619",
+  "project_id": "appgprj_6ae43a0ebebc8191bb89937b6caeb84a",
+  "title": "N-Gram Lab",
+  "version_id": "appgprj_6ae43a0ebebc8191bb89937b6caeb84a~appgver_4b1c5e0ef4a0819190d21b2f025ee696",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://ngram-research-lab-tq261531.tealrook33.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": "sediment://file_00000000f13481f8b86222ca9c350911",
+  "provider_deployment_id": "site---6ae43a0ebebc8191bb89937b6caeb84a",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-10-30T07:22:32.904536+00:00",
+  "site_source_commit": "eaf87c012192d4141e4b673503c0211028a31433",
+  "github_preoutcome_commit": "8055553afd53d4477988910b1454c8640d075946",
+  "access_mode": "custom",
+  "source_transport": "standard Git with memory-only credential; exact git archive; bundled helper unavailable",
+  "site_version_number": 1,
+  "audience": "owner-only, verified by successful deploy_private access check; unchanged since creation"
+}

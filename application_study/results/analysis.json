@@ -1,0 +1,13 @@
+{
+  "cases": 288,
+  "exact": 288,
+  "identity": 2,
+  "cover_improvement_cases": 17,
+  "deployed_improvement_cases": 17,
+  "production_enumerates": 275,
+  "evaluation_cases": 48,
+  "development_cases": 240,
+  "families": 12,
+  "synthetic": true,
+  "q1_novelty": "unconfirmed; descriptive v0.1 audit only"
+}

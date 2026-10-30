@@ -1,4 +1,4 @@
-"""Verify all three recorded studies without downloading data or fitting models."""
+"""Verify three recorded studies and the application audit without downloading data or fitting models."""
 from pathlib import Path
 import hashlib
 import subprocess
@@ -19,10 +19,11 @@ def main():
         ("CAPC recorded archive", "verify_results.py"),
         ("BOLT recorded archive", "round2/verify_recorded.py"),
         ("Discrete retrieval recorded archive", "round3/verify_archive.py"),
+        ("Browser application exact audit", "application_study/check_archive.py"),
     ]:
         print(f"Checking {label}", flush=True)
         subprocess.run([sys.executable, str(ROOT / script)], cwd=ROOT, check=True)
-    print("All three recorded studies verified. Hybrid evaluation, global novelty and Q1 acceptance are not established.", flush=True)
+    print("Three recorded studies and the browser application audit verified. Hybrid evaluation, global novelty and Q1 acceptance are not established.", flush=True)
 
 if __name__ == "__main__":
     main()

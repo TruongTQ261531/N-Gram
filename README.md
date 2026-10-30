@@ -1,5 +1,9 @@
 # N-Gram — ba vòng nghiên cứu và một bản công bố thống nhất
 
+**Web N-Gram Lab đã triển khai — 30/10/2026:** [mở ứng dụng](https://ngram-research-lab-tq261531.tealrook33.chatgpt.site) (quyền truy cập hiện tại: chủ sở hữu). Nhập corpus JSON/JSONL/CSV, kiểm tra truy vấn EN/VI, chọn bộ lỗi, xem witness và xuất dataset/chứng nhận trên trình duyệt. Không gửi corpus/query lên API.
+
+Ứng dụng dùng scorer trọng số nguyên riêng; không gán số liệu float64 vòng3 cho phiên bản web. [Bộ audit v0.1 và báo cáo](application_study/REPORT_VI.md) có288 case tổng hợp/bán tổng hợp,334.815 trạng thái được Python kiểm tra độc lập. Cover cải thiện17case, mỗi case một tài liệu; chưa tăng acceptance ở cap1/5/10/20. Bộ này còn nhỏ/dễ, không phải log người dùng thật và chưa xác lập novelty đủ Q1. [Mã web](webapp/), [protocol khóa trước kết quả](application_study/PROTOCOL.md), [rà soát ứng dụng/dataset](application_study/RELATED_WORK.md).
+
 Cập nhật 29/10/2026. Vòng 3 đã xây dựng và thực nghiệm **bộ chứng nhận rời rạc cho truy hồi character n-gram**, có lý thuyết, đối chứng LP/MILP, 300 truy vấn xác nhận ban đầu và 970 truy vấn xác nhận độc lập. Mã/kết quả nằm trong [round3](round3/README.md).
 
 **Chưa xác lập đủ novelty hoặc khả năng được nhận Q1.** Kết quả mới hỗ trợ một đóng góp hẹp về khả năng chứng nhận; không làm tăng chất lượng bộ xếp hạng và không biến ba hướng thành một mô hình lai đã được kiểm thử.

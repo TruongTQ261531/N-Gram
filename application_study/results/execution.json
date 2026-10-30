@@ -1,0 +1,9 @@
+{
+  "preoutcome_commit": "8055553afd53d4477988910b1454c8640d075946",
+  "outcomes_complete": true,
+  "source_freeze_unchanged": true,
+  "no_new_human_labels": true,
+  "browser_qa": "real Chromium via local portable preview; paths in script need adjustment on another machine",
+  "deployment_transport": "native Sites; bundled source helper not mounted, standard Git + exact git archive used when publishing",
+  "unix_time": 1793344500.4750783
+}

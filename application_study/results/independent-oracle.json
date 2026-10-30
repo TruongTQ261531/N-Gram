@@ -1,0 +1,1741 @@
+{
+  "cases": 288,
+  "exactCasesChecked": 288,
+  "statesChecked": 334815,
+  "independentTokenDocumentScores": 998688,
+  "independentlyVerifiedConflictEdges": 23,
+  "allBoundsSoundOnEnumeratedStates": true,
+  "familySplitDisjoint": true,
+  "arbitraryPrecisionPythonIntegers": true,
+  "seconds": 7.293499926000095,
+  "rows": [
+    {
+      "id": "retrieval-en|keyboard|B1",
+      "states": 140,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en|keyboard|B2",
+      "states": 4898,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en|curated|B1",
+      "states": 12,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en|curated|B2",
+      "states": 36,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en|mixed|B1",
+      "states": 145,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en|mixed|B2",
+      "states": 5229,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi|keyboard|B1",
+      "states": 105,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi|keyboard|B2",
+      "states": 4096,
+      "oracle": 4,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi|accents|B1",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi|accents|B2",
+      "states": 7,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi|mixed|B1",
+      "states": 108,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi|mixed|B2",
+      "states": 4337,
+      "oracle": 4,
+      "safe": true
+    },
+    {
+      "id": "dataset-en|keyboard|B1",
+      "states": 120,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-en|keyboard|B2",
+      "states": 3604,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-en|curated|B1",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-en|curated|B2",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-en|mixed|B1",
+      "states": 121,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-en|mixed|B2",
+      "states": 3672,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi|keyboard|B1",
+      "states": 84,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi|keyboard|B2",
+      "states": 2552,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi|accents|B2",
+      "states": 11,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi|mixed|B1",
+      "states": 88,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi|mixed|B2",
+      "states": 2811,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "privacy-en|keyboard|B1",
+      "states": 88,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-en|keyboard|B2",
+      "states": 1974,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-en|curated|B1",
+      "states": 7,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-en|curated|B2",
+      "states": 7,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-en|mixed|B1",
+      "states": 90,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-en|mixed|B2",
+      "states": 2058,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi|keyboard|B1",
+      "states": 65,
+      "oracle": 8,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi|keyboard|B2",
+      "states": 1570,
+      "oracle": 48,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi|accents|B1",
+      "states": 5,
+      "oracle": 8,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi|accents|B2",
+      "states": 11,
+      "oracle": 14,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi|mixed|B1",
+      "states": 69,
+      "oracle": 8,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi|mixed|B2",
+      "states": 1772,
+      "oracle": 48,
+      "safe": true
+    },
+    {
+      "id": "audit-en|keyboard|B1",
+      "states": 86,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-en|keyboard|B2",
+      "states": 1850,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-en|curated|B1",
+      "states": 1,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-en|curated|B2",
+      "states": 1,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-en|mixed|B1",
+      "states": 86,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-en|mixed|B2",
+      "states": 1850,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-vi|keyboard|B1",
+      "states": 87,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-vi|keyboard|B2",
+      "states": 2955,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-vi|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-vi|accents|B2",
+      "states": 11,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-vi|mixed|B1",
+      "states": 91,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-vi|mixed|B2",
+      "states": 3243,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en|keyboard|B1",
+      "states": 110,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en|keyboard|B2",
+      "states": 2990,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en|curated|B1",
+      "states": 9,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en|curated|B2",
+      "states": 9,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en|mixed|B1",
+      "states": 113,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en|mixed|B2",
+      "states": 3128,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi|keyboard|B1",
+      "states": 108,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi|keyboard|B2",
+      "states": 4379,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi|accents|B2",
+      "states": 11,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi|mixed|B1",
+      "states": 112,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi|mixed|B2",
+      "states": 4710,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-en|keyboard|B1",
+      "states": 85,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-en|keyboard|B2",
+      "states": 1813,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-en|curated|B1",
+      "states": 8,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-en|curated|B2",
+      "states": 18,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-en|mixed|B1",
+      "states": 89,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-en|mixed|B2",
+      "states": 1989,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-vi|keyboard|B1",
+      "states": 67,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-vi|keyboard|B2",
+      "states": 1596,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-vi|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-vi|accents|B2",
+      "states": 11,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-vi|mixed|B1",
+      "states": 71,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-vi|mixed|B2",
+      "states": 1804,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "runtime-en|keyboard|B1",
+      "states": 98,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-en|keyboard|B2",
+      "states": 2448,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-en|curated|B1",
+      "states": 13,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-en|curated|B2",
+      "states": 48,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-en|mixed|B1",
+      "states": 104,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-en|mixed|B2",
+      "states": 2750,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi|keyboard|B1",
+      "states": 99,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi|keyboard|B2",
+      "states": 3503,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi|accents|B2",
+      "states": 11,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi|mixed|B1",
+      "states": 103,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi|mixed|B2",
+      "states": 3807,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-en|keyboard|B1",
+      "states": 78,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-en|keyboard|B2",
+      "states": 1554,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "corpus-en|curated|B1",
+      "states": 6,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-en|curated|B2",
+      "states": 6,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-en|mixed|B1",
+      "states": 79,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-en|mixed|B2",
+      "states": 1596,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi|keyboard|B1",
+      "states": 72,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi|keyboard|B2",
+      "states": 1948,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi|accents|B2",
+      "states": 11,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi|mixed|B1",
+      "states": 76,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi|mixed|B2",
+      "states": 2171,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en|keyboard|B1",
+      "states": 118,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en|keyboard|B2",
+      "states": 3160,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "export-en|curated|B1",
+      "states": 12,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en|curated|B2",
+      "states": 36,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en|mixed|B1",
+      "states": 123,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en|mixed|B2",
+      "states": 3403,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "export-vi|keyboard|B1",
+      "states": 83,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-vi|keyboard|B2",
+      "states": 2290,
+      "oracle": 3,
+      "safe": true
+    },
+    {
+      "id": "export-vi|accents|B1",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-vi|accents|B2",
+      "states": 7,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-vi|mixed|B1",
+      "states": 86,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-vi|mixed|B2",
+      "states": 2460,
+      "oracle": 3,
+      "safe": true
+    },
+    {
+      "id": "deploy-en|keyboard|B1",
+      "states": 118,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-en|keyboard|B2",
+      "states": 3468,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-en|curated|B1",
+      "states": 17,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-en|curated|B2",
+      "states": 81,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-en|mixed|B1",
+      "states": 124,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-en|mixed|B2",
+      "states": 3834,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi|keyboard|B1",
+      "states": 107,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi|keyboard|B2",
+      "states": 4247,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi|accents|B1",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi|accents|B2",
+      "states": 7,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi|mixed|B1",
+      "states": 110,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi|mixed|B2",
+      "states": 4495,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "noise-en|keyboard|B1",
+      "states": 124,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en|keyboard|B2",
+      "states": 3816,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en|curated|B1",
+      "states": 12,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en|curated|B2",
+      "states": 36,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en|mixed|B1",
+      "states": 127,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en|mixed|B2",
+      "states": 3996,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-vi|keyboard|B1",
+      "states": 44,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-vi|keyboard|B2",
+      "states": 635,
+      "oracle": 3,
+      "safe": true
+    },
+    {
+      "id": "noise-vi|accents|B1",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-vi|accents|B2",
+      "states": 7,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-vi|mixed|B1",
+      "states": 47,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-vi|mixed|B2",
+      "states": 727,
+      "oracle": 3,
+      "safe": true
+    },
+    {
+      "id": "labels-en|keyboard|B1",
+      "states": 103,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-en|keyboard|B2",
+      "states": 2604,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-en|curated|B1",
+      "states": 9,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-en|curated|B2",
+      "states": 25,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-en|mixed|B1",
+      "states": 108,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-en|mixed|B2",
+      "states": 2860,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-vi|keyboard|B1",
+      "states": 73,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-vi|keyboard|B2",
+      "states": 1798,
+      "oracle": 3,
+      "safe": true
+    },
+    {
+      "id": "labels-vi|accents|B1",
+      "states": 3,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-vi|accents|B2",
+      "states": 4,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-vi|mixed|B1",
+      "states": 75,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-vi|mixed|B2",
+      "states": 1898,
+      "oracle": 3,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en-secondary|keyboard|B1",
+      "states": 123,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en-secondary|keyboard|B2",
+      "states": 3844,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en-secondary|curated|B1",
+      "states": 8,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en-secondary|curated|B2",
+      "states": 20,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en-secondary|mixed|B1",
+      "states": 127,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-en-secondary|mixed|B2",
+      "states": 4095,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi-secondary|keyboard|B1",
+      "states": 93,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi-secondary|keyboard|B2",
+      "states": 3244,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi-secondary|accents|B1",
+      "states": 3,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi-secondary|accents|B2",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi-secondary|mixed|B1",
+      "states": 95,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "retrieval-vi-secondary|mixed|B2",
+      "states": 3391,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "dataset-en-secondary|keyboard|B1",
+      "states": 95,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-en-secondary|keyboard|B2",
+      "states": 2279,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-en-secondary|curated|B1",
+      "states": 6,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-en-secondary|curated|B2",
+      "states": 12,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-en-secondary|mixed|B1",
+      "states": 96,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-en-secondary|mixed|B2",
+      "states": 2322,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi-secondary|keyboard|B1",
+      "states": 77,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi-secondary|keyboard|B2",
+      "states": 2144,
+      "oracle": 3,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi-secondary|accents|B1",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi-secondary|accents|B2",
+      "states": 7,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi-secondary|mixed|B1",
+      "states": 80,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "dataset-vi-secondary|mixed|B2",
+      "states": 2331,
+      "oracle": 3,
+      "safe": true
+    },
+    {
+      "id": "privacy-en-secondary|keyboard|B1",
+      "states": 136,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-en-secondary|keyboard|B2",
+      "states": 5823,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-en-secondary|curated|B1",
+      "states": 16,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-en-secondary|curated|B2",
+      "states": 84,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-en-secondary|mixed|B1",
+      "states": 142,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-en-secondary|mixed|B2",
+      "states": 6390,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi-secondary|keyboard|B1",
+      "states": 85,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi-secondary|keyboard|B2",
+      "states": 2654,
+      "oracle": 4,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi-secondary|accents|B1",
+      "states": 5,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi-secondary|accents|B2",
+      "states": 11,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi-secondary|mixed|B1",
+      "states": 89,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "privacy-vi-secondary|mixed|B2",
+      "states": 2916,
+      "oracle": 4,
+      "safe": true
+    },
+    {
+      "id": "audit-en-secondary|keyboard|B1",
+      "states": 96,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-en-secondary|keyboard|B2",
+      "states": 2220,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-en-secondary|curated|B1",
+      "states": 9,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-en-secondary|curated|B2",
+      "states": 9,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-en-secondary|mixed|B1",
+      "states": 99,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-en-secondary|mixed|B2",
+      "states": 2331,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-vi-secondary|keyboard|B1",
+      "states": 67,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-vi-secondary|keyboard|B2",
+      "states": 1636,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "audit-vi-secondary|accents|B1",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-vi-secondary|accents|B2",
+      "states": 7,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "audit-vi-secondary|mixed|B1",
+      "states": 70,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "audit-vi-secondary|mixed|B2",
+      "states": 1794,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en-secondary|keyboard|B1",
+      "states": 167,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en-secondary|keyboard|B2",
+      "states": 9260,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en-secondary|curated|B1",
+      "states": 17,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en-secondary|curated|B2",
+      "states": 81,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en-secondary|mixed|B1",
+      "states": 173,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "algorithm-en-secondary|mixed|B2",
+      "states": 9908,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi-secondary|keyboard|B1",
+      "states": 99,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi-secondary|keyboard|B2",
+      "states": 3538,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi-secondary|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi-secondary|accents|B2",
+      "states": 11,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi-secondary|mixed|B1",
+      "states": 103,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "algorithm-vi-secondary|mixed|B2",
+      "states": 3842,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-en-secondary|keyboard|B1",
+      "states": 94,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-en-secondary|keyboard|B2",
+      "states": 2254,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-en-secondary|curated|B1",
+      "states": 14,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-en-secondary|curated|B2",
+      "states": 54,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-en-secondary|mixed|B1",
+      "states": 100,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-en-secondary|mixed|B2",
+      "states": 2550,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-vi-secondary|keyboard|B1",
+      "states": 72,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-vi-secondary|keyboard|B2",
+      "states": 1778,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "context-vi-secondary|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-vi-secondary|accents|B2",
+      "states": 11,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-vi-secondary|mixed|B1",
+      "states": 76,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "context-vi-secondary|mixed|B2",
+      "states": 2001,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "runtime-en-secondary|keyboard|B1",
+      "states": 157,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-en-secondary|keyboard|B2",
+      "states": 8017,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-en-secondary|curated|B1",
+      "states": 16,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-en-secondary|curated|B2",
+      "states": 84,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-en-secondary|mixed|B1",
+      "states": 163,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-en-secondary|mixed|B2",
+      "states": 8610,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi-secondary|keyboard|B1",
+      "states": 96,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi-secondary|keyboard|B2",
+      "states": 3308,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi-secondary|accents|B1",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi-secondary|accents|B2",
+      "states": 7,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi-secondary|mixed|B1",
+      "states": 99,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "runtime-vi-secondary|mixed|B2",
+      "states": 3532,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "corpus-en-secondary|keyboard|B1",
+      "states": 160,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-en-secondary|keyboard|B2",
+      "states": 8358,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "corpus-en-secondary|curated|B1",
+      "states": 17,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-en-secondary|curated|B2",
+      "states": 81,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "corpus-en-secondary|mixed|B1",
+      "states": 169,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-en-secondary|mixed|B2",
+      "states": 9252,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi-secondary|keyboard|B1",
+      "states": 93,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi-secondary|keyboard|B2",
+      "states": 3120,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi-secondary|accents|B1",
+      "states": 4,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi-secondary|accents|B2",
+      "states": 7,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi-secondary|mixed|B1",
+      "states": 96,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "corpus-vi-secondary|mixed|B2",
+      "states": 3341,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en-secondary|keyboard|B1",
+      "states": 92,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en-secondary|keyboard|B2",
+      "states": 2120,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en-secondary|curated|B1",
+      "states": 7,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en-secondary|curated|B2",
+      "states": 16,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en-secondary|mixed|B1",
+      "states": 94,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-en-secondary|mixed|B2",
+      "states": 2214,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-vi-secondary|keyboard|B1",
+      "states": 66,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "export-vi-secondary|keyboard|B2",
+      "states": 1571,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "export-vi-secondary|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-vi-secondary|accents|B2",
+      "states": 11,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "export-vi-secondary|mixed|B1",
+      "states": 70,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "export-vi-secondary|mixed|B2",
+      "states": 1776,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "deploy-en-secondary|keyboard|B1",
+      "states": 110,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-en-secondary|keyboard|B2",
+      "states": 3060,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-en-secondary|curated|B1",
+      "states": 14,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-en-secondary|curated|B2",
+      "states": 54,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-en-secondary|mixed|B1",
+      "states": 114,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-en-secondary|mixed|B2",
+      "states": 3294,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi-secondary|keyboard|B1",
+      "states": 104,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi-secondary|keyboard|B2",
+      "states": 3862,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi-secondary|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi-secondary|accents|B2",
+      "states": 11,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi-secondary|mixed|B1",
+      "states": 108,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "deploy-vi-secondary|mixed|B2",
+      "states": 4181,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en-secondary|keyboard|B1",
+      "states": 140,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en-secondary|keyboard|B2",
+      "states": 6508,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en-secondary|curated|B1",
+      "states": 11,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en-secondary|curated|B2",
+      "states": 28,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en-secondary|mixed|B1",
+      "states": 145,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-en-secondary|mixed|B2",
+      "states": 6990,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-vi-secondary|keyboard|B1",
+      "states": 58,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-vi-secondary|keyboard|B2",
+      "states": 1255,
+      "oracle": 3,
+      "safe": true
+    },
+    {
+      "id": "noise-vi-secondary|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-vi-secondary|accents|B2",
+      "states": 11,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "noise-vi-secondary|mixed|B1",
+      "states": 62,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "noise-vi-secondary|mixed|B2",
+      "states": 1436,
+      "oracle": 3,
+      "safe": true
+    },
+    {
+      "id": "labels-en-secondary|keyboard|B1",
+      "states": 143,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "labels-en-secondary|keyboard|B2",
+      "states": 5040,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "labels-en-secondary|curated|B1",
+      "states": 14,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "labels-en-secondary|curated|B2",
+      "states": 54,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "labels-en-secondary|mixed|B1",
+      "states": 145,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "labels-en-secondary|mixed|B2",
+      "states": 5185,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "labels-vi-secondary|keyboard|B1",
+      "states": 95,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "labels-vi-secondary|keyboard|B2",
+      "states": 3196,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-vi-secondary|accents|B1",
+      "states": 5,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "labels-vi-secondary|accents|B2",
+      "states": 11,
+      "oracle": 2,
+      "safe": true
+    },
+    {
+      "id": "labels-vi-secondary|mixed|B1",
+      "states": 99,
+      "oracle": 1,
+      "safe": true
+    },
+    {
+      "id": "labels-vi-secondary|mixed|B2",
+      "states": 3488,
+      "oracle": 2,
+      "safe": true
+    }
+  ]
+}

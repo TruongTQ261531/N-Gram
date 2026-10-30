@@ -1,0 +1,11 @@
+{
+  "cases": 288,
+  "exactCasesChecked": 288,
+  "statesChecked": 334815,
+  "independentTokenDocumentScores": 998688,
+  "independentlyVerifiedConflictEdges": 23,
+  "allBoundsSoundOnEnumeratedStates": true,
+  "familySplitDisjoint": true,
+  "arbitraryPrecisionPythonIntegers": true,
+  "seconds": 7.293499926000095
+}

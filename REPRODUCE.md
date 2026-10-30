@@ -66,3 +66,7 @@ Không so trực tiếp Macro-F1 dưới nhiễu lấy mẫu CAPC với RBA theo
 ## Vòng 3 — chứng nhận truy hồi
 
 Đọc [round3/REPRODUCE.md](round3/REPRODUCE.md) để kiểm chứng ngoại tuyến, chạy 18 unit test, dựng index nguồn được pin, chứng nhận truy vấn mới và tái lập riêng hai lượt 300/970 truy vấn. Không chạy lại trên bản công bố duy nhất hoặc đổi freeze để che các kết quả đã xem.
+
+## Ứng dụng web và audit data v0.1
+
+Chạy `node webapp/test-engine.mjs` và `python application_study/check_archive.py`. Verifier dùng Python chuẩn, tính lại đủ288case/334.815trạng thái; không đổi evidence đã công bố. Xem [hướng dẫn](application_study/README.md), [giao thức](application_study/PROTOCOL.md) và [giới hạn kết quả](application_study/REPORT_VI.md).
