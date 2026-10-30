@@ -1,0 +1,166 @@
+{
+  "audit_date": "2026-10-30",
+  "scope": "Bounded primary-source novelty/licensing screen for a browser-local fixed-point finite-query-edit retrieval application",
+  "limitations": [
+    "Not a systematic review, global novelty certificate, independent mathematical review, journal-quartile verification, or legal opinion",
+    "No raw spelling dictionary or corpus downloaded or redistributed by this audit",
+    "Recent arXiv sources treated as preprints unless independently verified",
+    "No result metrics, published round3 files, or repository root files changed"
+  ],
+  "search_queries": [
+    "\"certified\" retrieval \"adaptive\" set query edits",
+    "\"github typo corpus\" license",
+    "\"facebookresearch/moe\" license misspellings",
+    "codespell dictionary license",
+    "\"Top-K Is Not a Budget for Hybrid Retrieval\" arxiv",
+    "retrieval query typing robustness certified query spelling retrieval benchmark",
+    "\"certified\" \"retrieval\" \"prediction sets\" adaptive",
+    "retrieval counterfactual typo dataset robustness traces benchmark exact rank",
+    "\"retrieval\" \"conformal\" \"adaptive\" \"set\" 2025",
+    "\"retrieval\" \"certificate\" \"counterfactual\" dataset",
+    "\"retrieval\" \"minimal\" \"certified\" \"query\" set",
+    "\"retrieval\" \"counterfactual\" \"typos\" dataset",
+    "\"Top-Adaptive-K\"",
+    "site:aclanthology.org \"retrieval\" \"typos\" \"benchmark\"",
+    "site:arxiv.org \"retrieval\" \"counterfactual\" \"edit\"",
+    "\"Risk Controlled Image Retrieval\" AAAI",
+    "\"CONFLARE\" \"retrieval\"",
+    "\"Streamlining Conformal Information Retrieval via Score Refinement\"",
+    "\"retrieval\" \"edit lattice\" \"dataset\"",
+    "\"retrieval\" \"counterfactual explanations\" query perturbation",
+    "\"query\" \"typos\" \"DL-Typo\"",
+    "\"TextFlint\" ACL robustness evaluation perturbation dataset"
+  ],
+  "sources": [
+    {
+      "id": "conformal_ir_2024",
+      "title": "Streamlining Conformal Information Retrieval via Score Refinement",
+      "url": "https://aclanthology.org/2024.fever-1.22.pdf",
+      "primary": true,
+      "access_depth": "Full-text Sections 2-3 and experimental setup inspected",
+      "finding": "Adaptive compact calibrated retrieval sets already exist; marginal relevance coverage differs from deterministic lattice retention",
+      "license_note": "Paper used for comparison only; dataset licenses not audited"
+    },
+    {
+      "id": "rcir_2025",
+      "title": "Risk Controlled Image Retrieval",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/34931",
+      "primary": true,
+      "access_depth": "Publisher abstract and metadata from search result",
+      "finding": "Coverage-guaranteed retrieval sets also exist outside text IR",
+      "license_note": "No reuse of source data proposed"
+    },
+    {
+      "id": "conformal_agentic_search_2026",
+      "title": "CAS: Conformalized Agentic Search via Adaptive Retrieval and Policy Weighting",
+      "url": "https://arxiv.org/html/2608.20771v1",
+      "primary": true,
+      "access_depth": "Sections 2-3.2 inspected; no complete proof audit",
+      "finding": "Dynamic evidence truncation via adaptive prediction sets is prior art; calibration and target differ",
+      "license_note": "Paper consulted, no code/data imported"
+    },
+    {
+      "id": "dibud_2026",
+      "title": "Top-K Is Not a Budget for Hybrid Retrieval",
+      "url": "https://arxiv.org/html/2609.15143v1",
+      "primary": true,
+      "access_depth": "Full method Section 2 inspected",
+      "finding": "Exact RRF prefix under an access budget, including empty output, precedes this application; fixed-query fusion differs from edit-lattice retention",
+      "license_note": "Paper consulted, no code/data imported"
+    },
+    {
+      "id": "certified_adaptive_selection_2026",
+      "title": "Certify the Decision, Not Every Score: Exact Top-k Selection from Few Evaluations",
+      "url": "https://arxiv.org/html/2610.14996v1",
+      "primary": true,
+      "access_depth": "Sections 1-2 and Section 3 hindsight-optimum definition inspected",
+      "finding": "Deterministic adaptive selection and minimum-information certificates are established; Cartesian information-disjoint model differs from shared text edits",
+      "license_note": "Paper consulted, no code/data imported"
+    },
+    {
+      "id": "qe_rag_2025",
+      "title": "QE-RAG: A Robust Retrieval-Augmented Generation Benchmark for Query Entry Errors",
+      "url": "https://arxiv.org/html/2504.04062v1",
+      "primary": true,
+      "access_depth": "Abstract and full Section 3 dataset construction inspected",
+      "finding": "Existing QA queries with injected keyboard/visual/dictionary errors and inherited labels are prior art; no first natural-query-error-dataset claim is defensible here",
+      "license_note": "Underlying QA/Wikipedia and released artifact licenses not audited; do not redistribute from this inspection"
+    },
+    {
+      "id": "query_variation_2024",
+      "title": "Revisiting Query Variation Robustness of Transformer Models",
+      "url": "https://aclanthology.org/2024.findings-emnlp.248/",
+      "primary": true,
+      "access_depth": "Publisher abstract and artifact link inspected",
+      "finding": "Query variation robustness evaluation and released artifacts are established",
+      "license_note": "No artifact license audit or import"
+    },
+    {
+      "id": "credence_2023",
+      "title": "CREDENCE: Counterfactual Explanations for Document Ranking",
+      "url": "https://arxiv.org/abs/2302.04983",
+      "primary": true,
+      "access_depth": "Author abstract and publication metadata inspected",
+      "finding": "Interactive query/document perturbation and counterfactual ranking tools already exist",
+      "license_note": "No code/data imported; detailed method not audited"
+    },
+    {
+      "id": "textflint_2021",
+      "title": "TextFlint: Unified Multilingual Robustness Evaluation Toolkit for Natural Language Processing",
+      "url": "https://aclanthology.org/2021.acl-demo.41/",
+      "primary": true,
+      "access_depth": "Primary abstract/search result and author repository README search excerpt",
+      "repository_url": "https://github.com/textflint/textflint",
+      "finding": "Multilingual transformation testing, analytic reports and saved augmented data are established",
+      "license_note": "No code/data license audit or import"
+    },
+    {
+      "id": "codespell_dictionary",
+      "title": "codespell spelling dictionaries",
+      "url": "https://github.com/codespell-project/codespell",
+      "primary": true,
+      "access_depth": "Author README license section read at pinned commit; primary GitHub commit API inspected; dictionary itself not fetched",
+      "commit": "4ce1caed2f97a50031225545c9697d9ef885c09b",
+      "commit_date": "2026-10-29T13:20:19Z",
+      "commit_api_url": "https://api.github.com/repos/codespell-project/codespell/commits/4ce1caed2f97a50031225545c9697d9ef885c09b",
+      "dictionary_url": "https://raw.githubusercontent.com/codespell-project/codespell/4ce1caed2f97a50031225545c9697d9ef885c09b/codespell_lib/data/dictionary.txt",
+      "license_source_url": "https://github.com/codespell-project/codespell/blob/4ce1caed2f97a50031225545c9697d9ef885c09b/README.rst#L430-L456",
+      "license_source_blob_sha": "61d179469b203c0302ba27b15a5cb40e5c64a69c",
+      "data_license": "CC-BY-SA-3.0",
+      "code_license": "GPL-2.0-only",
+      "finding": "Recommended optional curated spelling-error subset, with attribution/license/changes and semi-synthetic query-transplant labeling",
+      "license_note": "README explicitly separates dictionary and code licenses; raw data hash/content not verified; exact derivative scope of combined traces not adjudicated"
+    },
+    {
+      "id": "cc_by_sa_30",
+      "title": "Creative Commons Attribution-ShareAlike 3.0 Unported deed",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "primary": true,
+      "access_depth": "Official deed terms inspected",
+      "finding": "Commercial sharing/adaptation permitted subject to attribution, ShareAlike and no additional restrictions",
+      "license_note": "Deed is a summary; linked legal code governs"
+    },
+    {
+      "id": "moe_pairs",
+      "title": "Misspelling Oblivious Word Embeddings misspelling pairs",
+      "url": "https://github.com/facebookresearch/moe",
+      "primary": true,
+      "access_depth": "README and LICENSE text inspected; no dataset downloaded",
+      "license_source_url": "https://raw.githubusercontent.com/facebookresearch/moe/master/LICENSE",
+      "data_license": "CC-BY-NC-4.0 per repository README/LICENSE",
+      "finding": "Explicit license, but noncommercial restriction makes it unsuitable as the default unrestricted application channel",
+      "license_note": "No raw pair provenance audit; repository not pinned because it is not selected for import"
+    },
+    {
+      "id": "github_typo_corpus",
+      "title": "GitHub Typo Corpus",
+      "url": "https://github.com/mhagiwara/github-typo-corpus#terms",
+      "primary": true,
+      "access_depth": "Author README data schema and Terms inspected; no corpus downloaded",
+      "paper_url": "https://aclanthology.org/2020.lrec-1.835/",
+      "data_license": "Inherited per original source repository; no blanket permissive data license established",
+      "finding": "Natural commit corrections could support external validation with per-source provenance/license review",
+      "license_note": "Paper/website license is not a blanket license to all contained commits or text"
+    }
+  ]
+}

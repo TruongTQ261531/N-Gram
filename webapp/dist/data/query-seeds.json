@@ -1,0 +1,386 @@
+[
+  {
+    "id": "retrieval-en",
+    "family": "retrieval",
+    "language": "en",
+    "text": "retrieval certificate",
+    "source_anchor": "retrieval-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "retrieval-vi",
+    "family": "retrieval",
+    "language": "vi",
+    "text": "chứng nhận truy hồi",
+    "source_anchor": "retrieval-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "dataset-en",
+    "family": "dataset",
+    "language": "en",
+    "text": "dataset provenance",
+    "source_anchor": "dataset-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "dataset-vi",
+    "family": "dataset",
+    "language": "vi",
+    "text": "nguồn gốc dữ liệu",
+    "source_anchor": "dataset-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "privacy-en",
+    "family": "privacy",
+    "language": "en",
+    "text": "private corpus",
+    "source_anchor": "privacy-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "privacy-vi",
+    "family": "privacy",
+    "language": "vi",
+    "text": "bảo mật dữ liệu",
+    "source_anchor": "privacy-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "audit-en",
+    "family": "audit",
+    "language": "en",
+    "text": "audit witness",
+    "source_anchor": "audit-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "audit-vi",
+    "family": "audit",
+    "language": "vi",
+    "text": "kiểm tra phản ví dụ",
+    "source_anchor": "audit-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "algorithm-en",
+    "family": "algorithm",
+    "language": "en",
+    "text": "algorithm budget",
+    "source_anchor": "algorithm-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "algorithm-vi",
+    "family": "algorithm",
+    "language": "vi",
+    "text": "ngân sách thuật toán",
+    "source_anchor": "algorithm-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "context-en",
+    "family": "context",
+    "language": "en",
+    "text": "context depth",
+    "source_anchor": "context-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "context-vi",
+    "family": "context",
+    "language": "vi",
+    "text": "độ sâu ngữ cảnh",
+    "source_anchor": "context-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "runtime-en",
+    "family": "runtime",
+    "language": "en",
+    "text": "runtime integer",
+    "source_anchor": "runtime-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "runtime-vi",
+    "family": "runtime",
+    "language": "vi",
+    "text": "tính toán số nguyên",
+    "source_anchor": "runtime-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "corpus-en",
+    "family": "corpus",
+    "language": "en",
+    "text": "corpus index",
+    "source_anchor": "corpus-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "corpus-vi",
+    "family": "corpus",
+    "language": "vi",
+    "text": "chỉ mục tài liệu",
+    "source_anchor": "corpus-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "export-en",
+    "family": "export",
+    "language": "en",
+    "text": "export certificate",
+    "source_anchor": "export-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "export-vi",
+    "family": "export",
+    "language": "vi",
+    "text": "xuất chứng nhận",
+    "source_anchor": "export-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "deploy-en",
+    "family": "deploy",
+    "language": "en",
+    "text": "deployment version",
+    "source_anchor": "deploy-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "deploy-vi",
+    "family": "deploy",
+    "language": "vi",
+    "text": "phiên bản triển khai",
+    "source_anchor": "deploy-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "noise-en",
+    "family": "noise",
+    "language": "en",
+    "text": "spelling dictionary",
+    "source_anchor": "noise-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "noise-vi",
+    "family": "noise",
+    "language": "vi",
+    "text": "từ điển lỗi",
+    "source_anchor": "noise-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "labels-en",
+    "family": "labels",
+    "language": "en",
+    "text": "relevance labels",
+    "source_anchor": "labels-en-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "labels-vi",
+    "family": "labels",
+    "language": "vi",
+    "text": "nhãn liên quan",
+    "source_anchor": "labels-vi-1",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "retrieval-en-secondary",
+    "family": "retrieval",
+    "language": "en",
+    "text": "retrieval relevance",
+    "source_anchor": "retrieval-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "retrieval-vi-secondary",
+    "family": "retrieval",
+    "language": "vi",
+    "text": "liên quan truy hồi",
+    "source_anchor": "retrieval-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "dataset-en-secondary",
+    "family": "dataset",
+    "language": "en",
+    "text": "dataset splits",
+    "source_anchor": "dataset-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "dataset-vi-secondary",
+    "family": "dataset",
+    "language": "vi",
+    "text": "chia tập dữ liệu",
+    "source_anchor": "dataset-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "privacy-en-secondary",
+    "family": "privacy",
+    "language": "en",
+    "text": "data export permission",
+    "source_anchor": "privacy-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "privacy-vi-secondary",
+    "family": "privacy",
+    "language": "vi",
+    "text": "quyền xuất dữ liệu",
+    "source_anchor": "privacy-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "audit-en-secondary",
+    "family": "audit",
+    "language": "en",
+    "text": "audit checksum",
+    "source_anchor": "audit-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "audit-vi-secondary",
+    "family": "audit",
+    "language": "vi",
+    "text": "kiểm tra mã băm",
+    "source_anchor": "audit-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "algorithm-en-secondary",
+    "family": "algorithm",
+    "language": "en",
+    "text": "algorithm resource budget",
+    "source_anchor": "algorithm-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "algorithm-vi-secondary",
+    "family": "algorithm",
+    "language": "vi",
+    "text": "giới hạn tài nguyên",
+    "source_anchor": "algorithm-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "context-en-secondary",
+    "family": "context",
+    "language": "en",
+    "text": "context minimum",
+    "source_anchor": "context-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "context-vi-secondary",
+    "family": "context",
+    "language": "vi",
+    "text": "độ sâu tối thiểu",
+    "source_anchor": "context-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "runtime-en-secondary",
+    "family": "runtime",
+    "language": "en",
+    "text": "floating reference model",
+    "source_anchor": "runtime-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "runtime-vi-secondary",
+    "family": "runtime",
+    "language": "vi",
+    "text": "mô hình tham chiếu",
+    "source_anchor": "runtime-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "corpus-en-secondary",
+    "family": "corpus",
+    "language": "en",
+    "text": "corpus content duplicates",
+    "source_anchor": "corpus-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "corpus-vi-secondary",
+    "family": "corpus",
+    "language": "vi",
+    "text": "nội dung trùng lặp",
+    "source_anchor": "corpus-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "export-en-secondary",
+    "family": "export",
+    "language": "en",
+    "text": "export dataset",
+    "source_anchor": "export-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "export-vi-secondary",
+    "family": "export",
+    "language": "vi",
+    "text": "xuất bộ dữ liệu",
+    "source_anchor": "export-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "deploy-en-secondary",
+    "family": "deploy",
+    "language": "en",
+    "text": "research version",
+    "source_anchor": "deploy-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "deploy-vi-secondary",
+    "family": "deploy",
+    "language": "vi",
+    "text": "phiên bản nghiên cứu",
+    "source_anchor": "deploy-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "noise-en-secondary",
+    "family": "noise",
+    "language": "en",
+    "text": "accent omission channel",
+    "source_anchor": "noise-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "noise-vi-secondary",
+    "family": "noise",
+    "language": "vi",
+    "text": "bộ lỗi mất dấu",
+    "source_anchor": "noise-vi-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "labels-en-secondary",
+    "family": "labels",
+    "language": "en",
+    "text": "research contribution",
+    "source_anchor": "labels-en-2",
+    "semantic_relevance_label": null
+  },
+  {
+    "id": "labels-vi-secondary",
+    "family": "labels",
+    "language": "vi",
+    "text": "đóng góp nghiên cứu",
+    "source_anchor": "labels-vi-2",
+    "semantic_relevance_label": null
+  }
+]

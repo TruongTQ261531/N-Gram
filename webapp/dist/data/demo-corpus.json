@@ -1,0 +1,390 @@
+{
+  "kind": "authored-synthetic",
+  "license": "CC0-1.0",
+  "documents": [
+    {
+      "id": "retrieval-en-1",
+      "family": "retrieval",
+      "language": "en",
+      "title": "Retrieval stability",
+      "text": "A retrieval certificate bounds the worst rank of a reference document under declared query edits. The corpus and scoring rule stay fixed.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "retrieval-en-2",
+      "family": "retrieval",
+      "language": "en",
+      "title": "Retrieval relevance",
+      "text": "Retrieval relevance concerns whether a document answers the original information need. A stable document can still be irrelevant.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "retrieval-vi-1",
+      "family": "retrieval",
+      "language": "vi",
+      "title": "Ổn định truy hồi",
+      "text": "Chứng nhận truy hồi chặn thứ hạng tệ nhất của tài liệu tham chiếu khi sửa truy vấn theo bộ lỗi đã định. Corpus và cách tính điểm được giữ cố định.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "retrieval-vi-2",
+      "family": "retrieval",
+      "language": "vi",
+      "title": "Liên quan truy hồi",
+      "text": "Mức liên quan truy hồi xét tài liệu có đáp ứng nhu cầu thông tin gốc hay không. Tài liệu ổn định vẫn có thể không liên quan.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "dataset-en-1",
+      "family": "dataset",
+      "language": "en",
+      "title": "Dataset provenance",
+      "text": "Dataset provenance records source revision, transformation, license, and content hash. Keep original and transformed records distinguishable.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "dataset-en-2",
+      "family": "dataset",
+      "language": "en",
+      "title": "Dataset splits",
+      "text": "Dataset splits group related source queries before assigning development and evaluation roles. Error variants of one source remain in the same split.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "dataset-vi-1",
+      "family": "dataset",
+      "language": "vi",
+      "title": "Nguồn gốc dữ liệu",
+      "text": "Nguồn gốc dữ liệu ghi phiên bản nguồn, phép biến đổi, giấy phép và mã băm nội dung. Giữ bản gốc và bản biến đổi có thể phân biệt.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "dataset-vi-2",
+      "family": "dataset",
+      "language": "vi",
+      "title": "Chia tập dữ liệu",
+      "text": "Chia tập dữ liệu gom các truy vấn cùng nguồn trước khi phân vai phát triển và đánh giá. Biến thể lỗi của một nguồn nằm cùng tập.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "privacy-en-1",
+      "family": "privacy",
+      "language": "en",
+      "title": "Private corpus processing",
+      "text": "Private corpus processing runs search and certificate computation in the browser. Imported documents are not uploaded by this application.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "privacy-en-2",
+      "family": "privacy",
+      "language": "en",
+      "title": "Data export permission",
+      "text": "Exported files may contain the corpus and queries selected by the user. Review a downloaded file before sharing it with other people.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "privacy-vi-1",
+      "family": "privacy",
+      "language": "vi",
+      "title": "Xử lý corpus riêng",
+      "text": "Xử lý corpus riêng chạy tìm kiếm và tính chứng nhận trong trình duyệt. Ứng dụng này không tải tài liệu nhập lên máy chủ.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "privacy-vi-2",
+      "family": "privacy",
+      "language": "vi",
+      "title": "Quyền xuất dữ liệu",
+      "text": "Tệp xuất có thể chứa corpus và truy vấn do người dùng chọn. Kiểm tra tệp đã tải trước khi chia sẻ cho người khác.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "audit-en-1",
+      "family": "audit",
+      "language": "en",
+      "title": "Audit witness",
+      "text": "An audit witness gives an attainable edited query and its observed rank. A witness is a lower diagnostic; a certificate is an upper bound.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "audit-en-2",
+      "family": "audit",
+      "language": "en",
+      "title": "Audit checksum",
+      "text": "A checksum detects changed bytes in the released evidence. It does not by itself prove a scientific claim or verify relevance.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "audit-vi-1",
+      "family": "audit",
+      "language": "vi",
+      "title": "Kiểm tra phản ví dụ",
+      "text": "Phản ví dụ ghi một truy vấn sau sửa có thể thực hiện và thứ hạng quan sát của nó. Witness là cận dưới quan sát; chứng nhận là cận trên.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "audit-vi-2",
+      "family": "audit",
+      "language": "vi",
+      "title": "Kiểm tra mã băm",
+      "text": "Mã băm phát hiện byte thay đổi trong bằng chứng công bố. Mã băm tự nó không chứng minh kết luận khoa học hay mức liên quan.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "algorithm-en-1",
+      "family": "algorithm",
+      "language": "en",
+      "title": "Algorithm edit budget",
+      "text": "An algorithm edit budget counts changed original token positions. Multiple possible character edits are alternatives, not independent simultaneous operations.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "algorithm-en-2",
+      "family": "algorithm",
+      "language": "en",
+      "title": "Algorithm resource budget",
+      "text": "A resource budget caps computation and frontier size. Reaching that cap produces unknown rather than a claim that the input is unsafe.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "algorithm-vi-1",
+      "family": "algorithm",
+      "language": "vi",
+      "title": "Ngân sách sửa truy vấn",
+      "text": "Ngân sách thuật toán đếm vị trí token gốc bị đổi. Các phép sửa ký tự là các lựa chọn thay thế, không phải mọi phép cùng xảy ra.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "algorithm-vi-2",
+      "family": "algorithm",
+      "language": "vi",
+      "title": "Giới hạn tài nguyên",
+      "text": "Giới hạn tài nguyên chặn tính toán và kích thước frontier. Chạm giới hạn cho kết quả chưa biết thay vì khẳng định đầu vào không an toàn.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "context-en-1",
+      "family": "context",
+      "language": "en",
+      "title": "Context depth policy",
+      "text": "Context depth is the number of returned documents. A sound rank upper bound justifies a sufficient depth for retaining the designated reference under declared edits.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "context-en-2",
+      "family": "context",
+      "language": "en",
+      "title": "Context minimum",
+      "text": "An exact worst-rank oracle can identify the true minimum sufficient depth for its finite lattice. A loose upper bound only provides a conservative sufficient depth.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "context-vi-1",
+      "family": "context",
+      "language": "vi",
+      "title": "Chính sách độ sâu",
+      "text": "Độ sâu ngữ cảnh là số tài liệu trả về. Cận trên thứ hạng đúng cho một độ sâu đủ giữ tài liệu tham chiếu dưới bộ lỗi đã định.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "context-vi-2",
+      "family": "context",
+      "language": "vi",
+      "title": "Độ sâu tối thiểu",
+      "text": "Oracle thứ hạng tệ nhất chính xác xác định độ sâu đủ nhỏ nhất cho lattice hữu hạn của nó. Cận trên lỏng chỉ cho một độ sâu đủ bảo thủ.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "runtime-en-1",
+      "family": "runtime",
+      "language": "en",
+      "title": "Integer runtime",
+      "text": "The browser model rounds BM25 coefficients to declared integer weights. All subsequent certified score sums must remain in the safe integer range.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "runtime-en-2",
+      "family": "runtime",
+      "language": "en",
+      "title": "Floating reference model",
+      "text": "The earlier research uses stored float64 coefficients and outward error guards. Its recorded results do not automatically describe a different integer model.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "runtime-vi-1",
+      "family": "runtime",
+      "language": "vi",
+      "title": "Tính toán số nguyên",
+      "text": "Mô hình trình duyệt làm tròn hệ số BM25 sang trọng số nguyên đã định. Tổng điểm dùng chứng nhận phải nằm trong miền số nguyên an toàn.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "runtime-vi-2",
+      "family": "runtime",
+      "language": "vi",
+      "title": "Mô hình tham chiếu",
+      "text": "Nghiên cứu trước dùng hệ số float64 và guard sai số hướng ra ngoài. Kết quả lưu không tự mô tả một mô hình số nguyên khác.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "corpus-en-1",
+      "family": "corpus",
+      "language": "en",
+      "title": "Corpus index",
+      "text": "A corpus index stores term counts and fixed document weights. Duplicate document identifiers are rejected before search.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "corpus-en-2",
+      "family": "corpus",
+      "language": "en",
+      "title": "Corpus content duplicates",
+      "text": "Different document identifiers may share text. Conservative ties count all tied competitors ahead of the reference.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "corpus-vi-1",
+      "family": "corpus",
+      "language": "vi",
+      "title": "Chỉ mục tài liệu",
+      "text": "Chỉ mục tài liệu lưu tần suất và trọng số cố định. Từ chối ID tài liệu trùng trước khi tìm kiếm.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "corpus-vi-2",
+      "family": "corpus",
+      "language": "vi",
+      "title": "Nội dung trùng lặp",
+      "text": "Các ID khác nhau có thể có cùng văn bản. Quy tắc hòa bảo thủ tính mọi đối thủ hòa điểm lên trước tài liệu tham chiếu.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "export-en-1",
+      "family": "export",
+      "language": "en",
+      "title": "Export certificate",
+      "text": "Export a certificate with model version, corpus hash, edit channel, token budget, groups, witness, and resource status.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "export-en-2",
+      "family": "export",
+      "language": "en",
+      "title": "Export dataset",
+      "text": "Export dataset records with exact-state ranks when enumeration finishes. Resource-limited records retain unknown oracle status.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "export-vi-1",
+      "family": "export",
+      "language": "vi",
+      "title": "Xuất chứng nhận",
+      "text": "Xuất chứng nhận kèm phiên bản mô hình, hash corpus, bộ lỗi, ngân sách token, nhóm xung đột, witness và trạng thái tài nguyên.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "export-vi-2",
+      "family": "export",
+      "language": "vi",
+      "title": "Xuất bộ dữ liệu",
+      "text": "Xuất bản ghi dữ liệu kèm thứ hạng từng trạng thái nếu liệt kê hoàn tất. Bản ghi chạm giới hạn giữ trạng thái oracle chưa biết.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "deploy-en-1",
+      "family": "deploy",
+      "language": "en",
+      "title": "Deployment version",
+      "text": "A deployment version identifies the source and static assets that serve this workbench. A successful deployment is a software check, not a publication decision.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "deploy-en-2",
+      "family": "deploy",
+      "language": "en",
+      "title": "Research version",
+      "text": "A research version freezes protocol and selected inputs before measuring held-out outcomes. Keep original evidence when adding a new stage.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "deploy-vi-1",
+      "family": "deploy",
+      "language": "vi",
+      "title": "Phiên bản triển khai",
+      "text": "Phiên bản triển khai xác định mã và tài nguyên tĩnh phục vụ công cụ. Triển khai thành công là kiểm tra phần mềm, không phải quyết định xuất bản.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "deploy-vi-2",
+      "family": "deploy",
+      "language": "vi",
+      "title": "Phiên bản nghiên cứu",
+      "text": "Phiên bản nghiên cứu khóa giao thức và đầu vào trước khi đo kết quả giữ lại. Giữ bằng chứng gốc khi thêm giai đoạn mới.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "noise-en-1",
+      "family": "noise",
+      "language": "en",
+      "title": "Spelling dictionary channel",
+      "text": "A curated spelling dictionary supplies finite alternative strings. Transplanting them into queries creates semi-synthetic errors, not observed user query logs.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "noise-en-2",
+      "family": "noise",
+      "language": "en",
+      "title": "Accent omission channel",
+      "text": "Accent omission is a declared token transformation for this browser experiment. No semantic-equivalence claim is made for a transformed query.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "noise-vi-1",
+      "family": "noise",
+      "language": "vi",
+      "title": "Bộ lỗi từ điển",
+      "text": "Từ điển lỗi cung cấp các chuỗi thay thế hữu hạn. Ghép chúng vào truy vấn tạo lỗi bán tổng hợp, không phải nhật ký truy vấn người dùng thật.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "noise-vi-2",
+      "family": "noise",
+      "language": "vi",
+      "title": "Bộ lỗi mất dấu",
+      "text": "Mất dấu là phép biến đổi token đã định cho thí nghiệm trình duyệt. Không khẳng định truy vấn sau đổi tương đương ngữ nghĩa.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "labels-en-1",
+      "family": "labels",
+      "language": "en",
+      "title": "Relevance labels",
+      "text": "Existing relevance labels can evaluate original retrieval quality. Exact computational rank labels measure model behavior and do not replace human semantic judgments.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "labels-en-2",
+      "family": "labels",
+      "language": "en",
+      "title": "Research contribution",
+      "text": "A useful web tool and a transparent audit set can support research. Novelty, practical benefit, and publication suitability require separate evidence.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "labels-vi-1",
+      "family": "labels",
+      "language": "vi",
+      "title": "Nhãn liên quan",
+      "text": "Nhãn liên quan có sẵn giúp đánh giá truy hồi gốc. Nhãn thứ hạng tính chính xác đo hành vi mô hình, không thay đánh giá ngữ nghĩa của con người.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    },
+    {
+      "id": "labels-vi-2",
+      "family": "labels",
+      "language": "vi",
+      "title": "Đóng góp nghiên cứu",
+      "text": "Công cụ web hữu ích và bộ audit minh bạch hỗ trợ nghiên cứu. Novelty, lợi ích thực tế và mức phù hợp xuất bản cần bằng chứng riêng.",
+      "source": "authored synthetic research-workbench knowledge base; CC0-1.0"
+    }
+  ]
+}

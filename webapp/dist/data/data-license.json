@@ -1,0 +1,19 @@
+{
+  "resource": "codespell spelling dictionaries",
+  "revision": "4ce1caed2f97a50031225545c9697d9ef885c09b",
+  "source_url": "https://raw.githubusercontent.com/codespell-project/codespell/4ce1caed2f97a50031225545c9697d9ef885c09b/codespell_lib/data/dictionary.txt",
+  "source_sha256": "154078a5877ef228b8c8b28d5c69991b053947ea8685717599044988e172ddd7",
+  "upstream_bytes": 1499567,
+  "license": "CC-BY-SA-3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "attribution": "codespell contributors; dictionary originated from Wikipedia and subsequent project contributions; see upstream README",
+  "license_source": "https://github.com/codespell-project/codespell/blob/4ce1caed2f97a50031225545c9697d9ef885c09b/README.rst#L430-L456",
+  "changes": "Filter single ASCII-word unique corrections whose targets occur in authored inputs; invert correction direction; sort and retain first8 errors per target. No frequency interpretation.",
+  "eligible_pairs_before_cap": 2168,
+  "selected_pairs": 1276,
+  "target_words": 250,
+  "data_nature": "curated dictionary transplanted into authored queries is semi-synthetic, not natural query logs",
+  "code_license": "MIT; no GPL code copied",
+  "synthetic_corpus_license": "CC0-1.0",
+  "combined_audit_dataset_license": "CC-BY-SA-3.0"
+}

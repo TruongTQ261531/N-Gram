@@ -1,0 +1,18 @@
+{
+  "unix_time": 1793343519.6462195,
+  "outcomes_exist": false,
+  "parent_research_commit": "84b869cb76df446aa69bd3e6e4253f600a41a1b3",
+  "planned_cases": 288,
+  "files": {
+    "webapp/dist/engine.mjs": "f66949733b969b763cf06f59f8323f279da8ca5ba68d59dcb2648b834c445d0a",
+    "application_study/PROTOCOL.md": "29d12d9d297a7126f558d2dc27dd1c153f5eef2554a7c8be026054698afb946e",
+    "application_study/build_dataset.mjs": "18958dbb90c69502a44f7ed04da75d9308869dcbba722ab0ebfc8762d40134b7",
+    "application_study/verify_oracle.py": "5d18f4e5f920b08a6b7dd877501f06ae1861b600557eec6083438203eb24027e",
+    "application_study/analyze.py": "d501f04e97e040da015598cc55c5eee7f04f1e6c510ee577dee4fbd7f548c71c",
+    "application_study/import_dictionary.py": "e9815214de60ee9386aae8953acac85366872d09a769358f7469558dfb46878b",
+    "webapp/dist/data/demo-corpus.json": "82c42f79573046f0e2d7c1d6e844d0dd8761e4b24b02cf1363c6b7ded47fd05b",
+    "webapp/dist/data/query-seeds.json": "f0d3da06aaf02bff94e81851485711904b752104d513d165445fa88cdd508d90",
+    "webapp/dist/data/typos.json": "cbe98a770a9c02ded9dd04561863f5f2468d47e944993843564b856f1409deeb",
+    "webapp/dist/data/data-license.json": "7b4e4a36b38e4dc72c780ff13295b20f82c5be88a244c2fadfbf7d95e16e2662"
+  }
+}
