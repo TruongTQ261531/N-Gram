@@ -2,6 +2,9 @@
 
 Ngày30/10/2026, Asia/Bangkok. Bản nền main:94a9f0c16ab2bd312621682cb842fb9b439deabe. Lượt nghiên cứu tiếp theo nằm riêng trên branch `research/rank-equivalence-2026-10-30`; không gộp vào main, không thay đổi website đang phục vụ. Các mục bên dưới phân biệt công việc đã hoàn tất với giả thuyết hoặc mục tiêu chưa có đủ bằng chứng. Không dùng phần trăm hoàn thành giả định hay coi CI xanh là chứng nhận novelty/Q1.
 
+**Cập nhật đồng thời trên GitHub:** trong lúc lượt này chạy, remote main nhận commit7480b1e qua PR#4, chỉ thêm [roadmap và shortlist tạp chí](https://github.com/TruongTQ261531/N-Gram/blob/7480b1ecaf2a64bcfa74737b4b37423574b2e358/docs/RESEARCH_PLAN_VI.md). Không có metric/mã khoa học cũ thay đổi trong cập nhật đó. Lượt hiện tại không tạo/merge PR#4, không ghi đè main và vẫn dựa trên snapshot94a9f0c để giữ nguyên các source freeze. Branch mới đã kiểm nghiệm một phần hướng nén trong roadmap; partial-state DP tổng quát và các bước CostCert/UTK/journal validation còn chưa hoàn tất.
+
+
 ## 1. Mục tiêu và yêu cầu ban đầu
 
 Từ tài liệu N-gram tiếng Việt, người dùng yêu cầu tìm hướng có đóng góp đủ mạnh cho tạp chí Q1, triển khai nhanh/dễ trên tài nguyên sẵn có, được phép đổi scope và không chỉ xây benchmark. Thuật toán phải thực sự có mã, chạy nhiều lần, có đối chứng và kết quả minh bạch. Sau đó bổ sung hạn chế công gán nhãn thủ công, đóng góp ứng dụng/dataset, triển khai web và lưu mã/kết quả trên GitHub.
@@ -23,7 +26,7 @@ Từ tài liệu N-gram tiếng Việt, người dùng yêu cầu tìm hướng 
 | R09 | Dataset có đóng góp | Audit48 tài liệu/48 seed EN/VI/12family;288case/334815states; audit dẫn xuất ArguAna/SciDocs với512case và full integer factors/oracle | Artifact kiểm toán có thể tái lập đã công bố | Chưa là dataset lỗi tự nhiên hay dữ liệu tự thu thập mới; novelty dataset và tính đại diện còn thiếu |
 | R10 | Tái lập và truy xuất từng kết quả | Source pins, query IDs, freeze commits, per-sample arrays, all-state traces, source replay, licenses và hướng dẫn | Hoàn tất bản công bố main hiện tại;6CI đạt tại94a9f0c | Cần phản biện/reproduction bên ngoài; mọi rerun sau khi xem test phải được gọi đúng loại |
 | R11 | GitHub và tổ chức phiên bản | Mã các vòng cùng repo; lịch sử cũ đã hợp nhất; main là bản công bố nền; lượt này là branch mới riêng | Đạt yêu cầu quản lý phiên bản hiện tại | Không có pipeline hybrid CAPC+BOLT+retrieval đã huấn luyện/đánh giá; việc gộp source không chứng minh hiệu quả hybrid |
-| R12 | Bản thảo và nộp tạp chí | Có bản thảo tiếng Anh vòng3 và các báo cáo, lý thuyết, bibliography, reproduction | Bản thảo ứng viên đã có; chưa sẵn sàng nộp | Chốt claim cuối, closest-method review, tác giả, journal scope/quartile đúng năm, yêu cầu nộp; chưa nộp/được nhận |
+| R12 | Bản thảo và nộp tạp chí | Có bản thảo tiếng Anh vòng3 và các báo cáo, lý thuyết, bibliography, reproduction; main có thêm roadmap/shortlist tạp chí ở PR#4 | Bản thảo ứng viên đã có; chưa sẵn sàng nộp | Chốt claim cuối, closest-method review, tác giả, journal scope/quartile đúng năm, yêu cầu nộp; chưa nộp/được nhận |
 | R13 | Cải thiện chi phí và độ chặt còn thiếu | Lượt branch mới: compiled bounds, exact projected unions, gộp hiệu ứng thứ hạng, truy vấn mới nguyên câu, đo phiên20request có initialization | Xem kết quả thực tế ở [báo cáo lượt mới](exact_pool_study/REPORT_VI.md) | Lợi ích phải được quy đúng thành phần; có thể vẫn chưa tạo khác biệt novelty đủ mạnh |
 
 ## 3. Vòng1 — CAPC: đã thực sự làm gì
@@ -108,7 +111,7 @@ Giao thức chọn32query mới và code được đẩy lên branch trước me
 | Một cơ chế mới đủ khác prior art, được đối chiếu gần | Chưa xác lập |
 | Lợi ích đo trực tiếp trên workload đại diện | Đang thu hẹp thiếu hụt; chưa có natural user-session validation |
 | Bản thảo thống nhất theo claim cuối | Có draft vòng3; chưa hoàn tất bản chốt theo toàn bộ kết quả mới |
-| Journal/Q1 theo đúng năm/chuyên ngành và submission | Chưa xác minh/chốt/nộp; không có bảo đảm nhận bài |
+| Journal/Q1 theo đúng năm/chuyên ngành và submission | Có shortlist trong roadmap main (IPM, TOIS và các ứng viên khác), chưa xác minh quartile hiện hành/chốt/nộp; không có bảo đảm nhận bài |
 
 Ưu tiên tiếp theo là quyết định luận đề paper từ kết quả mới và đối chiếu cách chuyên biệt hóa với phương pháp gần nhất, thay vì thêm tên hoặc gộp mọi mô hình. Natural typo channel có nguồn/quyền rõ và reproduction/phản biện chuyên môn độc lập vẫn cần cho claim rộng. Local tăng tài nguyên/quy mô tái lập, không tự tăng khả năng suy luận của chat; cloud2CPU/8GiB đã đủ thực hiện các lượt hiện tại. Không cần GPU trong scope đang chạy.
 

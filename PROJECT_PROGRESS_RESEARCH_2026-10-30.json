@@ -66,5 +66,15 @@
     "novelty": "exact_pool_study/RELATED_WORK.md",
     "paperDirection": "exact_pool_study/PAPER_DIRECTION.md"
   },
-  "parentFilesByteIdentical": 894
+  "parentFilesByteIdentical": 894,
+  "scopeOfMutationFlags": "Changes made by this research iteration; concurrent remote updates are separately recorded",
+  "concurrentRemoteMainUpdate": {
+    "commit": "7480b1ecaf2a64bcfa74737b4b37423574b2e358",
+    "pullRequest": 4,
+    "files": [
+      "docs/RESEARCH_PLAN_VI.md"
+    ],
+    "scientificArtifactsChanged": false,
+    "mergedByThisIteration": false
+  }
 }

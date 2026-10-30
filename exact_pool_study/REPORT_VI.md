@@ -1,6 +1,6 @@
 # Lượt nghiên cứu riêng: exact pool, nguyên truy vấn và chi phí toàn phiên
 
-Ngày30/10/2026, Asia/Bangkok. Branch `research/rank-equivalence-2026-10-30`, nền main94a9f0c16ab2bd312621682cb842fb9b439deabe. **Đã hoàn tất triển khai và thực nghiệm; chưa xác lập novelty đủ Q1. Main và live Site không thay đổi.** Tổng kiểm kê từ đầu project ở [PROJECT_REVIEW_2026-10-30.md](../PROJECT_REVIEW_2026-10-30.md).
+Ngày30/10/2026, Asia/Bangkok. Branch `research/rank-equivalence-2026-10-30`, nền main94a9f0c16ab2bd312621682cb842fb9b439deabe. **Đã hoàn tất triển khai và thực nghiệm; chưa xác lập novelty đủ Q1. Lượt này không push/merge main hoặc deploy live Site.** Trong lúc chạy, main có cập nhật tài liệu riêng qua PR#4; xem ghi chú đối chiếu trong tổng kiểm kê. Tổng kiểm kê từ đầu project ở [PROJECT_REVIEW_2026-10-30.md](../PROJECT_REVIEW_2026-10-30.md).
 
 ## 1. Kết luận và phần đã cải thiện
 
