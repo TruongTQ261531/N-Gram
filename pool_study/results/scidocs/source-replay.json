@@ -1,0 +1,11 @@
+{
+  "dataset": "scidocs",
+  "queries": 64,
+  "forms": 2446,
+  "independentTokenDocumentScores": 62757022,
+  "allOriginalCorpusDocuments": 25657,
+  "mismatches": 0,
+  "pythonArbitraryPrecisionAccumulation": true,
+  "seconds": 81.92707799299933,
+  "modelHash": "62df489edd0de136f38ac411d086d1a5d2f9031a0953b9542258c6dfd90a1c69"
+}

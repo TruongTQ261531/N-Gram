@@ -1,0 +1,652 @@
+{
+  "queries": 64,
+  "cases": 256,
+  "states": 73659,
+  "topKMembershipsChecked": 1107901,
+  "conditionalLeavesChecked": 5868,
+  "missingOracleDocuments": 0,
+  "statewiseCachedFullTopKEqual": true,
+  "seconds": 51.64652628499971,
+  "rows": [
+    {
+      "queryId": "test-digital-freedoms-piidfaihbg-pro03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-digital-freedoms-piidfaihbg-pro03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-international-epdlhfcefp-pro04a",
+      "budget": 1,
+      "states": 47
+    },
+    {
+      "queryId": "test-international-epdlhfcefp-pro04a",
+      "budget": 2,
+      "states": 1038
+    },
+    {
+      "queryId": "test-law-tlcplghwfne-con03a",
+      "budget": 1,
+      "states": 47
+    },
+    {
+      "queryId": "test-law-tlcplghwfne-con03a",
+      "budget": 2,
+      "states": 1038
+    },
+    {
+      "queryId": "test-law-umtlilhotac-con02a",
+      "budget": 1,
+      "states": 47
+    },
+    {
+      "queryId": "test-law-umtlilhotac-con02a",
+      "budget": 2,
+      "states": 1037
+    },
+    {
+      "queryId": "test-international-ssiarcmhb-pro03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-international-ssiarcmhb-pro03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-economy-epehwmrbals-con01a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-economy-epehwmrbals-con01a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-philosophy-eppphwlrtjs-con03a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-philosophy-eppphwlrtjs-con03a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-philosophy-eppphwlrtjs-pro04a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-philosophy-eppphwlrtjs-pro04a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-environment-aeghhgwpe-con01a",
+      "budget": 1,
+      "states": 47
+    },
+    {
+      "queryId": "test-environment-aeghhgwpe-con01a",
+      "budget": 2,
+      "states": 1037
+    },
+    {
+      "queryId": "test-politics-oapghwliva-con03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-politics-oapghwliva-con03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-philosophy-elkosmj-con03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-philosophy-elkosmj-con03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-science-cpisydfphwj-pro01a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-science-cpisydfphwj-pro01a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-politics-cdfsaphgiap-pro01a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-politics-cdfsaphgiap-pro01a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-religion-grcrgshwbr-pro01a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-religion-grcrgshwbr-pro01a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-society-epsihbdns-pro04a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-society-epsihbdns-pro04a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-culture-tlhrilsfhwr-pro03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-culture-tlhrilsfhwr-pro03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-politics-gvhwhnerse-pro01a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-politics-gvhwhnerse-pro01a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-society-epsihbdns-con01a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-society-epsihbdns-con01a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-law-cpilhbishioe-pro02a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-law-cpilhbishioe-pro02a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-culture-ascidfakhba-con02a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-culture-ascidfakhba-con02a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-economy-egppphbcb-con02a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-economy-egppphbcb-con02a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-free-speech-debate-magghbcrg-pro03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-free-speech-debate-magghbcrg-pro03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-culture-mthbah-con03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-culture-mthbah-con03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-economy-epsihbdns-con03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-economy-epsihbdns-con03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-international-epglghbni-pro04a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-international-epglghbni-pro04a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-economy-bhahwbsps-pro02a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-economy-bhahwbsps-pro02a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-education-xeegshwfeu-con01a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-education-xeegshwfeu-con01a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-health-dhgsshbesbc-con02a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-health-dhgsshbesbc-con02a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-education-egscphsrdt-con03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-education-egscphsrdt-con03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-law-tahglcphsld-pro07a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-law-tahglcphsld-pro07a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-religion-grcrgshwbr-pro04a",
+      "budget": 1,
+      "states": 47
+    },
+    {
+      "queryId": "test-religion-grcrgshwbr-pro04a",
+      "budget": 2,
+      "states": 1038
+    },
+    {
+      "queryId": "test-international-ehbfe-con01a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-international-ehbfe-con01a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-law-phwmfri-pro02a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-law-phwmfri-pro02a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-science-ciidfaihwc-pro03a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-science-ciidfaihwc-pro03a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-politics-pgsimhwoia-con03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-politics-pgsimhwoia-con03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-free-speech-debate-magghbcrg-pro01a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-free-speech-debate-magghbcrg-pro01a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-health-dhiacihwph-pro03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-health-dhiacihwph-pro03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-philosophy-npppmhwup-con03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-philosophy-npppmhwup-con03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-international-amehbuaisji-pro01a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-international-amehbuaisji-pro01a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-international-iighbopcc-con01a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-international-iighbopcc-con01a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-health-hpehwadvoee-pro05a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-health-hpehwadvoee-pro05a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-international-eiahwpamu-pro05a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-international-eiahwpamu-pro05a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-digital-freedoms-phwnaccpdt-pro02a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-digital-freedoms-phwnaccpdt-pro02a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-environment-chbwtlgcc-pro02a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-environment-chbwtlgcc-pro02a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-economy-beplcpdffe-pro03a",
+      "budget": 1,
+      "states": 47
+    },
+    {
+      "queryId": "test-economy-beplcpdffe-pro03a",
+      "budget": 2,
+      "states": 1038
+    },
+    {
+      "queryId": "test-international-epdlhfcefp-pro02a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-international-epdlhfcefp-pro02a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-politics-oepghbrnsl-con01a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-politics-oepghbrnsl-con01a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-philosophy-apessghwba-pro05a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-philosophy-apessghwba-pro05a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-society-mmcpsgfhbf-pro04a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-society-mmcpsgfhbf-pro04a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-politics-cdmaggpdgdf-con04a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-politics-cdmaggpdgdf-con04a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-education-ughbuesbf-pro02a",
+      "budget": 1,
+      "states": 47
+    },
+    {
+      "queryId": "test-education-ughbuesbf-pro02a",
+      "budget": 2,
+      "states": 1038
+    },
+    {
+      "queryId": "test-economy-fiahwpamu-con03a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-economy-fiahwpamu-con03a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-health-hpehwadvoee-con05a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-health-hpehwadvoee-con05a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-science-ascidfakhba-con03a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-science-ascidfakhba-con03a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-international-iiahwagit-pro04a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-international-iiahwagit-pro04a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-education-xeegshwfeu-con03a",
+      "budget": 1,
+      "states": 47
+    },
+    {
+      "queryId": "test-education-xeegshwfeu-con03a",
+      "budget": 2,
+      "states": 1037
+    },
+    {
+      "queryId": "test-science-sghwbdgmo-pro02a",
+      "budget": 1,
+      "states": 47
+    },
+    {
+      "queryId": "test-science-sghwbdgmo-pro02a",
+      "budget": 2,
+      "states": 1038
+    },
+    {
+      "queryId": "test-philosophy-pppgshbsd-con04a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-philosophy-pppgshbsd-con04a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-law-phwmfri-pro01a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-law-phwmfri-pro01a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-society-simhbrasnba-pro03a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-society-simhbrasnba-pro03a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-politics-cdfsaphgiap-con03a",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "test-politics-cdfsaphgiap-con03a",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "test-law-rmelhrilhbiw-pro01a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-law-rmelhrilhbiw-pro01a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-international-epglghbni-con02a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-international-epglghbni-con02a",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "test-culture-mmctghwbsa-pro01a",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "test-culture-mmctghwbsa-pro01a",
+      "budget": 2,
+      "states": 1129
+    }
+  ]
+}

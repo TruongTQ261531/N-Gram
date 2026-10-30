@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "indexSeconds": 39.0635886,
+  "modelHash": "62df489edd0de136f38ac411d086d1a5d2f9031a0953b9542258c6dfd90a1c69",
+  "corpusHash": "e0802332ac86337975480b9eda2cde8fc49161c37681d764def9d28f89784881",
+  "documents": 25657,
+  "features": 587917,
+  "nnz": 35939619,
+  "threads": 1
+}

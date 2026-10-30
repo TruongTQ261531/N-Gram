@@ -1,0 +1,652 @@
+{
+  "queries": 64,
+  "cases": 256,
+  "states": 29354,
+  "topKMembershipsChecked": 440310,
+  "conditionalLeavesChecked": 5818,
+  "missingOracleDocuments": 0,
+  "statewiseCachedFullTopKEqual": true,
+  "seconds": 61.39980633699997,
+  "rows": [
+    {
+      "queryId": "beac53e8074b4822943a3374ff5e9fed98a891b8",
+      "budget": 1,
+      "states": 28
+    },
+    {
+      "queryId": "beac53e8074b4822943a3374ff5e9fed98a891b8",
+      "budget": 2,
+      "states": 352
+    },
+    {
+      "queryId": "c5550a3478b24f7f1904c6beb8d9d1cf40d30b21",
+      "budget": 1,
+      "states": 28
+    },
+    {
+      "queryId": "c5550a3478b24f7f1904c6beb8d9d1cf40d30b21",
+      "budget": 2,
+      "states": 352
+    },
+    {
+      "queryId": "12219a387158e41e212af4ae1c57a29934627128",
+      "budget": 1,
+      "states": 19
+    },
+    {
+      "queryId": "12219a387158e41e212af4ae1c57a29934627128",
+      "budget": 2,
+      "states": 154
+    },
+    {
+      "queryId": "3b28a409d820b611667bf22135e1f372cf12eb64",
+      "budget": 1,
+      "states": 31
+    },
+    {
+      "queryId": "3b28a409d820b611667bf22135e1f372cf12eb64",
+      "budget": 2,
+      "states": 436
+    },
+    {
+      "queryId": "8f03f545ff791a70455ad4624208357e41dcfc0c",
+      "budget": 1,
+      "states": 31
+    },
+    {
+      "queryId": "8f03f545ff791a70455ad4624208357e41dcfc0c",
+      "budget": 2,
+      "states": 436
+    },
+    {
+      "queryId": "a22e737d38a1bc671893a7ed341aba436571097a",
+      "budget": 1,
+      "states": 31
+    },
+    {
+      "queryId": "a22e737d38a1bc671893a7ed341aba436571097a",
+      "budget": 2,
+      "states": 436
+    },
+    {
+      "queryId": "fe76c167920898330a66e3f2509ff1cd41e231bc",
+      "budget": 1,
+      "states": 40
+    },
+    {
+      "queryId": "fe76c167920898330a66e3f2509ff1cd41e231bc",
+      "budget": 2,
+      "states": 742
+    },
+    {
+      "queryId": "39959bc480d2972d8bb925708e6e8ad59664bcdb",
+      "budget": 1,
+      "states": 31
+    },
+    {
+      "queryId": "39959bc480d2972d8bb925708e6e8ad59664bcdb",
+      "budget": 2,
+      "states": 436
+    },
+    {
+      "queryId": "45b4f8dade4750a90e7081c20b5bde864e6be11e",
+      "budget": 1,
+      "states": 19
+    },
+    {
+      "queryId": "45b4f8dade4750a90e7081c20b5bde864e6be11e",
+      "budget": 2,
+      "states": 154
+    },
+    {
+      "queryId": "663e06e02a306660ef508aaf2ffaf523c6e96088",
+      "budget": 1,
+      "states": 22
+    },
+    {
+      "queryId": "663e06e02a306660ef508aaf2ffaf523c6e96088",
+      "budget": 2,
+      "states": 211
+    },
+    {
+      "queryId": "0963302a589b5476df76040ab22a3315e0f84bb1",
+      "budget": 1,
+      "states": 28
+    },
+    {
+      "queryId": "0963302a589b5476df76040ab22a3315e0f84bb1",
+      "budget": 2,
+      "states": 352
+    },
+    {
+      "queryId": "e642d6014a5762128a28f85dae2228826e682974",
+      "budget": 1,
+      "states": 32
+    },
+    {
+      "queryId": "e642d6014a5762128a28f85dae2228826e682974",
+      "budget": 2,
+      "states": 468
+    },
+    {
+      "queryId": "6e5ceeea4fadc64da667f7693072a95df5a785b9",
+      "budget": 1,
+      "states": 41
+    },
+    {
+      "queryId": "6e5ceeea4fadc64da667f7693072a95df5a785b9",
+      "budget": 2,
+      "states": 783
+    },
+    {
+      "queryId": "0bfa2ab02f3c9a9fe06fcebf34bd8f371e206512",
+      "budget": 1,
+      "states": 36
+    },
+    {
+      "queryId": "0bfa2ab02f3c9a9fe06fcebf34bd8f371e206512",
+      "budget": 2,
+      "states": 597
+    },
+    {
+      "queryId": "ee6b940d3ae36f9b124586b15a49cec45f24b90a",
+      "budget": 1,
+      "states": 28
+    },
+    {
+      "queryId": "ee6b940d3ae36f9b124586b15a49cec45f24b90a",
+      "budget": 2,
+      "states": 352
+    },
+    {
+      "queryId": "1cb77e2a09db58e9e8b37878c7de313d41e6f854",
+      "budget": 1,
+      "states": 28
+    },
+    {
+      "queryId": "1cb77e2a09db58e9e8b37878c7de313d41e6f854",
+      "budget": 2,
+      "states": 352
+    },
+    {
+      "queryId": "b59d6a8f4acaa63d773356fe320368b9f76a15cf",
+      "budget": 1,
+      "states": 20
+    },
+    {
+      "queryId": "b59d6a8f4acaa63d773356fe320368b9f76a15cf",
+      "budget": 2,
+      "states": 173
+    },
+    {
+      "queryId": "f6c1eda98cef66438dc89fd9a3d4fcc0a795418a",
+      "budget": 1,
+      "states": 31
+    },
+    {
+      "queryId": "f6c1eda98cef66438dc89fd9a3d4fcc0a795418a",
+      "budget": 2,
+      "states": 436
+    },
+    {
+      "queryId": "ceb688c5ed7cca450dd52442edfb5ca2392a8b74",
+      "budget": 1,
+      "states": 36
+    },
+    {
+      "queryId": "ceb688c5ed7cca450dd52442edfb5ca2392a8b74",
+      "budget": 2,
+      "states": 598
+    },
+    {
+      "queryId": "a3240d1ce2fcaf412f4b5d1562ddfa687061036b",
+      "budget": 1,
+      "states": 22
+    },
+    {
+      "queryId": "a3240d1ce2fcaf412f4b5d1562ddfa687061036b",
+      "budget": 2,
+      "states": 211
+    },
+    {
+      "queryId": "90bd67f0a4b2a8ab5c75e1b7619e17a508b56c05",
+      "budget": 1,
+      "states": 37
+    },
+    {
+      "queryId": "90bd67f0a4b2a8ab5c75e1b7619e17a508b56c05",
+      "budget": 2,
+      "states": 631
+    },
+    {
+      "queryId": "51ee97313309157219412b6f5dfb314682b33992",
+      "budget": 1,
+      "states": 24
+    },
+    {
+      "queryId": "51ee97313309157219412b6f5dfb314682b33992",
+      "budget": 2,
+      "states": 255
+    },
+    {
+      "queryId": "fd48a7fd819ab193704a6283933f5a4883bcdd7d",
+      "budget": 1,
+      "states": 13
+    },
+    {
+      "queryId": "fd48a7fd819ab193704a6283933f5a4883bcdd7d",
+      "budget": 2,
+      "states": 67
+    },
+    {
+      "queryId": "a98d48b6c4188143dbb2474a1cb27c2f9e3b5c0a",
+      "budget": 1,
+      "states": 25
+    },
+    {
+      "queryId": "a98d48b6c4188143dbb2474a1cb27c2f9e3b5c0a",
+      "budget": 2,
+      "states": 277
+    },
+    {
+      "queryId": "d15f8891e586a9c19c9fc30fa636e764c9eeaff9",
+      "budget": 1,
+      "states": 27
+    },
+    {
+      "queryId": "d15f8891e586a9c19c9fc30fa636e764c9eeaff9",
+      "budget": 2,
+      "states": 327
+    },
+    {
+      "queryId": "7a373793804ea9813d64641919e14841f927c38f",
+      "budget": 1,
+      "states": 34
+    },
+    {
+      "queryId": "7a373793804ea9813d64641919e14841f927c38f",
+      "budget": 2,
+      "states": 529
+    },
+    {
+      "queryId": "c3dafc91e315d27933b6420be2a77f5639881213",
+      "budget": 1,
+      "states": 40
+    },
+    {
+      "queryId": "c3dafc91e315d27933b6420be2a77f5639881213",
+      "budget": 2,
+      "states": 742
+    },
+    {
+      "queryId": "c24fc81dcec236527652eab35154ac0fd7a40929",
+      "budget": 1,
+      "states": 22
+    },
+    {
+      "queryId": "c24fc81dcec236527652eab35154ac0fd7a40929",
+      "budget": 2,
+      "states": 211
+    },
+    {
+      "queryId": "45182cf235fd8f9dd8a81f61f3efd488f78df75e",
+      "budget": 1,
+      "states": 25
+    },
+    {
+      "queryId": "45182cf235fd8f9dd8a81f61f3efd488f78df75e",
+      "budget": 2,
+      "states": 277
+    },
+    {
+      "queryId": "d2d001e2a45614528cd014040becb67a80a1af8d",
+      "budget": 1,
+      "states": 22
+    },
+    {
+      "queryId": "d2d001e2a45614528cd014040becb67a80a1af8d",
+      "budget": 2,
+      "states": 211
+    },
+    {
+      "queryId": "27efc45254159de1a18554ba8cb603ee70a1f266",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "27efc45254159de1a18554ba8cb603ee70a1f266",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "d4cb7ecfe297b34bf8763ed65dc8ffd2ca806963",
+      "budget": 1,
+      "states": 19
+    },
+    {
+      "queryId": "d4cb7ecfe297b34bf8763ed65dc8ffd2ca806963",
+      "budget": 2,
+      "states": 154
+    },
+    {
+      "queryId": "951450392f1e08b4dc96d814754a90f61d6151ae",
+      "budget": 1,
+      "states": 31
+    },
+    {
+      "queryId": "951450392f1e08b4dc96d814754a90f61d6151ae",
+      "budget": 2,
+      "states": 436
+    },
+    {
+      "queryId": "06e0780f589f04edd1e55f5a0d9872696280b40e",
+      "budget": 1,
+      "states": 34
+    },
+    {
+      "queryId": "06e0780f589f04edd1e55f5a0d9872696280b40e",
+      "budget": 2,
+      "states": 529
+    },
+    {
+      "queryId": "a352061134daa2c47861b8c4216ee5482a93be1d",
+      "budget": 1,
+      "states": 25
+    },
+    {
+      "queryId": "a352061134daa2c47861b8c4216ee5482a93be1d",
+      "budget": 2,
+      "states": 277
+    },
+    {
+      "queryId": "0f9bacfc21069a07bf3135cb0e94d83014933260",
+      "budget": 1,
+      "states": 43
+    },
+    {
+      "queryId": "0f9bacfc21069a07bf3135cb0e94d83014933260",
+      "budget": 2,
+      "states": 862
+    },
+    {
+      "queryId": "2d52f69dd4686a3e66f5a8a1650a24bcea43530e",
+      "budget": 1,
+      "states": 19
+    },
+    {
+      "queryId": "2d52f69dd4686a3e66f5a8a1650a24bcea43530e",
+      "budget": 2,
+      "states": 154
+    },
+    {
+      "queryId": "0674058618d04def58c79a0b28174301ef591433",
+      "budget": 1,
+      "states": 31
+    },
+    {
+      "queryId": "0674058618d04def58c79a0b28174301ef591433",
+      "budget": 2,
+      "states": 436
+    },
+    {
+      "queryId": "f365ce3e68cb3795887e93baf5fed5d783b3904e",
+      "budget": 1,
+      "states": 29
+    },
+    {
+      "queryId": "f365ce3e68cb3795887e93baf5fed5d783b3904e",
+      "budget": 2,
+      "states": 381
+    },
+    {
+      "queryId": "3ca983d40b9de7dc12b989fce213b4abee652c9e",
+      "budget": 1,
+      "states": 30
+    },
+    {
+      "queryId": "3ca983d40b9de7dc12b989fce213b4abee652c9e",
+      "budget": 2,
+      "states": 408
+    },
+    {
+      "queryId": "ddbf21ca1de9617894b15d45787a27557f02a494",
+      "budget": 1,
+      "states": 25
+    },
+    {
+      "queryId": "ddbf21ca1de9617894b15d45787a27557f02a494",
+      "budget": 2,
+      "states": 277
+    },
+    {
+      "queryId": "fe5cc6e84dc223580c0e1729614cfaa8320c5728",
+      "budget": 1,
+      "states": 19
+    },
+    {
+      "queryId": "fe5cc6e84dc223580c0e1729614cfaa8320c5728",
+      "budget": 2,
+      "states": 154
+    },
+    {
+      "queryId": "a8d46814da895899a927a4869557429c6ca3b37d",
+      "budget": 1,
+      "states": 24
+    },
+    {
+      "queryId": "a8d46814da895899a927a4869557429c6ca3b37d",
+      "budget": 2,
+      "states": 255
+    },
+    {
+      "queryId": "cf9611e42a6060da7320b0fe4d693472bc830d91",
+      "budget": 1,
+      "states": 25
+    },
+    {
+      "queryId": "cf9611e42a6060da7320b0fe4d693472bc830d91",
+      "budget": 2,
+      "states": 277
+    },
+    {
+      "queryId": "a77e9f0bd205a7733431a6d1028f09f57f9f73b0",
+      "budget": 1,
+      "states": 31
+    },
+    {
+      "queryId": "a77e9f0bd205a7733431a6d1028f09f57f9f73b0",
+      "budget": 2,
+      "states": 436
+    },
+    {
+      "queryId": "bd185e4f80d1fa2def96815269ec60dff862a7a1",
+      "budget": 1,
+      "states": 49
+    },
+    {
+      "queryId": "bd185e4f80d1fa2def96815269ec60dff862a7a1",
+      "budget": 2,
+      "states": 1129
+    },
+    {
+      "queryId": "60f9c8ba8e00e9e03e8bb80640fcfa3889a36327",
+      "budget": 1,
+      "states": 34
+    },
+    {
+      "queryId": "60f9c8ba8e00e9e03e8bb80640fcfa3889a36327",
+      "budget": 2,
+      "states": 529
+    },
+    {
+      "queryId": "17507ae3ed6c96320a448d8c55aced80d4800b73",
+      "budget": 1,
+      "states": 22
+    },
+    {
+      "queryId": "17507ae3ed6c96320a448d8c55aced80d4800b73",
+      "budget": 2,
+      "states": 211
+    },
+    {
+      "queryId": "23b93f3b237481bd1d36941ca3312bb16f4beb58",
+      "budget": 1,
+      "states": 47
+    },
+    {
+      "queryId": "23b93f3b237481bd1d36941ca3312bb16f4beb58",
+      "budget": 2,
+      "states": 1037
+    },
+    {
+      "queryId": "10eeeca03909bd44af5a5b5791e1b1ef36ff5c9e",
+      "budget": 1,
+      "states": 16
+    },
+    {
+      "queryId": "10eeeca03909bd44af5a5b5791e1b1ef36ff5c9e",
+      "budget": 2,
+      "states": 106
+    },
+    {
+      "queryId": "d145274d03a6374c77de64fb70602ddef393e4d9",
+      "budget": 1,
+      "states": 28
+    },
+    {
+      "queryId": "d145274d03a6374c77de64fb70602ddef393e4d9",
+      "budget": 2,
+      "states": 352
+    },
+    {
+      "queryId": "7492683af60d02dbd658acdc61249571f8c20fc8",
+      "budget": 1,
+      "states": 30
+    },
+    {
+      "queryId": "7492683af60d02dbd658acdc61249571f8c20fc8",
+      "budget": 2,
+      "states": 408
+    },
+    {
+      "queryId": "e1f53305791150a2109b7070bd7dce8071aafac7",
+      "budget": 1,
+      "states": 40
+    },
+    {
+      "queryId": "e1f53305791150a2109b7070bd7dce8071aafac7",
+      "budget": 2,
+      "states": 744
+    },
+    {
+      "queryId": "eafe7346c8fbfd1454a0eac55d2b442f564332ac",
+      "budget": 1,
+      "states": 32
+    },
+    {
+      "queryId": "eafe7346c8fbfd1454a0eac55d2b442f564332ac",
+      "budget": 2,
+      "states": 468
+    },
+    {
+      "queryId": "0f990cb8bbd3767350842b0975b4b32a600f41e1",
+      "budget": 1,
+      "states": 34
+    },
+    {
+      "queryId": "0f990cb8bbd3767350842b0975b4b32a600f41e1",
+      "budget": 2,
+      "states": 529
+    },
+    {
+      "queryId": "0ce72c74fed3bd81c9ceffa0f0c1954b88328e32",
+      "budget": 1,
+      "states": 22
+    },
+    {
+      "queryId": "0ce72c74fed3bd81c9ceffa0f0c1954b88328e32",
+      "budget": 2,
+      "states": 211
+    },
+    {
+      "queryId": "71d4e703201c98c9c9b44079600e289f234f09f2",
+      "budget": 1,
+      "states": 25
+    },
+    {
+      "queryId": "71d4e703201c98c9c9b44079600e289f234f09f2",
+      "budget": 2,
+      "states": 277
+    },
+    {
+      "queryId": "848c3eb292d721e53631c0d6c988f380cbb0e225",
+      "budget": 1,
+      "states": 37
+    },
+    {
+      "queryId": "848c3eb292d721e53631c0d6c988f380cbb0e225",
+      "budget": 2,
+      "states": 631
+    },
+    {
+      "queryId": "6079719b677d0abda12abcd5cd46582ca91585ad",
+      "budget": 1,
+      "states": 19
+    },
+    {
+      "queryId": "6079719b677d0abda12abcd5cd46582ca91585ad",
+      "budget": 2,
+      "states": 154
+    },
+    {
+      "queryId": "7c080093943b2001224ac6608436c83d82a79a83",
+      "budget": 1,
+      "states": 19
+    },
+    {
+      "queryId": "7c080093943b2001224ac6608436c83d82a79a83",
+      "budget": 2,
+      "states": 154
+    },
+    {
+      "queryId": "1bf06b2bbf53089180fd3676720d80cbaed5975d",
+      "budget": 1,
+      "states": 40
+    },
+    {
+      "queryId": "1bf06b2bbf53089180fd3676720d80cbaed5975d",
+      "budget": 2,
+      "states": 742
+    },
+    {
+      "queryId": "c81243651340f396c9100e86352cb43933307be9",
+      "budget": 1,
+      "states": 48
+    },
+    {
+      "queryId": "c81243651340f396c9100e86352cb43933307be9",
+      "budget": 2,
+      "states": 1083
+    },
+    {
+      "queryId": "d36e081ac6be39796e7cba0d0d813ea53974ec07",
+      "budget": 1,
+      "states": 40
+    },
+    {
+      "queryId": "d36e081ac6be39796e7cba0d0d813ea53974ec07",
+      "budget": 2,
+      "states": 744
+    },
+    {
+      "queryId": "903e066a3d1024b3355e167e1307b70ac2f034e1",
+      "budget": 1,
+      "states": 25
+    },
+    {
+      "queryId": "903e066a3d1024b3355e167e1307b70ac2f034e1",
+      "budget": 2,
+      "states": 277
+    }
+  ]
+}

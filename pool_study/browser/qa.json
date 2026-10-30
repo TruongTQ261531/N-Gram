@@ -1,0 +1,28 @@
+{
+  "poolSize": 17,
+  "corpusDocuments": 48,
+  "cachedMessage": "Đã truy hồi 10 tài liệu (gồm tie) từ 17 tài liệu trong bộ đệm · 0.3 ms. ID: audit-en-1, audit-en-2, corpus-en-1, corpus-en-2, export-en-1, labels-en-1, privacy-en-1, retrieval-en-1, retrieval-en-2, runtime-en-1",
+  "validQueryCacheReplay": true,
+  "outsideLatticeRejected": true,
+  "proofContainsPoolAndScopeHash": true,
+  "settingsInvalidateVisiblePool": true,
+  "workerStaleModelRejected": true,
+  "workerCorpusChangeRejected": true,
+  "mobileNoOverflow": true,
+  "uncaughtErrors": 0,
+  "GETOnly": true,
+  "researchEvidenceCard": true,
+  "invalidation": {
+    "valid": "pool-replay",
+    "stale": "error",
+    "changed": "error",
+    "staleMessage": "Pool đã hết hiệu lực. Chạy lại chứng nhận với corpus và truy vấn hiện tại.",
+    "changedMessage": "Pool đã hết hiệu lực. Chạy lại chứng nhận với corpus và truy vấn hiện tại."
+  },
+  "screenshots": [
+    "pool-desktop.png",
+    "pool-mobile.png",
+    "pool-study-mobile.png",
+    "pool-study-desktop.png"
+  ]
+}

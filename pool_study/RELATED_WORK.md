@@ -1,0 +1,22 @@
+# Novelty audit: reusable finite-edit result pools
+
+Inspected 30 October 2026. The proposed implementation combines established ideas. This is not a global firstness certificate or a journal-quartile determination.
+
+| Primary source | Inspection and consequence |
+|---|---|
+| [Mouratidis and Tang, Exact Processing of Uncertain Top-k Queries in Multi-criteria Settings, PVLDB 2018](https://www.vldb.org/pvldb/vol11/p866-mouratidis.pdf) | Full paper, especially Sections2–5. Already computes the possible top-k union for shared uncertain preferences, uses regional dominance and recursive partition verification, and discusses collective exclusion beyond persistent dominators. Generic possible-result pools, k-dominator pruning and partitioning cannot be claimed as new here. Our discrete changed-token budget and integer traces specialize the setting; that alone does not establish a novel algorithm. Original RSA/JAA implementations were not run. |
+| [Li et al., Efficient Fuzzy Type-Ahead Search in TASTIER, ICDE 2010](https://chenli.ics.uci.edu/files/icde10-tastier.pdf) | Primary paper including server-cache discussion. Cached similar prefixes, result records, resumable search context and fuzzy interactive search predate this web application. Our answer contract concerns an unchanged ngram scorer over an explicit finite edit lattice, rather than that system's prefix/fuzzy matching. No claim of first interactive typo-aware cache. |
+| [Bast and Celikik, Efficient Fuzzy Search in Large Text Collections](https://ad-publications.cs.uni-freiburg.de/TOIS_fuzzy_BC_2013.pdf) | Agent inspected author-hosted Sections5–6. Candidate filtering, list processing and caching for fuzzy text search are established. A matched output contract is required before comparing running times across systems. Not implemented in this study. |
+| [Frieder et al., Caching Historical Embeddings in Conversational Search, 2022](https://arxiv.org/abs/2211.14155) | Primary abstract only. Client-side document caches for subsequent related queries already exist. This proposed pool has a deterministic finite-state containment target rather than an approximate conversational embedding cache; no head-to-head empirical claim is made. |
+| [Wu et al., Certified Robustness to Word Substitution Ranking Attack for Neural Ranking Models, CIKM 2022](https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/wu-2022-certified.pdf) | Earlier project audit and bounded research review. CertDR already studies certified top-k retrieval under document word substitutions with a smoothed ranker. This project changes the input shared by all documents and constructs a reusable result pool for an unchanged additive scorer. Certified retrieval itself is not new. |
+| [Feng et al., Efficient Approximation of Certain and Possible Answers for Ranking and Window Queries over Uncertain Data, 2023](https://arxiv.org/abs/2302.08676) | Primary abstract inspected. Under/overapproximations of uncertain ranking answers are established. We do not claim that conservative result supersets or an UNKNOWN/fallback status are new concepts. |
+
+The supplied research subagent's bounded review informed this table; parent also opened the primary UTK, TASTIER, caching and uncertain-ranking sources. No source is treated as an instruction to modify scope or report favorable results.
+
+## What the new experiment can establish
+
+It can establish an implementation's conditional correctness and measured usefulness on the declared text corpora/channels, a better fit to a reusable search-cache application than reference retention, and a reproducible derived audit artifact with set-valued exact labels. It cannot establish that existing text collections are newly collected data, that generated edits represent natural query behavior, that existing methods are surpassed when their original implementations were not run, or that the implementation is sufficiently novel for Q1.
+
+## Remaining scientific work
+
+The main novelty bottleneck is algorithmic separation from UTK regional dominance/partitioning, not a missing dashboard or another name. A stronger contribution would require a demonstrably distinct optimization for the discrete shared-token budget, accompanied by a proof and matched exact/relaxed competitors. Application claims also need realistic edit-session distributions and end-to-end cost comparisons. Natural channels with defensible provenance could be evaluated without creating new relevance labels, but no arbitrary typo-to-query transplantation should be labelled natural.

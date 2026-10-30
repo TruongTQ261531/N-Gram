@@ -1,0 +1,10 @@
+{
+  "queries": 64,
+  "cases": 256,
+  "states": 73659,
+  "topKMembershipsChecked": 1107901,
+  "conditionalLeavesChecked": 5868,
+  "missingOracleDocuments": 0,
+  "statewiseCachedFullTopKEqual": true,
+  "seconds": 51.64652628499971
+}

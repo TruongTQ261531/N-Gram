@@ -1,10 +1,10 @@
 {
   "name": "ngram-research-lab",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node test-engine.mjs",
+    "test": "node test-engine.mjs && node test-pool.mjs",
     "dev": "python3 -m http.server 4173 --directory dist"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "dataset": "arguana",
+  "queries": 64,
+  "forms": 4059,
+  "independentTokenDocumentScores": 35207766,
+  "allOriginalCorpusDocuments": 8674,
+  "mismatches": 0,
+  "pythonArbitraryPrecisionAccumulation": true,
+  "seconds": 44.52203751900015,
+  "modelHash": "c75f97debd8947aa0803c85e872f1b6dc0439bb2ae6ac5e12a2a87c5c5843a2a"
+}

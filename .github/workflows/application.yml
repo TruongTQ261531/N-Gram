@@ -15,5 +15,7 @@ jobs:
           python-version: '3.12'
       - name: Test independent full-text enumeration and browser engine
         run: node webapp/test-engine.mjs
+      - name: Test possible-result pools, finite-state membership and cached ranking
+        run: node webapp/test-pool.mjs
       - name: Verify every published integer rank, conflict edge and dataset source
         run: python application_study/check_archive.py

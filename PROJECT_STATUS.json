@@ -1,7 +1,7 @@
 {
   "integrated_date": "2026-10-29",
   "timezone": "Asia/Bangkok",
-  "status": "research_candidate_with_independent_replication_novelty_unconfirmed",
+  "status": "research_and_application_candidates_global_novelty_unconfirmed",
   "methods": {
     "CAPC": {
       "source_commit": "d3e7de0732eaedbebcf612dbf5261b82d5a9ff01",
@@ -58,6 +58,29 @@
     "improved_acceptance_at_prespecified_caps": false,
     "novelty": "candidate specialization; global novelty and Q1 suitability unconfirmed",
     "deployment": "succeeded",
-    "preoutcome_commit": "8055553afd53d4477988910b1454c8640d075946"
+    "preoutcome_commit": "8055553afd53d4477988910b1454c8640d075946",
+    "features": [
+      "reference retention",
+      "possible-top-k reusable pool",
+      "finite-state cached replay with scope invalidation",
+      "proof and local dataset export"
+    ],
+    "possible_pool_version": "finite-query-pool-web-v1",
+    "ui_version": "0.2.0"
+  },
+  "pool_study": {
+    "report": "pool_study/REPORT_VI.md",
+    "prospective_commit": "596435bef3ab039b8abfbf672399c761e0c6e7ae",
+    "queries": 128,
+    "cases": 512,
+    "inherited_corpus_documents": 34331,
+    "budget_state_checks": 103013,
+    "max_budget_query_states": 98023,
+    "independent_token_document_scores": 97964788,
+    "missing_oracle_documents": 0,
+    "new_human_or_llm_labels": 0,
+    "novelty": "interval/dominance/partition/cache have strong prior art; candidate specialization only",
+    "q1_ready": false,
+    "natural_typo_data": false
   }
 }

@@ -1,0 +1,21 @@
+{
+  "id": "appgdep_6ae45db7b3e08191908dba26e822436f",
+  "project_id": "appgprj_6ae43a0ebebc8191bb89937b6caeb84a",
+  "title": "N-Gram Lab",
+  "version_id": "appgprj_6ae43a0ebebc8191bb89937b6caeb84a~appgver_1e5fe22a1ca08191bf75eba315c88b00",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://ngram-research-lab-tq261531.tealrook33.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6ae43a0ebebc8191bb89937b6caeb84a",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-10-30T09:05:13.363836+00:00",
+  "site_source_commit": "baa5e40377820533cc6bae74ce5f78ce1a65b37c",
+  "audience": "owner-private; existing audience retained",
+  "version_number": 2,
+  "artifact": "Exact git archive of pushed Site source .openai/hosting.json and dist",
+  "github_repository": "https://github.com/TruongTQ261531/N-Gram",
+  "prospective_commit": "596435bef3ab039b8abfbf672399c761e0c6e7ae"
+}

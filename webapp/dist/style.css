@@ -20,3 +20,7 @@
 
 .settings .field-label{min-height:31px}
 @media(min-width:1151px){.settings .field-label{min-height:31px}}
+
+.pool-panel{margin-top:24px}.pool-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:22px 0}.pool-facts>div{background:var(--bg,#f7f8f5);padding:18px;border-radius:8px}.pool-facts b{display:block;font-size:28px;color:#164b42}.pool-facts span{font-size:12px;color:#596b65}.pool-query-row{display:flex;gap:12px}.pool-query-row input{flex:1;min-width:0;border:1px solid #d1ddd6;padding:12px;border-radius:6px;background:white;font:inherit}.pool-panel details{margin-top:20px}.pool-panel details p{overflow-wrap:anywhere}#pool-replay-result{overflow-wrap:anywhere}@media(max-width:600px){.pool-query-row{flex-direction:column}.pool-facts{gap:8px}.pool-facts>div{padding:12px}.pool-facts b{font-size:24px}}
+
+.pool-evidence{margin-bottom:24px}.pool-table-wrap{overflow-x:auto}.pool-evidence .research-note{margin:18px 0}.pool-evidence .row-actions{flex-wrap:wrap}

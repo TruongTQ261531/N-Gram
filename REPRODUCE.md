@@ -70,3 +70,8 @@ Không so trực tiếp Macro-F1 dưới nhiễu lấy mẫu CAPC với RBA theo
 ## Ứng dụng web và audit data v0.1
 
 Chạy `node webapp/test-engine.mjs` và `python application_study/check_archive.py`. Verifier dùng Python chuẩn, tính lại đủ288case/334.815trạng thái; không đổi evidence đã công bố. Xem [hướng dẫn](application_study/README.md), [giao thức](application_study/PROTOCOL.md) và [giới hạn kết quả](application_study/REPORT_VI.md).
+
+
+## Bộ đệm ứng dụng và oracle trên văn bản mới
+
+[pool_study/README.md](pool_study/README.md) hướng dẫn kiểm tra toàn bộ factor/oracle offline và chạy lại từ nguồn pin. `python verify_all.py` đã gồm audit512 cấu hình mới. Để chỉ kiểm tra phần mới, dùng `python pool_study/check_archive.py` với numpy2.3.5. Không cần GPU hay gán nhãn mới. Bản web500 tài liệu và thí nghiệm lớn Python có scorer/kênh lỗi riêng; xem báo cáo giới hạn.
