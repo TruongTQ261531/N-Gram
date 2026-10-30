@@ -1,0 +1,11 @@
+# Supplemental session audit, fixed before its timings
+
+Primary full-query experiment at70629444f90c1841f1562aba4e1a2121f59455a8 remains unchanged. While its ArguAna run was executing, source review identified a workload limitation: choosing requests only from visited quotient states can repeat the raw query after early saturation. Ordinary exact-query memoization is a necessary control, and such a sequence is not a realistic general edit-session sample.
+
+This supplemental protocol/code is published before any supplemental timing, but after the primary experiment started. It uses the SAME32 selected full queries; it is a matched workload audit, NOT a new independent confirmation set. No favorable-query or outcome-based filtering, no change to the original frozen experiment.
+
+Generate20 distinct normalized admissible queries from original token forms, independent of ranker outputs and quotient visitation: raw,5 one-token edits,14 two-token edits. Seed by SHA256(independent-session-v1|dataset|queryId). Retain/disclose cases with fewer than20 distinct strings and cycle them; do not silently remove them. Save every edit and text. Also evaluate a repeated-query scenario: first10requests followed by those same10.
+
+For both scenarios, measure actual session prefixes of5 and20 requests,3 balanced cyclic repeats, on ordinary full-corpus sparse retrieval, ordinary exact-query result memoization, legacy pool, compiled pool and compiled+exact quotient pool. All cached candidate paths rebuild factors/certificates/subset index within each timed session, using original weights. Ordinary memoization starts empty each session and returns cached results for exact normalized-string matches. Corpus index load is a shared warm precondition and excluded for all paths. No concurrent benchmark/browser work. Verify every returned set against full retrieval and independent factor arithmetic. Record all times, outputs/hash and scope.
+
+These synthetic controlled sequences have no claim of empirical typo frequency, natural user behavior or production latency. Analyze primary timings separately and prioritize this stronger audit for application conclusions. No need to relabel or remove the original results.

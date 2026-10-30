@@ -1,0 +1,10 @@
+{
+  "stage": "after primary started, before any supplemental timing",
+  "files": {
+    "exact_pool_study/session_audit.py": "bd67c477934f988ab26d82c9705915f30ddaa9e79ce2bd638d3e6d2e838ba2dc",
+    "exact_pool_study/SESSION_ADDENDUM.md": "f620fab83606c24a8ba7fd709e90674863ed76f7055fc9d4e2c4ed032dd97038",
+    "exact_pool_study/method.py": "8a23166fbee76af463490708099ca2ab3524b0c439b3520b4423f7d2270ddc27",
+    "exact_pool_study/selection.json": "35b1978360ca1c7a36d0103e7370b2176e8e2e0dd7a8e5e6047a0c5875853fba",
+    "pool_study/core.py": "f291b7ea17e2e3e8c0c88e0d361deb1cf8af44c783146d7a662e29446711b91b"
+  }
+}
