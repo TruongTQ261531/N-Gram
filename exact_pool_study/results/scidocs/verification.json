@@ -1,0 +1,109 @@
+{
+  "queries": 16,
+  "independentOriginalProjectedStates": 7583,
+  "quotientStatesChecked": 6994,
+  "quotientScoreCellsChecked": 929517,
+  "conditionalLeavesChecked": 256,
+  "fullCorpusWitnessesChecked": 634,
+  "missingOrExtraOracleDocuments": 0,
+  "allSessionAnswersEqual": true,
+  "seconds": 9.167243309002515,
+  "rows": [
+    {
+      "queryId": "76abf690192e6b6219d7691d0925894c433ddf2a",
+      "oracleOriginalStates": 67,
+      "quotientVisited": 67,
+      "exactUnion": 61
+    },
+    {
+      "queryId": "6bb5d79e3f255f091f110e7c6952076f2fd27da5",
+      "oracleOriginalStates": 822,
+      "quotientVisited": 672,
+      "exactUnion": 35
+    },
+    {
+      "queryId": "012e396b02aa584cb74a65ae14af355e7c897858",
+      "oracleOriginalStates": 436,
+      "quotientVisited": 408,
+      "exactUnion": 37
+    },
+    {
+      "queryId": "3136f52540fb7925998eff94e9c016d2e1a6fe12",
+      "oracleOriginalStates": 436,
+      "quotientVisited": 436,
+      "exactUnion": 36
+    },
+    {
+      "queryId": "36c29a4a8a4b07ce402c3077cc8831ff7245b5f8",
+      "oracleOriginalStates": 106,
+      "quotientVisited": 106,
+      "exactUnion": 68
+    },
+    {
+      "queryId": "27fb7f79c74af0de19b3a9691268f9ca32bdda82",
+      "oracleOriginalStates": 862,
+      "quotientVisited": 862,
+      "exactUnion": 28
+    },
+    {
+      "queryId": "725bba18d41a6dedeeef01fd8e306aa5bd2a3f6b",
+      "oracleOriginalStates": 106,
+      "quotientVisited": 106,
+      "exactUnion": 59
+    },
+    {
+      "queryId": "59aa88a5648e602d4e9aa4e9f12dedd112126bf7",
+      "oracleOriginalStates": 1037,
+      "quotientVisited": 1037,
+      "exactUnion": 35
+    },
+    {
+      "queryId": "35414f51bec4795a0f417aa1fdbb35322d80c9b7",
+      "oracleOriginalStates": 327,
+      "quotientVisited": 327,
+      "exactUnion": 25
+    },
+    {
+      "queryId": "b453a4131201360dbd9743ffbe7d4939d099059d",
+      "oracleOriginalStates": 211,
+      "quotientVisited": 211,
+      "exactUnion": 51
+    },
+    {
+      "queryId": "1571f50f52761a7a3537f12a88be487e5a0e7ad4",
+      "oracleOriginalStates": 529,
+      "quotientVisited": 438,
+      "exactUnion": 33
+    },
+    {
+      "queryId": "e00ab75a8aa637d9c4c5c020e9f2c54b31528031",
+      "oracleOriginalStates": 277,
+      "quotientVisited": 234,
+      "exactUnion": 43
+    },
+    {
+      "queryId": "3f55d26dd638c849745b95e912c28d88445ba5e1",
+      "oracleOriginalStates": 529,
+      "quotientVisited": 498,
+      "exactUnion": 35
+    },
+    {
+      "queryId": "bdd6b6635cf5861fc9d914a6d2938fcb2daea7ef",
+      "oracleOriginalStates": 862,
+      "quotientVisited": 862,
+      "exactUnion": 24
+    },
+    {
+      "queryId": "d2c70073316ee264e393411cd49182a9be78deb4",
+      "oracleOriginalStates": 822,
+      "quotientVisited": 576,
+      "exactUnion": 31
+    },
+    {
+      "queryId": "52d4649f2840e410b5a6681f094dab5e7d3e1db0",
+      "oracleOriginalStates": 154,
+      "quotientVisited": 154,
+      "exactUnion": 33
+    }
+  ]
+}

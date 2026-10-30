@@ -1,0 +1,10 @@
+{
+  "source": "https://aclanthology.org/J97-2003.pdf",
+  "title": "Finite-State Transducers in Language and Speech Processing",
+  "sha256": "93abc7a629b2a3824c579b77b14264652321a84158ed587f968edc82d2696164",
+  "bytes": 2493556,
+  "inspected": "residual-weight determinization; pushing/minimization pp296-297; on-demand construction p304",
+  "rawCopyrightPDFNotRedistributed": true,
+  "claim": "Close conceptual analogue; full algorithm equivalence or global novelty not established",
+  "searchLimit": "Live web-search tool attempts returned empty errors; direct ACL and Crossref retrieval succeeded"
+}

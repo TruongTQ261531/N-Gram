@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Asia/Bangkok",
+  "branch": "research/rank-equivalence-2026-10-30",
+  "parentMain": "94a9f0c16ab2bd312621682cb842fb9b439deabe",
+  "mainModified": false,
+  "liveSiteModified": false,
+  "q1Ready": false,
+  "globalNoveltyEstablished": false,
+  "paperSubmitted": false,
+  "newHumanOrLLMLabels": 0,
+  "historical": {
+    "CAPC": {
+      "protocolFits": 156,
+      "decision": "no_go_current_mechanism"
+    },
+    "BOLT": {
+      "protocolFits": 99,
+      "decision": "context_or_exact_training_advantage_unconfirmed"
+    },
+    "retrievalRetention": {
+      "primaryQueries": 300,
+      "independentQueries": 970,
+      "positiveHolmComparisons": 2,
+      "datasets": 3,
+      "globalNoveltyUnconfirmed": true
+    },
+    "syntheticAudit": {
+      "cases": 288,
+      "states": 334815,
+      "coverImprovedCases": 17,
+      "acceptanceIncreaseAtPrespecifiedCaps": false
+    },
+    "previousRealTextPool": {
+      "queries": 128,
+      "cases": 512,
+      "budgetStateChecks": 103013
+    }
+  },
+  "newIteration": {
+    "completeQueries": 32,
+    "truncations": 0,
+    "freshArguanaTopicFamiliesExcludedFromPrior": true,
+    "originalProjectedStatesIndependentlyChecked": 3280324,
+    "visitedQuotientStatesChecked": 726839,
+    "sourceIntegerScoresIndependentlyChecked": 86836463,
+    "fullCorpusWitnessesChecked": 857,
+    "missingOrExtraOracleDocuments": 0,
+    "allFactorsEqual": true,
+    "allSessionAnswersEqual": true,
+    "timingRepeats": 3,
+    "actualSessionLengths": [
+      5,
+      20
+    ],
+    "ordinaryMemoizationControl": true,
+    "onlineSessionDecision": "no_go: no per-query median wins over memo in measured distinct/repeated5/20 conditions",
+    "artifactVerificationDecision": "supported in declared fixed-scorer finite-channel scope",
+    "noveltyDecision": "specialization only; known bounds/equivalence/symmetry/caching; Q1 contribution not established",
+    "indicesRebuiltFromPinnedOriginalCorpora": 2
+  },
+  "reports": {
+    "overview": "PROJECT_REVIEW_2026-10-30.md",
+    "newResults": "exact_pool_study/REPORT_VI.md",
+    "newProtocol": "exact_pool_study/PROTOCOL.md",
+    "novelty": "exact_pool_study/RELATED_WORK.md",
+    "paperDirection": "exact_pool_study/PAPER_DIRECTION.md"
+  },
+  "parentFilesByteIdentical": 894,
+  "scopeOfMutationFlags": "Changes made by this research iteration; concurrent remote updates are separately recorded",
+  "concurrentRemoteMainUpdate": {
+    "commit": "7480b1ecaf2a64bcfa74737b4b37423574b2e358",
+    "pullRequest": 4,
+    "files": [
+      "docs/RESEARCH_PLAN_VI.md"
+    ],
+    "scientificArtifactsChanged": false,
+    "mergedByThisIteration": false
+  }
+}

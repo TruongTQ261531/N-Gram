@@ -1,0 +1,3 @@
+dataset,queries,completeQueries,minTokens,maxTokens,meanLegacyPool,meanExactPool,exactCases,medianLegacyBuildMs,medianCompiledBuildMs,medianCompiledBuildSpeedup,originalTheoreticalStates,scoreTheoreticalStates,textTheoreticalStates,rankTheoreticalStates,rankActuallyVisited,fullCorpusOracleExact,fullCorpusOracleUnknown,maxProcessMiB,primarySessionsWithSingleDescriptor
+arguana,16,16,83,351,16.4375,13.9375,16,892.8516545001912,231.14720650119125,3.609103811048824,3272741,2900764,1318112,1208008,719845,0,16,823.1875,1
+scidocs,16,16,4,16,145.0625,39.625,16,87.08545800072898,82.55984149946016,0.9778805231931842,7583,7274,7259,6994,6994,16,0,1646.46484375,0

@@ -1,0 +1,11 @@
+{
+  "queries": 16,
+  "independentOriginalProjectedStates": 3272741,
+  "quotientStatesChecked": 719845,
+  "quotientScoreCellsChecked": 13724345,
+  "conditionalLeavesChecked": 256,
+  "fullCorpusWitnessesChecked": 223,
+  "missingOrExtraOracleDocuments": 0,
+  "allSessionAnswersEqual": true,
+  "seconds": 42.09809676400255
+}

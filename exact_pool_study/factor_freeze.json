@@ -1,0 +1,13 @@
+{
+  "stage": "after primary, during session audit, before factor-compilation timings",
+  "files": {
+    "exact_pool_study/fast_factors.py": "a9b9f2a340ef92197dbd86b08f7830781d13dfe334782bd2f718a50b0b5cd48d",
+    "exact_pool_study/factor_audit.py": "5315bdf46fb660c0ec16e67fb5e6c0aa1f51106334800e911aeb0c004eb28fea",
+    "exact_pool_study/test_fast_factors.py": "6d3d83de8d04ae5881b730c9ba19129d7941a6cbe6ff9610800357cf6e619e3f",
+    "exact_pool_study/FACTOR_ADDENDUM.md": "a33e1b5607626dc72aaa4e37fb75ee48ee4749c444123b594d2b3948be5240cf",
+    "exact_pool_study/method.py": "8a23166fbee76af463490708099ca2ab3524b0c439b3520b4423f7d2270ddc27",
+    "exact_pool_study/selection.json": "35b1978360ca1c7a36d0103e7370b2176e8e2e0dd7a8e5e6047a0c5875853fba",
+    "exact_pool_study/session_audit.py": "bd67c477934f988ab26d82c9705915f30ddaa9e79ce2bd638d3e6d2e838ba2dc",
+    "pool_study/core.py": "f291b7ea17e2e3e8c0c88e0d361deb1cf8af44c783146d7a662e29446711b91b"
+  }
+}

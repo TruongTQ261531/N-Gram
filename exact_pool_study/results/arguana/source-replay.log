@@ -1,0 +1,10 @@
+{
+  "dataset": "arguana",
+  "queries": 16,
+  "uniqueQueryForms": 8192,
+  "integerTokenDocumentScores": 71057408,
+  "mismatches": 0,
+  "pythonIntegerAccumulation": true,
+  "modelHash": "c75f97debd8947aa0803c85e872f1b6dc0439bb2ae6ac5e12a2a87c5c5843a2a",
+  "seconds": 62.52619514599792
+}

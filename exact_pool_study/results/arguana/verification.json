@@ -1,0 +1,109 @@
+{
+  "queries": 16,
+  "independentOriginalProjectedStates": 3272741,
+  "quotientStatesChecked": 719845,
+  "quotientScoreCellsChecked": 13724345,
+  "conditionalLeavesChecked": 256,
+  "fullCorpusWitnessesChecked": 223,
+  "missingOrExtraOracleDocuments": 0,
+  "allSessionAnswersEqual": true,
+  "seconds": 42.09809676400255,
+  "rows": [
+    {
+      "queryId": "test-digital-freedoms-aihbiahr-pro02a",
+      "oracleOriginalStates": 510594,
+      "quotientVisited": 8192,
+      "exactUnion": 14
+    },
+    {
+      "queryId": "test-education-egtuscpih-con03a",
+      "oracleOriginalStates": 91380,
+      "quotientVisited": 35677,
+      "exactUnion": 12
+    },
+    {
+      "queryId": "test-religion-yercfrggms-pro04a",
+      "oracleOriginalStates": 106501,
+      "quotientVisited": 41720,
+      "exactUnion": 12
+    },
+    {
+      "queryId": "test-free-speech-debate-yfsdfkhbwu-pro02a",
+      "oracleOriginalStates": 235652,
+      "quotientVisited": 88200,
+      "exactUnion": 17
+    },
+    {
+      "queryId": "test-philosophy-elhbrd-pro02a",
+      "oracleOriginalStates": 337443,
+      "quotientVisited": 121016,
+      "exactUnion": 16
+    },
+    {
+      "queryId": "test-digital-freedoms-efsappgdfp-con03a",
+      "oracleOriginalStates": 184542,
+      "quotientVisited": 2048,
+      "exactUnion": 13
+    },
+    {
+      "queryId": "test-free-speech-debate-fchbjaj-con03a",
+      "oracleOriginalStates": 358294,
+      "quotientVisited": 144690,
+      "exactUnion": 13
+    },
+    {
+      "queryId": "test-international-iwiaghbss-con01a",
+      "oracleOriginalStates": 46368,
+      "quotientVisited": 2048,
+      "exactUnion": 11
+    },
+    {
+      "queryId": "test-international-aghbfcpspr-con03a",
+      "oracleOriginalStates": 115926,
+      "quotientVisited": 2048,
+      "exactUnion": 13
+    },
+    {
+      "queryId": "test-health-ahiahbgbsp-con01a",
+      "oracleOriginalStates": 29650,
+      "quotientVisited": 14269,
+      "exactUnion": 24
+    },
+    {
+      "queryId": "test-law-cppshbcjsfm-con04a",
+      "oracleOriginalStates": 190050,
+      "quotientVisited": 2048,
+      "exactUnion": 15
+    },
+    {
+      "queryId": "test-international-appghblsba-con02a",
+      "oracleOriginalStates": 228173,
+      "quotientVisited": 1,
+      "exactUnion": 10
+    },
+    {
+      "queryId": "test-health-ahiahbgbsp-pro01a",
+      "oracleOriginalStates": 193776,
+      "quotientVisited": 79599,
+      "exactUnion": 13
+    },
+    {
+      "queryId": "test-international-aegmeppghw-con04a",
+      "oracleOriginalStates": 296070,
+      "quotientVisited": 109065,
+      "exactUnion": 14
+    },
+    {
+      "queryId": "test-philosophy-npegiepp-con01a",
+      "oracleOriginalStates": 207062,
+      "quotientVisited": 4096,
+      "exactUnion": 12
+    },
+    {
+      "queryId": "test-international-eghrhbeusli-pro02a",
+      "oracleOriginalStates": 141260,
+      "quotientVisited": 65128,
+      "exactUnion": 14
+    }
+  ]
+}

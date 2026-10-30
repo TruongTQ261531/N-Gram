@@ -1,0 +1,19 @@
+name: Verify compiled bounds and exact query pools
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install fixed research dependencies
+        run: pip install -r pool_study/requirements.txt
+      - name: Compare compiled bounds and all quotients with exhaustive toy oracles
+        run: python exact_pool_study/test_method.py
+      - name: Verify complete recorded experiment when present
+        if: ${{ hashFiles('exact_pool_study/checksums.sha256') != '' }}
+        run: python exact_pool_study/check_archive.py

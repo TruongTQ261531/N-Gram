@@ -1,0 +1,9 @@
+{
+  "dataset": "scidocs",
+  "documents": 25657,
+  "modelHash": "62df489edd0de136f38ac411d086d1a5d2f9031a0953b9542258c6dfd90a1c69",
+  "matchesFrozenStoredIntegerIndex": true,
+  "sourceFilesHashChecked": true,
+  "frozenParentFilesModified": false,
+  "seconds": 41.50457872399784
+}
