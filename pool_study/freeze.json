@@ -1,0 +1,15 @@
+{
+  "stage": "prospective before any retrieval outcome on ArguAna/SciDocs",
+  "files": {
+    "pool_study/core.py": "f291b7ea17e2e3e8c0c88e0d361deb1cf8af44c783146d7a662e29446711b91b",
+    "pool_study/prepare.py": "11cc89a7222bc3be50398a7afef016aa818888f73ddfbc5a1d50356ae9e33e73",
+    "pool_study/run.py": "e9b0ecf189c2774cea4475046a8eabc6423d00c9f449b7109d79f16cd9507c8d",
+    "pool_study/test_core.py": "430dfe1b2f2dd32042b8d774bfe2ca2fcc71bb917aa2b31c9803e94dee0e486d",
+    "pool_study/verify.py": "76ff838e8155aa0862f521ee4f35b3f5772df39aabd41dc7f9f386ffaa8945ee",
+    "pool_study/replay_sources.py": "6434c5a95ee436fc60ef8fdeabd8ab102df6793495b00e07b83d8ca388eb516d",
+    "pool_study/PROTOCOL.md": "cfdfae8fde8375829e26ca2457c57b3bf4a0404275e007472e6acdae07c54a52",
+    "pool_study/requirements.txt": "93574f0689385e1b0d4414e995b0ef7912cc5016568d87c2f0911c2d04fdf256",
+    "pool_study/sources.json": "47e8d1db2bd2996fe7a611b9262a7631005f9119fed8dfa0947bba93e234f66c",
+    "pool_study/selection.json": "bfda2e801cfac42a8437b9bd07a3bd4163e7a5324e33b28ca17c55396cb81ae4"
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "dataset": "arguana",
+    "revision": "9bcf8fc0320c4e3860e25b8b85fa205fcdd7078f",
+    "path": "README.md",
+    "url": "https://huggingface.co/datasets/BeIR/arguana/resolve/9bcf8fc0320c4e3860e25b8b85fa205fcdd7078f/README.md",
+    "bytes": 10587,
+    "sha256": "fb082f442f3b165a572ece8178627478068bfec973839c82473db7d8fbea1f8b",
+    "license": "CC-BY-SA-4.0 per pinned HF card; see DATA_LICENSE.md"
+  },
+  {
+    "dataset": "arguana",
+    "revision": "9bcf8fc0320c4e3860e25b8b85fa205fcdd7078f",
+    "path": "corpus/corpus-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/BeIR/arguana/resolve/9bcf8fc0320c4e3860e25b8b85fa205fcdd7078f/corpus/corpus-00000-of-00001.parquet",
+    "bytes": 4993889,
+    "sha256": "18eedd19306ea9adbf83110d74a844dc9501a1bf084def48bfa5a8eab5600b86",
+    "license": "CC-BY-SA-4.0 per pinned HF card; see DATA_LICENSE.md"
+  },
+  {
+    "dataset": "arguana",
+    "revision": "9bcf8fc0320c4e3860e25b8b85fa205fcdd7078f",
+    "path": "queries/queries-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/BeIR/arguana/resolve/9bcf8fc0320c4e3860e25b8b85fa205fcdd7078f/queries/queries-00000-of-00001.parquet",
+    "bytes": 949777,
+    "sha256": "6c08bf568afae82e10b5e93dcd6b589d55be1d2242c1ead8e5244608c6a1a1e7",
+    "license": "CC-BY-SA-4.0 per pinned HF card; see DATA_LICENSE.md"
+  },
+  {
+    "dataset": "scidocs",
+    "revision": "acebceec772628c6679d76d6cff30ad517d17f4e",
+    "path": "README.md",
+    "url": "https://huggingface.co/datasets/BeIR/scidocs/resolve/acebceec772628c6679d76d6cff30ad517d17f4e/README.md",
+    "bytes": 10424,
+    "sha256": "d80ea0458d2d6a81f0f857e6f6e5aa423f4dbd1d84511795f19025c84e95b627",
+    "license": "CC-BY-SA-4.0 per pinned HF card; see DATA_LICENSE.md"
+  },
+  {
+    "dataset": "scidocs",
+    "revision": "acebceec772628c6679d76d6cff30ad517d17f4e",
+    "path": "corpus/corpus-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/BeIR/scidocs/resolve/acebceec772628c6679d76d6cff30ad517d17f4e/corpus/corpus-00000-of-00001.parquet",
+    "bytes": 18673258,
+    "sha256": "e1855cbf47a19e4ff1fc870674c3c441bc5a32a76ecc151851d4452a9aa43a28",
+    "license": "CC-BY-SA-4.0 per pinned HF card; see DATA_LICENSE.md"
+  },
+  {
+    "dataset": "scidocs",
+    "revision": "acebceec772628c6679d76d6cff30ad517d17f4e",
+    "path": "queries/queries-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/BeIR/scidocs/resolve/acebceec772628c6679d76d6cff30ad517d17f4e/queries/queries-00000-of-00001.parquet",
+    "bytes": 92568,
+    "sha256": "f9ad7adff7d396e652789de371f69b5a3adfa8f39e1f37fff728c231e7db3202",
+    "license": "CC-BY-SA-4.0 per pinned HF card; see DATA_LICENSE.md"
+  }
+]
