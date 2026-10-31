@@ -8,14 +8,16 @@ from argon_followup_2026_11_01 import neural
 
 
 class OnnxPredictor:
+    SOURCE_FILE='ONNX_SOURCE.json'
+    MODEL_FILE='model.onnx'
     def __init__(self,path,texts):
-        spec=json.loads((neural.ROOT/'ONNX_SOURCE.json').read_text())
-        assert hashlib.sha256((path/'model.onnx').read_bytes()).hexdigest()==spec['sha256']
+        spec=json.loads((neural.ROOT/self.SOURCE_FILE).read_text())
+        assert hashlib.sha256((path/self.MODEL_FILE).read_bytes()).hexdigest()==spec['sha256']
         self.texts=texts;self.tokenizer=AutoTokenizer.from_pretrained(path,local_files_only=True)
         opts=ort.SessionOptions();opts.intra_op_num_threads=4;opts.inter_op_num_threads=1
         opts.execution_mode=ort.ExecutionMode.ORT_SEQUENTIAL
         opts.graph_optimization_level=ort.GraphOptimizationLevel.ORT_ENABLE_ALL
-        self.session=ort.InferenceSession(str(path/'model.onnx'),opts,providers=['CPUExecutionProvider'])
+        self.session=ort.InferenceSession(str(path/self.MODEL_FILE),opts,providers=['CPUExecutionProvider'])
         self.names={i.name for i in self.session.get_inputs()};self.calls=0
     def score(self,query,documents):
         started=time.perf_counter();result=[];limit=0
