@@ -1,0 +1,42 @@
+{
+  "repository": "https://github.com/keisks/jfleg",
+  "commit": "ee06ff806a208aba815ac45313f4e750a48330a5",
+  "license": "CC BY-NC-SA4.0 per author README",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "f1413ad6167f35a3c0f8d5d78be2f36e248358ddff11bdeb9c78e4bb274be853",
+      "bytes": 6070
+    },
+    {
+      "path": "dev/dev.ref0",
+      "sha256": "adea6287c6e2240b7777e63cd56f8e228e742bbfb42c5152bc0bd2bc91f4e53e",
+      "bytes": 73216
+    },
+    {
+      "path": "dev/dev.spellchecked.src",
+      "sha256": "640be7de18ba338d411d55b6e6db2053db8fa165ba8536b047a6b5381361de97",
+      "bytes": 72007
+    },
+    {
+      "path": "dev/dev.src",
+      "sha256": "4a0e8b86d18a1058460ff0a592dac1ba68986d135256efbd27e997ac43f295f8",
+      "bytes": 72726
+    },
+    {
+      "path": "test/test.ref0",
+      "sha256": "875953280a3ea1dea2827337b1778c0105f0c0aa79f2517a6e0e42db5e5e170c",
+      "bytes": 73090
+    },
+    {
+      "path": "test/test.spellchecked.src",
+      "sha256": "a51aa4f3ba80741ed85353ee185339daae04084c29f5ba3a6e89d96d4fe3dbe6",
+      "bytes": 72677
+    },
+    {
+      "path": "test/test.src",
+      "sha256": "893db119162487aa7f956b65978453576919e6797cd6c1955f93b7a8b9f4bbd8",
+      "bytes": 72684
+    }
+  ]
+}
