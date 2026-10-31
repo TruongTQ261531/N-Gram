@@ -108,7 +108,8 @@ def main():
                 (folder/name).write_text(value)
             row['nativePointsSha256'] = digest(folder/'points.txt')
             oracle_start = time.perf_counter()
-            trivial = len(row['endpointUnion']) == len(pool)
+            trivial = (len(row['endpointUnion']) == len(pool) and
+                       len(endpoints(eqa,eqb,10)) == len(pool))
             if len(pool)**2 > 4_000_000 and not trivial:
                 row['oracleStatus'] = 'RESOURCE_UNKNOWN'; out.write(json.dumps(row)+'\n'); out.flush()
                 print(number, qid, 'oracle cap', len(pool), flush=True); continue
