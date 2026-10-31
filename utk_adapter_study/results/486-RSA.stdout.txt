@@ -1,0 +1,44 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+Total number of objects: 81
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+============================================
+No. 1, Record ID: 25
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 56
+remove: 79
+remove: 62
+remove: 16
+remove: 68
+remove: 70
+remove: 5
+remove: 76
+remove: 63
+============================================
+No. 2, Record ID: 16
+============================================
+No. 3, Record ID: 15
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 4, Record ID: 56
+============================================
+No. 5, Record ID: 70
+============================================
+No. 6, Record ID: 77
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+# UTK records / # of k-skyband: 12/12
+% of total k-skyband: 100%
+Total time cost: 0.0005 SEC 
+Total space cost: 0.0039 MB 
+============================================
+AUDIT_IDS 5 15 16 25 56 62 63 68 70 76 77 79
+Average time cost of each query: 0.0005
+Average space cost of each query: 0.0039
+Average result size: 12.0000

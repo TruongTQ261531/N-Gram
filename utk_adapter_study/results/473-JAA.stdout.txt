@@ -1,0 +1,32 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+Total number of objects: 896
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+r-skyband size: 14
+(1) Insert Records: 12
+option size: 10
+0, result size: 1; remain subregions: 2
+(1) Insert Records: 2
+option size: 10
+1, result size: 2; remain subregions: 2
+(1) Insert Records: 10
+option size: 12
+2, result size: 4; remain subregions: 2
+(1) Insert Records: 1
+option size: 13
+3, result size: 5; remain subregions: 1
+(1) Insert Records: 9
+option size: 13
+4, result size: 6; remain subregions: 1
+============================================
+Regions: 7
+Total time cost: 0.0079 SEC 
+Total space cost: 0.0353 MB 
+============================================
+AUDIT_IDS 2 132 432 446 493 526 527 551 658 665 731 815 829
+Average time cost of each query: 0.0080
+Average space cost of each query: 0.0353
+Average result size: 7.0000

@@ -1,0 +1,81 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+.Total number of objects: 1655
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+r-skyband size: 18
+(1) Insert Records: 15
+option size: 12
+0, result size: 1; remain subregions: 10
+(1) Insert Records: 12
+option size: 13
+1, result size: 2; remain subregions: 9
+(1) Insert Records: 12
+option size: 14
+2, result size: 3; remain subregions: 11
+(1) Insert Records: 11
+option size: 14
+3, result size: 4; remain subregions: 11
+(1) Insert Records: 11
+option size: 14
+4, result size: 5; remain subregions: 10
+(1) Insert Records: 11
+option size: 14
+5, result size: 6; remain subregions: 9
+(1) Insert Records: 8
+option size: 14
+6, result size: 7; remain subregions: 8
+(1) Insert Records: 7
+option size: 14
+7, result size: 8; remain subregions: 8
+(1) Insert Records: 5
+option size: 14
+8, result size: 9; remain subregions: 9
+(1) Insert Records: 14
+option size: 15
+9, result size: 10; remain subregions: 9
+(1) Insert Records: 14
+option size: 18
+10, result size: 12; remain subregions: 9
+(1) Insert Records: 5
+option size: 18
+11, result size: 13; remain subregions: 9
+(1) Insert Records: 4
+option size: 18
+12, result size: 14; remain subregions: 8
+(1) Insert Records: 4
+option size: 18
+13, result size: 15; remain subregions: 8
+(1) Insert Records: 8
+option size: 18
+14, result size: 16; remain subregions: 7
+(1) Insert Records: 5
+option size: 18
+15, result size: 17; remain subregions: 6
+(1) Insert Records: 4
+option size: 18
+16, result size: 18; remain subregions: 5
+(1) Insert Records: 4
+option size: 18
+17, result size: 19; remain subregions: 4
+(1) Insert Records: 12
+option size: 18
+18, result size: 20; remain subregions: 4
+option size: 18
+19, result size: 21; remain subregions: 3
+(1) Insert Records: 7
+option size: 18
+20, result size: 22; remain subregions: 2
+option size: 18
+21, result size: 23; remain subregions: 1
+============================================
+Regions: 24
+Total time cost: 0.0290 SEC 
+Total space cost: 0.0589 MB 
+============================================
+AUDIT_IDS 83 84 160 228 229 312 528 847 934 936 1114 1144 1186 1187 1251 1379 1387 1455
+Average time cost of each query: 0.0290
+Average space cost of each query: 0.0589
+Average result size: 24.0000

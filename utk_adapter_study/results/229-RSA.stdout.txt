@@ -1,0 +1,75 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+Total number of objects: 649
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+============================================
+No. 1, Record ID: 539
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 179
+remove: 644
+remove: 187
+remove: 534
+remove: 541
+remove: 529
+remove: 533
+remove: 531
+remove: 158
+============================================
+No. 2, Record ID: 375
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 540
+============================================
+No. 3, Record ID: 179
+============================================
+No. 4, Record ID: 540
+============================================
+No. 5, Record ID: 43
+(1) Skylines(10): 1
+(3) Singular, #Ret: 1
+remove: 8
+remove: 40
+remove: 301
+remove: 204
+remove: 77
+============================================
+No. 6, Record ID: 644
+============================================
+No. 7, Record ID: 534
+============================================
+No. 8, Record ID: 541
+============================================
+No. 9, Record ID: 377
+(1) Skylines(10): 3
+(3) Singular, #Ret: 1
+remove: 77
+remove: 533
+============================================
+No. 10, Record ID: 39
+(1) Skylines(10): 3
+(3) Singular, #Ret: 1
+remove: 8
+============================================
+No. 11, Record ID: 187
+============================================
+No. 12, Record ID: 529
+============================================
+No. 13, Record ID: 40
+============================================
+No. 14, Record ID: 466
+(1) Skylines(10): 3
+(3) Singular, #Ret: 1
+============================================
+# UTK records / # of k-skyband: 21/21
+% of total k-skyband: 100%
+Total time cost: 0.0070 SEC 
+Total space cost: 0.0275 MB 
+============================================
+AUDIT_IDS 8 39 40 43 77 158 179 187 204 301 375 377 466 529 531 533 534 539 540 541 644
+Average time cost of each query: 0.0070
+Average space cost of each query: 0.0275
+Average result size: 21.0000

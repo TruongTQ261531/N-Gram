@@ -1,0 +1,77 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+Total number of objects: 937
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+r-skyband size: 22
+(1) Insert Records: 18
+option size: 11
+0, result size: 1; remain subregions: 14
+(1) Insert Records: 7
+option size: 12
+1, result size: 2; remain subregions: 13
+(1) Insert Records: 6
+option size: 12
+2, result size: 3; remain subregions: 12
+(1) Insert Records: 6
+option size: 12
+3, result size: 4; remain subregions: 11
+(1) Insert Records: 6
+option size: 12
+4, result size: 5; remain subregions: 10
+(1) Insert Records: 5
+option size: 12
+5, result size: 6; remain subregions: 9
+(1) Insert Records: 15
+option size: 12
+6, result size: 7; remain subregions: 9
+(1) Insert Records: 14
+option size: 12
+7, result size: 8; remain subregions: 8
+(1) Insert Records: 13
+option size: 12
+8, result size: 9; remain subregions: 8
+(1) Insert Records: 9
+option size: 12
+9, result size: 10; remain subregions: 9
+(1) Insert Records: 17
+option size: 13
+10, result size: 11; remain subregions: 8
+(1) Insert Records: 17
+option size: 14
+11, result size: 12; remain subregions: 7
+(1) Insert Records: 17
+option size: 15
+12, result size: 13; remain subregions: 6
+(1) Insert Records: 17
+option size: 16
+13, result size: 14; remain subregions: 5
+(1) Insert Records: 11
+option size: 17
+14, result size: 15; remain subregions: 5
+(1) Insert Records: 1
+option size: 17
+15, result size: 16; remain subregions: 4
+(1) Insert Records: 6
+option size: 17
+16, result size: 17; remain subregions: 4
+(1) Insert Records: 8
+option size: 17
+17, result size: 18; remain subregions: 3
+(1) Insert Records: 8
+option size: 17
+18, result size: 19; remain subregions: 2
+option size: 17
+19, result size: 20; remain subregions: 1
+(1) Insert Records: 5
+============================================
+Regions: 21
+Total time cost: 0.0314 SEC 
+Total space cost: 0.0356 MB 
+============================================
+AUDIT_IDS 263 356 380 449 576 577 578 579 581 685 698 699 704 716 837 865 936
+Average time cost of each query: 0.0315
+Average space cost of each query: 0.0356
+Average result size: 21.0000

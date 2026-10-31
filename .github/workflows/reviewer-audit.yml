@@ -27,3 +27,8 @@ jobs:
         run: |
           python -m decision_audit_2026_10_31.check_archive
           sha256sum --quiet -c decision_audit_2026_10_31/checksums.sha256
+      - name: Exact NLP segment adapter and native-output records
+        run: |
+          python -m unittest utk_adapter_study.test_adapter -v
+          python -m utk_adapter_study.check_archive
+          sha256sum --quiet -c utk_adapter_study/checksums.sha256

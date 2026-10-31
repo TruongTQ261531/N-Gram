@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "queries": 128,
+  "modelHash": "3640aa299076386d0bb5c8e95b1b43979f4d1a36337fd435bfb327dc3ae5d244",
+  "independentArrayDigest": "3640aa299076386d0bb5c8e95b1b43979f4d1a36337fd435bfb327dc3ae5d244",
+  "allEndpointSelectionsAndScoresReplayed": true,
+  "allOriginalAndExportedContinuousRegionExclusionsReplayed": true,
+  "scope": "Same pinned original integer index, no new scorer fitting",
+  "recordsSha256": "72c544f288d0ac81e5bf0f00e63e870d75a3a74b9d03e58ffb620fdaf9f28c4b"
+}

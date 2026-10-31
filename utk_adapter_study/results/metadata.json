@@ -1,0 +1,61 @@
+{
+  "startedUTC": "2026-10-31T17:21:10.138986+00:00",
+  "retrospective": true,
+  "scope": "128 actual NLP score segments, NOT the entire finite lattice or hull",
+  "binarySha256": "1f4b98288e8242985a97b97c35b96f0a639f8566ed360bdce0fac5f49c2ee4f3",
+  "sourceHashes": {
+    "src/main.cpp": "31c2cd2c47321ee27b586130ccfc47e4969112e7e5c3d1037b6b298d3ee73fa5",
+    "src/utk.cpp": "8d2a14c541ad06a043f379e88363535f7da9825b9114636a91cfa288ee96ba1f",
+    "src/cellTree.cpp": "744c289accb10174ca7494324ce4f0507eedeead70b3072ebfd2a9f1a5665f9b",
+    "src/skyline.cpp": "7ef7856d0b727b18c9b7eb7af79ca458d5beaaec1dcfc38c02b5e2426bb9e0f4"
+  },
+  "upstream": "https://github.com/cupermanrose/UTK_source",
+  "upstreamCommit": "16466c87b08e2e368ba870cdcbbf31dc36be406b",
+  "protocolSha256": "1b2871c8899b18fe1b85b13ebab4be7fec1bc4b4b5c0777f4647ca769d0b3463",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cpu": "AMD EPYC 9V45 96-Core Processor",
+  "oraclePairCap": 4000000,
+  "methodWallLimitSeconds": 1.0,
+  "sourceFiles": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/wayfair/WANDS/3b74dcf4ba29ab8ff3e6a50b5b09fc627cb882b5/README.md",
+      "bytes": 3747,
+      "sha256": "a967f26f3d97102baa38ece95c08c0625fedf0d65bfc7cccaed7ec26f739c242"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/wayfair/WANDS/3b74dcf4ba29ab8ff3e6a50b5b09fc627cb882b5/LICENSE",
+      "bytes": 1065,
+      "sha256": "e3ce14610132897db9f64e21d7871a7a60c0bc04364ec61e4faa99643c5072d6"
+    },
+    {
+      "path": "dataset/query.csv",
+      "url": "https://raw.githubusercontent.com/wayfair/WANDS/3b74dcf4ba29ab8ff3e6a50b5b09fc627cb882b5/dataset/query.csv",
+      "bytes": 19942,
+      "sha256": "63b61660560fecc33ec490804c7e2b81402ee3e7c31a9cbb5e03736639f68e95"
+    },
+    {
+      "path": "dataset/product.csv",
+      "url": "https://raw.githubusercontent.com/wayfair/WANDS/3b74dcf4ba29ab8ff3e6a50b5b09fc627cb882b5/dataset/product.csv",
+      "bytes": 90621131,
+      "sha256": "d993926254572e6eba96c8fd87cc549a17fb91ad3748308036eee4cf92b10ac6"
+    },
+    {
+      "path": "dataset/label.csv",
+      "url": "https://raw.githubusercontent.com/wayfair/WANDS/3b74dcf4ba29ab8ff3e6a50b5b09fc627cb882b5/dataset/label.csv",
+      "bytes": 5736234,
+      "sha256": "c11fe81ad62f17f56f316b0ec9630ebe8fbe1393578cb0ca4f05c17253a180ef"
+    }
+  ],
+  "codeHashes": {
+    "adapter.py": "c2bc373f5318777f062c4c8cd0904770f58fd82d8d0baea6ad20c42fb8bbce67",
+    "run.py": "2ad5c7cd466c99b7f89aaddd58231f72b7017da7cbd64678ff9181392b00d010"
+  },
+  "thirdPartySourceRedistributed": false,
+  "nativeTimesIncludeLaunchAndRtree": true,
+  "finishedUTC": "2026-10-31T17:23:09.586056+00:00",
+  "recordsSha256": "72c544f288d0ac81e5bf0f00e63e870d75a3a74b9d03e58ffb620fdaf9f28c4b"
+}

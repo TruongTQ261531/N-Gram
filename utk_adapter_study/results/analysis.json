@@ -1,0 +1,40 @@
+{
+  "queries": 128,
+  "exactOracles": 121,
+  "oracleResourceUnknown": 7,
+  "segmentsWithExtraOverEndpoints": 55,
+  "segmentsWithExtraOverFullFiniteLattice": 15,
+  "extraOverFullFiniteLatticeTotal": 20,
+  "quantizationUnionEqual": 121,
+  "medianProjectedDocuments": 129.0,
+  "medianPreparationSeconds": 0.004259462499987876,
+  "methods": {
+    "RSA": {
+      "attempted": 121,
+      "exited": 121,
+      "timeout": 0,
+      "errors": 0,
+      "matchesExactExportedScoreUnion": 43,
+      "exitedButDisagrees": 78,
+      "withMissingIds": 9,
+      "withExtraIds": 73,
+      "medianWallSecondsAllAttempts": 0.01777803999993921,
+      "medianWallSecondsCorrectOnly": 0.01634615600005418
+    },
+    "JAA": {
+      "attempted": 121,
+      "exited": 121,
+      "timeout": 0,
+      "errors": 0,
+      "matchesExactExportedScoreUnion": 58,
+      "exitedButDisagrees": 63,
+      "withMissingIds": 23,
+      "withExtraIds": 44,
+      "medianWallSecondsAllAttempts": 0.027543583000010585,
+      "medianWallSecondsCorrectOnly": 0.02541273099996033
+    }
+  },
+  "scope": "Retrospective two-state NLP segments; not all states or the entire convex hull",
+  "timingScope": "One run/method/query; native launch + parse + R-tree + solver; preparation separate",
+  "universalSpeedOrQ1Claim": false
+}

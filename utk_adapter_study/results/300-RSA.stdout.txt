@@ -1,0 +1,17 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+Total number of objects: 15
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+============================================
+# UTK records / # of k-skyband: 10/10
+% of total k-skyband: 100%
+Total time cost: 0.0001 SEC 
+Total space cost: 0.0039 MB 
+============================================
+AUDIT_IDS 1 2 3 5 6 7 8 10 13 15
+Average time cost of each query: 0.0001
+Average space cost of each query: 0.0039
+Average result size: 10.0000

@@ -1,0 +1,155 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+.Total number of objects: 1094
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+============================================
+No. 1, Record ID: 290
+(1) Skylines(10): 2
+(3) Singular, #Ret: 0
+============================================
+No. 2, Record ID: 299
+(1) Skylines(10): 2
+(3) Singular, #Ret: 0
+============================================
+No. 3, Record ID: 68
+(1) Skylines(10): 2
+(3) Singular, #Ret: 0
+============================================
+No. 4, Record ID: 252
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 100
+remove: 688
+remove: 689
+remove: 693
+remove: 690
+remove: 1015
+remove: 141
+remove: 1035
+============================================
+No. 5, Record ID: 1
+(1) Skylines(10): 2
+(3) Singular, #Ret: 0
+============================================
+No. 6, Record ID: 1092
+(1) Skylines(10): 2
+(3) Singular, #Ret: 0
+============================================
+No. 7, Record ID: 324
+(1) Skylines(10): 2
+(3) Singular, #Ret: 0
+============================================
+No. 8, Record ID: 640
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 120
+remove: 21
+remove: 879
+remove: 362
+remove: 737
+remove: 407
+============================================
+No. 9, Record ID: 281
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 896
+remove: 879
+remove: 362
+============================================
+No. 10, Record ID: 594
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 896
+remove: 879
+remove: 362
+============================================
+No. 11, Record ID: 70
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 237
+remove: 1015
+============================================
+No. 12, Record ID: 100
+============================================
+No. 13, Record ID: 849
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 879
+remove: 362
+============================================
+No. 14, Record ID: 245
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 1015
+============================================
+No. 15, Record ID: 710
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 432
+============================================
+No. 16, Record ID: 738
+(1) Skylines(10): 2
+(3) Singular, #Ret: 1
+remove: 737
+============================================
+No. 17, Record ID: 689
+============================================
+No. 18, Record ID: 688
+============================================
+No. 19, Record ID: 120
+============================================
+No. 20, Record ID: 21
+============================================
+No. 21, Record ID: 690
+============================================
+No. 22, Record ID: 237
+============================================
+No. 23, Record ID: 432
+============================================
+No. 24, Record ID: 693
+============================================
+No. 25, Record ID: 362
+============================================
+No. 26, Record ID: 879
+============================================
+No. 27, Record ID: 72
+(1) Skylines(10): 3
+(3) Singular, #Ret: 1
+============================================
+No. 28, Record ID: 1015
+(1) Skylines(10): 3
+(3) Singular, #Ret: 1
+============================================
+No. 29, Record ID: 470
+(1) Skylines(10): 3
+(3) Singular, #Ret: 1
+remove: 5
+============================================
+No. 30, Record ID: 896
+(1) Skylines(10): 3
+(3) Singular, #Ret: 1
+============================================
+No. 31, Record ID: 737
+(1) Skylines(10): 3
+(3) Singular, #Ret: 1
+============================================
+No. 32, Record ID: 5
+============================================
+No. 33, Record ID: 141
+============================================
+No. 34, Record ID: 407
+============================================
+No. 35, Record ID: 1035
+============================================
+# UTK records / # of k-skyband: 29/35
+% of total k-skyband: 82.86%
+Total time cost: 0.0199 SEC 
+Total space cost: 0.0393 MB 
+============================================
+AUDIT_IDS 5 21 70 72 100 120 141 237 245 252 281 362 407 432 470 594 640 688 689 690 693 710 737 738 849 879 896 1015 1035
+Average time cost of each query: 0.0199
+Average space cost of each query: 0.0393
+Average result size: 29.0000

@@ -1,0 +1,76 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+.Total number of objects: 1277
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+============================================
+No. 1, Record ID: 723
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 564
+remove: 14
+remove: 747
+remove: 594
+remove: 567
+remove: 593
+remove: 189
+remove: 163
+remove: 257
+============================================
+No. 2, Record ID: 611
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 1254
+============================================
+No. 3, Record ID: 1238
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 4, Record ID: 71
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 1121
+remove: 1122
+remove: 601
+remove: 366
+============================================
+No. 5, Record ID: 189
+============================================
+No. 6, Record ID: 744
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 7, Record ID: 1121
+============================================
+No. 8, Record ID: 756
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 9, Record ID: 1237
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 10, Record ID: 1202
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 1270
+============================================
+No. 11, Record ID: 1122
+============================================
+No. 12, Record ID: 564
+============================================
+No. 13, Record ID: 72
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+# UTK records / # of k-skyband: 24/24
+% of total k-skyband: 100%
+Total time cost: 0.0108 SEC 
+Total space cost: 0.0469 MB 
+============================================
+AUDIT_IDS 14 71 72 163 189 257 366 564 567 593 594 601 611 723 744 747 756 1121 1122 1202 1237 1238 1254 1270
+Average time cost of each query: 0.0108
+Average space cost of each query: 0.0469
+Average result size: 24.0000
