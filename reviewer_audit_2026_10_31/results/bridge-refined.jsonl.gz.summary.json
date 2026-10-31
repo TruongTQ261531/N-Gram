@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETE",
+  "retrospective": true,
+  "queries": 128,
+  "stateCount": 6684,
+  "build": {
+    "quantizationBound": 5.000000091174772e-07,
+    "observedMaxWeightResidual": 4.999999934085508e-07,
+    "sameVocabularyAndAllRoundedWeights": true,
+    "documentsWithLowerCasefoldDifference": 5,
+    "nonzeroWeights": 26954436
+  },
+  "backends": {
+    "floatLower": {
+      "stateTopKResolved": 6684,
+      "stateExactTopKEqual": 6684,
+      "stateRankResolved": 6684,
+      "queryUnionCertifiedEqual": 128,
+      "queryWorstRankExact": 128,
+      "queryWorstRankEqual": 128,
+      "queryRetentionDecisionCertifiedEqual": 128,
+      "rawReferenceIsWinner": 128
+    },
+    "floatCasefold": {
+      "stateTopKResolved": 6684,
+      "stateExactTopKEqual": 6683,
+      "stateRankResolved": 6684,
+      "queryUnionCertifiedEqual": 128,
+      "queryWorstRankExact": 128,
+      "queryWorstRankEqual": 127,
+      "queryRetentionDecisionCertifiedEqual": 128,
+      "rawReferenceIsWinner": 128
+    }
+  },
+  "rowsSha256": "bc87e386b8faa0ce360a77238ab6b37defafc7ba891c42adc0bdf6387046db29",
+  "scope": "Exact dyadic sums of stored float weights; shared WANDS products, compact lattice and reference. Not identity of legacy indexes."
+}

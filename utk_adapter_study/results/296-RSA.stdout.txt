@@ -1,0 +1,93 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+Total number of objects: 776
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+============================================
+No. 1, Record ID: 412
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 667
+remove: 310
+remove: 10
+remove: 735
+remove: 235
+remove: 264
+remove: 267
+remove: 671
+remove: 4
+============================================
+No. 2, Record ID: 113
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 217
+remove: 508
+remove: 511
+remove: 500
+remove: 728
+============================================
+No. 3, Record ID: 337
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 191
+remove: 499
+remove: 257
+remove: 189
+remove: 355
+============================================
+No. 4, Record ID: 182
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 734
+============================================
+No. 5, Record ID: 300
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 6, Record ID: 9
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 7, Record ID: 729
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 8, Record ID: 191
+============================================
+No. 9, Record ID: 10
+============================================
+No. 10, Record ID: 217
+============================================
+No. 11, Record ID: 379
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 12, Record ID: 671
+============================================
+No. 13, Record ID: 355
+============================================
+No. 14, Record ID: 719
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 15, Record ID: 508
+============================================
+No. 16, Record ID: 667
+============================================
+No. 17, Record ID: 189
+============================================
+No. 18, Record ID: 645
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+# UTK records / # of k-skyband: 30/30
+% of total k-skyband: 100%
+Total time cost: 0.0071 SEC 
+Total space cost: 0.0313 MB 
+============================================
+AUDIT_IDS 4 9 10 113 182 189 191 217 235 257 264 267 300 310 337 355 379 412 499 500 508 511 645 667 671 719 728 729 734 735
+Average time cost of each query: 0.0071
+Average space cost of each query: 0.0313
+Average result size: 30.0000

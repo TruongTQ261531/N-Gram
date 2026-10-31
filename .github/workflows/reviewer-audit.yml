@@ -1,0 +1,34 @@
+name: Verify reviewer supplement and backend bridge
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Differential exact-boundary, numerical and fixture checks
+        run: python -m unittest discover -s reviewer_audit_2026_10_31 -p 'test_*.py' -v
+      - name: Audit recorded supplement without requiring private caches
+        run: |
+          python -m reviewer_audit_2026_10_31.check_archive
+          sha256sum --quiet -c reviewer_audit_2026_10_31/checksums.sha256
+      - name: Exact decision witnesses and actual channel-membership checks
+        run: python -m unittest discover -s decision_audit_2026_10_31 -p 'test_*.py' -v
+      - name: Audit decision, budget-profile and observed-type records
+        run: |
+          python -m decision_audit_2026_10_31.check_archive
+          sha256sum --quiet -c decision_audit_2026_10_31/checksums.sha256
+      - name: Exact NLP segment adapter and native-output records
+        run: |
+          python -m unittest utk_adapter_study.test_adapter -v
+          python -m utk_adapter_study.check_archive
+          sha256sum --quiet -c utk_adapter_study/checksums.sha256

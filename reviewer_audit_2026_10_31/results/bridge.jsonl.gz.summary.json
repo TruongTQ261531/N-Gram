@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE",
+  "retrospective": true,
+  "queries": 128,
+  "stateCount": 6684,
+  "stateTopKEqual": 6684,
+  "stateTransferCertified": 6277,
+  "floatBoundaryUnresolved": 407,
+  "integerTiedStates": 407,
+  "queryRawTopKEqual": 128,
+  "queryUnionObservedEqual": 128,
+  "queryUnionTransferCertified": 77,
+  "queryLowerCasefoldDifference": 0,
+  "build": {
+    "quantizationBound": 5.000000091174772e-07,
+    "observedMaxWeightResidual": 4.999999934085508e-07,
+    "sameVocabularyAndAllRoundedWeights": true,
+    "documentsWithLowerCasefoldDifference": 5,
+    "nonzeroWeights": 26954436,
+    "seconds": 22.163222472998314
+  },
+  "rowsSha256": "3617d9bc6a9a4ed7b8fc6f91cae84b9a524dfa1709cc9fe4d8755dbf2c006a20",
+  "scope": "Same lowercase features and compact lattice; no transfer of legacy casefold retention results."
+}

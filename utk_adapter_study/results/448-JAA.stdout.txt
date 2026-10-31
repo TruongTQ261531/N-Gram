@@ -1,0 +1,205 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+.Total number of objects: 1784
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+r-skyband size: 62
+(1) Insert Records: 56
+option size: 12
+0, result size: 3; remain subregions: 10
+(1) Insert Records: 39
+option size: 12
+1, result size: 4; remain subregions: 11
+(1) Insert Records: 34
+option size: 12
+2, result size: 5; remain subregions: 11
+(1) Insert Records: 55
+option size: 13
+3, result size: 6; remain subregions: 14
+(1) Insert Records: 44
+option size: 14
+4, result size: 7; remain subregions: 13
+(1) Insert Records: 54
+option size: 15
+5, result size: 8; remain subregions: 15
+(1) Insert Records: 49
+option size: 18
+6, result size: 9; remain subregions: 17
+(1) Insert Records: 54
+option size: 20
+7, result size: 10; remain subregions: 17
+(1) Insert Records: 55
+option size: 22
+8, result size: 11; remain subregions: 18
+(1) Insert Records: 47
+option size: 30
+9, result size: 13; remain subregions: 25
+(1) Insert Records: 52
+option size: 31
+10, result size: 14; remain subregions: 25
+(1) Insert Records: 35
+option size: 31
+11, result size: 15; remain subregions: 24
+(1) Insert Records: 35
+option size: 32
+12, result size: 16; remain subregions: 23
+(1) Insert Records: 32
+option size: 32
+13, result size: 17; remain subregions: 22
+(1) Insert Records: 47
+option size: 32
+14, result size: 17; remain subregions: 22
+(1) Insert Records: 44
+option size: 32
+15, result size: 18; remain subregions: 22
+(1) Insert Records: 43
+option size: 32
+16, result size: 18; remain subregions: 22
+option size: 32
+17, result size: 19; remain subregions: 21
+(1) Insert Records: 40
+option size: 32
+18, result size: 20; remain subregions: 21
+option size: 32
+19, result size: 21; remain subregions: 20
+option size: 32
+20, result size: 22; remain subregions: 19
+(1) Insert Records: 42
+option size: 32
+21, result size: 23; remain subregions: 20
+(1) Insert Records: 41
+option size: 32
+22, result size: 23; remain subregions: 20
+option size: 32
+23, result size: 24; remain subregions: 19
+option size: 32
+24, result size: 25; remain subregions: 18
+(1) Insert Records: 46
+option size: 32
+25, result size: 26; remain subregions: 18
+(1) Insert Records: 48
+option size: 32
+26, result size: 27; remain subregions: 17
+(1) Insert Records: 44
+option size: 32
+27, result size: 28; remain subregions: 17
+(1) Insert Records: 51
+option size: 32
+28, result size: 29; remain subregions: 17
+(1) Insert Records: 50
+option size: 32
+29, result size: 30; remain subregions: 17
+(1) Insert Records: 50
+option size: 32
+30, result size: 31; remain subregions: 16
+(1) Insert Records: 49
+option size: 32
+31, result size: 32; remain subregions: 16
+(1) Insert Records: 30
+option size: 32
+32, result size: 33; remain subregions: 18
+(1) Insert Records: 44
+option size: 32
+33, result size: 34; remain subregions: 18
+(1) Insert Records: 45
+option size: 32
+34, result size: 35; remain subregions: 18
+option size: 32
+35, result size: 36; remain subregions: 17
+option size: 32
+36, result size: 37; remain subregions: 16
+option size: 32
+37, result size: 38; remain subregions: 15
+option size: 32
+38, result size: 39; remain subregions: 14
+option size: 32
+39, result size: 40; remain subregions: 13
+option size: 32
+40, result size: 41; remain subregions: 12
+(1) Insert Records: 31
+option size: 32
+41, result size: 42; remain subregions: 11
+option size: 32
+42, result size: 43; remain subregions: 10
+(1) Insert Records: 39
+option size: 32
+43, result size: 44; remain subregions: 9
+(1) Insert Records: 50
+option size: 32
+44, result size: 45; remain subregions: 8
+(1) Insert Records: 36
+option size: 32
+45, result size: 46; remain subregions: 8
+(1) Insert Records: 36
+option size: 32
+46, result size: 47; remain subregions: 7
+(1) Insert Records: 26
+option size: 32
+47, result size: 48; remain subregions: 6
+(1) Insert Records: 49
+option size: 32
+48, result size: 49; remain subregions: 5
+(1) Insert Records: 48
+option size: 32
+49, result size: 50; remain subregions: 4
+(1) Insert Records: 47
+option size: 32
+50, result size: 51; remain subregions: 3
+(1) Insert Records: 29
+option size: 32
+51, result size: 52; remain subregions: 8
+(1) Insert Records: 41
+option size: 32
+52, result size: 53; remain subregions: 7
+(1) Insert Records: 48
+option size: 32
+53, result size: 54; remain subregions: 6
+(1) Insert Records: 45
+option size: 32
+54, result size: 55; remain subregions: 6
+(1) Insert Records: 41
+option size: 32
+55, result size: 55; remain subregions: 7
+(1) Insert Records: 51
+option size: 32
+56, result size: 56; remain subregions: 8
+(1) Insert Records: 50
+option size: 32
+57, result size: 56; remain subregions: 8
+(1) Insert Records: 44
+option size: 32
+58, result size: 57; remain subregions: 8
+(1) Insert Records: 43
+option size: 32
+59, result size: 58; remain subregions: 7
+option size: 32
+60, result size: 59; remain subregions: 6
+(1) Insert Records: 41
+option size: 32
+61, result size: 59; remain subregions: 6
+option size: 32
+62, result size: 60; remain subregions: 5
+option size: 32
+63, result size: 61; remain subregions: 4
+(1) Insert Records: 24
+option size: 32
+64, result size: 62; remain subregions: 3
+option size: 32
+65, result size: 63; remain subregions: 2
+(1) Insert Records: 21
+option size: 32
+66, result size: 64; remain subregions: 2
+option size: 32
+67, result size: 65; remain subregions: 1
+(1) Insert Records: 48
+============================================
+Regions: 66
+Total time cost: 0.2174 SEC 
+Total space cost: 0.0631 MB 
+============================================
+AUDIT_IDS 43 100 111 136 137 196 286 316 339 391 438 440 465 495 533 683 755 804 912 1020 1062 1067 1237 1282 1298 1336 1398 1492 1493 1539 1611 1622
+Average time cost of each query: 0.2175
+Average space cost of each query: 0.0631
+Average result size: 66.0000

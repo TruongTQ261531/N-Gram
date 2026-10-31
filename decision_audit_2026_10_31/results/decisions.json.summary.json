@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "retrospective": true,
+  "queries": 970,
+  "classification": {
+    "ROBUST": 266,
+    "NONROBUST": 704,
+    "UNKNOWN": 0
+  },
+  "exactNegativeArithmetic": "Python dyadic integer/Fraction sums of stored float64 weights and integer counts",
+  "positiveScope": "Frozen screening and IEEE error model; exhaustive margin-enclosure upper bounds",
+  "notUsedToChangeOriginalBoundsOrTimes": true
+}

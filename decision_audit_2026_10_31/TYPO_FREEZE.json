@@ -1,0 +1,23 @@
+{
+  "createdAtUtc": "2026-10-31T14:39:25.157006+00:00",
+  "retrospective": true,
+  "beforeMembershipMetrics": true,
+  "source": {
+    "corpus": "Roger Mitton Wikipedia misspellings",
+    "sourceUrl": "https://www.dcs.bbk.ac.uk/~ROGER/wikipedia.dat",
+    "documentationUrl": "https://www.dcs.bbk.ac.uk/~ROGER/corpora.html",
+    "bytes": 43848,
+    "sha256": "061ec33aa12a4aea718a7bb121360812c8348770833e730124af1eecdc2cd380",
+    "documentationSha256": "db481cf7c33e2a7972e568741857e026425e7ba6db6f29b4db853cdc424b21b3",
+    "contentType": null,
+    "scope": "Curated observed misspelling types, not query logs; raw source not redistributed",
+    "reasonForAmendment": "Original GTC bucket no longer exists; weakly documented mirror not used"
+  },
+  "files": {
+    "decision_audit_2026_10_31/PROTOCOL.md": "75ab1d022f350075329f0d49206409f724cde26bdef3317c6923b58683697708",
+    "decision_audit_2026_10_31/TYPO_SOURCE_AMENDMENT.md": "0a1c68c56d349ec28af514a5b16b8247a089e679b4d3d172a1ba58f8b026650b",
+    "decision_audit_2026_10_31/typos.py": "a79967961412983d2460d9fcf09dfce7e3651d36cd25ef7aab00d7cbf4e86ef3",
+    "decision_audit_2026_10_31/test_typos.py": "30e1723f4c9ec301a85a583632c86909d64629ebffd1382f6c80fff44f9e7f7e",
+    "round3/core.py": "ae55ede83f9f4d302ad73b89929afdc0d6f2e3cd628bfcc169527f5d77a1e2a2"
+  }
+}

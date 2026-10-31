@@ -1,0 +1,31 @@
+{
+  "frozenUTC": "2026-10-30T18:09:43.250318+00:00",
+  "baseGitCommit": "2b2611f0c04deeb6e236688ff1d53b01199e196f",
+  "candidate": "screen_batch",
+  "developmentQueries": 64,
+  "confirmationQueries": 128,
+  "reservedUnseen": 288,
+  "developmentAnalysisSha256": "5bc149fe71a2bd518447fcbeb77a537377194809d431251b3f7477b375c6cbba",
+  "primaryTests": [
+    "certificateVsFastestControl",
+    "distinct20VsFastestOnlineControl"
+  ],
+  "note": "Engineering confirmation only. Not an originality or Q1 adjudication.",
+  "files": {
+    "exact_pool_study/method.py": "8a23166fbee76af463490708099ca2ab3524b0c439b3520b4423f7d2270ddc27",
+    "lazy_cert_study/PROTOCOL.md": "4dc815abda2cf1505c9d669e92b61195d5a15ed5740f8559fb59c62a58d38d37",
+    "lazy_cert_study/THEORY.md": "0190dac4a8043718d11fb3d1453fdf76617e0e4a1e4ffaaeb4209d66f6184a92",
+    "lazy_cert_study/analyze.py": "7b77dc953d10e96cc3fada3b005b0c427495346d2f9c0be66e45f53e0824a2a7",
+    "lazy_cert_study/benchmark.py": "d4ccd9c850fe06c7e11b51ee208aa6643b4416e25ed0878c9dd06dc836602f5e",
+    "lazy_cert_study/core.py": "c51987c20241f6485fbee442380bd48d75e2a8d651a1b9bef2a44df9b90fc530",
+    "lazy_cert_study/fetch_wands.py": "d55e4c4e52c4662a3608578b3fa13f1bd3dc0c2661793b499948aacfe5ef86dc",
+    "lazy_cert_study/freeze_confirmation.py": "69c26f62b900e7b6e4e3b65d4fa905b0a422fbbea366c171d4f9333f1d404238",
+    "lazy_cert_study/prepare_wands.py": "7cfd602b7dbd9e64dbf4b7e9b05b685e1bd1eefba25a7cb50a1137873c6f95bb",
+    "lazy_cert_study/quality.py": "990bb25b66419b68a0e59a4809e6ec06271c2ada2daa749d7456ec0d29c38261",
+    "lazy_cert_study/selection.json": "9fe2abf69010d7a6da06b1aa3f40ae1ba673e456aab54930be325e9d397eb448",
+    "lazy_cert_study/sources.json": "527e26facc163ab4a5b5930a95703ae34a6397bb089a4b0793d83f2eef4df26c",
+    "lazy_cert_study/test_core.py": "80a914046b4c99ee834123430bcab9dac5aa5c48d1fa7c9cac5478f55c3c2ba5",
+    "lazy_cert_study/verify_archive.py": "eecd58d5ba5e42b800e5af8945e0d7d695ce226db0b22e866817734307fb9cd7",
+    "pool_study/core.py": "f291b7ea17e2e3e8c0c88e0d361deb1cf8af44c783146d7a662e29446711b91b"
+  }
+}

@@ -1,0 +1,24 @@
+name: Verify index-first finite-edit certification
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Compare complete pipelines with original-state whole-query oracles
+        run: python -m unittest lazy_cert_study.test_core -v
+      - name: Audit recorded development and confirmation
+        run: |
+          sha256sum --quiet -c lazy_cert_study/checksums.sha256
+          python -m lazy_cert_study.verify_archive lazy_cert_study/results/development-v4.jsonl.gz --phase development
+          if [ -f lazy_cert_study/results/confirmation.jsonl.gz ]; then
+            python -m lazy_cert_study.verify_archive lazy_cert_study/results/confirmation.jsonl.gz --phase confirmation
+          fi

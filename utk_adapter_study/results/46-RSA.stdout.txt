@@ -1,0 +1,128 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+.Total number of objects: 1202
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+============================================
+No. 1, Record ID: 363
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 443
+remove: 882
+remove: 789
+remove: 327
+remove: 926
+remove: 465
+remove: 470
+remove: 581
+remove: 558
+============================================
+No. 2, Record ID: 776
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 3, Record ID: 896
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 985
+remove: 167
+remove: 716
+remove: 95
+remove: 1028
+============================================
+No. 4, Record ID: 331
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 113
+remove: 1168
+remove: 332
+remove: 969
+remove: 687
+remove: 286
+============================================
+No. 5, Record ID: 541
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 666
+remove: 289
+============================================
+No. 6, Record ID: 936
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 937
+remove: 132
+remove: 602
+remove: 1080
+============================================
+No. 7, Record ID: 443
+============================================
+No. 8, Record ID: 666
+============================================
+No. 9, Record ID: 337
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 10, Record ID: 24
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 11, Record ID: 985
+============================================
+No. 12, Record ID: 937
+============================================
+No. 13, Record ID: 113
+============================================
+No. 14, Record ID: 224
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 15, Record ID: 167
+============================================
+No. 16, Record ID: 1178
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+remove: 476
+============================================
+No. 17, Record ID: 633
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 18, Record ID: 545
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 19, Record ID: 676
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 20, Record ID: 1080
+============================================
+No. 21, Record ID: 716
+============================================
+No. 22, Record ID: 95
+============================================
+No. 23, Record ID: 1168
+============================================
+No. 24, Record ID: 418
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+No. 25, Record ID: 882
+============================================
+No. 26, Record ID: 476
+============================================
+No. 27, Record ID: 322
+(1) Skylines(10): 0
+(3) Singular, #Ret: 1
+============================================
+# UTK records / # of k-skyband: 42/42
+% of total k-skyband: 100%
+Total time cost: 0.0129 SEC 
+Total space cost: 0.0430 MB 
+============================================
+AUDIT_IDS 24 95 113 132 167 224 286 289 322 327 331 332 337 363 418 443 465 470 476 541 545 558 581 602 633 666 676 687 716 776 789 882 896 926 936 937 969 985 1028 1080 1168 1178
+Average time cost of each query: 0.0129
+Average space cost of each query: 0.0430
+Average result size: 42.0000

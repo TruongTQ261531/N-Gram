@@ -1,0 +1,171 @@
+{
+  "queries": 128,
+  "candidate": "screen_batch",
+  "oracleExact": 128,
+  "scenarios": {
+    "distinct": {
+      "1": {
+        "medianMs": {
+          "memo": 2.0944835005138884,
+          "incremental": 2.0722320005006623,
+          "batch": 73.91926150012296,
+          "parent": 122.81272699965484,
+          "screened": 36.00917000039772,
+          "screen_batch": 26.959842500218656
+        },
+        "vsFastestOnlineControl": {
+          "n": 128,
+          "wins": 0,
+          "ties": 0,
+          "geometricSpeedup": 0.06775150872775482,
+          "pairedBootstrap95": [
+            0.06235329927511056,
+            0.07344534987219377
+          ],
+          "oneSidedSignP": 1.0
+        }
+      },
+      "5": {
+        "medianMs": {
+          "memo": 9.734552500049176,
+          "incremental": 8.020634999411413,
+          "batch": 76.67974649939424,
+          "parent": 125.06987950018811,
+          "screened": 39.01603649956087,
+          "screen_batch": 29.416986499199993
+        },
+        "vsFastestOnlineControl": {
+          "n": 128,
+          "wins": 0,
+          "ties": 0,
+          "geometricSpeedup": 0.2574013975374334,
+          "pairedBootstrap95": [
+            0.23770665204069488,
+            0.2781110153982965
+          ],
+          "oneSidedSignP": 1.0
+        }
+      },
+      "20": {
+        "medianMs": {
+          "memo": 35.59023600064393,
+          "incremental": 34.9270404994968,
+          "batch": 84.92766749986913,
+          "parent": 132.86306699956185,
+          "screened": 47.62755299998389,
+          "screen_batch": 38.37655050028843
+        },
+        "vsFastestOnlineControl": {
+          "n": 128,
+          "wins": 38,
+          "ties": 0,
+          "geometricSpeedup": 0.7472375626773595,
+          "pairedBootstrap95": [
+            0.6949464377429241,
+            0.8015982098959734
+          ],
+          "oneSidedSignP": 0.9999989969350275,
+          "holmP": 0.9999989969350275
+        }
+      }
+    },
+    "repeated": {
+      "1": {
+        "medianMs": {
+          "memo": 2.0419080001374823,
+          "incremental": 1.9718444991667639,
+          "batch": 74.32928449998144,
+          "parent": 124.59130749994074,
+          "screened": 36.94131199972617,
+          "screen_batch": 25.847939499726635
+        },
+        "vsFastestOnlineControl": {
+          "n": 128,
+          "wins": 0,
+          "ties": 0,
+          "geometricSpeedup": 0.06670701266695074,
+          "pairedBootstrap95": [
+            0.061151756114096234,
+            0.07253703763060286
+          ],
+          "oneSidedSignP": 1.0
+        }
+      },
+      "5": {
+        "medianMs": {
+          "memo": 10.028851999777544,
+          "incremental": 7.685739000407921,
+          "batch": 76.91817999966588,
+          "parent": 127.50574549954763,
+          "screened": 39.17097700013983,
+          "screen_batch": 28.106214000217733
+        },
+        "vsFastestOnlineControl": {
+          "n": 128,
+          "wins": 0,
+          "ties": 0,
+          "geometricSpeedup": 0.2532839663725077,
+          "pairedBootstrap95": [
+            0.23259244155186565,
+            0.27514692266632484
+          ],
+          "oneSidedSignP": 1.0
+        }
+      },
+      "20": {
+        "medianMs": {
+          "memo": 19.18345349986339,
+          "incremental": 16.36823450007796,
+          "batch": 80.23383249928884,
+          "parent": 131.04386299983162,
+          "screened": 41.92267449980136,
+          "screen_batch": 30.939606000174535
+        },
+        "vsFastestOnlineControl": {
+          "n": 128,
+          "wins": 1,
+          "ties": 0,
+          "geometricSpeedup": 0.45945737020808824,
+          "pairedBootstrap95": [
+            0.4244904995518956,
+            0.4961920126645867
+          ],
+          "oneSidedSignP": 1.0
+        }
+      }
+    }
+  },
+  "certificateMedianMs": {
+    "batch": 70.14313324953036,
+    "parent": 120.22651925008176,
+    "screened": 33.72867550024239,
+    "screen_batch": 24.386664999838104
+  },
+  "certificateVsFastestControl": {
+    "n": 128,
+    "wins": 107,
+    "ties": 0,
+    "geometricSpeedup": 2.347399203962744,
+    "pairedBootstrap95": [
+      2.082420045126093,
+      2.6292657959463415
+    ],
+    "oneSidedSignP": 2.23786251250063e-15,
+    "holmP": 4.47572502500126e-15
+  },
+  "exactResults": {
+    "batch": 128,
+    "parent": 128,
+    "screened": 128,
+    "screen_batch": 128
+  },
+  "medianPool": 45.0,
+  "medianInitialPool": 2613.0,
+  "fullCorpusTies": 0,
+  "gates": {
+    "correctness": true,
+    "certificateUseful": true,
+    "onlineUseful": false,
+    "q1OrNoveltyEstablished": false
+  }
+}

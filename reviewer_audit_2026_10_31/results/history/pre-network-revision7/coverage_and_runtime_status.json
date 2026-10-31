@@ -1,0 +1,65 @@
+{
+  "status": "INCOMPLETE",
+  "retrospective": true,
+  "datasets": {
+    "scifact": {
+      "queries": 199,
+      "historicalCoverage": {
+        "pair_enum": 111,
+        "best_lp_enum": 115,
+        "discrete": 123
+      },
+      "historicalCombinedSeconds": {
+        "median": 0.9048258589991747,
+        "q25": 0.43771401999947557,
+        "q75": 1.3537526594991505,
+        "p95": 2.4202668791001996,
+        "total": 200.69443296000463
+      },
+      "archivalTimingScope": "proposed+genericLP+diagnostics; concurrent jobs possible; NOT isolated per-method latency",
+      "supplementStatus": "BLOCKED_OR_NOT_RUN",
+      "milpCertified": null,
+      "controlledTiming": null
+    },
+    "nfcorpus": {
+      "queries": 223,
+      "historicalCoverage": {
+        "pair_enum": 37,
+        "best_lp_enum": 41,
+        "discrete": 45
+      },
+      "historicalCombinedSeconds": {
+        "median": 0.5530198420001398,
+        "q25": 0.37399633299992274,
+        "q75": 0.7196830765014965,
+        "p95": 1.4449416892990454,
+        "total": 132.39290663301108
+      },
+      "archivalTimingScope": "proposed+genericLP+diagnostics; concurrent jobs possible; NOT isolated per-method latency",
+      "supplementStatus": "BLOCKED_OR_NOT_RUN",
+      "milpCertified": null,
+      "controlledTiming": null
+    },
+    "fiqa": {
+      "queries": 548,
+      "historicalCoverage": {
+        "pair_enum": 67,
+        "best_lp_enum": 71,
+        "discrete": 91
+      },
+      "historicalCombinedSeconds": {
+        "median": 5.94492127850026,
+        "q25": 3.817252503250529,
+        "q75": 8.312431538749934,
+        "p95": 11.98644347644995,
+        "total": 3476.2294589479916
+      },
+      "archivalTimingScope": "proposed+genericLP+diagnostics; concurrent jobs possible; NOT isolated per-method latency",
+      "supplementStatus": "BLOCKED_OR_NOT_RUN",
+      "milpCertified": null,
+      "controlledTiming": null
+    }
+  },
+  "discreteVsMilp": [],
+  "interpretation": "Missing MILP values are unmeasured, not zero. Archived costs never stand in for controlled per-method timings."
+}

@@ -1,0 +1,41 @@
+{
+  "status": "COMPLETE",
+  "retrospective": true,
+  "dataset": "nfcorpus",
+  "queries": 223,
+  "scopeSha256": "575dd2b760711a54acf8692476cc29168db90d49e3526eb6e4bbbd7bb48fc062",
+  "codeSha256": "9ec58e017a0025b48c7120699cdcbdf3d639c0eb7f5e7adf58eb6e91489ce892",
+  "outputSha256": "d7b683bebcb1b0557192174228fd7a3ad657aea41fb76ec36f372f02dad2a032",
+  "modelFingerprint": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-fdde5778.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+      "version": null
+    }
+  ],
+  "primaryTiming": "First balanced pass, all queries; repeats are separate noise analysis"
+}

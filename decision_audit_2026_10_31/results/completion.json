@@ -1,0 +1,33 @@
+{
+  "releasedAtUtc": "2026-10-31T15:13:45.455864+00:00",
+  "retrospective": true,
+  "decisions970": {
+    "robust": 266,
+    "nonrobust": 704,
+    "unknown": 0
+  },
+  "budgetQueries": 144,
+  "profileExecutions": 864,
+  "pairedWideEnumerationExecutions": 288,
+  "pilotPairs": 100,
+  "pilotCorpus": "Mitton author-curated Wikipedia misspellings",
+  "originalMethodsAndResultsUnchanged": true,
+  "rawPilotTextRedistributed": false,
+  "manuscriptFilesPublished": false,
+  "artworkCreated": false,
+  "globalSotaEstablished": false,
+  "boundaryQueries": 8,
+  "boundaryExecutions": 56,
+  "sameDataRetrospectiveStressSet": true,
+  "boundarySummary": {
+    "discrete_extended": 7,
+    "milp_5": 8,
+    "wide_enum": 8,
+    "discrete_fast": 0,
+    "milp_0p1": 2,
+    "discrete_default": 1,
+    "milp_1": 2
+  },
+  "newHost": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "crossHostSpeedRatiosClaimed": false
+}

@@ -1,0 +1,42 @@
+{
+  "createdAtUtc": "2026-10-31T15:16:06.871861+00:00",
+  "retrospective": true,
+  "beforeBoundaryMetrics": true,
+  "queryIds": {
+    "scifact": [],
+    "nfcorpus": [
+      "PLAIN-1141",
+      "PLAIN-2240"
+    ],
+    "fiqa": [
+      "10122",
+      "1150",
+      "4102",
+      "5369",
+      "7747",
+      "89"
+    ]
+  },
+  "files": {
+    "decision_audit_2026_10_31/PROTOCOL.md": "75ab1d022f350075329f0d49206409f724cde26bdef3317c6923b58683697708",
+    "decision_audit_2026_10_31/decisions.py": "b4a1086e0d714fcaff7eb6f37b6aeb6421a221ac2b3bca75b5ec114739f26429",
+    "decision_audit_2026_10_31/test_decisions.py": "2954fab683100ad7be28b42f8c54161f552c5df71b6f3353a30a28ee6a4b9dfd",
+    "reviewer_audit_2026_10_31/retention.py": "9ec58e017a0025b48c7120699cdcbdf3d639c0eb7f5e7adf58eb6e91489ce892",
+    "reviewer_audit_2026_10_31/verify_discordant.py": "9948d71d375a0340eea976343bfe1eeca0428c42f5654761f31280f2a4445b76",
+    "reviewer_audit_2026_10_31/bridge_refinement.py": "f1f8bc5a7d4e62b3378111d93ed162f582acc798ef69ebd7c6bbc858ffa8e83c",
+    "round3/core.py": "ae55ede83f9f4d302ad73b89929afdc0d6f2e3cd628bfcc169527f5d77a1e2a2",
+    "round3/screening.py": "de9c0f992bcdf072c5a66cdf4d08bd1b6bb230af6a6863f1eb7d974211f31c6f",
+    "round3/rank_bound.py": "8718b985970b41f195fe02538ecf7d41d2e2b7cd6b55055cd810f65fbb7b53dc",
+    "round3/compatibility.py": "c3dcf1b8053a968cac41afb70aa760aa246c49e94851360710271edd1560d9cb",
+    "round3/enumeration.py": "11dd913526fbadad7eeaefa2d859e02260a507a145a743c46b801d1d9f557913",
+    "round3/mip_reference.py": "12826475662024d0d2bdb6042f7048604283c5d31ad73265876e7936cf17f068",
+    "round3/results/replication_ids.json": "718f28fb64fbcb0defd594953c0fe8d8fcca24bad38969ec3dfbc58b17a45362",
+    "round3/download_manifest.json": "5e4e0488d0a817f3f9d5c984dd1c871662a7e9f7da135eb887e8317d5d2ec29f",
+    "lazy_cert_study/core.py": "c51987c20241f6485fbee442380bd48d75e2a8d651a1b9bef2a44df9b90fc530",
+    "lazy_cert_study/results/confirmation.jsonl.gz": "f0aaae7ae9b880bd65cfc0956c0d3fe72a428efe8524f28b2221682b5a028fd1",
+    "decision_audit_2026_10_31/budgets.py": "3047695edb7addbfaa19911d02d5f4ff8d7d8e9af061865f53254f2e5b49780d",
+    "decision_audit_2026_10_31/test_budgets.py": "f647f61af319ee048584c7ab6a24c1005ed9d9776e44c05225bce60831855100",
+    "decision_audit_2026_10_31/boundary.py": "f148a42f698f92510a9a71a22dc8897bf32b3f7cf185b23b6ceab3927a7832b8",
+    "decision_audit_2026_10_31/BOUNDARY_AMENDMENT.md": "8a6b4cc65ebc80b650ae5a5a26df6e300a20fe44e6402d71932285217e92c2e8"
+  }
+}

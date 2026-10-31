@@ -1,0 +1,18 @@
+{
+  "checkedLocalTime": "2026-10-31T14:38:54.567484+07:00",
+  "runtimeRevision": "7",
+  "networkPolicy": "unrestricted, enforced",
+  "sources": {
+    "huggingfacePinnedQuery": "HTTP200 and original SHA256 matches",
+    "vldbPrimaryPaper": "HTTP200, complete PDF saved",
+    "arxivCostCert": "HTTP200"
+  },
+  "restoration": {
+    "status": "READY",
+    "verified": 20,
+    "required": 20
+  },
+  "dependencyEnvironment": "/workspace/research-data/reviewer-venv; pyarrow23.0.1 plus pinned existing numerical packages",
+  "benchmarkStatusAtAccessCheck": "Supplementary MILP and controlled timings running; original UTK source newly located, not yet benchmarked",
+  "currentStatusSource": "coverage_and_runtime_status.json"
+}

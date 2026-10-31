@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "documents": 42994,
+  "nonzeroWeights": 26954436,
+  "modelHash": "3640aa299076386d0bb5c8e95b1b43979f4d1a36337fd435bfb327dc3ae5d244",
+  "seconds": 39.37411719599913,
+  "sourceCommit": "3b74dcf4ba29ab8ff3e6a50b5b09fc627cb882b5",
+  "allInputHashesVerified": true,
+  "allIntegerWeightsAndDocumentIdsEqual": true,
+  "checkerSha256": "3cdc0ee6738eefad0f129291b1aaa5471e9eae57850c668bf9706c8e845dbdc8",
+  "scope": "Reconstructs the fixed source index. Does not replace a closest-method or independent human review."
+}

@@ -1,0 +1,7 @@
+{
+  "variant": "Guard correction only; source remains private",
+  "originalUtkSha256": "10571dd23476eecd0b83904ea55c7e5ce03a4ca8b241be55002eaed45b3eeef4",
+  "correctedUtkSha256": "8d2a14c541ad06a043f379e88363535f7da9825b9114636a91cfa288ee96ba1f",
+  "otherAlgorithmFilesUnchanged": true,
+  "noNativeNlpBenchmarkClaimed": true
+}

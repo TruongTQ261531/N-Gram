@@ -1,0 +1,85 @@
+UTK for VLDB
+Parse Parameters
+Load data points from file
+Total number of objects: 160
+Bulkloading R-tree...
+[Rtree build done]
+Test Query Region: 0
+r-skyband size: 25
+(1) Insert Records: 23
+option size: 10
+0, result size: 1; remain subregions: 6
+(1) Insert Records: 22
+option size: 11
+1, result size: 2; remain subregions: 9
+(1) Insert Records: 22
+option size: 12
+2, result size: 3; remain subregions: 9
+(1) Insert Records: 22
+option size: 13
+3, result size: 5; remain subregions: 9
+(1) Insert Records: 22
+option size: 15
+4, result size: 6; remain subregions: 10
+(1) Insert Records: 19
+option size: 17
+5, result size: 8; remain subregions: 11
+(1) Insert Records: 22
+option size: 19
+6, result size: 9; remain subregions: 13
+(1) Insert Records: 15
+option size: 19
+7, result size: 10; remain subregions: 12
+(1) Insert Records: 15
+option size: 19
+8, result size: 11; remain subregions: 12
+(1) Insert Records: 14
+option size: 19
+9, result size: 12; remain subregions: 11
+(1) Insert Records: 13
+option size: 19
+10, result size: 13; remain subregions: 10
+option size: 19
+11, result size: 14; remain subregions: 9
+(1) Insert Records: 20
+option size: 19
+12, result size: 15; remain subregions: 9
+(1) Insert Records: 7
+option size: 19
+13, result size: 15; remain subregions: 9
+(1) Insert Records: 7
+option size: 19
+14, result size: 16; remain subregions: 8
+option size: 19
+15, result size: 17; remain subregions: 7
+(1) Insert Records: 8
+option size: 19
+16, result size: 18; remain subregions: 6
+(1) Insert Records: 18
+option size: 19
+17, result size: 19; remain subregions: 6
+(1) Insert Records: 20
+option size: 20
+18, result size: 20; remain subregions: 6
+(1) Insert Records: 18
+option size: 21
+19, result size: 21; remain subregions: 5
+(1) Insert Records: 12
+option size: 21
+20, result size: 22; remain subregions: 4
+option size: 21
+21, result size: 23; remain subregions: 3
+option size: 21
+22, result size: 24; remain subregions: 2
+option size: 21
+23, result size: 25; remain subregions: 1
+(1) Insert Records: 16
+============================================
+Regions: 26
+Total time cost: 0.0337 SEC 
+Total space cost: 0.0120 MB 
+============================================
+AUDIT_IDS 5 7 8 20 25 31 32 44 46 50 62 64 71 82 84 104 108 109 120 149 160
+Average time cost of each query: 0.0338
+Average space cost of each query: 0.0120
+Average result size: 26.0000
