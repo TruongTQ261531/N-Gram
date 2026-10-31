@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "queries": 128,
+  "costQueries": 16,
+  "source": {
+    "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "path": "onnx/model.onnx",
+    "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2/resolve/233902d25c440f23af6f7d6e94d2946bac0bee0a/onnx/model.onnx",
+    "bytes": 91011230,
+    "sha256": "5d3e70fd0c9ff14b9b5169a51e957b7a9c74897afd0a35ce4bd318150c1d4d4a"
+  },
+  "backend": "ONNX Runtime FP32 length-bucketed",
+  "maxLength": 256,
+  "threads": 4,
+  "batchSize": 32,
+  "padding": "dynamic within length-sorted batches; max256",
+  "codeSha256": "a289d9db6000867ff4a271bdb0b6d45f3fd76fe64ea1ab4142f10b3a493bbf89",
+  "primaryScope": "Raw-query reranking quality and separately STATIC clean-pool completeness",
+  "fileSha256": "56e7720a9ad472ad6da49a1338b22410a2b5c514cfa7d164c40600151ed570fc"
+}

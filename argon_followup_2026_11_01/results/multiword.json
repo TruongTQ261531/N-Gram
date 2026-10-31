@@ -1,0 +1,4589 @@
+{
+  "retrospective": true,
+  "source": {
+    "repository": "https://github.com/keisks/jfleg",
+    "commit": "ee06ff806a208aba815ac45313f4e750a48330a5",
+    "license": "CC BY-NC-SA4.0 per author README",
+    "files": [
+      {
+        "path": "README.md",
+        "sha256": "f1413ad6167f35a3c0f8d5d78be2f36e248358ddff11bdeb9c78e4bb274be853",
+        "bytes": 6070
+      },
+      {
+        "path": "dev/dev.ref0",
+        "sha256": "adea6287c6e2240b7777e63cd56f8e228e742bbfb42c5152bc0bd2bc91f4e53e",
+        "bytes": 73216
+      },
+      {
+        "path": "dev/dev.spellchecked.src",
+        "sha256": "640be7de18ba338d411d55b6e6db2053db8fa165ba8536b047a6b5381361de97",
+        "bytes": 72007
+      },
+      {
+        "path": "dev/dev.src",
+        "sha256": "4a0e8b86d18a1058460ff0a592dac1ba68986d135256efbd27e997ac43f295f8",
+        "bytes": 72726
+      },
+      {
+        "path": "test/test.ref0",
+        "sha256": "875953280a3ea1dea2827337b1778c0105f0c0aa79f2517a6e0e42db5e5e170c",
+        "bytes": 73090
+      },
+      {
+        "path": "test/test.spellchecked.src",
+        "sha256": "a51aa4f3ba80741ed85353ee185339daae04084c29f5ba3a6e89d96d4fe3dbe6",
+        "bytes": 72677
+      },
+      {
+        "path": "test/test.src",
+        "sha256": "893db119162487aa7f956b65978453576919e6797cd6c1955f93b7a8b9f4bbd8",
+        "bytes": 72684
+      }
+    ]
+  },
+  "panels": {
+    "human_ref0": {
+      "metrics": {
+        "sample": 200,
+        "b1": 9,
+        "b2": 11,
+        "increment": 2,
+        "wilson95B1": [
+          0.023852543001492997,
+          0.0832967040018196
+        ],
+        "wilson95B2": [
+          0.03098534170345884,
+          0.0957869987723084
+        ],
+        "outside32TokenScope": 22,
+        "outsideChannelOrBudget": 167
+      },
+      "rows": [
+        {
+          "hash": "004205bdd056612d1fdb1c4733dd18b1448806c3cb267be9d49c537128b79d36",
+          "split": "test",
+          "line": 540,
+          "cleanTokens": 24,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "00449f13e1969b9f198e905396617f416bbcef257fce9cfa4c3095cab5400564",
+          "split": "test",
+          "line": 730,
+          "cleanTokens": 27,
+          "erroneousTokens": 29,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0064f85998dd3c2bef87b83dec779c92eacec66fba3598191a7593419d78c1cb",
+          "split": "test",
+          "line": 127,
+          "cleanTokens": 28,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "00a3132ff1908deb58a7b826e1d940bfc24dd831e10154f37974e64c5e36d9e2",
+          "split": "test",
+          "line": 153,
+          "cleanTokens": 54,
+          "erroneousTokens": 54,
+          "alignedChangedPositions": 3,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "00a6c0f62130c4f0db11a7c0865a7c4efe430614eda5a11ea6b2adfcaa797d86",
+          "split": "test",
+          "line": 340,
+          "cleanTokens": 16,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "00a7ff5003a2028659ad3e57911ef755f49003d4a69b8822dc10f874cbd3440b",
+          "split": "test",
+          "line": 399,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "00e8d2cd8523aea4e1feffeec6083a51c623a050ba0fc93ff0c2889acd374067",
+          "split": "dev",
+          "line": 415,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "00f2bc47b5a456c289092e7ed276eb46c856d8835c9e6b1c688ee94e2dad9b96",
+          "split": "test",
+          "line": 319,
+          "cleanTokens": 31,
+          "erroneousTokens": 30,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "00fdfb6b48cd169fc4ab2182f9766364eb219acf02bfc4c2cd01d76dcf561cc9",
+          "split": "test",
+          "line": 329,
+          "cleanTokens": 44,
+          "erroneousTokens": 44,
+          "alignedChangedPositions": 2,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "01185c8e921e58b675280dd4b552c23212ac8d589dee4c9e037481375a367c8a",
+          "split": "dev",
+          "line": 418,
+          "cleanTokens": 18,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "016163149c40e86a81581c934da3f81978834b9d5211c3c4c0af92acdb65179a",
+          "split": "dev",
+          "line": 535,
+          "cleanTokens": 18,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "01700121f510a61363cf40d6526c9466bccbca8111e70c054fcf5cc6254c0257",
+          "split": "test",
+          "line": 177,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "01c6d90c3b14fed0c3978c42de5c85646b4a39a6e89958dee4425753b24bb75b",
+          "split": "test",
+          "line": 661,
+          "cleanTokens": 8,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "01c9b36c8ae62835dea7348dcab707ddb16f6b1ad4c79784488869a29dba5fdb",
+          "split": "dev",
+          "line": 712,
+          "cleanTokens": 11,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "02bdc504d287e5dc6f36d77499e862c2c10ae418436957906d119416b7f643ba",
+          "split": "test",
+          "line": 226,
+          "cleanTokens": 26,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": 17,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "02e25f9565b1e36a2b711cfd14ce685bac340eacb11fa323d88de797a2627131",
+          "split": "dev",
+          "line": 561,
+          "cleanTokens": 14,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "02e652616c7289a14fa6f309e2d3c728c4f636e3ced1f2e54c7025395052d17f",
+          "split": "test",
+          "line": 534,
+          "cleanTokens": 17,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "02f37c7ff4366423d30c2e22a21dc034915d322a259a9a2a5b2baac45f63a131",
+          "split": "dev",
+          "line": 611,
+          "cleanTokens": 22,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "02f3d136d5624567a5dce45ce941effbe4bcda04fede71256b8098971e6e2c8e",
+          "split": "test",
+          "line": 420,
+          "cleanTokens": 23,
+          "erroneousTokens": 21,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "033938d62a1b44d04208f924923b883836e6d5c1625cf46818e0c0065632583c",
+          "split": "dev",
+          "line": 280,
+          "cleanTokens": 7,
+          "erroneousTokens": 7,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "034840eb2c2d7091dc0b75e4c4edb77c6c3a910ff3b04df4129f37229614bcb5",
+          "split": "dev",
+          "line": 635,
+          "cleanTokens": 14,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": 12,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0348d593f128fbbfc268aeebdd9c8e4c5f76e3bd705bf8971430c1e544bd7cd7",
+          "split": "dev",
+          "line": 4,
+          "cleanTokens": 19,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "035e7c225ba3e285095bf4ee0ed96b6c3a102615ee9451b2d4b3d40e44b2a876",
+          "split": "test",
+          "line": 508,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 1,
+              "op": "delete",
+              "pos": 6
+            }
+          ]
+        },
+        {
+          "hash": "037d533940891d4d3c2cf151eecf63aa2a67bbaff690825e9587a0df25b76b98",
+          "split": "dev",
+          "line": 352,
+          "cleanTokens": 27,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "038cf2445abd838f48c282c020424f31f52e2736db7c07ed5cb9529d56b4bbf1",
+          "split": "dev",
+          "line": 268,
+          "cleanTokens": 36,
+          "erroneousTokens": 38,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "038e8dca8e7653309f33c74f156753f33f67387390d7b17e08f2af54471d21e4",
+          "split": "test",
+          "line": 43,
+          "cleanTokens": 25,
+          "erroneousTokens": 30,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "03f1b16f7b02429a352c0d26eadc219cea1b4bdb72d7e7c18b569b7064f0c1b4",
+          "split": "dev",
+          "line": 653,
+          "cleanTokens": 41,
+          "erroneousTokens": 36,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0421d8f0fb3bf9ac6e90eb785cf8c95b5d6ec5208f3a1d7cbdeb7cc429553333",
+          "split": "test",
+          "line": 222,
+          "cleanTokens": 13,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "042dea50bf1f315a7081bfb8abe025bcd9c5554bf05f3acc5946a075dc62afec",
+          "split": "dev",
+          "line": 48,
+          "cleanTokens": 10,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": 7,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "043c11b7e2614d2c95a8b7764b0b786f1befb0854ab89c703cd40360f3a66dfa",
+          "split": "test",
+          "line": 69,
+          "cleanTokens": 26,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": 6,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "045b272fb8987ffa2ed242811d70f580cb5c7ae5aad16299c1bc85f81d4f8b8e",
+          "split": "dev",
+          "line": 441,
+          "cleanTokens": 30,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "04709f5bd6758dc71c88d93d5d3e9626c4f1b43b87d83553ca5fe4cfa6940ce0",
+          "split": "dev",
+          "line": 440,
+          "cleanTokens": 6,
+          "erroneousTokens": 6,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "047bfdd439c7962a62cf1878dc7131054a30266ee0922cf37a02f0441fe4d0e7",
+          "split": "dev",
+          "line": 500,
+          "cleanTokens": 8,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "04b550c8d62f84e4da07abfa3fcd8d70b03593f00a39116eae0764a7d544b391",
+          "split": "test",
+          "line": 346,
+          "cleanTokens": 24,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "04d887e840237e183ce99c918dcc7c400ed1abc75ccaa36621e7140d56eddfe5",
+          "split": "test",
+          "line": 421,
+          "cleanTokens": 12,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "04ff45bb35aa50f8e2879e193366a138704f97a056e1bcac4d020175504c90d4",
+          "split": "dev",
+          "line": 469,
+          "cleanTokens": 22,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "056ce99ad01308adeed2023f43a33bc7caf496a507f157e20f31caa171a15e5d",
+          "split": "dev",
+          "line": 210,
+          "cleanTokens": 27,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": 8,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "056e2b6257814cb513047a8d4f637d5d8307d7de4e70c552ae3c1a60f1277a91",
+          "split": "dev",
+          "line": 709,
+          "cleanTokens": 13,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "05a10f6dc1fbd8c25be6a267c0e8f024d24a374d6d3e9f094434dfda502400b0",
+          "split": "dev",
+          "line": 35,
+          "cleanTokens": 31,
+          "erroneousTokens": 30,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "05a19166a7ad23fc96b040f7954cefd9616f574718811c2163981652fb9a28c7",
+          "split": "dev",
+          "line": 529,
+          "cleanTokens": 15,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "05c20de7fcce64be51e5a197deb3ac2ba2e919efa29a9bc4d2fd986f0f097fee",
+          "split": "dev",
+          "line": 480,
+          "cleanTokens": 20,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "05d163b8d949bb6aa3570fde77b050b5c6ffa54449f93afbf86697088a1f8fcd",
+          "split": "dev",
+          "line": 155,
+          "cleanTokens": 29,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "05e46c29801fec4c17be31877aa556085d3da4058db425e210b580c101ad8de8",
+          "split": "test",
+          "line": 479,
+          "cleanTokens": 9,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "06096a9be020fd9289f5ec9e8a0e84a2d3a3201fc718170035c8835e4cc97815",
+          "split": "test",
+          "line": 223,
+          "cleanTokens": 26,
+          "erroneousTokens": 29,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "064dba41739defc0e4fdfe6f40f910d6deb2f62f40c1bf4029c3b80c8687a87a",
+          "split": "test",
+          "line": 6,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "06676e13cdd0df6f07b5c9b939527435c6a6ab2d1568106917065f9ef694a239",
+          "split": "test",
+          "line": 642,
+          "cleanTokens": 10,
+          "erroneousTokens": 7,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "06e12e49d7fb30d5aa177b1219ffd84e971f5d8007e7dd5f5a27a802424ab78e",
+          "split": "test",
+          "line": 685,
+          "cleanTokens": 17,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "07184e45ba518756ad1911d6a742d2b61e2c406b6a8e0372ea9dd8a4947ee397",
+          "split": "dev",
+          "line": 126,
+          "cleanTokens": 8,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "071b239f4a8daaa3e887d6de1bd75ee425a4c8ae4b81e78c23a9bedefddb1119",
+          "split": "test",
+          "line": 180,
+          "cleanTokens": 17,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0775e71b9d357b42c472fa07a7ebfd0b69b27783ad4ee5947558ad4d8c4e7c51",
+          "split": "dev",
+          "line": 69,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 12,
+              "op": "delete",
+              "pos": 5
+            }
+          ]
+        },
+        {
+          "hash": "078b0f01c96c7d6b707b502fa173a5c69067ad0c1068dc7ddac22bd3cdf0bff5",
+          "split": "dev",
+          "line": 345,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "08557e455736e135d66748a5608fa02a5de39216a51392b4c3d6a9546720f8f3",
+          "split": "test",
+          "line": 675,
+          "cleanTokens": 10,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "08640ab91aa5d7867a2f9140044f6df73eccac313ef8696a7f7332395ce2d5de",
+          "split": "test",
+          "line": 115,
+          "cleanTokens": 30,
+          "erroneousTokens": 30,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "089cd1afdb1665c08e1fbdf148aaed7e56e4809712cd5ced661778b20acc5cfe",
+          "split": "test",
+          "line": 718,
+          "cleanTokens": 28,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "08f51774424aca08cd2565a34fb7b954ead06e03032623c1ed00b1160c7e9182",
+          "split": "dev",
+          "line": 714,
+          "cleanTokens": 56,
+          "erroneousTokens": 62,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "08ff818a988fdc5f878d2e873897b1e99747da77cc11f588324e0922ef019b86",
+          "split": "dev",
+          "line": 447,
+          "cleanTokens": 49,
+          "erroneousTokens": 46,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "09096f888faae74c6dc48e4f44a283b2aca71cec610903309c76730704bad9c7",
+          "split": "test",
+          "line": 470,
+          "cleanTokens": 8,
+          "erroneousTokens": 7,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0926953597d7db48b791ae6f8e0b02452d0e181fd5ff1683716d12c17c3506c4",
+          "split": "test",
+          "line": 103,
+          "cleanTokens": 18,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": 7,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "096841249a1656e8b4592bdf26a7cbc4393738058cede3a0b761181c95610253",
+          "split": "dev",
+          "line": 115,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 6,
+              "op": "delete",
+              "pos": 3
+            }
+          ]
+        },
+        {
+          "hash": "09796e86eb4855d7348bfa86b5427b52e585718731b388717a05ad99d3c25f4a",
+          "split": "dev",
+          "line": 21,
+          "cleanTokens": 40,
+          "erroneousTokens": 44,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "09dcdf6ebb02e0ba570f24997ed7ae1872e2965a959d2a5264c5c898999ab473",
+          "split": "test",
+          "line": 81,
+          "cleanTokens": 15,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "09e569e2af220af3a16cddf4c925d62020f01f23a8cb664872daf17982bd5f07",
+          "split": "dev",
+          "line": 321,
+          "cleanTokens": 17,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0a057bd96940b4472925e57407fcce8923f265921e4fcd9020b51585f5ca36b3",
+          "split": "dev",
+          "line": 219,
+          "cleanTokens": 34,
+          "erroneousTokens": 32,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0a5f0fbdbe88072afb03bfd5234cf856404253243b81a12063b22173fd11f621",
+          "split": "dev",
+          "line": 542,
+          "cleanTokens": 8,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0a78687228eb897ce8aa57b1c3b087c79f41a663ed3623d3e5e76e1a20b8902b",
+          "split": "dev",
+          "line": 232,
+          "cleanTokens": 33,
+          "erroneousTokens": 36,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0af6d915b4c2ec180df4144748db895b8d48c08540b651f1831506a0d9b3e803",
+          "split": "dev",
+          "line": 408,
+          "cleanTokens": 16,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0b3c92e9b598131248a796d25833cadfe15d99bb3e17702f0ebd816323ee5f84",
+          "split": "dev",
+          "line": 29,
+          "cleanTokens": 21,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0b5ee1b977dd089031c8df61885dcb7f5de177f74f65293b8dcc179d3af7683d",
+          "split": "dev",
+          "line": 374,
+          "cleanTokens": 13,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0ba4cf5c5dd6955ea5b6f7a2b5919a32e0cbe02f69723f36b3815dd2cc96b0a9",
+          "split": "test",
+          "line": 409,
+          "cleanTokens": 13,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0bb38543235e11a254777589abb5e4bd0a9ebc711d5ada0fb480fb640e4f3414",
+          "split": "test",
+          "line": 435,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0be10eb313de0e041e9af138d769fc56518dc447880f26c5350ab6b1fbbfe918",
+          "split": "dev",
+          "line": 485,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0bed571dd60f417e38beb5b2ce119d12f02961b7150a039a8504b4e95a1fc8f4",
+          "split": "dev",
+          "line": 685,
+          "cleanTokens": 20,
+          "erroneousTokens": 21,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0c85f68f52f5f87aae5b03f4f4896c0dbbcbbd74f62059e67a4717772e2a52fc",
+          "split": "dev",
+          "line": 15,
+          "cleanTokens": 16,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0c9b8a9fbeed6420a5d64ce92b2cfe09527d2e3461e9978afd1c88a1bfdccaa7",
+          "split": "dev",
+          "line": 639,
+          "cleanTokens": 30,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0cb28126dac73ebe7dde0757b24aa0dfa9f47e805b550fae67c42438ad389f9e",
+          "split": "dev",
+          "line": 362,
+          "cleanTokens": 16,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0d853c5c44e162876403d55736300675879df846fd5e4bf4327ccb911dbaf8a1",
+          "split": "dev",
+          "line": 524,
+          "cleanTokens": 28,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": null,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 18,
+              "op": "delete",
+              "pos": 0
+            }
+          ]
+        },
+        {
+          "hash": "0dc2b3ac68f15f629474fe0d4b4064dd9c6bd56f57599c4c6779b6500c63f8d7",
+          "split": "test",
+          "line": 520,
+          "cleanTokens": 19,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0e2869814c440ba7b5041e1dafb0a4ac4fe6cb63db617129f9b2d15b6082bc5a",
+          "split": "test",
+          "line": 91,
+          "cleanTokens": 44,
+          "erroneousTokens": 43,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0eb5b05acd2d964a8364e95f7f5af18942fca02862a3d9588542c5e3b8c3242c",
+          "split": "test",
+          "line": 199,
+          "cleanTokens": 10,
+          "erroneousTokens": 8,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0ee2ddb4fd1271ce7a163b227e0ab0f9f44fe513bde3bf126e3c8086f366c641",
+          "split": "test",
+          "line": 117,
+          "cleanTokens": 14,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": 9,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0f0e19846701f5d1e15cb7ac9da3ce3acfb128448ecaadbe654d96942bf18bd6",
+          "split": "dev",
+          "line": 264,
+          "cleanTokens": 14,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 12,
+              "op": "delete",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "0f312356b3d6397bf34f56f36cfbbd7a11f70e379f04f3f0e7934c594eb4dc1d",
+          "split": "dev",
+          "line": 748,
+          "cleanTokens": 30,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0f6de1d6c50b2239f6c5f6650266cf950821bc10904d7ccd3cf28a493b7cd1f6",
+          "split": "dev",
+          "line": 549,
+          "cleanTokens": 18,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0fc19bb3565665539e2cc5555f5feaf1fc7acf2be45726c32dee5ed2307172a5",
+          "split": "test",
+          "line": 244,
+          "cleanTokens": 14,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": null,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 4,
+              "op": "delete",
+              "pos": 0
+            }
+          ]
+        },
+        {
+          "hash": "102b3d85aca15928a4aa2b76fff7a98f97edfa45d4657858bdeb9474b91cb0d1",
+          "split": "test",
+          "line": 689,
+          "cleanTokens": 24,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "10f38c9a02119dc10ac0f55b816991d66746b5d57eb5220266ec96112b90e633",
+          "split": "test",
+          "line": 617,
+          "cleanTokens": 26,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": 2,
+          "status": "covered",
+          "minimumCostWithinBudget": 2,
+          "operations": [
+            {
+              "token": 7,
+              "op": "delete",
+              "pos": 7
+            },
+            {
+              "token": 17,
+              "op": "delete",
+              "pos": 7
+            }
+          ]
+        },
+        {
+          "hash": "1132e84c5a32f7772dcb84681eea61ce8da68ca2f0a52efbd027954cd6837dbc",
+          "split": "test",
+          "line": 152,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 13,
+              "op": "delete",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "114ac68daf98f0f37f4a417c3d93fb46fbf8ff3bb23f1ccfa7fdcbf242036230",
+          "split": "dev",
+          "line": 565,
+          "cleanTokens": 21,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "116b4bbf5fee62cb17043e4fb7d0607dfaff6a71cca6384716a1f8cf6f7caf74",
+          "split": "dev",
+          "line": 357,
+          "cleanTokens": 7,
+          "erroneousTokens": 8,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1194f3f607edf2f16447da1405dbda03fea5c3321b5161e35cfce24734360da2",
+          "split": "test",
+          "line": 650,
+          "cleanTokens": 34,
+          "erroneousTokens": 33,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "11bbcb394a1cacb81f2969fba050fcb3637c377fa9c4967d8e3d82b1ba285432",
+          "split": "test",
+          "line": 277,
+          "cleanTokens": 11,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "11d93e65b827fa917bae0d82f944da16b284434b35f3b1255e9240c59263e0d4",
+          "split": "test",
+          "line": 711,
+          "cleanTokens": 22,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "11fe58a5994a2ab67e11a85a19e6e09b903f95644460a6af85011e556fbc8cfb",
+          "split": "dev",
+          "line": 277,
+          "cleanTokens": 10,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "122570e9dcb6a5a1b73916f4b75b59ce7b15844839301853f4b00ca8bd60cfa1",
+          "split": "dev",
+          "line": 650,
+          "cleanTokens": 14,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "12443d1616675fda6778f2ff2f76a0d3070ce9eb2509d02487e5e3055ef03e16",
+          "split": "test",
+          "line": 383,
+          "cleanTokens": 38,
+          "erroneousTokens": 38,
+          "alignedChangedPositions": 5,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "124555957e2c29e38cc5ef20aade06b4bbe7b03212fb38811c10b928d2995472",
+          "split": "test",
+          "line": 688,
+          "cleanTokens": 21,
+          "erroneousTokens": 21,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "12952b66547210412e5f07c75f97562c732b7f013b89241111239b1220d3b7b2",
+          "split": "dev",
+          "line": 167,
+          "cleanTokens": 19,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "12d0dc93b217ed3adfeb0d63159a79b5ac85dfc35c1ee3cefc30ee1f1f1c19f0",
+          "split": "test",
+          "line": 136,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 6,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "12d605cc9c21927ebac464ae53ce7a740480d6df11dc2c782ff925c25fd7b76c",
+          "split": "dev",
+          "line": 586,
+          "cleanTokens": 28,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1377245761165d467d48afb093f589478a8f7b0a30936b26f88886038ecdc838",
+          "split": "test",
+          "line": 11,
+          "cleanTokens": 36,
+          "erroneousTokens": 39,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "13832c42c5722735de71997d041cf1a18846790f86c4a4035b592a9759d8c67f",
+          "split": "test",
+          "line": 531,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "13c2a5409135ded4574d117f53d39119345daaa126f3b716f3ba49b8b80b2773",
+          "split": "test",
+          "line": 293,
+          "cleanTokens": 21,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "14135835c2a19ec977ed0675e7167658961a122b875e0c1b72b480781905d7f9",
+          "split": "test",
+          "line": 493,
+          "cleanTokens": 19,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "142879a9f1b3fab1787e5b26290af926e934c461ef7cf09203701de2abfa2cc0",
+          "split": "test",
+          "line": 350,
+          "cleanTokens": 16,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1454ce42b8c3da4a9b4ca0e22fc93e62c04e97fb806ccf6ba5ba69f773944c0f",
+          "split": "dev",
+          "line": 319,
+          "cleanTokens": 28,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "149262d5946e3f4becfbcdbb131282f6c49feb75c439de3ea972322465b8f2ff",
+          "split": "dev",
+          "line": 45,
+          "cleanTokens": 31,
+          "erroneousTokens": 31,
+          "alignedChangedPositions": 25,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "14aca83546e4038e96878b7cbb4c91f3bd421928317ac67f8bd88cbd53cc39eb",
+          "split": "test",
+          "line": 315,
+          "cleanTokens": 27,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "14bb27d69a39e94b3729cc0317cfb07f410f25a4ea175c1fd2c19d51af9d07ac",
+          "split": "dev",
+          "line": 704,
+          "cleanTokens": 12,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "14d54f113d048fffb8470ba12804b3bfff3799389c537b8af5c0da27a5761c4c",
+          "split": "dev",
+          "line": 527,
+          "cleanTokens": 15,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "15113e62f29995167c47a3e2bd8364e26909a423d92a910f83f5a97dcf8c0ef7",
+          "split": "dev",
+          "line": 584,
+          "cleanTokens": 11,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1559341bbc32490bcb8f7f8e604947ffd1c6ab717c14449aaab8a531809a9024",
+          "split": "dev",
+          "line": 17,
+          "cleanTokens": 21,
+          "erroneousTokens": 21,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "15b540d2793b71ca0f7b4d27fcdd8f24e365609f847c1d4fdf2426e485090a47",
+          "split": "test",
+          "line": 34,
+          "cleanTokens": 36,
+          "erroneousTokens": 36,
+          "alignedChangedPositions": 2,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "15d1e2e70e005bdcadf063c90bc36045d1c5f265b439e6a8cc8ef71552c9ccef",
+          "split": "dev",
+          "line": 32,
+          "cleanTokens": 19,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1610aee1ddb4001489fb55b9e91d88e387e8fcef9e7a52a0fc46ab7a49154b23",
+          "split": "dev",
+          "line": 624,
+          "cleanTokens": 22,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "162bbbfe926fc2b3b42b59d4c4ee2b3ef9938429b8d90fd07e55089511801f9c",
+          "split": "dev",
+          "line": 289,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1681f9c96a342a83e04f33efe7a25e2f6dbe4938ccca0ed78f8e7b79afe0f943",
+          "split": "test",
+          "line": 525,
+          "cleanTokens": 10,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "16920bc72174e5d98c681193ee65fe5279f4a85f3c2bc23647096d067c44a194",
+          "split": "test",
+          "line": 306,
+          "cleanTokens": 31,
+          "erroneousTokens": 31,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "16a14dd2a61ad0998bfc5ec2191ae1988b413a9a51a56eccb3ae1fd3158d9ca7",
+          "split": "dev",
+          "line": 12,
+          "cleanTokens": 20,
+          "erroneousTokens": 24,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "16b721f5fbbb6cdc61bdae9f770b4cb070030d6c5b373cff9a33c924a754564c",
+          "split": "test",
+          "line": 311,
+          "cleanTokens": 20,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1735d04d356e1204aac9945f4da074ae35ce371ef318507ff18022786a7a7ef7",
+          "split": "test",
+          "line": 26,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 12,
+              "op": "delete",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "17a76fda5b44cb84ad265fb42ac9ea05c9bb738860d378d3bac726198c69eaa0",
+          "split": "test",
+          "line": 297,
+          "cleanTokens": 51,
+          "erroneousTokens": 50,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "17b2fbe94f5295bd01eba9061b46ffd8f9ee7655b2714c9a3f78a28d16bb3a01",
+          "split": "dev",
+          "line": 479,
+          "cleanTokens": 9,
+          "erroneousTokens": 8,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "17c92aab6f05fa5f57cf5c05bfe62c7258eb3e99b6ce7d7122c0b07e2900afb0",
+          "split": "dev",
+          "line": 160,
+          "cleanTokens": 12,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "182315906417d45f2365cdb73df05e42241405981c49386d27e5b88516e0a5c9",
+          "split": "dev",
+          "line": 91,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 8,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1894e349431c216095aff02a16cec0b567e3869417e0fd5f64da0828e8578cc4",
+          "split": "dev",
+          "line": 33,
+          "cleanTokens": 29,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "18d3b910e045c24b87d7ea220991759141daf513607be776928692e4208ec8e6",
+          "split": "dev",
+          "line": 736,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "18f74dea164a69e85fa8ad405cb0dba98034d427fb5d03ec3228cace50506213",
+          "split": "test",
+          "line": 570,
+          "cleanTokens": 7,
+          "erroneousTokens": 7,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "193674b563b258e3dba73b8bb2a8f6041637b7afccf8dc1b19f9dd2dc30f79c8",
+          "split": "test",
+          "line": 263,
+          "cleanTokens": 27,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": 2,
+          "status": "covered",
+          "minimumCostWithinBudget": 2,
+          "operations": [
+            {
+              "token": 11,
+              "op": "swap",
+              "pos": 4
+            },
+            {
+              "token": 17,
+              "op": "keyboard",
+              "pos": 1,
+              "char": "b"
+            }
+          ]
+        },
+        {
+          "hash": "194e113aeb59cd4ae459c4188767b296da86de23d09a1d3225bde517ac9d2d42",
+          "split": "dev",
+          "line": 140,
+          "cleanTokens": 28,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1950532fb1400e8707c23c22da7cb762d06e3443e89c97ab8f9d586f6714202a",
+          "split": "dev",
+          "line": 161,
+          "cleanTokens": 15,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "19904e07fc91d787636b3255682d4e8849ea33f273f54cc62e7a6d5aaca12caa",
+          "split": "test",
+          "line": 361,
+          "cleanTokens": 11,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "19e38fb49300cf117c846e3b724c8aa84947765dcbac3d319cc2aab0801888fd",
+          "split": "dev",
+          "line": 273,
+          "cleanTokens": 27,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "19eb690f5916d33879f90a749df3b717f81e8cf6d886ed5f8771109dfa38229b",
+          "split": "test",
+          "line": 474,
+          "cleanTokens": 8,
+          "erroneousTokens": 8,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 2,
+              "op": "delete",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "1a7fa9ff87ac620e3c92878da85c04c68e4c87ff50dac56876e669f31b4448a4",
+          "split": "dev",
+          "line": 316,
+          "cleanTokens": 15,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1a88ca298753384393a5599ce8fd695cdce5be22fbfd1cfec9dc1c44bd217893",
+          "split": "test",
+          "line": 215,
+          "cleanTokens": 5,
+          "erroneousTokens": 7,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1a91b815f26d8593308c4ff98e8472e03ee28f3e8e8f3bfcd7ed5e9ce78ad6ce",
+          "split": "dev",
+          "line": 467,
+          "cleanTokens": 17,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1af0f5dec9f66cf732846f28c9039acf8829ad810d65e43f92c4736009d15747",
+          "split": "dev",
+          "line": 499,
+          "cleanTokens": 33,
+          "erroneousTokens": 31,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1b20b1d9f0955d9743dd5debced3d7241a97905dc7d20268f42fc441c3320fd4",
+          "split": "test",
+          "line": 698,
+          "cleanTokens": 14,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1b474de25e37eb8d0d0f5d946601fbbfd9101f9de147b9dda1c5698586adb72f",
+          "split": "test",
+          "line": 495,
+          "cleanTokens": 24,
+          "erroneousTokens": 24,
+          "alignedChangedPositions": 11,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1b560d40fb4aa891201375487342a399fb4bd7904e019204f8e761f4a689a5b7",
+          "split": "test",
+          "line": 294,
+          "cleanTokens": 10,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1bbeec8cf94543c2518accbaca2b183db13da9b5ddd66c45c4e26d7e96969026",
+          "split": "test",
+          "line": 267,
+          "cleanTokens": 9,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1bd12f1f659e5b18ca3fe79df9c675ca69940e3eee01422990c89d8ac10bc471",
+          "split": "test",
+          "line": 216,
+          "cleanTokens": 6,
+          "erroneousTokens": 7,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1c245449766008eef137e0a3d4396b564ea0360ae543f3607e06ef5e6b3ac2b6",
+          "split": "dev",
+          "line": 334,
+          "cleanTokens": 24,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1c25e7fa2c54ece09096b830cb9504a96bfd8fba523624c1ae73759525ce8796",
+          "split": "dev",
+          "line": 731,
+          "cleanTokens": 17,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1cab0514b38e09b50bca1f956539b6260609fa7bb0051e8125d9bb3fdb3437b8",
+          "split": "test",
+          "line": 560,
+          "cleanTokens": 37,
+          "erroneousTokens": 35,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1cf046fb3a41c94ef066800b006770146c6e8031231ec25548f7110c8cccf54c",
+          "split": "test",
+          "line": 162,
+          "cleanTokens": 30,
+          "erroneousTokens": 30,
+          "alignedChangedPositions": 18,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1cf552dab84e425ca998f6554775da628f7dedad5a2ee9d5646acb9ea71600a7",
+          "split": "test",
+          "line": 407,
+          "cleanTokens": 26,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1d3c5c14b736bcf0cdba1a25adea7018cd600746c14dee48f72d55e702673039",
+          "split": "test",
+          "line": 562,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1d61576403a2fa3e1bf929935ee81bb7962a8639952ef5edca9ebe78c27edbd7",
+          "split": "dev",
+          "line": 373,
+          "cleanTokens": 41,
+          "erroneousTokens": 37,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1d6396b193061b19de262f3cbf992b761babce19a4a4785a9c1554c2288d3948",
+          "split": "dev",
+          "line": 462,
+          "cleanTokens": 30,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1dad51c52b8f08b83bcdfe07d355d22972b933b351aa670f873eb67ba43427da",
+          "split": "dev",
+          "line": 572,
+          "cleanTokens": 51,
+          "erroneousTokens": 49,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1e15fe62540c86e6fb0768c0e07cfdc45bf300d7f6b0ad864c36dd6d65eae8a1",
+          "split": "dev",
+          "line": 174,
+          "cleanTokens": 8,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1e376016ebf8e67a52ac9b5bf06d028b6bc60a7a4a7a8f3afe69fff47f229539",
+          "split": "dev",
+          "line": 54,
+          "cleanTokens": 9,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": 8,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1e3a3db38e63db5e8165695efcee5d4e4a9c699a0166848298277e04c8ed68d6",
+          "split": "test",
+          "line": 403,
+          "cleanTokens": 30,
+          "erroneousTokens": 33,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1e75aa6eab3ddc75f703017c47fae02cb189365d7477b26a2f2652b1aa38b730",
+          "split": "dev",
+          "line": 615,
+          "cleanTokens": 14,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1e86391a822c11114a734d635af4b776b01dc73ea487dcafb3cbcdf70ac20392",
+          "split": "dev",
+          "line": 660,
+          "cleanTokens": 24,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1e8f730253f69e98beca1bd07027b8d72a594df9222a4f60351db89df3dadbb8",
+          "split": "dev",
+          "line": 249,
+          "cleanTokens": 31,
+          "erroneousTokens": 32,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1e932ebec9f3f3ba9c3d692a642ca67654d2bb994e48751bd759d5a0c332d53a",
+          "split": "dev",
+          "line": 507,
+          "cleanTokens": 32,
+          "erroneousTokens": 34,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1eba1b290c0ccf25fc6fe18a174b6ece8d6439f5c57ae9f1ae4bca4d3d8fd46c",
+          "split": "test",
+          "line": 467,
+          "cleanTokens": 17,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1ed6dae986187dabe20cd07058ab24fc0b45481fd2d1433c38141542ef3a2cbd",
+          "split": "test",
+          "line": 258,
+          "cleanTokens": 16,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1f0c0cae54ddf913400ec8378431fbae66ee6c05e29ced61f2a58e631ac0d421",
+          "split": "test",
+          "line": 532,
+          "cleanTokens": 17,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1f2662a1106b277fe8556f49f4630933669df3c0f75abf73977910284017f88c",
+          "split": "test",
+          "line": 272,
+          "cleanTokens": 7,
+          "erroneousTokens": 8,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1f52549470da95206d3f8e5f8720d1bcebe3b8633fb82b7d6bfa04b59c1474c0",
+          "split": "dev",
+          "line": 520,
+          "cleanTokens": 16,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1f6b525287b242be7968406a2554eb200bfd7cbe815aaaa68e9668e955599ef9",
+          "split": "test",
+          "line": 564,
+          "cleanTokens": 14,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1f87d0b943bf2a8f66fb1999ae304191b2e3afa86789287ece8c3cd96bb52018",
+          "split": "test",
+          "line": 339,
+          "cleanTokens": 22,
+          "erroneousTokens": 21,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1fc35eca075d1a53a40f85a03898a1b2b8af73f0fda6565d9f824b3a57a4876e",
+          "split": "dev",
+          "line": 16,
+          "cleanTokens": 33,
+          "erroneousTokens": 33,
+          "alignedChangedPositions": 12,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1fe170e9c907e9eee397dd61e1859754d15f24eb0b2e5f3fc563656838af761e",
+          "split": "dev",
+          "line": 571,
+          "cleanTokens": 31,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "204fededdbeed3f74dee7508d1ab30a6fd1e179e88728bc96f840eadfc16a88f",
+          "split": "dev",
+          "line": 128,
+          "cleanTokens": 15,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "20ad94557a8ccfc23f16097d39b9827923dc4405eb92e832302611355fb2422a",
+          "split": "dev",
+          "line": 76,
+          "cleanTokens": 7,
+          "erroneousTokens": 8,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "20bd3d64bb280241de566b23214595d7d018040867523aa53060973f42728ea0",
+          "split": "dev",
+          "line": 718,
+          "cleanTokens": 15,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "20ebb27c967db550f1e7e5a568a85ddc8cd3dcb4c2f160a43986fbff9ac913ed",
+          "split": "test",
+          "line": 576,
+          "cleanTokens": 17,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2124195c233a59c1cb199dd0779069afac2713ca0feb8b2d30f002ab1fc6085e",
+          "split": "test",
+          "line": 371,
+          "cleanTokens": 10,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "221b4131d4a2d2f8108e7a5afb164fc6acaa7b772c56979030d719f4818977d0",
+          "split": "test",
+          "line": 384,
+          "cleanTokens": 17,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2275f14919a2a35538be1bf2829951d8a42e69f08313cc337dfff302d433728b",
+          "split": "dev",
+          "line": 89,
+          "cleanTokens": 23,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "229e1be1e0d8c3c2820bb4cd11dcd8b0b2a593c9ec4c0ce48d765ac9df0d08b1",
+          "split": "dev",
+          "line": 751,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "22a5635da98c531e601a9c93489b87f6975a8ec96727afd72a9b51f9f987615f",
+          "split": "dev",
+          "line": 145,
+          "cleanTokens": 12,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "22d4ea0c60ed3e5c6111dcbfe7dd2133546a807d42d354e04ca7e3560f9c3148",
+          "split": "test",
+          "line": 702,
+          "cleanTokens": 26,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2320fb05e8f6a629292d9a92796e22f26e8d53dbf0dc0094b5936c26ae9d8dda",
+          "split": "test",
+          "line": 548,
+          "cleanTokens": 17,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "23953d63e952cf8a344dd4488487388ef932e47e3db74ba0a067d8632ae0e407",
+          "split": "dev",
+          "line": 596,
+          "cleanTokens": 26,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "23a3adcb3fafe62eee05f7a529162b41eca5d74d8d5be843a47df8802e8cbd52",
+          "split": "dev",
+          "line": 259,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "244e61a24906c69966d80138ecec8f382ffc8b722e7a42b988dfde00e664d55f",
+          "split": "test",
+          "line": 21,
+          "cleanTokens": 21,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "24b105ce262189d7e2b9bd901663dec7c0da4b5b4df18c3d434b83b0a6741ebe",
+          "split": "dev",
+          "line": 94,
+          "cleanTokens": 20,
+          "erroneousTokens": 21,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "24fcc6a2b923b6df5d1d9241161d6c498ef03eaef7b41df69e54e0e3fb68bf3e",
+          "split": "test",
+          "line": 261,
+          "cleanTokens": 15,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "251ee1620b520f83ab9eb7d1efd5bb91ae4fbd6de48f6621da06efc91a007b32",
+          "split": "dev",
+          "line": 9,
+          "cleanTokens": 50,
+          "erroneousTokens": 52,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2575b8a8f84710148ba6dbe5457b0830ca8bf77e37caa56e85190df63918c78a",
+          "split": "test",
+          "line": 626,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "25a0f267db13edbd7a5333f57eabf4bbfc332af961aebd439d1007c2f2ca1b29",
+          "split": "test",
+          "line": 646,
+          "cleanTokens": 25,
+          "erroneousTokens": 24,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "26237cd33ca25ebaf4766e4a7ce31eeae2286f67e578c5702fedb54ce38686d9",
+          "split": "dev",
+          "line": 466,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "266684309b6cce1a3d23ff0be75613d4f9b85404de27aead21457dfd6e8627b4",
+          "split": "test",
+          "line": 632,
+          "cleanTokens": 9,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "268ec17cbdd3608e0f45a1e91f9145952d7d9e222a8dfebb893fdc6476bfea10",
+          "split": "dev",
+          "line": 3,
+          "cleanTokens": 26,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "269738bdd3e1c540fec5fd6bd22bc4858ffeada795a7e0516eb258119aa84d59",
+          "split": "dev",
+          "line": 343,
+          "cleanTokens": 29,
+          "erroneousTokens": 28,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "26bcc9b1f01c194a0cc95b8cab6b1add7e1a0dd4a1a68dc6860a2700a8b86f2e",
+          "split": "test",
+          "line": 426,
+          "cleanTokens": 31,
+          "erroneousTokens": 31,
+          "alignedChangedPositions": 11,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "26ce07f058e36a9c3d56ae1356539424f55ef8bb53de643b215133018e78b2c7",
+          "split": "test",
+          "line": 594,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "270c295625dbea370f8d2f91b0c777344e0fd9a2bc666e031f5e138b09f97aee",
+          "split": "dev",
+          "line": 81,
+          "cleanTokens": 13,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "275276a09a5e462869ec8b3d711be462c59012c1bb9df4e630567e32e92d877f",
+          "split": "dev",
+          "line": 113,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 11,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2772155181e45061a3d33528d3d2d893d9e0547c51e43af01cd9e42683d02c21",
+          "split": "test",
+          "line": 200,
+          "cleanTokens": 48,
+          "erroneousTokens": 44,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "27b7b974208355b7672d2c2ead7985bc6929ff29de9414601f70455ac76c1f4d",
+          "split": "test",
+          "line": 397,
+          "cleanTokens": 12,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "27bdba8f69441f65d38d7d255158c81d2f7cfae916520a4dbeec95b276d1d61c",
+          "split": "dev",
+          "line": 473,
+          "cleanTokens": 22,
+          "erroneousTokens": 19,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "28040fed6178d6f56e133cfb3d72e7bd97171c482ac87d201b7043f2592468bc",
+          "split": "dev",
+          "line": 156,
+          "cleanTokens": 16,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2871c33e8171aecd69bf2d03ecb4ccbfcb5190bd339b92c9a2eacf1d53d794bf",
+          "split": "dev",
+          "line": 609,
+          "cleanTokens": 15,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "28729fb83dedaf0434bbd2dd8ff1216fd914495bc375bdee87548edc46a55b9e",
+          "split": "test",
+          "line": 228,
+          "cleanTokens": 19,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        }
+      ]
+    },
+    "enchant": {
+      "metrics": {
+        "sample": 200,
+        "b1": 51,
+        "b2": 55,
+        "increment": 4,
+        "wilson95B1": [
+          0.1996049517203135,
+          0.3196292582045472
+        ],
+        "wilson95B2": [
+          0.21779700329307355,
+          0.34068339357669647
+        ],
+        "outside32TokenScope": 30,
+        "outsideChannelOrBudget": 115
+      },
+      "rows": [
+        {
+          "hash": "0012fc93e3c4ef2df129eda0fdbc01ec6287a13cdf398491c4e4de2cc1dff9d8",
+          "split": "dev",
+          "line": 23,
+          "cleanTokens": 22,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "00175e15840c41068632f1f9b77b3d6967597a12d486754b7fee70ead1a7d7fc",
+          "split": "dev",
+          "line": 63,
+          "cleanTokens": 25,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "00915361fa4a75e8818615d53a1b96d8c23a81bb513753d123ae433aa9857dca",
+          "split": "test",
+          "line": 561,
+          "cleanTokens": 18,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "012cacac5d5ef0aefd969ba0fb417cbca5fc9ae16d3abe7a47bc48862a1fa39e",
+          "split": "dev",
+          "line": 283,
+          "cleanTokens": 18,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 16,
+              "op": "repeat",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "01468e50867271a2006edb3a35bb058dbaeddac3d171b1e50f4050b0bb0bfb3e",
+          "split": "dev",
+          "line": 680,
+          "cleanTokens": 8,
+          "erroneousTokens": 8,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 4,
+              "op": "delete",
+              "pos": 7
+            }
+          ]
+        },
+        {
+          "hash": "01a19cc1231a91fcb84cc193d8c68a347e0e45fabd4dbe8c34d788bccc79417e",
+          "split": "test",
+          "line": 180,
+          "cleanTokens": 14,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "01b4065838a9fc408a5eaf1bbae854370c08d41bc23d92b761d1f897261142e3",
+          "split": "test",
+          "line": 140,
+          "cleanTokens": 23,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "01cb31bb97da03ab2d37265b82280ec83b6cf5e81b7c31ed941dd87c1ebd4ac5",
+          "split": "dev",
+          "line": 718,
+          "cleanTokens": 14,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 3,
+              "op": "delete",
+              "pos": 9
+            }
+          ]
+        },
+        {
+          "hash": "022f95b6cd9b9612f5f0b477d74e2b999982cb8e009af53040869e449a16a8a3",
+          "split": "dev",
+          "line": 554,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "024069d59076a09331f9fbb7fb0e03643a8685ace67f1296910b35c9a7d52b77",
+          "split": "dev",
+          "line": 506,
+          "cleanTokens": 32,
+          "erroneousTokens": 32,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "02f2c6ddf56cca24878348b873c6db495e11f38f48f2204502104e34d52c41dc",
+          "split": "dev",
+          "line": 8,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "03969eab11bc216fa401ba02759c2086550237e792e9882bf9bccf034f8015eb",
+          "split": "test",
+          "line": 546,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 11,
+              "op": "delete",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "03b2102bade6da2790c939a67b7cae23d818dc536fa824b62620c462df8c9cc1",
+          "split": "test",
+          "line": 609,
+          "cleanTokens": 28,
+          "erroneousTokens": 28,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "03b65a8ba7154cc65b2154e21c39737085f0cc6f7b880b84b4de61b0aba8f8df",
+          "split": "dev",
+          "line": 563,
+          "cleanTokens": 19,
+          "erroneousTokens": 19,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "05029a903b850ed57b0138ddb4bd04f49c8b75259fd929da2b27f7a22a30bff9",
+          "split": "dev",
+          "line": 630,
+          "cleanTokens": 33,
+          "erroneousTokens": 33,
+          "alignedChangedPositions": 2,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "050e5d3b9febe31b672fd39ac13adfcdfe4551f51a2650a4e448e84d73ade745",
+          "split": "dev",
+          "line": 149,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "064adedd303e6acf5ee016bb84b24cada5ce49cc63420edb6d2b96157b081446",
+          "split": "dev",
+          "line": 605,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "066f50a46ef0f985736f2bc825a78f288b7f3efa0e45ace1290d7cbafbddb9d4",
+          "split": "dev",
+          "line": 645,
+          "cleanTokens": 6,
+          "erroneousTokens": 6,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 2,
+              "op": "swap",
+              "pos": 3
+            }
+          ]
+        },
+        {
+          "hash": "06a1ed197f026d74034d4a3472a4b45fcee039b429acdb302cda1535c93ffde1",
+          "split": "test",
+          "line": 643,
+          "cleanTokens": 27,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 4,
+              "op": "delete",
+              "pos": 7
+            }
+          ]
+        },
+        {
+          "hash": "07b01faf42a6312e73fe841cd25d89767dd7862965417cc2e73ec9326d4eda6d",
+          "split": "dev",
+          "line": 259,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "07d4396e69779e8fb69a1db1ad17cd77664d3d3104c015e56a5d9a2d6db1fdd9",
+          "split": "dev",
+          "line": 730,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0807dc836a8589848ad10697ce915ee0d8f5a65526fae45c46fd39b778ad255c",
+          "split": "dev",
+          "line": 331,
+          "cleanTokens": 27,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 5,
+              "op": "delete",
+              "pos": 8
+            }
+          ]
+        },
+        {
+          "hash": "0810ff4afd67e1dce9d4e404cd92ec17acdde42bbde926774da8a3601f06d961",
+          "split": "test",
+          "line": 445,
+          "cleanTokens": 21,
+          "erroneousTokens": 21,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "088d212f0bbede1e07fadb86722377803344098b046d0403b3b444bcb782b771",
+          "split": "test",
+          "line": 11,
+          "cleanTokens": 39,
+          "erroneousTokens": 39,
+          "alignedChangedPositions": 3,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "08a85ffbea42afea83060501f25316ed1b066f53be272843d64ab594902f9dc0",
+          "split": "dev",
+          "line": 454,
+          "cleanTokens": 10,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 5,
+              "op": "delete",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "08e7bd41888693c4bbf0e4ca40a6b001020dd14394b6dac9c7ddda24846b520b",
+          "split": "dev",
+          "line": 609,
+          "cleanTokens": 14,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 1,
+              "op": "swap",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "0a18d495acc1f670ec3b3d1a74545511bcd37068c14fd06e6bdf462b744ba741",
+          "split": "test",
+          "line": 358,
+          "cleanTokens": 9,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0a354046919909d081999bc4518719721774db39d81ac8f5f2d7d3a12a471121",
+          "split": "test",
+          "line": 540,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0ae2e14450b74f5f2c826aaf9c93ad72c99e0c5b97510bd0213d5f489c310488",
+          "split": "test",
+          "line": 315,
+          "cleanTokens": 26,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": 2,
+          "status": "covered",
+          "minimumCostWithinBudget": 2,
+          "operations": [
+            {
+              "token": 11,
+              "op": "delete",
+              "pos": 4
+            },
+            {
+              "token": 12,
+              "op": "keyboard",
+              "pos": 0,
+              "char": "a"
+            }
+          ]
+        },
+        {
+          "hash": "0c79e7d0fca30a068ec241d04b41d414e460e210496fae6b2bca81e7aa4bd106",
+          "split": "dev",
+          "line": 218,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0d081f91a748901278c828092da2938ca34b486ee796e43db708491126092b2c",
+          "split": "test",
+          "line": 39,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 11,
+              "op": "repeat",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "0da467f0856817a923aa362223c448623bc19a0c88068b65f7abddc6b72c8d63",
+          "split": "test",
+          "line": 153,
+          "cleanTokens": 54,
+          "erroneousTokens": 54,
+          "alignedChangedPositions": 4,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0df6e141bfd0543bfd050439c7c9392d1126fe628ab5d36333aee019f080ea37",
+          "split": "test",
+          "line": 293,
+          "cleanTokens": 22,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0e91ac871b739ca8c974258047021476efae8c6a86f055d9318f4425a197e6a7",
+          "split": "test",
+          "line": 646,
+          "cleanTokens": 24,
+          "erroneousTokens": 24,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0e9fb2a4f91b91bfedf9dfe0d4fd8210261664d95415d1a73a827641d1b2697b",
+          "split": "dev",
+          "line": 258,
+          "cleanTokens": 49,
+          "erroneousTokens": 49,
+          "alignedChangedPositions": 1,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0f11650a0dbc5954121af1a9c86c46b9f3ca569476852d80176ef69c38216862",
+          "split": "dev",
+          "line": 212,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 14,
+              "op": "keyboard",
+              "pos": 3,
+              "char": "f"
+            }
+          ]
+        },
+        {
+          "hash": "0f16b3f5c2556bfddd5897c6d8fcd60f4189589857c0499208dbc7adcc7b1982",
+          "split": "dev",
+          "line": 255,
+          "cleanTokens": 34,
+          "erroneousTokens": 34,
+          "alignedChangedPositions": 1,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0f25a2528de15e04f11d0f2b404ffe695f4434449d44895c0e1a17f7cb54a6e5",
+          "split": "test",
+          "line": 451,
+          "cleanTokens": 19,
+          "erroneousTokens": 19,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0f47f2190c0d31e129af8581d89a390a10e503a2c6eb77c2fd89379796ba8745",
+          "split": "test",
+          "line": 232,
+          "cleanTokens": 6,
+          "erroneousTokens": 6,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "0ffc2b5648b3f87c8b2a6bf7d771b89586c045e6d269e0694ae717cf19e9aa54",
+          "split": "dev",
+          "line": 35,
+          "cleanTokens": 30,
+          "erroneousTokens": 30,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "100c80660dbdf86411c1a71443b04c7db1f7a066c745d6a0bd8a06ccf56adc14",
+          "split": "dev",
+          "line": 558,
+          "cleanTokens": 8,
+          "erroneousTokens": 8,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "10aef5058caf5a626bcfc95251e8407f054fc1c4e2ab4bc2790718eed1803400",
+          "split": "dev",
+          "line": 131,
+          "cleanTokens": 21,
+          "erroneousTokens": 21,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "10c2d10336e4d6747cf21b7554327e452a3b3eaf83878abf91dd766f05d8c414",
+          "split": "dev",
+          "line": 50,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 3,
+              "op": "delete",
+              "pos": 5
+            }
+          ]
+        },
+        {
+          "hash": "10d9f2f44f0dc03aff949651d5e3cffbeda9d9ea6644f3336f1a10b66a98277c",
+          "split": "test",
+          "line": 296,
+          "cleanTokens": 5,
+          "erroneousTokens": 5,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "10e70845f410e03ac0ad68d2e225014fa03b517b61935c974b63e7ba0020b323",
+          "split": "dev",
+          "line": 395,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 0,
+              "op": "delete",
+              "pos": 5
+            }
+          ]
+        },
+        {
+          "hash": "10f4564222032d167954a16407304c3b623ae6ff7921ce47690fe1dd9495279b",
+          "split": "test",
+          "line": 686,
+          "cleanTokens": 35,
+          "erroneousTokens": 35,
+          "alignedChangedPositions": 2,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "111d4f840878dd772c4c66e1dcb562ca2ff16d0cdaa5e9407f7220c3c6567aa3",
+          "split": "dev",
+          "line": 254,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1148f300f042bec3a91b7374bb445a7b8aecdf2d70173b4e77297fb592c03156",
+          "split": "dev",
+          "line": 109,
+          "cleanTokens": 50,
+          "erroneousTokens": 50,
+          "alignedChangedPositions": 3,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "120d81b1a54e42ae34f91f4fcacd1ea16dbede41b894e80b4e2622a4b786b9fb",
+          "split": "test",
+          "line": 447,
+          "cleanTokens": 33,
+          "erroneousTokens": 33,
+          "alignedChangedPositions": 1,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "125c3231a9990cead296e9302ce33e21e2c93226142cd2044ddbe0e94d096708",
+          "split": "dev",
+          "line": 426,
+          "cleanTokens": 10,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1265929eeb133da2e5dec30fe3b98c6e7f7a8ae4ed5d2500770a3807f45a4846",
+          "split": "test",
+          "line": 744,
+          "cleanTokens": 31,
+          "erroneousTokens": 31,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "12a6a9b744782177fe99d565467d3da55032602221803af92be61c20823c0226",
+          "split": "dev",
+          "line": 446,
+          "cleanTokens": 28,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1300230b4ab6fdee4cd398568e5563b734c206eecbedf859c181d388e0cd197f",
+          "split": "test",
+          "line": 218,
+          "cleanTokens": 30,
+          "erroneousTokens": 30,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "144838dcbe97bfc420d1d2526521c72bffd0f86c35139802ae68bf803460fb6f",
+          "split": "test",
+          "line": 595,
+          "cleanTokens": 23,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 9,
+              "op": "swap",
+              "pos": 3
+            }
+          ]
+        },
+        {
+          "hash": "14a5cda0c1d6d58d3bf17b6504ae379ae0b8602223deeee32a5301d2155efaf9",
+          "split": "test",
+          "line": 118,
+          "cleanTokens": 19,
+          "erroneousTokens": 19,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "14c96d7bce5b029d0395e0644bfe04fc131b744738d9b6f1f9d8aafe17ab0172",
+          "split": "dev",
+          "line": 301,
+          "cleanTokens": 27,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "14eef199a1eab453003c6ca2f2f1f0b10e96924009e710688d7d0be49e9aa3de",
+          "split": "dev",
+          "line": 588,
+          "cleanTokens": 18,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "15aec97e3633313280f6d0a94c720d78f406959dbf8fb4ffe7b9eabd5724737c",
+          "split": "test",
+          "line": 175,
+          "cleanTokens": 18,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "15c0933583a39840a263363276674bce279acca319b6f0076b23d17c8004661a",
+          "split": "test",
+          "line": 234,
+          "cleanTokens": 25,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "165bce56c4591f6b7f848288932cb2b00aa6ee6c16e5f1ffe11e97427f1231fc",
+          "split": "dev",
+          "line": 214,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1698d030054b1c74f83262f0e45d37456a6093fd6c1ccafa4180324e7c341602",
+          "split": "dev",
+          "line": 433,
+          "cleanTokens": 28,
+          "erroneousTokens": 28,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 12,
+              "op": "swap",
+              "pos": 0
+            }
+          ]
+        },
+        {
+          "hash": "16c054a1787029c6146987fe626593bce2450895666d66d0ecdedbc45e167fd7",
+          "split": "dev",
+          "line": 436,
+          "cleanTokens": 14,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "16ea24a7603506c6d219613efcbdde1cc0d5ae157c98f1ad8f4f3237db462199",
+          "split": "test",
+          "line": 601,
+          "cleanTokens": 38,
+          "erroneousTokens": 38,
+          "alignedChangedPositions": 3,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1700489454131a092e0adcb5da83b605f373b8e8d42cf31279392386e338fd21",
+          "split": "dev",
+          "line": 323,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1783164fe53d314d46e543771b45e4891fb1e4cf8459989335f513cdc80b2e14",
+          "split": "dev",
+          "line": 397,
+          "cleanTokens": 26,
+          "erroneousTokens": 24,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "17abe9b9e20b48d71f189e5044acc86637bdae9b0d253ccfe877ac88c84f7178",
+          "split": "test",
+          "line": 671,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 9,
+              "op": "repeat",
+              "pos": 5
+            }
+          ]
+        },
+        {
+          "hash": "17ec8e5958755570d1edbecd23e29dfccf8ecbb31f4233b5ee84053b0c14b20a",
+          "split": "dev",
+          "line": 91,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "18a44758265a0b2a1e9887139f9f7fa228f23ffcef4cab06292a2ced71564887",
+          "split": "test",
+          "line": 715,
+          "cleanTokens": 30,
+          "erroneousTokens": 30,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 15,
+              "op": "keyboard",
+              "pos": 2,
+              "char": "z"
+            }
+          ]
+        },
+        {
+          "hash": "18c6d45cba4f52941202bd2be9df4222defba70312887399c1bdef7c7386a9dc",
+          "split": "test",
+          "line": 739,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "19aedc53fa200e3f08bbca6178e519863b1afc3a5625b0bd1c70df933d1ca21f",
+          "split": "dev",
+          "line": 472,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1aa23cef459cda17cab7900280e6a955efbc81f407e85d5bb897b75ab8ff51b2",
+          "split": "dev",
+          "line": 206,
+          "cleanTokens": 19,
+          "erroneousTokens": 19,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 6,
+              "op": "delete",
+              "pos": 6
+            }
+          ]
+        },
+        {
+          "hash": "1b2085707de04002f2a70fc47e638732af15336a6cf5ddedd8dd9d8135dfa01c",
+          "split": "test",
+          "line": 231,
+          "cleanTokens": 19,
+          "erroneousTokens": 19,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 10,
+              "op": "delete",
+              "pos": 3
+            }
+          ]
+        },
+        {
+          "hash": "1b94ff2492a1abf930508ee5489478ef4ca17acc193b36ad3c0028a3cfcadb11",
+          "split": "dev",
+          "line": 441,
+          "cleanTokens": 25,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1c0da243849126181adec297a72cbe35f2518dca23bfd3b6eed74b10b292f154",
+          "split": "test",
+          "line": 295,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 2,
+          "status": "covered",
+          "minimumCostWithinBudget": 2,
+          "operations": [
+            {
+              "token": 1,
+              "op": "delete",
+              "pos": 3
+            },
+            {
+              "token": 2,
+              "op": "delete",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "1c5f52a62a31ea2ac18abf5969133db660e8e9d0f5748787ee574f6aaa530e04",
+          "split": "test",
+          "line": 177,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1c619116d64284835c948263d826264f3cdc11cfa0aa9e85b0b13ab58ea6eff4",
+          "split": "test",
+          "line": 670,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1ceeff93bda24f58fb3993ee02dde6a8cf53b9ecd33a5d84f25c680a68f60ee7",
+          "split": "dev",
+          "line": 540,
+          "cleanTokens": 25,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1d5c51d4c77f7d74566cdfa04acebf7143fe258394211da4c313a9e43912ad2c",
+          "split": "dev",
+          "line": 7,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1d65453d7a2b82bd414b1655c48e864c72f2884d5f9fe167c14b649ba65a7d91",
+          "split": "test",
+          "line": 711,
+          "cleanTokens": 23,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1dae7c80f132a37067f4430988a77bf0acc778e76cf18bd8051c09f31c7fb235",
+          "split": "dev",
+          "line": 618,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1e06d0229a6e5a213eaabae6b4c4f452ae67fd5993998bad455c43be1948cf2e",
+          "split": "test",
+          "line": 639,
+          "cleanTokens": 31,
+          "erroneousTokens": 31,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1e26d0d641d2e93f894afcdfaa567f824e256a3864d674e12336387b0d4bdb12",
+          "split": "test",
+          "line": 626,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 10,
+              "op": "repeat",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "1e744233e661dc9ed7854192f9f5bdf0fc19f27ce574f72720e5846ce595429a",
+          "split": "dev",
+          "line": 171,
+          "cleanTokens": 8,
+          "erroneousTokens": 8,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 5,
+              "op": "swap",
+              "pos": 10
+            }
+          ]
+        },
+        {
+          "hash": "1e9fb39e79ed248aa4753f12e1800db3e0dc954535fc60e6e0992614cee68627",
+          "split": "test",
+          "line": 492,
+          "cleanTokens": 23,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1eac738aab354ef3b62b5d97687de2aebddb7c485043a59b8cf4e583a24dc562",
+          "split": "test",
+          "line": 414,
+          "cleanTokens": 24,
+          "erroneousTokens": 24,
+          "alignedChangedPositions": 4,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "1fb2da647a6b7695cbf9bd385f6d4d4129b373aff9d64ab5ba21754d902638b2",
+          "split": "dev",
+          "line": 510,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 8,
+              "op": "keyboard",
+              "pos": 3,
+              "char": "r"
+            }
+          ]
+        },
+        {
+          "hash": "20853db895279ae167a95906aaac04f6ea80d81150547c37106123f7823b3ddd",
+          "split": "test",
+          "line": 745,
+          "cleanTokens": 38,
+          "erroneousTokens": 38,
+          "alignedChangedPositions": 3,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "209f9d2f91c88cef9d98060d819f349e20c4f0c8e5da68b943b03687992f5ddf",
+          "split": "dev",
+          "line": 168,
+          "cleanTokens": 30,
+          "erroneousTokens": 29,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "211d5ba924f97a536412df05f5b405d1dc06a07b71f67a61336f42f21bb2668e",
+          "split": "dev",
+          "line": 637,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "212efb146e4bcbf5d64de75f6b38df74b2af74ab8b3e48707e067801c4af9ac9",
+          "split": "dev",
+          "line": 725,
+          "cleanTokens": 43,
+          "erroneousTokens": 43,
+          "alignedChangedPositions": 2,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "21a2a4d17022d84e39c092fd38033566711052cb48087a88342e2d8d2c116b36",
+          "split": "dev",
+          "line": 250,
+          "cleanTokens": 35,
+          "erroneousTokens": 33,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2218daad2182c42b01c848e1bb8f12394f96e1845aa6805e5c6464d9be868317",
+          "split": "test",
+          "line": 699,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2244479dd8f25dcbcd20821827205ad896f18b5d832193a10d60877b99fd5e74",
+          "split": "test",
+          "line": 245,
+          "cleanTokens": 18,
+          "erroneousTokens": 18,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "224863cedab122d3b6ef8b611992d1d27350e9982bd57f47550f2fa683fec09c",
+          "split": "dev",
+          "line": 267,
+          "cleanTokens": 10,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "22666b4137b1556381f3256601f4bc2d0b34beb09980e97fce9c17c8cd12db8e",
+          "split": "test",
+          "line": 355,
+          "cleanTokens": 33,
+          "erroneousTokens": 33,
+          "alignedChangedPositions": 2,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2267d5948d857e2d8305cd3ce473e20f9147d8edb66632bfd928d7a85c15b2ee",
+          "split": "dev",
+          "line": 679,
+          "cleanTokens": 9,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 7,
+              "op": "swap",
+              "pos": 6
+            }
+          ]
+        },
+        {
+          "hash": "2283070753b07e049c7843e0001cb51dfbea3dfd05402d5462ba1207b29fd428",
+          "split": "dev",
+          "line": 366,
+          "cleanTokens": 22,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "228a521af6550f1eb6321a1344ba7398bee35afef23f17fa07728c2cbf655031",
+          "split": "test",
+          "line": 185,
+          "cleanTokens": 38,
+          "erroneousTokens": 38,
+          "alignedChangedPositions": 2,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "22c6244af9799993ef051a1d560c6d6accc0fefbb0a257ccc48fb8b95d22f698",
+          "split": "dev",
+          "line": 167,
+          "cleanTokens": 16,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "22d1b91015f5ed496ca36e0edf07d8956db97c49a13d37d3fee4cb050a9f0770",
+          "split": "test",
+          "line": 51,
+          "cleanTokens": 36,
+          "erroneousTokens": 36,
+          "alignedChangedPositions": 1,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "22f86ecfcaa7641ea039831891017432bd35a23a9ddba77d054b91abe102d898",
+          "split": "test",
+          "line": 226,
+          "cleanTokens": 26,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "230ad7732c7b7110645d3be948383470920013f0d80eee44db85a0142328dc9e",
+          "split": "test",
+          "line": 462,
+          "cleanTokens": 52,
+          "erroneousTokens": 52,
+          "alignedChangedPositions": 5,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2326e0f1f188fd949aea884a6de72e7b8e64b83cb0622d4009156c094108cef4",
+          "split": "test",
+          "line": 371,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "232fa8cdbd86d5f557e65f6cb6720d302e09095d96c6c0dd64a650d393a0de3b",
+          "split": "dev",
+          "line": 424,
+          "cleanTokens": 22,
+          "erroneousTokens": 21,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2336f6166b612c187d686efbb6603db58cc30587a02241b22bf7182495af8342",
+          "split": "dev",
+          "line": 317,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2345b21477f58131aada5113edbc7b2e29d7f9b44d520e7f626d4a8cc92dba0e",
+          "split": "test",
+          "line": 28,
+          "cleanTokens": 22,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 19,
+              "op": "delete",
+              "pos": 7
+            }
+          ]
+        },
+        {
+          "hash": "23b10d86c2fcd2b838d76932efb02d5758acf2fbf522aa1373d61748acfc31d2",
+          "split": "test",
+          "line": 585,
+          "cleanTokens": 24,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2419f39c3cc4c51940997a40520949fd8588a63b385425bafb553847a31c362a",
+          "split": "test",
+          "line": 401,
+          "cleanTokens": 24,
+          "erroneousTokens": 24,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "248356abf4c37820e477db22533b39794abf3c7aa6f8cc97567bcd892a44ca16",
+          "split": "test",
+          "line": 578,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "24b6a992c90e4b6bb299b8bc77652ade358c5c7ee3342e1a621e5655a5aa858b",
+          "split": "dev",
+          "line": 434,
+          "cleanTokens": 22,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 2,
+              "op": "delete",
+              "pos": 8
+            }
+          ]
+        },
+        {
+          "hash": "2504cbc91345e2fd343f3f21d7500c6cf429bfe7fd401b3f58d4d6710ec8e129",
+          "split": "dev",
+          "line": 120,
+          "cleanTokens": 13,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "25055dd50138fbfb2d866fbe126eae7949cfd4f72f812b361392e845ba86b8a4",
+          "split": "test",
+          "line": 487,
+          "cleanTokens": 25,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 5,
+              "op": "keyboard",
+              "pos": 2,
+              "char": "n"
+            }
+          ]
+        },
+        {
+          "hash": "252ae9f6ed860adc621c0830ac4e5d183e3f25c27b882901680ae5459c802fb0",
+          "split": "dev",
+          "line": 553,
+          "cleanTokens": 25,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "26081e29255eeffdb31b2358754b0cdff8a160ef49e937d466a0aed6b9595c36",
+          "split": "test",
+          "line": 468,
+          "cleanTokens": 21,
+          "erroneousTokens": 21,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 13,
+              "op": "delete",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "2664d24421f0f124ab8951566efad0c52072aaf3e8511a86a2f17b0f87260270",
+          "split": "test",
+          "line": 681,
+          "cleanTokens": 44,
+          "erroneousTokens": 44,
+          "alignedChangedPositions": 3,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "26badc8d4f87185ba2f7a5761dbae693e544008a3a8f3d8f8d731459ad05be5a",
+          "split": "test",
+          "line": 117,
+          "cleanTokens": 14,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2716de0bfde674397df4d22838842b5c2a56393f2f99ca8d845173f6b2965409",
+          "split": "test",
+          "line": 632,
+          "cleanTokens": 9,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "278a9d53b859813b09aa8be2c8aae9f5fc0f4cf81e48c8be5c22c0b9f8d904ea",
+          "split": "test",
+          "line": 452,
+          "cleanTokens": 9,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2831aa3157ec86e3c85a84c86149a600701deaadc2679d0e33f685be0c2ed7d6",
+          "split": "test",
+          "line": 213,
+          "cleanTokens": 27,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "288b203303b0b2062db3e2eb0ea6cbed42bd775a07269394d04c7418be14e2e2",
+          "split": "dev",
+          "line": 243,
+          "cleanTokens": 25,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "29d150c18941edf6216e64d300e4c5915a9780f601bb8ed4d8c5f456ad259f01",
+          "split": "dev",
+          "line": 55,
+          "cleanTokens": 32,
+          "erroneousTokens": 32,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2a2b1c595b34e767ba62f05757779c6b2d48609d7d7c76a62948b35269053528",
+          "split": "dev",
+          "line": 421,
+          "cleanTokens": 25,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2c3ec1161f47e01bb519c7580cbb7c48152f16bc0ad30dd53be2259cd85d57be",
+          "split": "test",
+          "line": 145,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 11,
+              "op": "delete",
+              "pos": 3
+            }
+          ]
+        },
+        {
+          "hash": "2dc5b1b4bd382052f03ee4a5d00a54c49902f41aef3f486224e853a46bfd592e",
+          "split": "dev",
+          "line": 48,
+          "cleanTokens": 10,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 4,
+              "op": "keyboard",
+              "pos": 4,
+              "char": "d"
+            }
+          ]
+        },
+        {
+          "hash": "2e31b94a7a1168ba7a5ae0b2f58875b0b68fc9d0fc747819856104ba59626f77",
+          "split": "test",
+          "line": 9,
+          "cleanTokens": 28,
+          "erroneousTokens": 28,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "2ea295a7c22e191a4f999eb4a252e8e2a093b8c773d1c61c9491124bb727c3d0",
+          "split": "dev",
+          "line": 125,
+          "cleanTokens": 24,
+          "erroneousTokens": 24,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 20,
+              "op": "swap",
+              "pos": 6
+            }
+          ]
+        },
+        {
+          "hash": "2f0a8b80c671c1a207febbdabe4df73b4c20af4f519db0534862c11658119b63",
+          "split": "test",
+          "line": 385,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 8,
+              "op": "delete",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "300bdfa9e73c4b877a09de2a4fa75050e5d7e376b84788064d1121d3b450e531",
+          "split": "dev",
+          "line": 186,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3066379b95fb8ad49b4847728a9d1433cf8261e3e12537c54d511e374b3a47c1",
+          "split": "dev",
+          "line": 20,
+          "cleanTokens": 9,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3079fb827d83c94ca020a9ce34f19a7b8fdffb70a6b85ef69546cf93a9e37caf",
+          "split": "test",
+          "line": 307,
+          "cleanTokens": 22,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "308be1e5f963e348910143c85b53f9ea982e4b3d86fc778ab03e6ade95229b07",
+          "split": "test",
+          "line": 673,
+          "cleanTokens": 5,
+          "erroneousTokens": 5,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "308c394aae7577e99d9ea4172b1d4028ea12a2046df5f65fce1df6b4d66b08d6",
+          "split": "test",
+          "line": 42,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 6,
+              "op": "delete",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "30d6259468cfec76260be52d950b0f0eacc222b2254afa68bf169978478e3a2e",
+          "split": "test",
+          "line": 273,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 5,
+              "op": "repeat",
+              "pos": 6
+            }
+          ]
+        },
+        {
+          "hash": "31f7c980adb2ec0242972c14c8b91246f8ea3a2b17f2e27ecb05dfeaea509917",
+          "split": "dev",
+          "line": 310,
+          "cleanTokens": 27,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3231eeef13eff057912f5531f446f3f57ee2b9d980e4ae7327f0d92b39a0d0d6",
+          "split": "test",
+          "line": 12,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3232f132dae82f983e74f025426906f48c029ebfd2e544f4d966c08b112c295d",
+          "split": "test",
+          "line": 635,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 5,
+              "op": "keyboard",
+              "pos": 6,
+              "char": "m"
+            }
+          ]
+        },
+        {
+          "hash": "32397d50b0e3732bbcae69b616d80ab6b610ac0c2677a378a2d2b222de863439",
+          "split": "dev",
+          "line": 228,
+          "cleanTokens": 34,
+          "erroneousTokens": 33,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "326cb558b7b49096836140220f3dc4afa59871713857acdf95abb929ad5110ae",
+          "split": "dev",
+          "line": 24,
+          "cleanTokens": 51,
+          "erroneousTokens": 51,
+          "alignedChangedPositions": 1,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "32eb8af32a8cb5ae90d4871d2220c25fdfdbbbe993cc5548e123bcedcc131492",
+          "split": "dev",
+          "line": 646,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "330f533f5f16b0dfac8c82b2e43374dab24fcd19fe26f404be232a29577a4d63",
+          "split": "dev",
+          "line": 327,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 2,
+          "status": "covered",
+          "minimumCostWithinBudget": 2,
+          "operations": [
+            {
+              "token": 7,
+              "op": "delete",
+              "pos": 6
+            },
+            {
+              "token": 10,
+              "op": "swap",
+              "pos": 0
+            }
+          ]
+        },
+        {
+          "hash": "3402c5aa2bc3c4992d60e689cd25948aa03ed51c1e6ae7e53e4b1a0e8b970fb2",
+          "split": "dev",
+          "line": 752,
+          "cleanTokens": 15,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "34a8f7a8bb6d3d969e81db0e6ce45c68259f732b021ed9249243c29f34f3f82a",
+          "split": "test",
+          "line": 395,
+          "cleanTokens": 28,
+          "erroneousTokens": 28,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3508e8fd65b048bb6d7bb349afe064f879dce9d58139a5a4688d1c7edd8cecd9",
+          "split": "dev",
+          "line": 361,
+          "cleanTokens": 28,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "35656899ef2d1bcfe11aad775519a675ab666e029961e6e8ed0b7beee4e6f693",
+          "split": "test",
+          "line": 133,
+          "cleanTokens": 32,
+          "erroneousTokens": 32,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 21,
+              "op": "delete",
+              "pos": 5
+            }
+          ]
+        },
+        {
+          "hash": "359382885309361550c5d7d6f1070bbdad6dee4671d6ae65147dd01b4beb9db5",
+          "split": "test",
+          "line": 243,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 0,
+              "op": "swap",
+              "pos": 5
+            }
+          ]
+        },
+        {
+          "hash": "360658d09f5542210489f02b22b07e7141f368efe64b15052638bda9199a01d2",
+          "split": "dev",
+          "line": 75,
+          "cleanTokens": 25,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "364734abf8b41a0b740e267ad11a92ab17b9216cf35a77444fad41224e82a466",
+          "split": "test",
+          "line": 189,
+          "cleanTokens": 30,
+          "erroneousTokens": 30,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3656282df2d850cc416ca8afea2823061e41a5f3372698eb702ebd6b791cf547",
+          "split": "dev",
+          "line": 162,
+          "cleanTokens": 28,
+          "erroneousTokens": 28,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 0,
+              "op": "delete",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "369260611c949c5bbadc4306405fb08d404dde41bf8c88aca7f9df0cf6508d23",
+          "split": "dev",
+          "line": 484,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 9,
+              "op": "delete",
+              "pos": 8
+            }
+          ]
+        },
+        {
+          "hash": "36d829af57a0a90bcd223475863f173d4663b6af3d2d0b9460c4849f99c7f9f7",
+          "split": "dev",
+          "line": 324,
+          "cleanTokens": 29,
+          "erroneousTokens": 29,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 2,
+              "op": "delete",
+              "pos": 3
+            }
+          ]
+        },
+        {
+          "hash": "37768f93836eef06a723cf37d03a2651a1708dd1941ba4b0a49b50304b6fcbeb",
+          "split": "dev",
+          "line": 136,
+          "cleanTokens": 10,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "37d7b77ff2bbb54fbff22d3cee16ec044048d931cec5813f9aa53ce5b9c759c3",
+          "split": "test",
+          "line": 362,
+          "cleanTokens": 36,
+          "erroneousTokens": 36,
+          "alignedChangedPositions": 1,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "37da708cd43ad71bb9818728ef8007a94767f1d44151407d70bdbe39b078d306",
+          "split": "dev",
+          "line": 406,
+          "cleanTokens": 6,
+          "erroneousTokens": 6,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "384768ba8c83ea162f9eab0b7839214d41012a9164ee91371bf94fcea41fb780",
+          "split": "dev",
+          "line": 300,
+          "cleanTokens": 75,
+          "erroneousTokens": 75,
+          "alignedChangedPositions": 5,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "384b4b28fd66f960fb268fe43aefad6198a4d012fc81094efe7b91c4ad393444",
+          "split": "dev",
+          "line": 534,
+          "cleanTokens": 22,
+          "erroneousTokens": 22,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 16,
+              "op": "delete",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "3885626e74192a0aea20ce1a7326b8d4de5533ea29e4571659509e38f1f8e6d3",
+          "split": "test",
+          "line": 310,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "38d0f97dcde37b35bc1401cf2c3f207aa7bf22fdb840b5abf4c3cdb7d7d499d3",
+          "split": "dev",
+          "line": 545,
+          "cleanTokens": 6,
+          "erroneousTokens": 6,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "38df750818e1027adc030b07e9932d9f28701ab1efce9be94f8859a96c322515",
+          "split": "dev",
+          "line": 390,
+          "cleanTokens": 17,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "38e058eb10725e0604f8bad30e33b481ccf01dbc3ff2fe8d199074506d873378",
+          "split": "dev",
+          "line": 754,
+          "cleanTokens": 28,
+          "erroneousTokens": 28,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 25,
+              "op": "delete",
+              "pos": 3
+            }
+          ]
+        },
+        {
+          "hash": "3964cc006c3063756bd3cf44b514f2f03ce97a337d6c3a6f88e02a04394e81f7",
+          "split": "dev",
+          "line": 309,
+          "cleanTokens": 23,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "39f5b84ba177f7f17317d715778f1325c9c9c4abf3cce5bbf0772b6766584a24",
+          "split": "dev",
+          "line": 546,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3b90bd82292c2f55d7a3f93c786eb075fdc67ba5e4b9bc287800f8f0cbfee7d6",
+          "split": "dev",
+          "line": 198,
+          "cleanTokens": 7,
+          "erroneousTokens": 7,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3c249a1345a86fc44189283c4bbc73643dcfa7aea35c7231184e36fe91ced9f6",
+          "split": "test",
+          "line": 360,
+          "cleanTokens": 27,
+          "erroneousTokens": 27,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 25,
+              "op": "swap",
+              "pos": 3
+            }
+          ]
+        },
+        {
+          "hash": "3d5cc737a591db1eac19fc27190e2288de5e4344534f6b53a1a51dc5fd9b2f0f",
+          "split": "test",
+          "line": 363,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3d893acddf356f377b2d26ec4161ecfaec6a81b72e4fc3ceaa17525c39426bb6",
+          "split": "test",
+          "line": 532,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3eb0abd2eb24737a4c766459c134bac56ce274a236436dc24a2bfb13cb80b1b9",
+          "split": "dev",
+          "line": 277,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3f02b80f3af8f87f8c7e2c7994f558a8e37dd253491bae4ac0a0a2191936cbb3",
+          "split": "test",
+          "line": 149,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3f382e746e96ebeb4e325f5aafcfd7c1855d4116e0aeb76560347d87bb0e7925",
+          "split": "dev",
+          "line": 354,
+          "cleanTokens": 49,
+          "erroneousTokens": 49,
+          "alignedChangedPositions": 6,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3f801bd5a1f1e57e72c9a3097a9bc666890811680c9ca89df5bff0f7743eabd6",
+          "split": "test",
+          "line": 91,
+          "cleanTokens": 44,
+          "erroneousTokens": 43,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "3f9c650217137d3ae73c8f52f2ba9e438febc2bea73babb15717fe56d2d57ff0",
+          "split": "dev",
+          "line": 750,
+          "cleanTokens": 14,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 11,
+              "op": "swap",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "3fe26b62366d33cd83f4a8b349baba6a52cbe5230a03d51de2e95c2c223680ed",
+          "split": "dev",
+          "line": 450,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "420392acccaec8e56751fa6c055639ee93229332b6379d4b6720f036e05eaac0",
+          "split": "dev",
+          "line": 593,
+          "cleanTokens": 36,
+          "erroneousTokens": 36,
+          "alignedChangedPositions": 1,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "4234a7da013b1950006375cc4ef166c0039deeba73b77c6f3ae5662e63067d1f",
+          "split": "test",
+          "line": 157,
+          "cleanTokens": 14,
+          "erroneousTokens": 14,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 5,
+              "op": "delete",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "4265383ae43e4b31a952ee51fa408072ad7bbf8d6d0174f149e93262a16a3abe",
+          "split": "test",
+          "line": 90,
+          "cleanTokens": 12,
+          "erroneousTokens": 12,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "42fa7e3854885bfd698878846a893f86bae1d18c9bc9c6e0df9c1ccb67803f45",
+          "split": "dev",
+          "line": 706,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "4312d894b4c8b85169553e502c6c7d90cf95742de6cbbb6dc099deb6beb7c22e",
+          "split": "test",
+          "line": 729,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "432971aad8b176c2346abe53413a48ce2f0e978bc1b9ee4f939d2ce38e3a1a3b",
+          "split": "test",
+          "line": 608,
+          "cleanTokens": 9,
+          "erroneousTokens": 9,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "438ebc5b03e6c0fcd13c2f00f3e5d6a8644df21f7b54a8919b595eb37497d401",
+          "split": "dev",
+          "line": 21,
+          "cleanTokens": 45,
+          "erroneousTokens": 44,
+          "alignedChangedPositions": null,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "439996392089470bb1e0aada421597c01c124ed4e7578bd9e1368081e14fe8a4",
+          "split": "dev",
+          "line": 408,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "448fa6e80a87f6b404c5715d90e527f638932fa98a4a90f21349d1f7c72c89d9",
+          "split": "test",
+          "line": 700,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 2,
+          "status": "covered",
+          "minimumCostWithinBudget": 2,
+          "operations": [
+            {
+              "token": 14,
+              "op": "delete",
+              "pos": 2
+            },
+            {
+              "token": 15,
+              "op": "swap",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "44b9e320bfa4d3cf48a025f71c35c51d8121b4b027d837b8dcc4bb3f5741bcc5",
+          "split": "test",
+          "line": 457,
+          "cleanTokens": 26,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": 2,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "45399ad3ce8a25dca659e4969d3b89cc992763b00a35d08bb7cd90a5e1486858",
+          "split": "test",
+          "line": 654,
+          "cleanTokens": 39,
+          "erroneousTokens": 39,
+          "alignedChangedPositions": 3,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "4562871d0e3cf55a538daf6fcf413d23e599c599d83b320d92febe85126be370",
+          "split": "dev",
+          "line": 49,
+          "cleanTokens": 16,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "463cd72bf0303f21757b42c8d135b245ab0477abf10e637c1fe7d2ed3e548265",
+          "split": "dev",
+          "line": 290,
+          "cleanTokens": 26,
+          "erroneousTokens": 26,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "466aa6f1646c1ce8b655cdab388533868a862472eb0f30c1b673e3c5cb409e73",
+          "split": "dev",
+          "line": 649,
+          "cleanTokens": 19,
+          "erroneousTokens": 19,
+          "alignedChangedPositions": 1,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "46ea5a47b8663e8d15bee5429b91adc742a416cac3b1fd3bfdbf8ba079bfc635",
+          "split": "test",
+          "line": 206,
+          "cleanTokens": 25,
+          "erroneousTokens": 25,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 19,
+              "op": "swap",
+              "pos": 0
+            }
+          ]
+        },
+        {
+          "hash": "470a878f5e88671cb6a0de8f941ef7509c86adfcededb1a11a2dadee003c384c",
+          "split": "test",
+          "line": 21,
+          "cleanTokens": 20,
+          "erroneousTokens": 20,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 8,
+              "op": "swap",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "4746e8cc232c6a1d2cf74e34313595efacd1740a2600300a0755c777a3736d57",
+          "split": "test",
+          "line": 123,
+          "cleanTokens": 33,
+          "erroneousTokens": 33,
+          "alignedChangedPositions": 3,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "47803ddac7385d4c81860ab1e6d7ced9a2f125750650c349d23ab5a8bdc0b9e2",
+          "split": "dev",
+          "line": 741,
+          "cleanTokens": 16,
+          "erroneousTokens": 15,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "47fcc3b048d1d8e77738b5bd333d5c158e0e4a7d9bcc6d11f9745f4c2db3e9bb",
+          "split": "dev",
+          "line": 509,
+          "cleanTokens": 12,
+          "erroneousTokens": 10,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "49ae68ed70d582ac01eb54934f454df019a50af07dca2856f0d6d6c27b9619a1",
+          "split": "dev",
+          "line": 177,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 0,
+              "op": "delete",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "4a3da899249e5ec7f007a864232a4fa41ddf84e9f681d0d94c16c98496851fec",
+          "split": "dev",
+          "line": 571,
+          "cleanTokens": 23,
+          "erroneousTokens": 23,
+          "alignedChangedPositions": 3,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "4aa9406570bac2bbe681b029db9c5a8cd81e805c002ef3f84c5b90a7c4f30c16",
+          "split": "dev",
+          "line": 667,
+          "cleanTokens": 13,
+          "erroneousTokens": 13,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 6,
+              "op": "delete",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "4aad4d3a6b737d3819dbcf33952185ec761740240b14cfdc4249a52999980595",
+          "split": "test",
+          "line": 181,
+          "cleanTokens": 46,
+          "erroneousTokens": 46,
+          "alignedChangedPositions": 2,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "4bf0278a5a2e92483b829e679d6909de07b0aef5c3a838a02de2ac0219e45a58",
+          "split": "dev",
+          "line": 208,
+          "cleanTokens": 16,
+          "erroneousTokens": 16,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 5,
+              "op": "delete",
+              "pos": 4
+            }
+          ]
+        },
+        {
+          "hash": "4c2d736f35e10420fd6df849c7fc8a96a61eda5f392c0d206e24029a2841c032",
+          "split": "dev",
+          "line": 398,
+          "cleanTokens": 11,
+          "erroneousTokens": 11,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 6,
+              "op": "swap",
+              "pos": 2
+            }
+          ]
+        },
+        {
+          "hash": "4c6128be22badd4a418bb8d8f42f8f353a0c38012e348dcb56ef1601dff14509",
+          "split": "dev",
+          "line": 557,
+          "cleanTokens": 17,
+          "erroneousTokens": 17,
+          "alignedChangedPositions": 1,
+          "status": "covered",
+          "minimumCostWithinBudget": 1,
+          "operations": [
+            {
+              "token": 2,
+              "op": "keyboard",
+              "pos": 0,
+              "char": "n"
+            }
+          ]
+        },
+        {
+          "hash": "4ca8f247486f997f307af7a0b585bad52e77e29b269c49bc6adc779d3eeedb9d",
+          "split": "dev",
+          "line": 235,
+          "cleanTokens": 38,
+          "erroneousTokens": 38,
+          "alignedChangedPositions": 1,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "4cb7ea95151d881dcb93ea6e2dfa8538192e4efa8a5f7d2651b4947ab4f9db5c",
+          "split": "test",
+          "line": 710,
+          "cleanTokens": 33,
+          "erroneousTokens": 33,
+          "alignedChangedPositions": 2,
+          "status": "outside_input_scope",
+          "minimumCostWithinBudget": null
+        },
+        {
+          "hash": "4ce8ab53064952e4a3ef983b61539b2b5bbd108b2ca9552324bef61cd7462355",
+          "split": "dev",
+          "line": 713,
+          "cleanTokens": 25,
+          "erroneousTokens": 24,
+          "alignedChangedPositions": null,
+          "status": "outside_channel_or_budget",
+          "minimumCostWithinBudget": null
+        }
+      ]
+    }
+  },
+  "rawTextRedistributed": false
+}

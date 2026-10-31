@@ -1,0 +1,3857 @@
+{
+  "retrospective": true,
+  "graphs": {
+    "verifiedRobustCases": 266,
+    "originalCertified": 259,
+    "samePartialGraphCertified": 259,
+    "sameGraphExactColoringProven": 266,
+    "hardCases": [
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2240",
+        "candidates": 25,
+        "pairChecks": 300,
+        "allPairsChecked": true,
+        "pairResourceUnknown": 0,
+        "originalRank": 12,
+        "partialRefinedRank": 12,
+        "fullFirstFitRank": 7,
+        "fullDSATURRank": 7,
+        "fullOptimalCoverRank": 7,
+        "maxCliqueUpperRank": 7,
+        "maxCliqueOptimal": true,
+        "coloringOptimal": true,
+        "pairConstructionSeconds": 0.04384666199985077,
+        "graphSolveSeconds": 2.6190000426140614e-05
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1141",
+        "candidates": 39,
+        "pairChecks": 741,
+        "allPairsChecked": true,
+        "pairResourceUnknown": 0,
+        "originalRank": 22,
+        "partialRefinedRank": 22,
+        "fullFirstFitRank": 9,
+        "fullDSATURRank": 9,
+        "fullOptimalCoverRank": 9,
+        "maxCliqueUpperRank": 9,
+        "maxCliqueOptimal": true,
+        "coloringOptimal": true,
+        "pairConstructionSeconds": 0.09938956800033338,
+        "graphSolveSeconds": 4.171800037511275e-05
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "10122",
+        "candidates": 36,
+        "pairChecks": 630,
+        "allPairsChecked": true,
+        "pairResourceUnknown": 0,
+        "originalRank": 23,
+        "partialRefinedRank": 23,
+        "fullFirstFitRank": 10,
+        "fullDSATURRank": 10,
+        "fullOptimalCoverRank": 10,
+        "maxCliqueUpperRank": 10,
+        "maxCliqueOptimal": true,
+        "coloringOptimal": true,
+        "pairConstructionSeconds": 0.19821134599988,
+        "graphSolveSeconds": 7.681400029468932e-05
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4102",
+        "candidates": 35,
+        "pairChecks": 595,
+        "allPairsChecked": true,
+        "pairResourceUnknown": 0,
+        "originalRank": 18,
+        "partialRefinedRank": 18,
+        "fullFirstFitRank": 9,
+        "fullDSATURRank": 8,
+        "fullOptimalCoverRank": 8,
+        "maxCliqueUpperRank": 8,
+        "maxCliqueOptimal": true,
+        "coloringOptimal": true,
+        "pairConstructionSeconds": 0.6134059500000149,
+        "graphSolveSeconds": 6.803400037824758e-05
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7747",
+        "candidates": 29,
+        "pairChecks": 406,
+        "allPairsChecked": true,
+        "pairResourceUnknown": 0,
+        "originalRank": 15,
+        "partialRefinedRank": 15,
+        "fullFirstFitRank": 11,
+        "fullDSATURRank": 10,
+        "fullOptimalCoverRank": 10,
+        "maxCliqueUpperRank": 10,
+        "maxCliqueOptimal": true,
+        "coloringOptimal": true,
+        "pairConstructionSeconds": 0.35231230099998356,
+        "graphSolveSeconds": 3.6518999877444e-05
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "1150",
+        "candidates": 46,
+        "pairChecks": 1035,
+        "allPairsChecked": true,
+        "pairResourceUnknown": 0,
+        "originalRank": 32,
+        "partialRefinedRank": 32,
+        "fullFirstFitRank": 10,
+        "fullDSATURRank": 10,
+        "fullOptimalCoverRank": 10,
+        "maxCliqueUpperRank": 10,
+        "maxCliqueOptimal": true,
+        "coloringOptimal": true,
+        "pairConstructionSeconds": 0.7736930349997237,
+        "graphSolveSeconds": 0.00012307599990890594
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "89",
+        "candidates": 30,
+        "pairChecks": 435,
+        "allPairsChecked": true,
+        "pairResourceUnknown": 0,
+        "originalRank": 15,
+        "partialRefinedRank": 15,
+        "fullFirstFitRank": 10,
+        "fullDSATURRank": 10,
+        "fullOptimalCoverRank": 10,
+        "maxCliqueUpperRank": 10,
+        "maxCliqueOptimal": true,
+        "coloringOptimal": true,
+        "pairConstructionSeconds": 0.4327415780003321,
+        "graphSolveSeconds": 3.602600008889567e-05
+      }
+    ],
+    "sameGraphGreedyAlreadyOptimal": 266,
+    "firstFitScheduleCertificates": [
+      {
+        "dataset": "scifact",
+        "queryId": "742",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1144",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "133",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "785",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          5,
+          1,
+          2,
+          3,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1199",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "343",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1132",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "723",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "781",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "536",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "936",
+        "groups": 8,
+        "compatibleCliqueWitness": [
+          9,
+          1,
+          2,
+          12,
+          10,
+          6,
+          7,
+          11
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "436",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          3,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "411",
+        "groups": 8,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "507",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "552",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1163",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1270",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "439",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "384",
+        "groups": 9,
+        "compatibleCliqueWitness": [
+          2,
+          1,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "982",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "805",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "700",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          5,
+          1,
+          2,
+          3,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "143",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "218",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1336",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1146",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "768",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1049",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "385",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "298",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "540",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          0,
+          3,
+          4,
+          5,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1332",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          5,
+          7,
+          4,
+          3,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "295",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "130",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "49",
+        "groups": 8,
+        "compatibleCliqueWitness": [
+          10,
+          8,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "508",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          7,
+          1,
+          2,
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "362",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1216",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "528",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "415",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          2,
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "641",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "100",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "350",
+        "groups": 9,
+        "compatibleCliqueWitness": [
+          4,
+          2,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1262",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1339",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "728",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          4,
+          1,
+          2,
+          3,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1062",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "575",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          0,
+          2,
+          9,
+          5,
+          8
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "743",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "971",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "985",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "721",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "437",
+        "groups": 9,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          7,
+          3,
+          4,
+          5,
+          6,
+          8,
+          10
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1104",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1335",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "312",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2,
+          5,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "693",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "146",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "903",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "684",
+        "groups": 9,
+        "compatibleCliqueWitness": [
+          11,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          10
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "831",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          2,
+          3,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "729",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "613",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "808",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          3,
+          7,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "527",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "54",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "75",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          7,
+          5,
+          2,
+          4,
+          6,
+          8
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "756",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          0,
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "274",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "554",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          2,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "42",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "533",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "314",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          0,
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "660",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1196",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          4,
+          2,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1207",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "327",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "380",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "922",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "230",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1274",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1290",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          1,
+          2,
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "179",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          10,
+          5,
+          3,
+          8
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "279",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "129",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1012",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "57",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "338",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "56",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1029",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "775",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          3,
+          1,
+          6,
+          5,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "514",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1185",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1107",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1179",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "386",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "399",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "589",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1280",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          0,
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1089",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "525",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "137",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1232",
+        "groups": 9,
+        "compatibleCliqueWitness": [
+          3,
+          9,
+          10,
+          12,
+          13,
+          16,
+          11,
+          14,
+          15
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "770",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "141",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1041",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          4,
+          2,
+          5,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "232",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "539",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "354",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "1273",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "410",
+        "groups": 8,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "784",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          10,
+          1,
+          8,
+          9
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "744",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "124",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "847",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "993",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "904",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "180",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "830",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "811",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "300",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "597",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          15,
+          12,
+          10,
+          19,
+          17
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "scifact",
+        "queryId": "248",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-3292",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          9,
+          4,
+          6,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1236",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1710",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2710",
+        "groups": 8,
+        "compatibleCliqueWitness": [
+          5,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2580",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1772",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          5,
+          4,
+          6,
+          8,
+          9,
+          10
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2092",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2124",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-3221",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          8,
+          3,
+          4,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1363",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          6,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2291",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          18,
+          17,
+          10,
+          13,
+          19,
+          20
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2630",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-827",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          11,
+          5,
+          12,
+          10
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-3452",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2991",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          9,
+          11,
+          10,
+          5,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2240",
+        "groups": 11,
+        "compatibleCliqueWitness": [
+          18,
+          14,
+          17,
+          15,
+          16,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-3312",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          2,
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-603",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-3074",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          5,
+          1,
+          2,
+          4,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1837",
+        "groups": 14,
+        "compatibleCliqueWitness": [
+          17,
+          15,
+          8,
+          14,
+          18,
+          13,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2197",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          3,
+          6,
+          2,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-3053",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1172",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-701",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          9,
+          1,
+          2,
+          7,
+          4,
+          5,
+          8
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2830",
+        "groups": 8,
+        "compatibleCliqueWitness": [
+          8,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-3001",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          3,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-872",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1141",
+        "groups": 21,
+        "compatibleCliqueWitness": [
+          20,
+          10,
+          18,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1557",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          0,
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1983",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-571",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-383",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          6,
+          5,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1731",
+        "groups": 8,
+        "compatibleCliqueWitness": [
+          6,
+          14,
+          4,
+          9,
+          8,
+          10,
+          11,
+          12
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-468",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2071",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2930",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1762",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          2,
+          1,
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2740",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          10,
+          7,
+          4,
+          6,
+          9
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-902",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-838",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2960",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-771",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-56",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          11,
+          13,
+          7,
+          8,
+          12,
+          14
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-882",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-850",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-2530",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          5,
+          1,
+          3,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "nfcorpus",
+        "queryId": "PLAIN-1940",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          13,
+          12,
+          9,
+          15,
+          11,
+          14
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "8937",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "5264",
+        "groups": 8,
+        "compatibleCliqueWitness": [
+          8,
+          13,
+          4,
+          5,
+          6,
+          11,
+          12,
+          14
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "6441",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "2749",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "3934",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          3,
+          6,
+          10,
+          8,
+          12,
+          14
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4827",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9925",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "5369",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          21,
+          19,
+          3,
+          22,
+          12,
+          14,
+          17
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "3791",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9275",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9646",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          2,
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "1877",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          0,
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "8795",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7925",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          18,
+          20,
+          19,
+          16,
+          14,
+          17
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "3357",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7823",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9291",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          8,
+          4,
+          5,
+          13,
+          12,
+          10
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "5505",
+        "groups": 9,
+        "compatibleCliqueWitness": [
+          2,
+          19,
+          14,
+          20,
+          9,
+          11,
+          16,
+          18,
+          21
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "1826",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "928",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          4,
+          1,
+          2,
+          3,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "8271",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4641",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "6835",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          0,
+          6,
+          3,
+          4,
+          5,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "1670",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4233",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "3186",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          1,
+          2,
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "11054",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          0,
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "864",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          5,
+          2,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "852",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          0,
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "10122",
+        "groups": 22,
+        "compatibleCliqueWitness": [
+          20,
+          9,
+          14,
+          12,
+          18,
+          17,
+          19,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4681",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9644",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "3177",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          16,
+          14,
+          10,
+          11,
+          12
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4102",
+        "groups": 17,
+        "compatibleCliqueWitness": [
+          20,
+          12,
+          18,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "10975",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "5646",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          4,
+          5,
+          10,
+          11
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "6005",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          13,
+          10,
+          12,
+          6,
+          7,
+          9,
+          11
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7218",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4306",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "5150",
+        "groups": 8,
+        "compatibleCliqueWitness": [
+          6,
+          4,
+          2,
+          10,
+          7,
+          8,
+          9,
+          11
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "10792",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          3,
+          1,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "515",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          1,
+          2,
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "94",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          5,
+          4,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7017",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          6,
+          3,
+          4,
+          5,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "8702",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "2383",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "6875",
+        "groups": 9,
+        "compatibleCliqueWitness": [
+          12,
+          18,
+          4,
+          5,
+          15,
+          10,
+          9,
+          16,
+          13
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "10447",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9643",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          0,
+          3,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "766",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          16,
+          15,
+          6,
+          11,
+          10,
+          12,
+          13
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "3694",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          14,
+          7,
+          8,
+          13,
+          10,
+          11
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7747",
+        "groups": 14,
+        "compatibleCliqueWitness": [
+          18,
+          19,
+          12,
+          11,
+          14,
+          16,
+          22,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "2801",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          5,
+          1,
+          6,
+          7
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "2880",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "8040",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          6,
+          3,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "10596",
+        "groups": 8,
+        "compatibleCliqueWitness": [
+          1,
+          9,
+          3,
+          5,
+          11,
+          7,
+          8,
+          10
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9979",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          0,
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4142",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "1150",
+        "groups": 31,
+        "compatibleCliqueWitness": [
+          19,
+          10,
+          12,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "1832",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          4,
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "10628",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          1,
+          3,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "5331",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          14,
+          10,
+          13,
+          18,
+          17
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "2407",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          4,
+          5,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7590",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          9,
+          5,
+          4,
+          6,
+          7,
+          8,
+          10
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "10152",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          5,
+          11,
+          3,
+          6,
+          8,
+          10
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "5903",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "3789",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          1
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7754",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          3,
+          5,
+          6
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "3453",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          5,
+          6,
+          2,
+          3,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "2516",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4339",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7936",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          11,
+          10,
+          9
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7633",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          5,
+          3,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "89",
+        "groups": 14,
+        "compatibleCliqueWitness": [
+          18,
+          15,
+          14,
+          20,
+          21,
+          19,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "7279",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "6479",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9391",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          1,
+          4,
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4571",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "6278",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          13,
+          7,
+          10,
+          8,
+          5,
+          11,
+          12
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "8789",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          6,
+          3,
+          4,
+          5
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "2964",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "604",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9188",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "2445",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "6041",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          3,
+          2,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "1415",
+        "groups": 4,
+        "compatibleCliqueWitness": [
+          5,
+          2,
+          3,
+          4
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "10547",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          9,
+          6,
+          2,
+          13,
+          10,
+          11,
+          12
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "776",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9329",
+        "groups": 0,
+        "compatibleCliqueWitness": [],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "10994",
+        "groups": 3,
+        "compatibleCliqueWitness": [
+          2,
+          4,
+          3
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "2648",
+        "groups": 1,
+        "compatibleCliqueWitness": [
+          0
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "5086",
+        "groups": 2,
+        "compatibleCliqueWitness": [
+          1,
+          2
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "9332",
+        "groups": 5,
+        "compatibleCliqueWitness": [
+          13,
+          12,
+          4,
+          8,
+          14
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "689",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          7,
+          8,
+          2,
+          4,
+          6,
+          9
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4955",
+        "groups": 6,
+        "compatibleCliqueWitness": [
+          11,
+          8,
+          6,
+          7,
+          10,
+          12
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      },
+      {
+        "dataset": "fiqa",
+        "queryId": "4500",
+        "groups": 7,
+        "compatibleCliqueWitness": [
+          4,
+          7,
+          2,
+          8,
+          5,
+          6,
+          9
+        ],
+        "chiEqualsOmega": true,
+        "scope": "Only original on-demand first-fit query graph, not a completed graph"
+      }
+    ],
+    "afterCompletePairsAndDSATUR": 266
+  },
+  "multiword": {
+    "human_ref0": {
+      "sample": 200,
+      "b1": 9,
+      "b2": 11,
+      "increment": 2,
+      "wilson95B1": [
+        0.023852543001492997,
+        0.0832967040018196
+      ],
+      "wilson95B2": [
+        0.03098534170345884,
+        0.0957869987723084
+      ],
+      "outside32TokenScope": 22,
+      "outsideChannelOrBudget": 167
+    },
+    "enchant": {
+      "sample": 200,
+      "b1": 51,
+      "b2": 55,
+      "increment": 4,
+      "wilson95B1": [
+        0.1996049517203135,
+        0.3196292582045472
+      ],
+      "wilson95B2": [
+        0.21779700329307355,
+        0.34068339357669647
+      ],
+      "outside32TokenScope": 30,
+      "outsideChannelOrBudget": 115
+    }
+  },
+  "fullDomainCascadeInputs": {
+    "queries": 128,
+    "states": 6684,
+    "uniquePairsPerQuerySummed": 67571,
+    "identicalInputSets": true,
+    "scoreAllUnionPerDistinctStatePairs": 310315,
+    "scoreAllUnionPairCountRatio": 4.592428704621805
+  },
+  "gtc": {
+    "metrics": {
+      "sample": 200,
+      "b1": 89,
+      "b2": 91,
+      "increment": 2,
+      "wilson95B1": [
+        0.3778060100295335,
+        0.5142669758719658
+      ],
+      "wilson95B2": [
+        0.387482193098835,
+        0.524213886275119
+      ],
+      "outside32TokenScope": 25,
+      "outsideChannelOrBudget": 84
+    },
+    "counts": {
+      "commits": 203270,
+      "edits": 353055,
+      "notLabeledEnglishTypo": 97999,
+      "normalizationEqual": 16585,
+      "notMultiword": 6420,
+      "tooLong": 0,
+      "duplicates": 58872,
+      "eligible": 173179
+    },
+    "source": {
+      "archiveUrl": "https://web.archive.org/web/20200906123950id_/https://github-typo-corpus.s3.amazonaws.com/data/github-typo-corpus.v1.0.0.jsonl.gz",
+      "originalUrl": "https://github-typo-corpus.s3.amazonaws.com/data/github-typo-corpus.v1.0.0.jsonl.gz",
+      "timestamp": "20200906123950",
+      "httpStatus": 200,
+      "bytes": 43769081,
+      "sha256": "98219d275a49ad28fca832891876c255581b890d893b6d9c974ceb454ba2909d",
+      "sha1Base32": "IDRMZ4JVCEGPABJ6FFSXE42INRS2LBPW",
+      "cdxDigest": "IDRMZ4JVCEGPABJ6FFSXE42INRS2LBPW",
+      "matchesCdxDigest": true,
+      "headers": {
+        "content-type": "application/x-gzip",
+        "content-length": "43769081",
+        "memento-datetime": "Sun, 06 Sep 2020 12:39:50 GMT"
+      }
+    }
+  },
+  "neural": {
+    "backend": "ONNX Runtime FP32 length-bucketed",
+    "status": "COMPLETE",
+    "rawQueries": 128,
+    "costQueries": 16,
+    "sessionQueries": 128,
+    "sessionRequests": 2560,
+    "rawUnionPairs": 6175,
+    "meanRawUnionNDCG10": 0.6695136592237356,
+    "judgedRelevantInsideU": 2440,
+    "judgedRelevantTotal": 43974,
+    "judgedExactInsideU": 784,
+    "judgedExactTotal": 7887,
+    "macroJudgedRelevantRecallU": 0.13278898731254277,
+    "sessionNeuralPairsBothControls": 23129,
+    "meanRawLexicalTop10CascadeNDCG10": 0.6514530277523174,
+    "variantQrelsAreOriginalQueryProxy": true,
+    "rawPairsAtTokenLimitUpperBound": 109,
+    "sessionNeuralSeconds": 632.8110139479909,
+    "costPanel": [
+      {
+        "queryId": "361",
+        "U": 31,
+        "P": 2506,
+        "primaryUSeconds": 0.7051938449999398,
+        "primaryPSeconds": 41.192267180999806,
+        "ratioPoverU": 58.41268677125695,
+        "top10PContainmentInU": 0.8,
+        "outsideUTop10P": [
+          9971,
+          37909
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 1.0,
+        "P_NDCG10": 1.0
+      },
+      {
+        "queryId": "135",
+        "U": 54,
+        "P": 1732,
+        "primaryUSeconds": 0.9485268399998859,
+        "primaryPSeconds": 26.03850471299984,
+        "ratioPoverU": 27.45152125901147,
+        "top10PContainmentInU": 0.7,
+        "outsideUTop10P": [
+          14655,
+          14656,
+          14667
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.7887309086279127,
+        "P_NDCG10": 0.866947989864271
+      },
+      {
+        "queryId": "288",
+        "U": 66,
+        "P": 3501,
+        "primaryUSeconds": 1.562225882000348,
+        "primaryPSeconds": 58.99991068199961,
+        "ratioPoverU": 37.76656843404318,
+        "top10PContainmentInU": 0.7,
+        "outsideUTop10P": [
+          16869,
+          23497,
+          29703
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 1.0,
+        "P_NDCG10": 0.9266360779006401
+      },
+      {
+        "queryId": "219",
+        "U": 66,
+        "P": 5699,
+        "primaryUSeconds": 1.0280299050000394,
+        "primaryPSeconds": 97.95132379899951,
+        "ratioPoverU": 95.28061715188699,
+        "top10PContainmentInU": 0.9,
+        "outsideUTop10P": [
+          37223
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.3312392961638527,
+        "P_NDCG10": 0.4042383682811874
+      },
+      {
+        "queryId": "133",
+        "U": 47,
+        "P": 3008,
+        "primaryUSeconds": 1.2670697189996645,
+        "primaryPSeconds": 44.412557579999884,
+        "ratioPoverU": 35.05139213259949,
+        "top10PContainmentInU": 0.6,
+        "outsideUTop10P": [
+          24057,
+          39787,
+          40786,
+          40787
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.9363792118010483,
+        "P_NDCG10": 0.7630946912803435
+      },
+      {
+        "queryId": "272",
+        "U": 29,
+        "P": 290,
+        "primaryUSeconds": 0.5924937580002734,
+        "primaryPSeconds": 4.81920916099989,
+        "ratioPoverU": 8.133772037135396,
+        "top10PContainmentInU": 0.3,
+        "outsideUTop10P": [
+          787,
+          7786,
+          9012,
+          9257,
+          21386,
+          23569,
+          31893
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.4569970750177365,
+        "P_NDCG10": 0.7264127302306637
+      },
+      {
+        "queryId": "351",
+        "U": 49,
+        "P": 838,
+        "primaryUSeconds": 0.8608740150002632,
+        "primaryPSeconds": 11.25743707699985,
+        "ratioPoverU": 13.07675325407099,
+        "top10PContainmentInU": 0.6,
+        "outsideUTop10P": [
+          905,
+          907,
+          32003,
+          34912
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 1.0,
+        "P_NDCG10": 1.0
+      },
+      {
+        "queryId": "206",
+        "U": 51,
+        "P": 5405,
+        "primaryUSeconds": 1.099922018000143,
+        "primaryPSeconds": 93.02127583800029,
+        "ratioPoverU": 84.57079167042204,
+        "top10PContainmentInU": 0.5,
+        "outsideUTop10P": [
+          5633,
+          14532,
+          15936,
+          22981,
+          32489
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 1.0,
+        "P_NDCG10": 1.0
+      },
+      {
+        "queryId": "448",
+        "U": 130,
+        "P": 21699,
+        "primaryUSeconds": 2.7236339430000953,
+        "primaryPSeconds": 372.178619067,
+        "ratioPoverU": 136.64781202463777,
+        "top10PContainmentInU": 0.6,
+        "outsideUTop10P": [
+          8302,
+          29900,
+          31520,
+          32811
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.0636207881989517,
+        "P_NDCG10": 0.0
+      },
+      {
+        "queryId": "140",
+        "U": 53,
+        "P": 7817,
+        "primaryUSeconds": 2.5053487879995373,
+        "primaryPSeconds": 183.64024052100012,
+        "ratioPoverU": 73.29927130331126,
+        "top10PContainmentInU": 1.0,
+        "outsideUTop10P": [],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.7273830543227177,
+        "P_NDCG10": 0.7273830543227177
+      },
+      {
+        "queryId": "76",
+        "U": 106,
+        "P": 28092,
+        "primaryUSeconds": 2.7502029529996435,
+        "primaryPSeconds": 547.6909600429999,
+        "ratioPoverU": 199.14565194020824,
+        "top10PContainmentInU": 0.4,
+        "outsideUTop10P": [
+          2668,
+          20544,
+          21148,
+          26705,
+          33138,
+          34911
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.29526491168317714,
+        "P_NDCG10": 0.31046921473716227
+      },
+      {
+        "queryId": "180",
+        "U": 55,
+        "P": 1783,
+        "primaryUSeconds": 1.1858353160005208,
+        "primaryPSeconds": 32.12141326499932,
+        "ratioPoverU": 27.08758360590537,
+        "top10PContainmentInU": 0.2,
+        "outsideUTop10P": [
+          5628,
+          5629,
+          9019,
+          23077,
+          38293,
+          42593,
+          42598,
+          42599
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.9368077570869661,
+        "P_NDCG10": 1.0
+      },
+      {
+        "queryId": "370",
+        "U": 127,
+        "P": 22254,
+        "primaryUSeconds": 2.3990000579997286,
+        "primaryPSeconds": 445.4981471930005,
+        "ratioPoverU": 185.70159917563907,
+        "top10PContainmentInU": 1.0,
+        "outsideUTop10P": [],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.0,
+        "P_NDCG10": 0.0
+      },
+      {
+        "queryId": "155",
+        "U": 60,
+        "P": 5180,
+        "primaryUSeconds": 1.4826503290005348,
+        "primaryPSeconds": 116.95173107700066,
+        "ratioPoverU": 78.88018421433101,
+        "top10PContainmentInU": 0.8,
+        "outsideUTop10P": [
+          33760,
+          38432
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.5538284808364682,
+        "P_NDCG10": 0.6718362590523255
+      },
+      {
+        "queryId": "183",
+        "U": 46,
+        "P": 1944,
+        "primaryUSeconds": 1.225320350000402,
+        "primaryPSeconds": 35.46878639999977,
+        "ratioPoverU": 28.946541530945876,
+        "top10PContainmentInU": 0.6,
+        "outsideUTop10P": [
+          1518,
+          6597,
+          9521,
+          39761
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 0.6998560445290645,
+        "P_NDCG10": 0.6998560445290645
+      },
+      {
+        "queryId": "329",
+        "U": 32,
+        "P": 7670,
+        "primaryUSeconds": 1.7510012319999078,
+        "primaryPSeconds": 152.3889006239997,
+        "ratioPoverU": 87.02957932813591,
+        "top10PContainmentInU": 0.7,
+        "outsideUTop10P": [
+          8548,
+          32451,
+          32468
+        ],
+        "maxOverlapLogitDifference": 0.0,
+        "U_NDCG10": 1.0,
+        "P_NDCG10": 0.9118711222884872
+      }
+    ],
+    "geometricRawCandidateCostRatio": 52.78063549105987,
+    "meanTop10PContainmentInU": 0.65,
+    "costQueriesWithOutsideU": 14,
+    "costTotalPpairsPerRepeat": 119418,
+    "maxCrossPoolOverlapLogitDifference": 0.0,
+    "costPanelMeanU_NDCG10": 0.6743817205167435,
+    "costPanelMeanP_NDCG10": 0.6880465970304289,
+    "fp32Reference": {
+      "queries": 128,
+      "pairs": 6175,
+      "maxAbsoluteLogitDifference": 1.1920928955078125e-05,
+      "meanAbsoluteLogitDifference": 1.8813444474930704e-06,
+      "orderedTop10Equal": 128,
+      "top10SetEqual": 128,
+      "reusedPartialRows": 21
+    }
+  },
+  "fixedDepthControls": {
+    "queries": 128,
+    "primaryScope": "Actual raw-query reranking; static-pool reuse reported separately",
+    "costPanel": [
+      {
+        "queryId": "361",
+        "USeconds": 0.6635757630001535,
+        "T50Seconds": 1.0734761809999327,
+        "T100Seconds": 2.0689273939997292,
+        "T50overU": 1.6177145713498344,
+        "T100overU": 3.117846535933909
+      },
+      {
+        "queryId": "135",
+        "USeconds": 0.9709176679998563,
+        "T50Seconds": 1.0473177230005604,
+        "T100Seconds": 2.4347718310000346,
+        "T50overU": 1.0786885000847624,
+        "T100overU": 2.5077016427312504
+      },
+      {
+        "queryId": "288",
+        "USeconds": 1.6643860220001443,
+        "T50Seconds": 1.2909119870000723,
+        "T100Seconds": 2.1879521490000116,
+        "T50overU": 0.7756085246670982,
+        "T100overU": 1.3145701298132038
+      },
+      {
+        "queryId": "219",
+        "USeconds": 1.0547695640007078,
+        "T50Seconds": 1.2592057470001237,
+        "T100Seconds": 1.3880872729996554,
+        "T50overU": 1.1938207073628442,
+        "T100overU": 1.3160099801654155
+      },
+      {
+        "queryId": "133",
+        "USeconds": 1.2664025860003676,
+        "T50Seconds": 1.1959655450000355,
+        "T100Seconds": 2.503380148999895,
+        "T50overU": 0.9443802138601195,
+        "T100overU": 1.9767648745145316
+      },
+      {
+        "queryId": "272",
+        "USeconds": 0.6243166029998974,
+        "T50Seconds": 0.6991150960002415,
+        "T100Seconds": 1.8698518829996829,
+        "T50overU": 1.1198085917320324,
+        "T100overU": 2.995037892657149
+      },
+      {
+        "queryId": "351",
+        "USeconds": 0.9005082950006909,
+        "T50Seconds": 1.1077014430002237,
+        "T100Seconds": 1.9752450449996104,
+        "T50overU": 1.2300846634615108,
+        "T100overU": 2.193477901275851
+      },
+      {
+        "queryId": "206",
+        "USeconds": 1.197967062999851,
+        "T50Seconds": 1.0847791160003908,
+        "T100Seconds": 2.1628690830002597,
+        "T50overU": 0.9055166452439651,
+        "T100overU": 1.8054495401436
+      },
+      {
+        "queryId": "448",
+        "USeconds": 2.360561747999782,
+        "T50Seconds": 1.1481125020000036,
+        "T100Seconds": 2.0105515209997975,
+        "T50overU": 0.48637257761753316,
+        "T100overU": 0.8517258752936394
+      },
+      {
+        "queryId": "140",
+        "USeconds": 1.2657875650002097,
+        "T50Seconds": 0.6256954989994483,
+        "T100Seconds": 1.9734302750002826,
+        "T50overU": 0.4943131978068884,
+        "T100overU": 1.5590532958031986
+      },
+      {
+        "queryId": "76",
+        "USeconds": 2.171278756999527,
+        "T50Seconds": 1.0917852080001467,
+        "T100Seconds": 2.247595621999608,
+        "T50overU": 0.5028305115041405,
+        "T100overU": 1.0351483496782985
+      },
+      {
+        "queryId": "180",
+        "USeconds": 1.4640092159997948,
+        "T50Seconds": 1.0849155710002378,
+        "T100Seconds": 1.8409121820004657,
+        "T50overU": 0.7410578834774151,
+        "T100overU": 1.2574457605058709
+      },
+      {
+        "queryId": "370",
+        "USeconds": 8.133007765000002,
+        "T50Seconds": 2.1548845090001123,
+        "T100Seconds": 2.2023756859998684,
+        "T50overU": 0.26495542255271803,
+        "T100overU": 0.2707947354332654
+      },
+      {
+        "queryId": "155",
+        "USeconds": 1.4440132199997606,
+        "T50Seconds": 0.9435511000001497,
+        "T100Seconds": 3.4722948600001473,
+        "T50overU": 0.6534227574456044,
+        "T100overU": 2.404614315096591
+      },
+      {
+        "queryId": "183",
+        "USeconds": 3.1802958230000513,
+        "T50Seconds": 2.8735420949997206,
+        "T100Seconds": 3.119219137000073,
+        "T50overU": 0.9035455363045559,
+        "T100overU": 0.9807952815086355
+      },
+      {
+        "queryId": "329",
+        "USeconds": 1.4642963719998079,
+        "T50Seconds": 1.365435916000024,
+        "T100Seconds": 2.7735984349992577,
+        "T50overU": 0.9324860336403287,
+        "T100overU": 1.8941509984152454
+      }
+    ],
+    "T50": {
+      "meanNDCG10": 0.6723416438521259,
+      "medianCandidates": 50.0,
+      "totalNeuralPairs": 6408,
+      "staticPoolContainsAllVariantsQueries": 7,
+      "meanStaticWorstStateRecall": 0.3099076704545455,
+      "geometricFreshCostRatioOverU": 0.7938375529546364
+    },
+    "T100": {
+      "meanNDCG10": 0.6755552071521177,
+      "medianCandidates": 100.0,
+      "totalNeuralPairs": 12844,
+      "staticPoolContainsAllVariantsQueries": 14,
+      "meanStaticWorstStateRecall": 0.3919389204545455,
+      "geometricFreshCostRatioOverU": 1.5008897712170193
+    }
+  }
+}

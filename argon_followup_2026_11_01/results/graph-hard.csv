@@ -1,0 +1,8 @@
+dataset,queryId,candidates,pairChecks,allPairsChecked,pairResourceUnknown,originalRank,partialRefinedRank,fullFirstFitRank,fullDSATURRank,fullOptimalCoverRank,maxCliqueUpperRank,maxCliqueOptimal,coloringOptimal,pairConstructionSeconds,graphSolveSeconds
+nfcorpus,PLAIN-2240,25,300,True,0,12,12,7,7,7,7,True,True,0.04384666199985077,2.6190000426140614e-05
+nfcorpus,PLAIN-1141,39,741,True,0,22,22,9,9,9,9,True,True,0.09938956800033338,4.171800037511275e-05
+fiqa,10122,36,630,True,0,23,23,10,10,10,10,True,True,0.19821134599988,7.681400029468932e-05
+fiqa,4102,35,595,True,0,18,18,9,8,8,8,True,True,0.6134059500000149,6.803400037824758e-05
+fiqa,7747,29,406,True,0,15,15,11,10,10,10,True,True,0.35231230099998356,3.6518999877444e-05
+fiqa,1150,46,1035,True,0,32,32,10,10,10,10,True,True,0.7736930349997237,0.00012307599990890594
+fiqa,89,30,435,True,0,15,15,10,10,10,10,True,True,0.4327415780003321,3.602600008889567e-05

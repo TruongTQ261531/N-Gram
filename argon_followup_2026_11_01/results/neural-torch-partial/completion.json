@@ -1,0 +1,16 @@
+{
+  "status": "INTERRUPTED_FOR_RUNTIME_OPTIMIZATION",
+  "reason": "Structural cost panel contains119418 coarse-pool pairs before two repeats; preserve completed PyTorch FP32 records and use pinned ONNX FP32 backend with separate validation; no model/outcome selection.",
+  "counts": {
+    "raw": 21,
+    "cost": 1,
+    "trace": 20
+  },
+  "codeSnapshot": "neural_torch_original.py",
+  "fileHashes": {
+    "trace.jsonl.gz": "32a9ff7e4e9b0101c2b8b91f557fe4ff4f32e817bc79e57d93f90b1ce5e5be6a",
+    "cost.jsonl.gz": "ee26da44e0b52eb020769498bb32187ba5a279153d0ff9bcd4ebdd56f787ba7a",
+    "metadata.json": "14f67075aa52df0e424af98844bf153834c1ba6fbab797d35ffca3cb7342da33",
+    "raw.jsonl.gz": "95d5b6db923fe9695d7ae9a6e676a5b5ebb06f46e48e382a02fd1df789a336c4"
+  }
+}

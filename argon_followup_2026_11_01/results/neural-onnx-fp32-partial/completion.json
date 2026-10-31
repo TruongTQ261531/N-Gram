@@ -1,0 +1,15 @@
+{
+  "status": "INTERRUPTED_FOR_RUNTIME_OPTIMIZATION",
+  "reason": "ONNX FP32 had no material throughput improvement; preserve all completed records and use separately labeled author dynamic-INT8 CPU scorer; validate numerical differences against FP32.",
+  "counts": {
+    "raw": 5,
+    "cost": 0,
+    "trace": 5
+  },
+  "fileHashes": {
+    "trace.jsonl.gz": "586e2c9a1d9a05a1730499a7425ca0ec5a58978d58e15b835fdec7fd59f84150",
+    "cost.jsonl.gz": "db5e2066fd181653df03c0a7602ace61a47fd110268894171d1f43aab8e30a04",
+    "metadata.json": "ae22ddcf9df4e51970b77d780801dbca97ae8af0c92048aca7c1ccf92a6381dc",
+    "raw.jsonl.gz": "197f0f00c6fe92f1b3fe90124cf13f1680dc3832fd802738ca1679896a28dcfa"
+  }
+}

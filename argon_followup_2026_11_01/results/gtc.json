@@ -1,0 +1,2700 @@
+{
+  "source": {
+    "archiveUrl": "https://web.archive.org/web/20200906123950id_/https://github-typo-corpus.s3.amazonaws.com/data/github-typo-corpus.v1.0.0.jsonl.gz",
+    "originalUrl": "https://github-typo-corpus.s3.amazonaws.com/data/github-typo-corpus.v1.0.0.jsonl.gz",
+    "timestamp": "20200906123950",
+    "httpStatus": 200,
+    "bytes": 43769081,
+    "sha256": "98219d275a49ad28fca832891876c255581b890d893b6d9c974ceb454ba2909d",
+    "sha1Base32": "IDRMZ4JVCEGPABJ6FFSXE42INRS2LBPW",
+    "cdxDigest": "IDRMZ4JVCEGPABJ6FFSXE42INRS2LBPW",
+    "matchesCdxDigest": true,
+    "headers": {
+      "content-type": "application/x-gzip",
+      "content-length": "43769081",
+      "memento-datetime": "Sun, 06 Sep 2020 12:39:50 GMT"
+    }
+  },
+  "counts": {
+    "commits": 203270,
+    "edits": 353055,
+    "notLabeledEnglishTypo": 97999,
+    "normalizationEqual": 16585,
+    "notMultiword": 6420,
+    "tooLong": 0,
+    "duplicates": 58872,
+    "eligible": 173179
+  },
+  "metrics": {
+    "sample": 200,
+    "b1": 89,
+    "b2": 91,
+    "increment": 2,
+    "wilson95B1": [
+      0.3778060100295335,
+      0.5142669758719658
+    ],
+    "wilson95B2": [
+      0.387482193098835,
+      0.524213886275119
+    ],
+    "outside32TokenScope": 25,
+    "outsideChannelOrBudget": 84
+  },
+  "rows": [
+    {
+      "hash": "00000bccfcf268be9b30673b3991c6e661ae151fa47fdf50b0b218398cfcc8c5",
+      "sourceLine": 125933,
+      "editIndex": 0,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "00002b01df15c62616d6093464b2de0d92b23c6b85f55387703a59b8da290dfd",
+      "sourceLine": 49057,
+      "editIndex": 0,
+      "cleanTokens": 42,
+      "erroneousTokens": 42,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0000370ef0d47854d3930a0dfb52faad9a1f261787d5c6bcf796cd2681642ba6",
+      "sourceLine": 59899,
+      "editIndex": 1,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0000af33ae3979d5a944d4c678eb5a139c1b8d1b248b8b6a31fb8c7ad1d37bb8",
+      "sourceLine": 113872,
+      "editIndex": 2,
+      "cleanTokens": 40,
+      "erroneousTokens": 40,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0000d87befe2f731dec521fd96a638dfee7e9b20820b373312ef1376250c6f49",
+      "sourceLine": 10991,
+      "editIndex": 0,
+      "cleanTokens": 51,
+      "erroneousTokens": 52,
+      "alignedChangedPositions": null,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0001e3e50712f7e790a11b130d4c923baabe609a5958f3ba12601cb8fbcb2a1a",
+      "sourceLine": 145914,
+      "editIndex": 0,
+      "cleanTokens": 15,
+      "erroneousTokens": 15,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 10,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "000204cd7419d04855b150c8fa73078f2c7a07dc863e4d44307b9f25368f7f22",
+      "sourceLine": 12326,
+      "editIndex": 0,
+      "cleanTokens": 11,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00022672708f6e0e08e249a32b1e429fd64561355516934d8b2ecaef099de530",
+      "sourceLine": 123131,
+      "editIndex": 0,
+      "cleanTokens": 13,
+      "erroneousTokens": 15,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00022a76772a253463d476e25550d3f048021d48f8d391c23ff07de9e2bc304f",
+      "sourceLine": 164341,
+      "editIndex": 2,
+      "cleanTokens": 8,
+      "erroneousTokens": 7,
+      "alignedChangedPositions": null,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 6,
+          "op": "delete",
+          "pos": 0
+        }
+      ]
+    },
+    {
+      "hash": "0002421f4f021f39cba062c0e2ec2423efdc496ac47fbb4e4cfb4134c7d1b5b8",
+      "sourceLine": 169547,
+      "editIndex": 0,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0002e336349c84c8d12b42a16336abfa5ce5635da54d1c3122d3e389e16a527f",
+      "sourceLine": 174723,
+      "editIndex": 0,
+      "cleanTokens": 11,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00030bbc0d017a3ec76161aee686baf7cdfa3f0bb7e3f9f771344b739488f9dd",
+      "sourceLine": 41649,
+      "editIndex": 0,
+      "cleanTokens": 37,
+      "erroneousTokens": 37,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00047f0cd1cee4ab9b3a78c4eeda0f8bcc96fdcfcf99b7604450ee4c8c152645",
+      "sourceLine": 182889,
+      "editIndex": 0,
+      "cleanTokens": 16,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": 3,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00051927b4ec1bc51f73e710600df42af514ab707f5a2b1da0506b2146f622b9",
+      "sourceLine": 127678,
+      "editIndex": 0,
+      "cleanTokens": 29,
+      "erroneousTokens": 29,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00052a713012a37103c61fdbc33bf3c5d628196663cf06e245da91dfc353b442",
+      "sourceLine": 37988,
+      "editIndex": 0,
+      "cleanTokens": 4,
+      "erroneousTokens": 4,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "0006aeda703d7f680b327a87d7008aa9aff5c7cfbfe0c22724cfa307fedd28a4",
+      "sourceLine": 76194,
+      "editIndex": 0,
+      "cleanTokens": 52,
+      "erroneousTokens": 52,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00077af5853c6af57ce18ee2882dd1ca81b83f071a28a6514c32454b2026d334",
+      "sourceLine": 24431,
+      "editIndex": 0,
+      "cleanTokens": 20,
+      "erroneousTokens": 19,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0007cbf4e7fcbd21d32b009853446fd2081572c74dc55004ca7a58ac9943c496",
+      "sourceLine": 190652,
+      "editIndex": 1,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "swap",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "hash": "000864e41127294d9f9bc0e6b8f01dc296932a476aaf8c03db1c849a3ee4b255",
+      "sourceLine": 150278,
+      "editIndex": 0,
+      "cleanTokens": 4,
+      "erroneousTokens": 4,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "delete",
+          "pos": 12
+        }
+      ]
+    },
+    {
+      "hash": "00088b7c993dda7e304c5626b96feaaa5ce64bddc8263d3df755e49823a1e443",
+      "sourceLine": 169653,
+      "editIndex": 0,
+      "cleanTokens": 10,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "000895b5e88f9a1c3f700b6e06c4db2a1fef51b313d1f9e45fc1c95b505236b2",
+      "sourceLine": 55475,
+      "editIndex": 0,
+      "cleanTokens": 14,
+      "erroneousTokens": 14,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "00092eab974276cc5b68c8d1849a237c284ee3d1e742e3062552d2504c7270ef",
+      "sourceLine": 186248,
+      "editIndex": 0,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00098b3350f77c6b7a97d6d680b0b5cc5ba2d6572c01576953ec8e0038209377",
+      "sourceLine": 183442,
+      "editIndex": 0,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0009aa1bb62a462ca943f952d7ef68ec515737afbca2674dfa7d7fcbe32d907f",
+      "sourceLine": 175843,
+      "editIndex": 0,
+      "cleanTokens": 6,
+      "erroneousTokens": 6,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "repeat",
+          "pos": 5
+        }
+      ]
+    },
+    {
+      "hash": "0009eefbf6e125fee7a807171c719a09c35fc23052e6e0a9744b31d01498da03",
+      "sourceLine": 23852,
+      "editIndex": 0,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 5,
+          "op": "swap",
+          "pos": 5
+        }
+      ]
+    },
+    {
+      "hash": "000a26721ecc279e331d44c22ed5b995fa04f9d358acaa899584cec27ceb3686",
+      "sourceLine": 162003,
+      "editIndex": 4,
+      "cleanTokens": 38,
+      "erroneousTokens": 35,
+      "alignedChangedPositions": null,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "000a63623d2ce46d7ea6423ddf09f0af365f767593028b6084b3154b82f31817",
+      "sourceLine": 28931,
+      "editIndex": 6,
+      "cleanTokens": 15,
+      "erroneousTokens": 14,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "000a76d7178e307fd95db61460ef3a117c8995181499f469ec33f87b1caa69af",
+      "sourceLine": 22900,
+      "editIndex": 0,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 6,
+          "op": "keyboard",
+          "pos": 1,
+          "char": "f"
+        }
+      ]
+    },
+    {
+      "hash": "000adaa708c35f82326dd42d1f74fadfad87d14e3d516d820f577c81730d1bd8",
+      "sourceLine": 180361,
+      "editIndex": 5,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "delete",
+          "pos": 7
+        }
+      ]
+    },
+    {
+      "hash": "000b24a2e8f5fce4825f2aa2f889cce37acc16cb43e1a4850c5d7d80ed27d9dc",
+      "sourceLine": 142065,
+      "editIndex": 0,
+      "cleanTokens": 2,
+      "erroneousTokens": 2,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "000b51d0746ae0bd960fbe2707256842397c5ef76645f1889019b977d99232b3",
+      "sourceLine": 27162,
+      "editIndex": 0,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 11,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "000b8a1ccfd9e35d5ec8bc8532ac3f2702692c8694286e3f0c21febac7f6d5d2",
+      "sourceLine": 57160,
+      "editIndex": 0,
+      "cleanTokens": 75,
+      "erroneousTokens": 75,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "000ba374369ad76d16817ffb450f4e615740c66bba461af891104771874e4fc7",
+      "sourceLine": 58557,
+      "editIndex": 2,
+      "cleanTokens": 2,
+      "erroneousTokens": 2,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "000c405e9d929a40c580f0db97d876084d96cd13059f460d3ab2d4db0f4a089a",
+      "sourceLine": 166093,
+      "editIndex": 3,
+      "cleanTokens": 15,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "000c6272773bebf73e36a14e6da2091fc8654cc82129994bd5842a3e8da79cc1",
+      "sourceLine": 1492,
+      "editIndex": 0,
+      "cleanTokens": 15,
+      "erroneousTokens": 15,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 13,
+          "op": "swap",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "hash": "000c654111ea94eb797d298368cc1891325afdd110082cf9fed2122ec0480011",
+      "sourceLine": 185350,
+      "editIndex": 0,
+      "cleanTokens": 5,
+      "erroneousTokens": 5,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "000d09f427d020edf3e790f1bf7ada4b65abfe9ed858551e68584a03b06d5797",
+      "sourceLine": 167608,
+      "editIndex": 2,
+      "cleanTokens": 16,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 11,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "000d18e18dbdd93edf52275c45e15e81efe08ecfab069abd4606e2f4fd944d41",
+      "sourceLine": 88612,
+      "editIndex": 0,
+      "cleanTokens": 16,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": 3,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "000e375e36ff5a5e12b0525c3d8edf017592f9afa3c3cb47c8a6aadca1c7c18f",
+      "sourceLine": 77381,
+      "editIndex": 0,
+      "cleanTokens": 4,
+      "erroneousTokens": 4,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "delete",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "hash": "000e65b11579e72be00424dadd0dfc164440cbcba5dea2805ec0921811872aaa",
+      "sourceLine": 170968,
+      "editIndex": 0,
+      "cleanTokens": 18,
+      "erroneousTokens": 18,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 4,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "000e99d8e8a23268017c5586bc54c629ceed2bcf80158d8994b1d14a19e62399",
+      "sourceLine": 160043,
+      "editIndex": 0,
+      "cleanTokens": 68,
+      "erroneousTokens": 68,
+      "alignedChangedPositions": 4,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "000ea78d7cb2228bc7518fb72825e84008c96b91b3a423fc61c9af4757ea31b1",
+      "sourceLine": 158665,
+      "editIndex": 0,
+      "cleanTokens": 9,
+      "erroneousTokens": 9,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "000ee2c11682e43587acc3431771257115b9a2c7a57599195ad982b51a50b77d",
+      "sourceLine": 24416,
+      "editIndex": 1,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 10,
+          "op": "keyboard",
+          "pos": 6,
+          "char": "r"
+        }
+      ]
+    },
+    {
+      "hash": "001046ed9264237cd1d0391686aa3203648d28cff9d188ea2b5f90f52dc20fca",
+      "sourceLine": 71877,
+      "editIndex": 0,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "swap",
+          "pos": 9
+        }
+      ]
+    },
+    {
+      "hash": "00109b8960b4cbd1fc74117f4556ef026cc1637b34182f4b192a37772d501a32",
+      "sourceLine": 104106,
+      "editIndex": 4,
+      "cleanTokens": 9,
+      "erroneousTokens": 9,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 8,
+          "op": "delete",
+          "pos": 7
+        }
+      ]
+    },
+    {
+      "hash": "00114c5d8a9cddc755e1ca2afcddc10e0649765bd94ad20cfa7b274f8b89868f",
+      "sourceLine": 192514,
+      "editIndex": 0,
+      "cleanTokens": 32,
+      "erroneousTokens": 32,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 23,
+          "op": "delete",
+          "pos": 14
+        }
+      ]
+    },
+    {
+      "hash": "0011c8a8bfb0d95af98ec023ae878d37db4fadfcce54d9a95e7fb06dce881ca8",
+      "sourceLine": 133637,
+      "editIndex": 0,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00126694a433cf47c3c52deb774b97360a7b2920e11448fd7d8309b4e680ad64",
+      "sourceLine": 48596,
+      "editIndex": 2,
+      "cleanTokens": 9,
+      "erroneousTokens": 9,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00128907748b5e6a1a987339ab16e8d0f61fdcdfcf4e084b3b2dba2c985b91cb",
+      "sourceLine": 94234,
+      "editIndex": 1,
+      "cleanTokens": 4,
+      "erroneousTokens": 4,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "00132b2453c8cc84b0a678b32493b97f5c65bc86742deea016fed1c0f84069e3",
+      "sourceLine": 150203,
+      "editIndex": 3,
+      "cleanTokens": 14,
+      "erroneousTokens": 15,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00134dcfc20b6751e0a9db32719f840ba64884493d1462e9c546896a297ee3b2",
+      "sourceLine": 8925,
+      "editIndex": 0,
+      "cleanTokens": 17,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "001362bdb69962962207faa53a6f48f07bad0c3219cfbbac6a5e54eb145688e5",
+      "sourceLine": 78529,
+      "editIndex": 0,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0013ab13a0970292bf1db9bda76dfad88cef704f32dd13291c678d703380662b",
+      "sourceLine": 151196,
+      "editIndex": 0,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0013e24fdb3a4afb0943871cdb8a2dd258cfe90e6774ec72045f0feded11fda4",
+      "sourceLine": 107680,
+      "editIndex": 1,
+      "cleanTokens": 10,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "swap",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "00144422456460cb5d70ebb9144819cfad9cf4a28e7c6cd9fac56b9d2a5ff35b",
+      "sourceLine": 33905,
+      "editIndex": 2,
+      "cleanTokens": 11,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "001493374ac8f54acc659e7c591042e5462f24ad5eb3590d7b0474aaed15df2c",
+      "sourceLine": 158722,
+      "editIndex": 2,
+      "cleanTokens": 10,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 9,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "hash": "00152f38db114e3a63883451219fe41251807e193d3c08d3c520dc3cdf59623c",
+      "sourceLine": 165181,
+      "editIndex": 0,
+      "cleanTokens": 18,
+      "erroneousTokens": 18,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 17,
+          "op": "repeat",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "001536aadda52e8d76d6dbc9804832d3cf99fbc63677d9973a525be2b0f5a848",
+      "sourceLine": 91971,
+      "editIndex": 0,
+      "cleanTokens": 23,
+      "erroneousTokens": 23,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00157d6e58d0a25b99c08f209500c0d04dae5e3213bddfda073fd3736c4ddf85",
+      "sourceLine": 21449,
+      "editIndex": 4,
+      "cleanTokens": 33,
+      "erroneousTokens": 32,
+      "alignedChangedPositions": null,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0015959907879b3805762787e154876e9ca556b7d40ae65518578b95807c3bdd",
+      "sourceLine": 125031,
+      "editIndex": 0,
+      "cleanTokens": 20,
+      "erroneousTokens": 21,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0015d710cf5d0507ff8cd1d3b08be7ad1777abf75eaa2a55df787721e34bf6c5",
+      "sourceLine": 2287,
+      "editIndex": 0,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0016151f7af86445cfbe41c6854bd2fd7b645372d5304d59cb21913a766bbd5e",
+      "sourceLine": 187747,
+      "editIndex": 0,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00167155d2f1789a80eba6cb16871405cc41ca849e5a03b29967e7682d7dc0f7",
+      "sourceLine": 14926,
+      "editIndex": 0,
+      "cleanTokens": 4,
+      "erroneousTokens": 4,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "swap",
+          "pos": 5
+        }
+      ]
+    },
+    {
+      "hash": "0016bae25d27b222ae205943b1a3ba1b0008fe9be313dc267e337135f87ee388",
+      "sourceLine": 9749,
+      "editIndex": 1,
+      "cleanTokens": 11,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0016c833b30c020757cfba4b4a61090a7454db1c46a1a3b9af80a3271e0bafdb",
+      "sourceLine": 53948,
+      "editIndex": 1,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "001707e06c3fb38df502feea3f9fb5a422882d6294f76fbf544eed93f8dd3a11",
+      "sourceLine": 76021,
+      "editIndex": 0,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "swap",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "hash": "0017576bd099b24ef30221221fecc35464f6d9a1d54702deeb990e7e2958ce86",
+      "sourceLine": 17972,
+      "editIndex": 0,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 7,
+          "op": "keyboard",
+          "pos": 1,
+          "char": "i"
+        }
+      ]
+    },
+    {
+      "hash": "00178485d948d8eb65fd482d6ea81fd201f8e54567f52ab7a836c3d7fbc9997b",
+      "sourceLine": 51022,
+      "editIndex": 0,
+      "cleanTokens": 45,
+      "erroneousTokens": 45,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0017b535080626a6c4e15caf51e95f112eb32ff69df85099141f1ba3fd129388",
+      "sourceLine": 142227,
+      "editIndex": 0,
+      "cleanTokens": 38,
+      "erroneousTokens": 38,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0017d290455bf1959fdffd49f8c164c8f0467d6a67c76540e840fa4e0969326b",
+      "sourceLine": 183089,
+      "editIndex": 0,
+      "cleanTokens": 10,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": 2,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0018cdc92a2a53fa9d4351002ed8b34c6f456107174878a91fede4582206b8e6",
+      "sourceLine": 196255,
+      "editIndex": 1,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 2,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0019224c293c99af81acf886bff1c19e2e4df5881b87aa5f35bbebe125d6b985",
+      "sourceLine": 40297,
+      "editIndex": 0,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 7,
+          "op": "delete",
+          "pos": 5
+        }
+      ]
+    },
+    {
+      "hash": "001922d1fe1581acc6a86dc3fc0757884d8cd115699f68331d796a9667bf9370",
+      "sourceLine": 131890,
+      "editIndex": 0,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0019da0ba422e0a94738a8158a6ba0f0d501a0e47c08816b7a418b9f4eb357e7",
+      "sourceLine": 1064,
+      "editIndex": 0,
+      "cleanTokens": 20,
+      "erroneousTokens": 20,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0019de186127dc409db717fc856aed96350f661adab8117263dd33720e6b6ed6",
+      "sourceLine": 152107,
+      "editIndex": 0,
+      "cleanTokens": 16,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 15,
+          "op": "delete",
+          "pos": 5
+        }
+      ]
+    },
+    {
+      "hash": "001a8b6dbec42a92b2477e6ff4b62229a93f2304873e38ab305c57b34add2183",
+      "sourceLine": 61448,
+      "editIndex": 0,
+      "cleanTokens": 86,
+      "erroneousTokens": 86,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "001a9021a03a1f187bdbedd51d2ed4d8086f7f6c05ca7f257e34d735e89716e9",
+      "sourceLine": 91139,
+      "editIndex": 0,
+      "cleanTokens": 20,
+      "erroneousTokens": 20,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 15,
+          "op": "delete",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "hash": "001babb98691922626b6f5aa0c21cf641d4a0882010917365a68ff83fcd958ef",
+      "sourceLine": 46261,
+      "editIndex": 2,
+      "cleanTokens": 7,
+      "erroneousTokens": 7,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "swap",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "001baddc9d89064342bdf88f9dfcf4e9eac9871a33f85b0ecb4659b09ab07274",
+      "sourceLine": 166704,
+      "editIndex": 0,
+      "cleanTokens": 4,
+      "erroneousTokens": 4,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "delete",
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "hash": "001c1c89ca3de1a79098d91e69d2d4928a7226fe0931ef4848ae1825f195d876",
+      "sourceLine": 20564,
+      "editIndex": 0,
+      "cleanTokens": 23,
+      "erroneousTokens": 23,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 12,
+          "op": "swap",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "001c7b6b455995dccef4a43c9055f952983464a6b463fc661ca7934e9aca8c76",
+      "sourceLine": 35683,
+      "editIndex": 0,
+      "cleanTokens": 39,
+      "erroneousTokens": 39,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "001c92a200b1bc7df83b5bb4052a86adef8dc92c6708bdab86c091f40b142451",
+      "sourceLine": 154527,
+      "editIndex": 0,
+      "cleanTokens": 15,
+      "erroneousTokens": 15,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "001d6d8c0a971e6e2ae86887518057a7a67adc94fab85432f9b3f5d138a78aeb",
+      "sourceLine": 116311,
+      "editIndex": 6,
+      "cleanTokens": 16,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "001e27f6f6a5b83702f0739532fe5d42a5c944982cd7a297511921f3d0c28335",
+      "sourceLine": 105719,
+      "editIndex": 0,
+      "cleanTokens": 59,
+      "erroneousTokens": 59,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "001e360f53bfd011209781bf156f711b85b9725e0faac27a9cc42e4e13c291d7",
+      "sourceLine": 171982,
+      "editIndex": 0,
+      "cleanTokens": 7,
+      "erroneousTokens": 7,
+      "alignedChangedPositions": 2,
+      "status": "covered",
+      "minimumCostWithinBudget": 2,
+      "operations": [
+        {
+          "token": 5,
+          "op": "delete",
+          "pos": 4
+        },
+        {
+          "token": 6,
+          "op": "delete",
+          "pos": 5
+        }
+      ]
+    },
+    {
+      "hash": "001e4ff32219cc446ef00d877ae14b31181858eeb8467e45307f61cf915f4e9e",
+      "sourceLine": 157321,
+      "editIndex": 2,
+      "cleanTokens": 27,
+      "erroneousTokens": 30,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "001eb1e2b1d1ea4455727825d46877ef08a38fa2c7cd85c5b022698658897bf4",
+      "sourceLine": 6933,
+      "editIndex": 0,
+      "cleanTokens": 4,
+      "erroneousTokens": 4,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "repeat",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "hash": "001f4aa8433598f698f77a795daa86bae34ee89ad91c839e9a1c5920cf679508",
+      "sourceLine": 144683,
+      "editIndex": 0,
+      "cleanTokens": 10,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "001fc1b3488ab68717aad8d408548cf082d9c4b19109d998c7ed238b2da92bb6",
+      "sourceLine": 114427,
+      "editIndex": 0,
+      "cleanTokens": 15,
+      "erroneousTokens": 15,
+      "alignedChangedPositions": 2,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00203839503a715f86599e3e29e49e5b16381b8d39c3e5592bb59fe815aa323b",
+      "sourceLine": 79744,
+      "editIndex": 0,
+      "cleanTokens": 6,
+      "erroneousTokens": 6,
+      "alignedChangedPositions": 2,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00205430b2a52b800c9df898592ab36cfe4b9756a3c57b0e58fb895ac789c076",
+      "sourceLine": 16431,
+      "editIndex": 0,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 8,
+          "op": "swap",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "hash": "0020a0d0a68e82c461e22266d562ba74eae2d7ae3386d224d154ad361a595018",
+      "sourceLine": 158880,
+      "editIndex": 1,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 2,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0020c23ef424d8c38dcdb4b55b7afc00d3707ff9982daaf2951a9f0ab32a8d94",
+      "sourceLine": 5921,
+      "editIndex": 0,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0021929cc40c672a29f8f18966a0c8f09a7a8903b7235ca28287dd6583d45280",
+      "sourceLine": 63003,
+      "editIndex": 0,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "swap",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "hash": "0022098a83b8d11a9a146ba0632f51d475dbcea7b20c98c142aea5cfb9ea5905",
+      "sourceLine": 146547,
+      "editIndex": 6,
+      "cleanTokens": 21,
+      "erroneousTokens": 20,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00225f663aa0d21baf62b3412091f901640d83e874483e3c9b4630df853522f7",
+      "sourceLine": 172465,
+      "editIndex": 0,
+      "cleanTokens": 14,
+      "erroneousTokens": 14,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00228b9f0fb5c3e65ddc6cf535aea5daed9774b3b205a5ed4da7cfc8839d54e3",
+      "sourceLine": 162216,
+      "editIndex": 0,
+      "cleanTokens": 9,
+      "erroneousTokens": 9,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 6,
+          "op": "swap",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "00240cd958bce35204864f9bc56aebf4902fd9b821141639e05243e5eaf1344f",
+      "sourceLine": 61465,
+      "editIndex": 3,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 6,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "hash": "00243ae029ae4fe3d9b495d5498763181c37f25fff40e186d0cdcbbb145216e4",
+      "sourceLine": 86536,
+      "editIndex": 1,
+      "cleanTokens": 14,
+      "erroneousTokens": 14,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 7,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "hash": "0024840b5b68ce1d58748aef8e045da94bdeba933d113d880f81266aef4abd13",
+      "sourceLine": 35285,
+      "editIndex": 0,
+      "cleanTokens": 17,
+      "erroneousTokens": 17,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 16,
+          "op": "delete",
+          "pos": 9
+        }
+      ]
+    },
+    {
+      "hash": "0024ae731c7149839b3e55a2c3aa926d50c849cf20c1fab0af18f89a2a4d6a07",
+      "sourceLine": 182980,
+      "editIndex": 3,
+      "cleanTokens": 14,
+      "erroneousTokens": 14,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 5,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "0024f61ee0e3ba843b1ff2ecbd680dd80d26d95db38a071351fc5ecb071c74fc",
+      "sourceLine": 146261,
+      "editIndex": 5,
+      "cleanTokens": 14,
+      "erroneousTokens": 14,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0025e9d82bc5f6475a727317fbfe0248c37c8297e2a14f57237aa2aa30b920f4",
+      "sourceLine": 1270,
+      "editIndex": 1,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "repeat",
+          "pos": 25
+        }
+      ]
+    },
+    {
+      "hash": "00260486d81ae9a671e4ccd9e0430644ba1f61a3e0711ce6fc45c9d5070930c6",
+      "sourceLine": 146725,
+      "editIndex": 0,
+      "cleanTokens": 58,
+      "erroneousTokens": 59,
+      "alignedChangedPositions": null,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00260727d72d05aac1f8f617193d98a96402ec1fb0e23c02c57677ea907e9f3f",
+      "sourceLine": 163841,
+      "editIndex": 0,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "00266fd4483d49c458fab840ceaf3dc7a6677056d91ab111569c0074dcce859f",
+      "sourceLine": 136626,
+      "editIndex": 1,
+      "cleanTokens": 9,
+      "erroneousTokens": 9,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "002818cf4c2e6cabbbdf75140e6a8a98fe272e0e07b5035b7f5280f7de3b58f6",
+      "sourceLine": 72669,
+      "editIndex": 0,
+      "cleanTokens": 23,
+      "erroneousTokens": 24,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0028367b1f04f32d2929a02ed6118753de24b0cf5e09e4cfe06be89b44194df8",
+      "sourceLine": 126768,
+      "editIndex": 1,
+      "cleanTokens": 10,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": 2,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0028411ea29a5e2a6be53698299ceecb7958f960065f2cad632d4d3abbf6d930",
+      "sourceLine": 100719,
+      "editIndex": 0,
+      "cleanTokens": 17,
+      "erroneousTokens": 17,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00289d982c6c4c827e5f295a665a31e8ecd8cbb8e524eed135e76d63e04bec47",
+      "sourceLine": 33164,
+      "editIndex": 0,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00289e693c401855cb06b12324d165704d168b8d91b14363e8aec258ac36532b",
+      "sourceLine": 136676,
+      "editIndex": 3,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 11,
+          "op": "delete",
+          "pos": 16
+        }
+      ]
+    },
+    {
+      "hash": "0028e0e5bb162531c5e054ea3cb2331f0484340fda3726f6678015b05b00725f",
+      "sourceLine": 134275,
+      "editIndex": 0,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "swap",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "0028fd7aaef5c1870186565d694241b9471c4a49d4c18051c21bf9705d622783",
+      "sourceLine": 69218,
+      "editIndex": 4,
+      "cleanTokens": 15,
+      "erroneousTokens": 14,
+      "alignedChangedPositions": null,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 5,
+          "op": "delete",
+          "pos": 0
+        }
+      ]
+    },
+    {
+      "hash": "002ab9cd023372245eefc04e7480ea9872f725470c5ae5ce077097ee14330143",
+      "sourceLine": 108536,
+      "editIndex": 0,
+      "cleanTokens": 44,
+      "erroneousTokens": 44,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "002b6ca05fd99c2c153ad5efb7cef3903ef58f86a9f01e1b7da18ec367d38cd6",
+      "sourceLine": 55380,
+      "editIndex": 0,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "002d2e3eab33eca2f55a5f0aad14b43be554c7c7e99711bcc37e9ad3f994619d",
+      "sourceLine": 107397,
+      "editIndex": 0,
+      "cleanTokens": 15,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "002d39233ec78a9c1ec300631c4aee124e6d4dca3e6b3c747b544c0af2a30021",
+      "sourceLine": 62933,
+      "editIndex": 0,
+      "cleanTokens": 6,
+      "erroneousTokens": 6,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "002d947a445872f68807792371392d3c72dea1721994e6b68fa0f0d2976e3cc4",
+      "sourceLine": 142134,
+      "editIndex": 3,
+      "cleanTokens": 12,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "002ddc51dfc7df7eeb6eefbbab1f60ef855193310e55349fa4e1ae46ecdb1278",
+      "sourceLine": 47446,
+      "editIndex": 0,
+      "cleanTokens": 6,
+      "erroneousTokens": 6,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "swap",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "002f1eb80600593c447836d3c2c992a28a36b2f8b531973c1ee8e2e71549d3f7",
+      "sourceLine": 40779,
+      "editIndex": 0,
+      "cleanTokens": 24,
+      "erroneousTokens": 24,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "delete",
+          "pos": 7
+        }
+      ]
+    },
+    {
+      "hash": "00300daa99f3d8c24e2640f32ff2abf4d7079c67db3409e41f3a0d0ab3e7276c",
+      "sourceLine": 130715,
+      "editIndex": 0,
+      "cleanTokens": 2,
+      "erroneousTokens": 2,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "hash": "00304b443d84fc8c834ed3b6f152069f0c7d6632b419e6402947b88b50d424e7",
+      "sourceLine": 61870,
+      "editIndex": 0,
+      "cleanTokens": 48,
+      "erroneousTokens": 48,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00309fe8f6c04405bb1c84995530818bde380621b987ad89400cf7e539553cc8",
+      "sourceLine": 15763,
+      "editIndex": 0,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 10,
+          "op": "swap",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "hash": "0030e6489856ffa2aa5eaad56dfc1bec645eb074f19f0d133dcb40d3e4660ca9",
+      "sourceLine": 190127,
+      "editIndex": 0,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0030e67c13e7226c3f83598f2cbb13bed9f65389701856ee1caca3f40a111f33",
+      "sourceLine": 87454,
+      "editIndex": 1,
+      "cleanTokens": 2,
+      "erroneousTokens": 2,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "hash": "00315e08dcb176c4220c8cdbd7effa8552d4377fac913c7f554654e7e590285e",
+      "sourceLine": 79700,
+      "editIndex": 0,
+      "cleanTokens": 6,
+      "erroneousTokens": 7,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0031795712fbc8bd2900b8509c3179a053a689f848718614863dfa5c76fc21e5",
+      "sourceLine": 168520,
+      "editIndex": 1,
+      "cleanTokens": 49,
+      "erroneousTokens": 49,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00318049d9ee36be50b8c1669671021619da96d9b20c76e748c5782565dacdf9",
+      "sourceLine": 47225,
+      "editIndex": 0,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 8,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "00319307895c6cf51d51cef6ac09ba97858694f9f6eb8c61579a62395bb3bed4",
+      "sourceLine": 657,
+      "editIndex": 0,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "003220c1c409a944f0cf8429841549fa5cb314563ad1fd719c2c1f7c1b5e5e72",
+      "sourceLine": 49710,
+      "editIndex": 0,
+      "cleanTokens": 17,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003295a05c0802abe74fab44c2a4baeebe629559ed62c966a06dc190299b542d",
+      "sourceLine": 198887,
+      "editIndex": 0,
+      "cleanTokens": 16,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "delete",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "hash": "0032979daad81a800f6651534b23ab07e10856b0a5e0fd8644baa5fd41b3ebe1",
+      "sourceLine": 174121,
+      "editIndex": 0,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0032c093b420f7fd322d3871384a8f369c1444e21d7e617120885d160ebbba06",
+      "sourceLine": 163069,
+      "editIndex": 1,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 5,
+          "op": "swap",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "0032d68bc9e6c63ff1c472c813c43f29726f5e7a5ab698215cb264c6355de1f0",
+      "sourceLine": 75629,
+      "editIndex": 1,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0033ce4fd25d6d4b976c83bf782a4782173683b4406a27acf88793b0330d6a74",
+      "sourceLine": 36616,
+      "editIndex": 1,
+      "cleanTokens": 22,
+      "erroneousTokens": 22,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 14,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "003409bdb7866e53a6eea604bb78481cf3e44abe373206c0781ff0645f3b9803",
+      "sourceLine": 179646,
+      "editIndex": 0,
+      "cleanTokens": 14,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003422fa5cd5c67f87d047288518a8185b8fe24f564edb7b454fc3bfe5bce672",
+      "sourceLine": 26451,
+      "editIndex": 1,
+      "cleanTokens": 4,
+      "erroneousTokens": 4,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "repeat",
+          "pos": 9
+        }
+      ]
+    },
+    {
+      "hash": "00344200d4864312fa5945063c8581de3bd4fc354de20469dd5f715293b54693",
+      "sourceLine": 65393,
+      "editIndex": 1,
+      "cleanTokens": 46,
+      "erroneousTokens": 46,
+      "alignedChangedPositions": 2,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00347b505bebd895d3e1da26bf0225fb60aa9159c5299a5c54f0fc5e293833cd",
+      "sourceLine": 81847,
+      "editIndex": 0,
+      "cleanTokens": 5,
+      "erroneousTokens": 5,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0034cf93150309d78ef26a4c0bf7fa7157b7ddbfe7cfc1f72686b6ba4c976f0e",
+      "sourceLine": 155224,
+      "editIndex": 0,
+      "cleanTokens": 27,
+      "erroneousTokens": 27,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 14,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "0034d83d15b818c06f902ee90aab9c899de94fcbfa19454a492aa51bc03b36ea",
+      "sourceLine": 170044,
+      "editIndex": 1,
+      "cleanTokens": 56,
+      "erroneousTokens": 56,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0034f96cca08c3a64aeb632315fb89d7d70b46250c21d0ef75afaf996e4c4a9c",
+      "sourceLine": 183042,
+      "editIndex": 0,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 6,
+          "op": "delete",
+          "pos": 11
+        }
+      ]
+    },
+    {
+      "hash": "00354ee25e779be506b6dc0347e4eca54745f99fa2bd51abe5c343b62c26d556",
+      "sourceLine": 107896,
+      "editIndex": 1,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 6,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "00358d6b3a3b76a28a89ae5fe408722b63dc501b6d1cf1ad51ed115a1eafe66d",
+      "sourceLine": 11723,
+      "editIndex": 0,
+      "cleanTokens": 15,
+      "erroneousTokens": 15,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 14,
+          "op": "repeat",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "0035c570a6b31a5e09bcc58ec99292e0eadd25b94aa7f775580662cd1fdfb0cc",
+      "sourceLine": 171234,
+      "editIndex": 0,
+      "cleanTokens": 17,
+      "erroneousTokens": 17,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "0036291386112407c53797fa139b25ffdd2acb83af000f6acfb7d069b5f81029",
+      "sourceLine": 88480,
+      "editIndex": 0,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00363f9db4824593c79378180e1d7ef4da48577487d59af09019245f1810e71b",
+      "sourceLine": 757,
+      "editIndex": 1,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 2,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0036915a22d9e0b5ebdd0f70385186c8da2fe42300e3904dfa38caa87356bfda",
+      "sourceLine": 72919,
+      "editIndex": 0,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "keyboard",
+          "pos": 0,
+          "char": "d"
+        }
+      ]
+    },
+    {
+      "hash": "0036bfdfc44bb55938f74d009854808fffe189797e64ec4acb780e4e72b17d32",
+      "sourceLine": 7499,
+      "editIndex": 0,
+      "cleanTokens": 2,
+      "erroneousTokens": 2,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0036f91cbc1d570020cce016fc5148c1b5643447a6fc3321b5f8d7058e38ca1b",
+      "sourceLine": 56857,
+      "editIndex": 1,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 5,
+          "op": "repeat",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "00370334416e45a0647701f6a11875561d9835723352cc0cabe17dbaeeea33c1",
+      "sourceLine": 166654,
+      "editIndex": 3,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003766b617150b162808acd14282ec9fcaf7b940b13ffa6598b6aa002f7125e5",
+      "sourceLine": 157352,
+      "editIndex": 1,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0037ba51bce496788dbf3f0298e961a248a53b352e6c68efcb909d7e414907eb",
+      "sourceLine": 174947,
+      "editIndex": 0,
+      "cleanTokens": 17,
+      "erroneousTokens": 17,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 16,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "0037f3d1b02e7f584fe83468d53dfcc7462ad27d57ca6ab0476e36c73a26fbcb",
+      "sourceLine": 89325,
+      "editIndex": 1,
+      "cleanTokens": 17,
+      "erroneousTokens": 17,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 16,
+          "op": "repeat",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "hash": "00386903899641b1f4f7a69d9b84279a3616f18cac4b552c11bc7a8eceb3897d",
+      "sourceLine": 92295,
+      "editIndex": 0,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "00387ae740cbd87f8f51bc6234e293613c8b31d45bdc960ecdf7edb80153f3b2",
+      "sourceLine": 113719,
+      "editIndex": 0,
+      "cleanTokens": 10,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "repeat",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "hash": "00393fff2a94cb7732b4be801710bf58dbf0a2d674fe2fd03a61551b815cfc8a",
+      "sourceLine": 186941,
+      "editIndex": 0,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "swap",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "003969e9e06cef2f80108dffa3157cdcaa5342181c1581a49da3e228455a69f1",
+      "sourceLine": 42087,
+      "editIndex": 1,
+      "cleanTokens": 9,
+      "erroneousTokens": 9,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0039e3f5ac100c57f1a6559b9b5007c26c5e28343e69c0be231d5f6eb2c6e76c",
+      "sourceLine": 61224,
+      "editIndex": 0,
+      "cleanTokens": 75,
+      "erroneousTokens": 75,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003a0323bff09a6b4f22ff03f24a29b8890094a66d1285fe4826f5a90dbc5d07",
+      "sourceLine": 180507,
+      "editIndex": 2,
+      "cleanTokens": 7,
+      "erroneousTokens": 7,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 6,
+          "op": "delete",
+          "pos": 5
+        }
+      ]
+    },
+    {
+      "hash": "003a121af403652d255f8360f1b173c29f4e9482c7bfc25a468e7c256f466287",
+      "sourceLine": 70719,
+      "editIndex": 0,
+      "cleanTokens": 2,
+      "erroneousTokens": 2,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "delete",
+          "pos": 9
+        }
+      ]
+    },
+    {
+      "hash": "003a5b34ef7e901d52b5f54e1805e35147c743b1584215ed498bf49fe536e1ea",
+      "sourceLine": 96691,
+      "editIndex": 1,
+      "cleanTokens": 10,
+      "erroneousTokens": 10,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003a6e9cfd215897be6d7cf3d7957b7b4ecb299b2e63c8d5ba61765467585479",
+      "sourceLine": 202947,
+      "editIndex": 0,
+      "cleanTokens": 4,
+      "erroneousTokens": 4,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003ab0c2052145fb2e2e555d5d3d905bfaa6f73adfe3b467279dcad504b711f3",
+      "sourceLine": 92879,
+      "editIndex": 0,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 2,
+      "status": "covered",
+      "minimumCostWithinBudget": 2,
+      "operations": [
+        {
+          "token": 1,
+          "op": "delete",
+          "pos": 1
+        },
+        {
+          "token": 2,
+          "op": "delete",
+          "pos": 0
+        }
+      ]
+    },
+    {
+      "hash": "003ab9dd1f0201433f86949550280b40c7b8df6bee773ef8b755663666bd39d3",
+      "sourceLine": 138515,
+      "editIndex": 0,
+      "cleanTokens": 9,
+      "erroneousTokens": 9,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003b9b1ab2af5a10d0fb7a9be6a8d30f3eef8b6e9ed38842efb6fc2493b3c639",
+      "sourceLine": 157805,
+      "editIndex": 0,
+      "cleanTokens": 24,
+      "erroneousTokens": 24,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 23,
+          "op": "swap",
+          "pos": 5
+        }
+      ]
+    },
+    {
+      "hash": "003bacc37b77ee3597c2794935099658572621c39e4b0ba3742f9836c194f559",
+      "sourceLine": 50219,
+      "editIndex": 0,
+      "cleanTokens": 27,
+      "erroneousTokens": 27,
+      "alignedChangedPositions": 2,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003bb8da344347baafc77497cd28bde9bd97db25fc233499994b2e136d9594c3",
+      "sourceLine": 175505,
+      "editIndex": 0,
+      "cleanTokens": 26,
+      "erroneousTokens": 26,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003bea63d818a6460d0366b1efb4fe39c750753b40c12249e70302d4dce79093",
+      "sourceLine": 56145,
+      "editIndex": 0,
+      "cleanTokens": 20,
+      "erroneousTokens": 20,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "003bf7ca4d1919a4621fbac232ff04ab657d03272423ec72a105a6aad852f0ea",
+      "sourceLine": 162892,
+      "editIndex": 0,
+      "cleanTokens": 5,
+      "erroneousTokens": 5,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "swap",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "hash": "003c5c246d590df7bc19119bad7af872a8ceeb239635662ea3207e134aedc6a1",
+      "sourceLine": 179351,
+      "editIndex": 0,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "delete",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "hash": "003ca714915634eb02ec61fb7df406246826cd6fb6ac80bf4aa4d9c390cbf02c",
+      "sourceLine": 94230,
+      "editIndex": 1,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 12,
+          "op": "delete",
+          "pos": 7
+        }
+      ]
+    },
+    {
+      "hash": "003cd3ee49ce1e7e06986a8c47154214f6a8f15169cb3d1874f39cd6c6a33e19",
+      "sourceLine": 121333,
+      "editIndex": 0,
+      "cleanTokens": 7,
+      "erroneousTokens": 7,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003cd771d7333a80c93a25d93eaedff9a980713440c472299dcb928c9460468e",
+      "sourceLine": 45213,
+      "editIndex": 0,
+      "cleanTokens": 66,
+      "erroneousTokens": 66,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003cec6d683d7b70710df263f0267ca59a881383ed244565e0fe87ad99ff69a6",
+      "sourceLine": 91077,
+      "editIndex": 0,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "003f1cf19287720c2effe5e0b31e4f8b5ae10621c237aefbf67152387626d6ea",
+      "sourceLine": 48297,
+      "editIndex": 3,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 4,
+          "op": "delete",
+          "pos": 5
+        }
+      ]
+    },
+    {
+      "hash": "003f42226ae185ba2c937f44673ce86434723de328a85a5b60d1dd8ac9502378",
+      "sourceLine": 173948,
+      "editIndex": 1,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 7,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "003faeb3b1b381efd37320ad044e181ce4b259fcb26fc1f728dd044cf362e0bb",
+      "sourceLine": 197087,
+      "editIndex": 1,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 3,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "hash": "004103d88ee74578d35d63a3ec387ae5a55c330ce97c803d850596e77a8ec6a0",
+      "sourceLine": 193396,
+      "editIndex": 0,
+      "cleanTokens": 9,
+      "erroneousTokens": 9,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 7,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "00414a5798300310aafa43a366d5bf2ba0fc2793e4d2e85ef42878c88d1a4a2d",
+      "sourceLine": 15579,
+      "editIndex": 0,
+      "cleanTokens": 13,
+      "erroneousTokens": 14,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "004271a95f1d8db48c6d0d73005b63b37799437a54a187c7daa42a69e7d9cbd9",
+      "sourceLine": 171556,
+      "editIndex": 1,
+      "cleanTokens": 69,
+      "erroneousTokens": 69,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0042758bce0ea2e0396cb4c13a74273ba0306958aeb71d6b7e4344a95fcbddc5",
+      "sourceLine": 172441,
+      "editIndex": 0,
+      "cleanTokens": 8,
+      "erroneousTokens": 8,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00430bfd456e9aceca5a7342eba6e5e91f84a0b99d050c4838c4284399fdfa59",
+      "sourceLine": 44763,
+      "editIndex": 0,
+      "cleanTokens": 13,
+      "erroneousTokens": 13,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00433910cd45cb0ed85af6ebef44c3f25411af526071408562b59803ffe898ac",
+      "sourceLine": 18597,
+      "editIndex": 6,
+      "cleanTokens": 11,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "004391531752a800fce041b54b8abb58b77e4ae3266a3d81eb8b4319d44fcc26",
+      "sourceLine": 106569,
+      "editIndex": 0,
+      "cleanTokens": 10,
+      "erroneousTokens": 11,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0043df1cd288d39a58179c0bdc94393e1326cbe8b47d89ad15b41ad68c8b944c",
+      "sourceLine": 23682,
+      "editIndex": 0,
+      "cleanTokens": 14,
+      "erroneousTokens": 14,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0044264e856e9d316e314142fe8cb357e19f5e936885755146a609296dae1d43",
+      "sourceLine": 147771,
+      "editIndex": 0,
+      "cleanTokens": 4,
+      "erroneousTokens": 4,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0045160edf6c89ce23c651e458921f683aa52fe60dad0cfa41d9aebc8efa90fd",
+      "sourceLine": 113924,
+      "editIndex": 0,
+      "cleanTokens": 24,
+      "erroneousTokens": 24,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 19,
+          "op": "delete",
+          "pos": 10
+        }
+      ]
+    },
+    {
+      "hash": "0045a6419b32f51157bbb389f58a2165970723cf1e13d6f8c3d31daa7429b1da",
+      "sourceLine": 140896,
+      "editIndex": 0,
+      "cleanTokens": 44,
+      "erroneousTokens": 44,
+      "alignedChangedPositions": 1,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "00460c0e6614305a1067b8220c08071f04462cc16d0d3d476a214c78b6ccbbeb",
+      "sourceLine": 147616,
+      "editIndex": 0,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "004693c690436fad85f057618bdf9326184b2faffdc547af2fa708d8b535c4bf",
+      "sourceLine": 124939,
+      "editIndex": 1,
+      "cleanTokens": 3,
+      "erroneousTokens": 3,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 2,
+          "op": "swap",
+          "pos": 28
+        }
+      ]
+    },
+    {
+      "hash": "00470c4b29584a9693de715a85970ffb512dacda6a215b2380028eb230810a5a",
+      "sourceLine": 72624,
+      "editIndex": 0,
+      "cleanTokens": 22,
+      "erroneousTokens": 22,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0047273808174786400c7a591a6edbdadd8e4ddc8b6c74230918597b463c697e",
+      "sourceLine": 158761,
+      "editIndex": 0,
+      "cleanTokens": 9,
+      "erroneousTokens": 9,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 8,
+          "op": "delete",
+          "pos": 7
+        }
+      ]
+    },
+    {
+      "hash": "0047d2c74c40de00ee99eefff1a6fe16db6b7616f04859b2f0cfffa10c897f8b",
+      "sourceLine": 85199,
+      "editIndex": 0,
+      "cleanTokens": 24,
+      "erroneousTokens": 23,
+      "alignedChangedPositions": null,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0047d842b4901bbd093aecf473a0b25ec03a30eabaefeee0fc3de86a591be7b7",
+      "sourceLine": 36336,
+      "editIndex": 0,
+      "cleanTokens": 16,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "0047e23653aa9b36b1c9d4db4fe3a940159a35058b06fb63c0c142a49198397a",
+      "sourceLine": 192691,
+      "editIndex": 0,
+      "cleanTokens": 19,
+      "erroneousTokens": 19,
+      "alignedChangedPositions": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "hash": "004945a1487b8bd2cf22c39466619a0202972c733f3e036a9857c672151f8671",
+      "sourceLine": 75876,
+      "editIndex": 1,
+      "cleanTokens": 12,
+      "erroneousTokens": 12,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 1,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "hash": "00496ad87b11477f1eacbd63aecedef1ae244e0fbd9faa0e09495f9835e70b6f",
+      "sourceLine": 44548,
+      "editIndex": 0,
+      "cleanTokens": 16,
+      "erroneousTokens": 16,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 5,
+          "op": "delete",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "hash": "004976f5076292fc731a6ed00870b50db38deefac174d31c4db3057fb9325f57",
+      "sourceLine": 80380,
+      "editIndex": 0,
+      "cleanTokens": 9,
+      "erroneousTokens": 9,
+      "alignedChangedPositions": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 5,
+          "op": "repeat",
+          "pos": 0
+        }
+      ]
+    },
+    {
+      "hash": "0049f904bdfa8653b16e6710c20c4a7a5feabe9eb1779fe15a955373bf67b315",
+      "sourceLine": 63636,
+      "editIndex": 1,
+      "cleanTokens": 34,
+      "erroneousTokens": 33,
+      "alignedChangedPositions": null,
+      "status": "outside_input_scope",
+      "minimumCostWithinBudget": null
+    }
+  ],
+  "retrospective": true,
+  "rawTextRedistributed": false,
+  "scope": "Archived original, automatically labeled English typo edits; >=2 tokens; not query traffic, semantic gold or new collected data"
+}

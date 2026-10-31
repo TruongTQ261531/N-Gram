@@ -32,3 +32,8 @@ jobs:
           python -m unittest utk_adapter_study.test_adapter -v
           python -m utk_adapter_study.check_archive
           sha256sum --quiet -c utk_adapter_study/checksums.sha256
+      - name: Graph refinements, neural records and multiword correction audits
+        run: |
+          python -m unittest argon_followup_2026_11_01.test_graph argon_followup_2026_11_01.test_multiword -v
+          python -m argon_followup_2026_11_01.check_archive
+          sha256sum --quiet -c argon_followup_2026_11_01/checksums.sha256
