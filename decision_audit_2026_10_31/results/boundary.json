@@ -1,0 +1,1468 @@
+{
+  "status": "COMPLETE",
+  "retrospective": true,
+  "outcomeSelectedCompleteBoundarySet": true,
+  "queries": 8,
+  "rows": [
+    {
+      "dataset": "nfcorpus",
+      "queryId": "PLAIN-1141",
+      "verifiedLabel": "ROBUST",
+      "modelFingerprint": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+      "order": [
+        "discrete_extended",
+        "milp_5",
+        "wide_enum",
+        "discrete_fast",
+        "milp_0p1",
+        "discrete_default",
+        "milp_1"
+      ],
+      "runs": [
+        {
+          "profile": "discrete_extended",
+          "rankUpper": 9,
+          "seconds": 0.30546975299967016,
+          "detail": {
+            "pairRank": 40,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 2,
+            "graphRank": 9,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_5",
+          "rankUpper": 9,
+          "seconds": 0.41647150100016006,
+          "detail": {
+            "pairRank": 40,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.15763408800012257,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 6123,
+              "variables": 196,
+              "count_upper": 8.0,
+              "gap": 0.0,
+              "nodes": 1,
+              "choices": [
+                64,
+                43
+              ],
+              "feasible_count": 8.0,
+              "optimal_count": 8
+            }
+          }
+        },
+        {
+          "profile": "wide_enum",
+          "rankUpper": 9,
+          "seconds": 0.24486575599985372,
+          "detail": {
+            "status": "COMPLETE",
+            "states": 5700,
+            "cells": 222300,
+            "rankUpper": 9,
+            "upperEnvelopeMaximizer": [
+              64,
+              43
+            ],
+            "interpretation": "Max over upper-margin enclosures; not an attack witness."
+          }
+        },
+        {
+          "profile": "discrete_fast",
+          "rankUpper": 31,
+          "seconds": 0.2221797079996577,
+          "detail": {
+            "pairRank": 40,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 2,
+            "graphRank": 31,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_0p1",
+          "rankUpper": 10,
+          "seconds": 0.34208294000018213,
+          "detail": {
+            "pairRank": 40,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.10744104200011861,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 6123,
+              "variables": 196,
+              "count_upper": 9.0,
+              "gap": 0.125,
+              "nodes": 0,
+              "choices": [
+                64,
+                43
+              ],
+              "feasible_count": 8.0
+            }
+          }
+        },
+        {
+          "profile": "discrete_default",
+          "rankUpper": 22,
+          "seconds": 0.24940239700026723,
+          "detail": {
+            "pairRank": 40,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 2,
+            "graphRank": 22,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_1",
+          "rankUpper": 9,
+          "seconds": 0.37498704900008306,
+          "detail": {
+            "pairRank": 40,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.1452488270001595,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 6123,
+              "variables": 196,
+              "count_upper": 8.0,
+              "gap": 0.0,
+              "nodes": 1,
+              "choices": [
+                64,
+                43
+              ],
+              "feasible_count": 8.0,
+              "optimal_count": 8
+            }
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "nfcorpus",
+      "queryId": "PLAIN-2240",
+      "verifiedLabel": "ROBUST",
+      "modelFingerprint": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+      "order": [
+        "milp_0p1",
+        "discrete_default",
+        "milp_1",
+        "discrete_extended",
+        "milp_5",
+        "wide_enum",
+        "discrete_fast"
+      ],
+      "runs": [
+        {
+          "profile": "milp_0p1",
+          "rankUpper": 7,
+          "seconds": 0.22361895699987144,
+          "detail": {
+            "pairRank": 26,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.05196556700002475,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 2700,
+              "variables": 133,
+              "count_upper": 6.0,
+              "gap": 0.0,
+              "nodes": 1,
+              "choices": [
+                39,
+                8
+              ],
+              "feasible_count": 6.0,
+              "optimal_count": 6
+            }
+          }
+        },
+        {
+          "profile": "discrete_default",
+          "rankUpper": 12,
+          "seconds": 0.2121038669997688,
+          "detail": {
+            "pairRank": 26,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 3,
+            "graphRank": 12,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_1",
+          "rankUpper": 7,
+          "seconds": 0.2251898140002595,
+          "detail": {
+            "pairRank": 26,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.040469496000241634,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 2700,
+              "variables": 133,
+              "count_upper": 6.0,
+              "gap": 0.0,
+              "nodes": 1,
+              "choices": [
+                39,
+                8
+              ],
+              "feasible_count": 6.0,
+              "optimal_count": 6
+            }
+          }
+        },
+        {
+          "profile": "discrete_extended",
+          "rankUpper": 7,
+          "seconds": 0.21637498900008723,
+          "detail": {
+            "pairRank": 26,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 3,
+            "graphRank": 7,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_5",
+          "rankUpper": 7,
+          "seconds": 0.23083893799957877,
+          "detail": {
+            "pairRank": 26,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.037770346000343125,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 2700,
+              "variables": 133,
+              "count_upper": 6.0,
+              "gap": 0.0,
+              "nodes": 1,
+              "choices": [
+                39,
+                8
+              ],
+              "feasible_count": 6.0,
+              "optimal_count": 6
+            }
+          }
+        },
+        {
+          "profile": "wide_enum",
+          "rankUpper": 7,
+          "seconds": 0.19790250000005472,
+          "detail": {
+            "status": "COMPLETE",
+            "states": 2915,
+            "cells": 72875,
+            "rankUpper": 7,
+            "upperEnvelopeMaximizer": [
+              7,
+              8
+            ],
+            "interpretation": "Max over upper-margin enclosures; not an attack witness."
+          }
+        },
+        {
+          "profile": "discrete_fast",
+          "rankUpper": 20,
+          "seconds": 0.19625153800006956,
+          "detail": {
+            "pairRank": 26,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 3,
+            "graphRank": 20,
+            "graphSkipped": null
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "10122",
+      "verifiedLabel": "ROBUST",
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "order": [
+        "discrete_default",
+        "milp_1",
+        "discrete_extended",
+        "milp_5",
+        "wide_enum",
+        "discrete_fast",
+        "milp_0p1"
+      ],
+      "runs": [
+        {
+          "profile": "discrete_default",
+          "rankUpper": 23,
+          "seconds": 0.9844685379998737,
+          "detail": {
+            "pairRank": 37,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 7,
+            "graphRank": 23,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_1",
+          "rankUpper": 16,
+          "seconds": 1.8553982359999281,
+          "detail": {
+            "pairRank": 37,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 1.0086904810000306,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 8100,
+              "variables": 261,
+              "count_upper": 15.0,
+              "gap": 0.6666666666666634,
+              "nodes": 0,
+              "choices": [
+                0,
+                35,
+                11
+              ],
+              "feasible_count": 9.000000000000018
+            }
+          }
+        },
+        {
+          "profile": "discrete_extended",
+          "rankUpper": 10,
+          "seconds": 1.042040322000048,
+          "detail": {
+            "pairRank": 37,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 7,
+            "graphRank": 10,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_5",
+          "rankUpper": 10,
+          "seconds": 3.398617391999778,
+          "detail": {
+            "pairRank": 37,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 2.527016637000088,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 8100,
+              "variables": 261,
+              "count_upper": 9.000000000000018,
+              "gap": 0.0,
+              "nodes": 48,
+              "choices": [
+                0,
+                35,
+                11
+              ],
+              "feasible_count": 9.000000000000018,
+              "optimal_count": 9
+            }
+          }
+        },
+        {
+          "profile": "wide_enum",
+          "rankUpper": 10,
+          "seconds": 0.9279656809999324,
+          "detail": {
+            "status": "COMPLETE",
+            "states": 13599,
+            "cells": 489564,
+            "rankUpper": 10,
+            "upperEnvelopeMaximizer": [
+              0,
+              35,
+              11
+            ],
+            "interpretation": "Max over upper-margin enclosures; not an attack witness."
+          }
+        },
+        {
+          "profile": "discrete_fast",
+          "rankUpper": 28,
+          "seconds": 0.8860450929996659,
+          "detail": {
+            "pairRank": 37,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 7,
+            "graphRank": 30,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_0p1",
+          "rankUpper": 20,
+          "seconds": 1.0093138769998404,
+          "detail": {
+            "pairRank": 37,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.1059440710000672,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 8100,
+              "variables": 261,
+              "count_upper": 19.0,
+              "gap": 2.1666666666666665,
+              "nodes": 0,
+              "choices": [
+                0,
+                35,
+                124
+              ],
+              "feasible_count": 6.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "1150",
+      "verifiedLabel": "ROBUST",
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "order": [
+        "discrete_default",
+        "milp_1",
+        "discrete_extended",
+        "milp_5",
+        "wide_enum",
+        "discrete_fast",
+        "milp_0p1"
+      ],
+      "runs": [
+        {
+          "profile": "discrete_default",
+          "rankUpper": 32,
+          "seconds": 2.9330410669999765,
+          "detail": {
+            "pairRank": 47,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 4,
+            "graphRank": 32,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_1",
+          "rankUpper": 19,
+          "seconds": 3.741545019000114,
+          "detail": {
+            "pairRank": 47,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 1.0210155400000076,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 14858,
+              "variables": 369,
+              "count_upper": 18.0,
+              "gap": 1.0,
+              "nodes": 0,
+              "choices": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                11,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "feasible_count": 9.0
+            }
+          }
+        },
+        {
+          "profile": "discrete_extended",
+          "rankUpper": 10,
+          "seconds": 3.18037259599987,
+          "detail": {
+            "pairRank": 47,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 4,
+            "graphRank": 10,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_5",
+          "rankUpper": 10,
+          "seconds": 7.400158903999909,
+          "detail": {
+            "pairRank": 47,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 4.626636240000153,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 14858,
+              "variables": 369,
+              "count_upper": 9.0,
+              "gap": 0.0,
+              "nodes": 37,
+              "choices": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                11,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "feasible_count": 9.0,
+              "optimal_count": 9
+            }
+          }
+        },
+        {
+          "profile": "wide_enum",
+          "rankUpper": 10,
+          "seconds": 3.1103441219997876,
+          "detail": {
+            "status": "COMPLETE",
+            "states": 44135,
+            "cells": 2030210,
+            "rankUpper": 10,
+            "upperEnvelopeMaximizer": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              11,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "interpretation": "Max over upper-margin enclosures; not an attack witness."
+          }
+        },
+        {
+          "profile": "discrete_fast",
+          "rankUpper": 34,
+          "seconds": 2.8342917939999097,
+          "detail": {
+            "pairRank": 47,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 4,
+            "graphRank": 40,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_0p1",
+          "rankUpper": 25,
+          "seconds": 2.9951987290000943,
+          "detail": {
+            "pairRank": 47,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.11490103899996029,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 14858,
+              "variables": 369,
+              "count_upper": 24.0,
+              "gap": 5.0,
+              "nodes": 0,
+              "choices": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                7,
+                0
+              ],
+              "feasible_count": 4.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "4102",
+      "verifiedLabel": "ROBUST",
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "order": [
+        "discrete_extended",
+        "milp_5",
+        "wide_enum",
+        "discrete_fast",
+        "milp_0p1",
+        "discrete_default",
+        "milp_1"
+      ],
+      "runs": [
+        {
+          "profile": "discrete_extended",
+          "rankUpper": 9,
+          "seconds": 3.4221084440000595,
+          "detail": {
+            "pairRank": 36,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 3,
+            "graphRank": 9,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_5",
+          "rankUpper": 8,
+          "seconds": 8.329374780999842,
+          "detail": {
+            "pairRank": 36,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 4.965224132999992,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 14210,
+              "variables": 441,
+              "count_upper": 7.000000000000008,
+              "gap": 0.0,
+              "nodes": 96,
+              "choices": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                12,
+                0,
+                0,
+                0,
+                0,
+                6,
+                0,
+                0,
+                0
+              ],
+              "feasible_count": 7.000000000000008,
+              "optimal_count": 7
+            }
+          }
+        },
+        {
+          "profile": "wide_enum",
+          "rankUpper": 8,
+          "seconds": 3.8384842559999015,
+          "detail": {
+            "status": "COMPLETE",
+            "states": 69871,
+            "cells": 2445485,
+            "rankUpper": 8,
+            "upperEnvelopeMaximizer": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              12,
+              0,
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0
+            ],
+            "interpretation": "Max over upper-margin enclosures; not an attack witness."
+          }
+        },
+        {
+          "profile": "discrete_fast",
+          "rankUpper": 26,
+          "seconds": 3.856437668000126,
+          "detail": {
+            "pairRank": 36,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 3,
+            "graphRank": 28,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_0p1",
+          "rankUpper": 21,
+          "seconds": 2.9883789680002337,
+          "detail": {
+            "pairRank": 36,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.10667181000007986,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 14210,
+              "variables": 441,
+              "count_upper": 20.0,
+              "gap": 4.0,
+              "nodes": 0,
+              "choices": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                0,
+                0,
+                0,
+                0,
+                29,
+                0,
+                0,
+                0
+              ],
+              "feasible_count": 4.0
+            }
+          }
+        },
+        {
+          "profile": "discrete_default",
+          "rankUpper": 18,
+          "seconds": 3.14185666100002,
+          "detail": {
+            "pairRank": 36,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 3,
+            "graphRank": 18,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_1",
+          "rankUpper": 17,
+          "seconds": 3.9999077129996294,
+          "detail": {
+            "pairRank": 36,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 1.0110855230000197,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 14210,
+              "variables": 441,
+              "count_upper": 16.0,
+              "gap": 1.2857142857142831,
+              "nodes": 0,
+              "choices": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                12,
+                0,
+                0,
+                0,
+                0,
+                6,
+                0,
+                0,
+                0
+              ],
+              "feasible_count": 7.000000000000008
+            }
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "5369",
+      "verifiedLabel": "ROBUST",
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "order": [
+        "wide_enum",
+        "discrete_fast",
+        "milp_0p1",
+        "discrete_default",
+        "milp_1",
+        "discrete_extended",
+        "milp_5"
+      ],
+      "runs": [
+        {
+          "profile": "wide_enum",
+          "rankUpper": 8,
+          "seconds": 2.977712039999915,
+          "detail": {
+            "status": "COMPLETE",
+            "states": 120248,
+            "cells": 2765704,
+            "rankUpper": 8,
+            "upperEnvelopeMaximizer": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              9,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "interpretation": "Max over upper-margin enclosures; not an attack witness."
+          }
+        },
+        {
+          "profile": "discrete_fast",
+          "rankUpper": 18,
+          "seconds": 3.028441323000152,
+          "detail": {
+            "pairRank": 24,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 5,
+            "graphRank": 18,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_0p1",
+          "rankUpper": 15,
+          "seconds": 3.099384167000153,
+          "detail": {
+            "pairRank": 24,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.1157154399998035,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 12075,
+              "variables": 548,
+              "count_upper": 14.0,
+              "gap": 6.0,
+              "nodes": 0,
+              "choices": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                57,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                0
+              ],
+              "feasible_count": 2.0
+            }
+          }
+        },
+        {
+          "profile": "discrete_default",
+          "rankUpper": 8,
+          "seconds": 3.4622719509998205,
+          "detail": {
+            "pairRank": 24,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 5,
+            "graphRank": 8,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_1",
+          "rankUpper": 13,
+          "seconds": 3.649491991999639,
+          "detail": {
+            "pairRank": 24,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 1.0072362480000265,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 12075,
+              "variables": 548,
+              "count_upper": 12.0,
+              "gap": 0.7142857142857143,
+              "nodes": 0,
+              "choices": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "feasible_count": 7.0
+            }
+          }
+        },
+        {
+          "profile": "discrete_extended",
+          "rankUpper": 8,
+          "seconds": 3.1033313629995973,
+          "detail": {
+            "pairRank": 24,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 5,
+            "graphRank": 8,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_5",
+          "rankUpper": 8,
+          "seconds": 4.529718435000177,
+          "detail": {
+            "pairRank": 24,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 2.046367655999802,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 12075,
+              "variables": 548,
+              "count_upper": 7.000000000000001,
+              "gap": 0.0,
+              "nodes": 41,
+              "choices": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                57,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                38
+              ],
+              "feasible_count": 7.000000000000001,
+              "optimal_count": 7
+            }
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "7747",
+      "verifiedLabel": "ROBUST",
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "order": [
+        "milp_1",
+        "discrete_extended",
+        "milp_5",
+        "wide_enum",
+        "discrete_fast",
+        "milp_0p1",
+        "discrete_default"
+      ],
+      "runs": [
+        {
+          "profile": "milp_1",
+          "rankUpper": 17,
+          "seconds": 3.426376793000145,
+          "detail": {
+            "pairRank": 30,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 1.0125299940000332,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 11542,
+              "variables": 427,
+              "count_upper": 16.0,
+              "gap": 0.9999999999999991,
+              "nodes": 0,
+              "choices": [
+                0,
+                7,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "feasible_count": 8.000000000000004
+            }
+          }
+        },
+        {
+          "profile": "discrete_extended",
+          "rankUpper": 11,
+          "seconds": 2.6102154759996665,
+          "detail": {
+            "pairRank": 30,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 5,
+            "graphRank": 11,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_5",
+          "rankUpper": 9,
+          "seconds": 5.095460200000161,
+          "detail": {
+            "pairRank": 30,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 2.6876327019999735,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 11542,
+              "variables": 427,
+              "count_upper": 8.000000000000004,
+              "gap": 0.0,
+              "nodes": 122,
+              "choices": [
+                0,
+                7,
+                0,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "feasible_count": 8.000000000000004,
+              "optimal_count": 8
+            }
+          }
+        },
+        {
+          "profile": "wide_enum",
+          "rankUpper": 9,
+          "seconds": 2.8782149970002138,
+          "detail": {
+            "status": "COMPLETE",
+            "states": 67090,
+            "cells": 1945610,
+            "rankUpper": 9,
+            "upperEnvelopeMaximizer": [
+              0,
+              7,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "interpretation": "Max over upper-margin enclosures; not an attack witness."
+          }
+        },
+        {
+          "profile": "discrete_fast",
+          "rankUpper": 23,
+          "seconds": 2.614641904000109,
+          "detail": {
+            "pairRank": 30,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 5,
+            "graphRank": 23,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_0p1",
+          "rankUpper": 19,
+          "seconds": 2.6032682390000446,
+          "detail": {
+            "pairRank": 30,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.10525949100019716,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 11542,
+              "variables": 427,
+              "count_upper": 18.0,
+              "gap": 2.0,
+              "nodes": 0,
+              "choices": [
+                0,
+                7,
+                0,
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "feasible_count": 6.0
+            }
+          }
+        },
+        {
+          "profile": "discrete_default",
+          "rankUpper": 15,
+          "seconds": 2.577598084999863,
+          "detail": {
+            "pairRank": 30,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 5,
+            "graphRank": 15,
+            "graphSkipped": null
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "89",
+      "verifiedLabel": "ROBUST",
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "order": [
+        "milp_1",
+        "discrete_extended",
+        "milp_5",
+        "wide_enum",
+        "discrete_fast",
+        "milp_0p1",
+        "discrete_default"
+      ],
+      "runs": [
+        {
+          "profile": "milp_1",
+          "rankUpper": 16,
+          "seconds": 2.3070436200000586,
+          "detail": {
+            "pairRank": 31,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 1.006850509999822,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 12840,
+              "variables": 458,
+              "count_upper": 15.0,
+              "gap": 0.875,
+              "nodes": 1,
+              "choices": [
+                0,
+                0,
+                0,
+                7,
+                0,
+                0,
+                6,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "feasible_count": 8.0
+            }
+          }
+        },
+        {
+          "profile": "discrete_extended",
+          "rankUpper": 10,
+          "seconds": 1.5856144819999827,
+          "detail": {
+            "pairRank": 31,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 3,
+            "graphRank": 10,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_5",
+          "rankUpper": 9,
+          "seconds": 4.679386951000197,
+          "detail": {
+            "pairRank": 31,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 3.329595915000027,
+              "success": true,
+              "status": 0,
+              "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+              "matrix_entries": 12840,
+              "variables": 458,
+              "count_upper": 8.000000000000009,
+              "gap": 0.0,
+              "nodes": 47,
+              "choices": [
+                0,
+                0,
+                0,
+                38,
+                0,
+                0,
+                20,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "feasible_count": 8.000000000000009,
+              "optimal_count": 8
+            }
+          }
+        },
+        {
+          "profile": "wide_enum",
+          "rankUpper": 9,
+          "seconds": 1.5807082129999799,
+          "detail": {
+            "status": "COMPLETE",
+            "states": 77809,
+            "cells": 2334270,
+            "rankUpper": 9,
+            "upperEnvelopeMaximizer": [
+              0,
+              0,
+              0,
+              7,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "interpretation": "Max over upper-margin enclosures; not an attack witness."
+          }
+        },
+        {
+          "profile": "discrete_fast",
+          "rankUpper": 23,
+          "seconds": 1.7810315120000269,
+          "detail": {
+            "pairRank": 31,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 3,
+            "graphRank": 24,
+            "graphSkipped": null
+          }
+        },
+        {
+          "profile": "milp_0p1",
+          "rankUpper": 19,
+          "seconds": 2.1009049750000486,
+          "detail": {
+            "pairRank": 31,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "milp": {
+              "seconds": 0.11393697899984545,
+              "success": false,
+              "status": 1,
+              "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+              "matrix_entries": 12840,
+              "variables": 458,
+              "count_upper": 18.0,
+              "gap": 3.5,
+              "nodes": 0,
+              "choices": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                19,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "feasible_count": 4.0
+            }
+          }
+        },
+        {
+          "profile": "discrete_default",
+          "rankUpper": 15,
+          "seconds": 1.673427287999857,
+          "detail": {
+            "pairRank": 31,
+            "enumRank": null,
+            "enumStatus": "enumeration_resource_cap",
+            "cutsUsed": 3,
+            "graphRank": 15,
+            "graphSkipped": null
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "All8 R minus(C_D intersection C_M); not independent confirmation or population timing"
+}

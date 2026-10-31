@@ -1,0 +1,464 @@
+{
+  "status": "COMPLETE",
+  "retrospective": true,
+  "decisionDatasets": {
+    "scifact": {
+      "queries": 199,
+      "robust": 123,
+      "nonrobust": 76,
+      "unknown": 0,
+      "lp": 115,
+      "discrete": 123,
+      "milp": 123,
+      "discreteFractionOfVerifiedRobust": 1.0,
+      "lpFractionOfVerifiedRobust": 0.9349593495934959,
+      "trueGapClosedByDiscrete": 1.0
+    },
+    "nfcorpus": {
+      "queries": 223,
+      "robust": 47,
+      "nonrobust": 176,
+      "unknown": 0,
+      "lp": 41,
+      "discrete": 45,
+      "milp": 47,
+      "discreteFractionOfVerifiedRobust": 0.9574468085106383,
+      "lpFractionOfVerifiedRobust": 0.8723404255319149,
+      "trueGapClosedByDiscrete": 0.6666666666666666
+    },
+    "fiqa": {
+      "queries": 548,
+      "robust": 96,
+      "nonrobust": 452,
+      "unknown": 0,
+      "lp": 71,
+      "discrete": 91,
+      "milp": 90,
+      "discreteFractionOfVerifiedRobust": 0.9479166666666666,
+      "lpFractionOfVerifiedRobust": 0.7395833333333334,
+      "trueGapClosedByDiscrete": 0.8
+    }
+  },
+  "decisionTotals": {
+    "queries": 970,
+    "robust": 266,
+    "nonrobust": 704,
+    "unknown": 0,
+    "lp": 227,
+    "discrete": 259,
+    "milp": 260,
+    "discreteFractionOfVerifiedRobust": 0.9736842105263158,
+    "lpFractionOfVerifiedRobust": 0.8533834586466166,
+    "trueGapClosedByDiscrete": 0.8205128205128205
+  },
+  "budgetProfiles": {
+    "scifact": {
+      "status": "COMPLETE",
+      "profiles": {
+        "discrete_fast": {
+          "queries": 48,
+          "verifiedRobustPanel": 25,
+          "certified": 24,
+          "unsafeNumericalDecisionIds": [],
+          "median": 0.45240604399998574,
+          "q25": 0.19437380749994304,
+          "q75": 0.573840266000019,
+          "p95": 0.8417077710500223,
+          "statusCounts": {
+            "discrete_work_profile": 48
+          },
+          "finiteMilpDualBounds": 0
+        },
+        "milp_0p1": {
+          "queries": 48,
+          "verifiedRobustPanel": 25,
+          "certified": 25,
+          "unsafeNumericalDecisionIds": [],
+          "median": 0.5058234314999481,
+          "q25": 0.17486189725005374,
+          "q75": 0.6854243962499993,
+          "p95": 1.0128824201500548,
+          "statusCounts": {
+            "solver_0": 24,
+            "solver_1": 24
+          },
+          "finiteMilpDualBounds": 38
+        },
+        "discrete_default": {
+          "queries": 48,
+          "verifiedRobustPanel": 25,
+          "certified": 25,
+          "unsafeNumericalDecisionIds": [],
+          "median": 0.4869204060000243,
+          "q25": 0.1773644262500511,
+          "q75": 0.6796043707499848,
+          "p95": 1.0534380344500505,
+          "statusCounts": {
+            "discrete_work_profile": 48
+          },
+          "finiteMilpDualBounds": 0
+        },
+        "milp_1": {
+          "queries": 48,
+          "verifiedRobustPanel": 25,
+          "certified": 25,
+          "unsafeNumericalDecisionIds": [],
+          "median": 0.6353759380000383,
+          "q25": 0.21620815324999398,
+          "q75": 1.4060826367499715,
+          "p95": 1.8689237420000606,
+          "statusCounts": {
+            "solver_0": 33,
+            "solver_1": 15
+          },
+          "finiteMilpDualBounds": 45
+        },
+        "discrete_extended": {
+          "queries": 48,
+          "verifiedRobustPanel": 25,
+          "certified": 25,
+          "unsafeNumericalDecisionIds": [],
+          "median": 0.4748816974999954,
+          "q25": 0.21509574275000887,
+          "q75": 0.7075303847500436,
+          "p95": 1.172242497950043,
+          "statusCounts": {
+            "discrete_work_profile": 48
+          },
+          "finiteMilpDualBounds": 0
+        },
+        "milp_5": {
+          "queries": 48,
+          "verifiedRobustPanel": 25,
+          "certified": 25,
+          "unsafeNumericalDecisionIds": [],
+          "median": 0.6539122959999872,
+          "q25": 0.18139694325000733,
+          "q75": 2.412509110500025,
+          "p95": 5.923064329850012,
+          "statusCounts": {
+            "solver_0": 40,
+            "solver_1": 8
+          },
+          "finiteMilpDualBounds": 48
+        }
+      }
+    },
+    "nfcorpus": {
+      "status": "COMPLETE",
+      "profiles": {
+        "discrete_fast": {
+          "queries": 48,
+          "verifiedRobustPanel": 8,
+          "certified": 8,
+          "unsafeNumericalDecisionIds": [],
+          "median": 0.26486895750008443,
+          "q25": 0.23022885150010097,
+          "q75": 0.31808146275000126,
+          "p95": 0.41480190280005896,
+          "statusCounts": {
+            "discrete_work_profile": 46,
+            "zero_reference": 2
+          },
+          "finiteMilpDualBounds": 0
+        },
+        "milp_0p1": {
+          "queries": 48,
+          "verifiedRobustPanel": 8,
+          "certified": 8,
+          "unsafeNumericalDecisionIds": [],
+          "median": 0.3565809744999342,
+          "q25": 0.31377723200000673,
+          "q75": 0.44033533850011963,
+          "p95": 0.8396942536001343,
+          "statusCounts": {
+            "solver_1": 37,
+            "zero_reference": 2,
+            "solver_0": 9
+          },
+          "finiteMilpDualBounds": 20
+        },
+        "discrete_default": {
+          "queries": 48,
+          "verifiedRobustPanel": 8,
+          "certified": 8,
+          "unsafeNumericalDecisionIds": [],
+          "median": 0.26949962450009934,
+          "q25": 0.22302761849999797,
+          "q75": 0.32429598924994707,
+          "p95": 0.43691737665009206,
+          "statusCounts": {
+            "discrete_work_profile": 46,
+            "zero_reference": 2
+          },
+          "finiteMilpDualBounds": 0
+        },
+        "milp_1": {
+          "queries": 48,
+          "verifiedRobustPanel": 8,
+          "certified": 8,
+          "unsafeNumericalDecisionIds": [],
+          "median": 1.2640843270000914,
+          "q25": 0.432314415999997,
+          "q75": 1.4309861555000793,
+          "p95": 3.758671451050064,
+          "statusCounts": {
+            "solver_1": 27,
+            "solver_0": 19,
+            "zero_reference": 2
+          },
+          "finiteMilpDualBounds": 31
+        },
+        "discrete_extended": {
+          "queries": 48,
+          "verifiedRobustPanel": 8,
+          "certified": 8,
+          "unsafeNumericalDecisionIds": [],
+          "median": 0.2721732925000424,
+          "q25": 0.21922032074996878,
+          "q75": 0.3365113140001199,
+          "p95": 0.5256646741499593,
+          "statusCounts": {
+            "discrete_work_profile": 46,
+            "zero_reference": 2
+          },
+          "finiteMilpDualBounds": 0
+        },
+        "milp_5": {
+          "queries": 48,
+          "verifiedRobustPanel": 8,
+          "certified": 8,
+          "unsafeNumericalDecisionIds": [],
+          "median": 4.398653524500105,
+          "q25": 0.40906652250009756,
+          "q75": 5.342013735250077,
+          "p95": 6.128055829450022,
+          "statusCounts": {
+            "solver_0": 23,
+            "zero_reference": 2,
+            "solver_1": 23
+          },
+          "finiteMilpDualBounds": 46
+        }
+      }
+    },
+    "fiqa": {
+      "status": "COMPLETE",
+      "profiles": {
+        "discrete_fast": {
+          "queries": 48,
+          "verifiedRobustPanel": 9,
+          "certified": 8,
+          "unsafeNumericalDecisionIds": [],
+          "median": 2.939317532000018,
+          "q25": 2.1064665084999206,
+          "q75": 3.65140507624983,
+          "p95": 7.303221688099778,
+          "statusCounts": {
+            "discrete_work_profile": 48
+          },
+          "finiteMilpDualBounds": 0
+        },
+        "milp_0p1": {
+          "queries": 48,
+          "verifiedRobustPanel": 9,
+          "certified": 8,
+          "unsafeNumericalDecisionIds": [],
+          "median": 2.9673305750000054,
+          "q25": 2.2457925082500196,
+          "q75": 3.9489008869998656,
+          "p95": 4.72400451424985,
+          "statusCounts": {
+            "solver_1": 38,
+            "matrix_entries_resource_cap": 4,
+            "solver_0": 6
+          },
+          "finiteMilpDualBounds": 16
+        },
+        "discrete_default": {
+          "queries": 48,
+          "verifiedRobustPanel": 9,
+          "certified": 9,
+          "unsafeNumericalDecisionIds": [],
+          "median": 2.76992295299965,
+          "q25": 2.081288773499864,
+          "q75": 3.674925387999963,
+          "p95": 4.668245448399966,
+          "statusCounts": {
+            "discrete_work_profile": 48
+          },
+          "finiteMilpDualBounds": 0
+        },
+        "milp_1": {
+          "queries": 48,
+          "verifiedRobustPanel": 9,
+          "certified": 9,
+          "unsafeNumericalDecisionIds": [],
+          "median": 3.8512998660000903,
+          "q25": 2.936153121999837,
+          "q75": 4.571022019750103,
+          "p95": 5.468613035049952,
+          "statusCounts": {
+            "solver_1": 34,
+            "matrix_entries_resource_cap": 4,
+            "solver_0": 10
+          },
+          "finiteMilpDualBounds": 33
+        },
+        "discrete_extended": {
+          "queries": 48,
+          "verifiedRobustPanel": 9,
+          "certified": 9,
+          "unsafeNumericalDecisionIds": [],
+          "median": 2.8322803924999107,
+          "q25": 2.124311466750214,
+          "q75": 3.6978340045000664,
+          "p95": 4.820559280349857,
+          "statusCounts": {
+            "discrete_work_profile": 48
+          },
+          "finiteMilpDualBounds": 0
+        },
+        "milp_5": {
+          "queries": 48,
+          "verifiedRobustPanel": 9,
+          "certified": 9,
+          "unsafeNumericalDecisionIds": [],
+          "median": 7.461962383999889,
+          "q25": 4.360153028250124,
+          "q75": 8.136090588500053,
+          "p95": 9.733486680050328,
+          "statusCounts": {
+            "solver_1": 30,
+            "matrix_entries_resource_cap": 4,
+            "solver_0": 14
+          },
+          "finiteMilpDualBounds": 44
+        }
+      }
+    }
+  },
+  "wideEnumerationControl": {
+    "scifact": {
+      "status": "COMPLETE",
+      "methods": {
+        "wide_enum": {
+          "queries": 48,
+          "certified": 25,
+          "median": 0.5247717180002383,
+          "q25": 0.3645292907501698,
+          "q75": 0.7783364389999861,
+          "p95": 2.5518970071000227,
+          "unsafeDecisionIds": [],
+          "resourceUnknown": 0
+        },
+        "discrete_default": {
+          "queries": 48,
+          "certified": 25,
+          "median": 0.4597562410001501,
+          "q25": 0.17885431525019158,
+          "q75": 0.541628784249724,
+          "p95": 0.8017925252500617,
+          "unsafeDecisionIds": [],
+          "resourceUnknown": 0
+        }
+      },
+      "pairedGeometricEnumCostOverDiscrete": 1.5909245329593409
+    },
+    "nfcorpus": {
+      "status": "COMPLETE",
+      "methods": {
+        "wide_enum": {
+          "queries": 48,
+          "certified": 8,
+          "median": 0.33023385550018247,
+          "q25": 0.19943834650007375,
+          "q75": 0.5041744059998337,
+          "p95": 2.0256314975998744,
+          "unsafeDecisionIds": [],
+          "resourceUnknown": 0
+        },
+        "discrete_default": {
+          "queries": 48,
+          "certified": 8,
+          "median": 0.26859183150008903,
+          "q25": 0.21728601650011115,
+          "q75": 0.3368325377499559,
+          "p95": 0.45913246144973524,
+          "unsafeDecisionIds": [],
+          "resourceUnknown": 0
+        }
+      },
+      "pairedGeometricEnumCostOverDiscrete": 1.3820466369522262
+    },
+    "fiqa": {
+      "status": "COMPLETE",
+      "methods": {
+        "wide_enum": {
+          "queries": 48,
+          "certified": 9,
+          "median": 3.9983920704999036,
+          "q25": 2.295219732250189,
+          "q75": 5.1691430870001795,
+          "p95": 15.841373172500036,
+          "unsafeDecisionIds": [],
+          "resourceUnknown": 2
+        },
+        "discrete_default": {
+          "queries": 48,
+          "certified": 9,
+          "median": 2.7248356190002596,
+          "q25": 2.0004379322499517,
+          "q75": 3.4818137509998905,
+          "p95": 4.611514101950001,
+          "unsafeDecisionIds": [],
+          "resourceUnknown": 0
+        }
+      },
+      "pairedGeometricEnumCostOverDiscrete": 1.4693770465365081
+    }
+  },
+  "decisionScope": "All fixed970 B2/K10 decisions resolved under the frozen scoring/numerical assumptions; not exact worst ranks or independent confirmation",
+  "budgetScope": "Fixed144 previously observed queries; independent resource settings, not continuous anytime traces or a population latency claim",
+  "boundaryDiagnostic": {
+    "status": "COMPLETE",
+    "outcomeSelected": true,
+    "profiles": {
+      "discrete_extended": {
+        "certified": 7,
+        "queries": 8,
+        "medianSecondsDescriptive": 2.0979149789998246
+      },
+      "milp_5": {
+        "certified": 8,
+        "queries": 8,
+        "medianSecondsDescriptive": 4.604552693000187
+      },
+      "wide_enum": {
+        "certified": 8,
+        "queries": 8,
+        "medianSecondsDescriptive": 2.229461605000097
+      },
+      "discrete_fast": {
+        "certified": 0,
+        "queries": 8,
+        "medianSecondsDescriptive": 2.197836708000068
+      },
+      "milp_0p1": {
+        "certified": 2,
+        "queries": 8,
+        "medianSecondsDescriptive": 2.3520866070000466
+      },
+      "discrete_default": {
+        "certified": 1,
+        "queries": 8,
+        "medianSecondsDescriptive": 2.12551268649986
+      },
+      "milp_1": {
+        "certified": 2,
+        "queries": 8,
+        "medianSecondsDescriptive": 2.8667102065001018
+      }
+    }
+  }
+}

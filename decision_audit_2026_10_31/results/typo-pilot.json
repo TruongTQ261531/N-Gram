@@ -1,0 +1,1347 @@
+{
+  "status": "COMPLETE",
+  "retrospective": true,
+  "source": {
+    "corpus": "Roger Mitton Wikipedia misspellings",
+    "sourceUrl": "https://www.dcs.bbk.ac.uk/~ROGER/wikipedia.dat",
+    "documentationUrl": "https://www.dcs.bbk.ac.uk/~ROGER/corpora.html",
+    "bytes": 43848,
+    "sha256": "061ec33aa12a4aea718a7bb121360812c8348770833e730124af1eecdc2cd380",
+    "documentationSha256": "db481cf7c33e2a7972e568741857e026425e7ba6db6f29b4db853cdc424b21b3",
+    "contentType": null,
+    "scope": "Curated observed misspelling types, not query logs; raw source not redistributed",
+    "reasonForAmendment": "Original GTC bucket no longer exists; weakly documented mirror not used"
+  },
+  "samplePairs": 100,
+  "categories": {
+    "covered": 55,
+    "normalization_only": 0,
+    "outside_input_scope": 0,
+    "outside_channel_or_budget": 45
+  },
+  "coverage": {
+    "1": {
+      "coveredNontrivialPairs": 55,
+      "allSampledPairs": 100,
+      "fractionOfAllSampledPairs": 0.55,
+      "wilson95AllSampled": [
+        0.45244602997442135,
+        0.6438546202048803
+      ],
+      "effectiveChangePairs": 100,
+      "fractionOfEffectiveChanges": 0.55,
+      "wilson95EffectiveChanges": [
+        0.45244602997442135,
+        0.6438546202048803
+      ]
+    },
+    "2": {
+      "coveredNontrivialPairs": 55,
+      "allSampledPairs": 100,
+      "fractionOfAllSampledPairs": 0.55,
+      "wilson95AllSampled": [
+        0.45244602997442135,
+        0.6438546202048803
+      ],
+      "effectiveChangePairs": 100,
+      "fractionOfEffectiveChanges": 0.55,
+      "wilson95EffectiveChanges": [
+        0.45244602997442135,
+        0.6438546202048803
+      ]
+    }
+  },
+  "rows": [
+    {
+      "pairHash": "0019faa8c451a6636847d4daa78f1a1765b6ad588770c41cd67e358d014fef72",
+      "sourceLine": 1702,
+      "targetLine": 1701,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "002cc647158415a2d919dcd6f6947e6979a9917e82b450d0c5e5b21fe69d34bf",
+      "sourceLine": 1359,
+      "targetLine": 1358,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "pairHash": "00308f80099a27386caedaeb8f82c80048509de87d16b987471ad0d27624e686",
+      "sourceLine": 1186,
+      "targetLine": 1185,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "00393f2859b28463997f20186ea0967be3ab057932e2a631f62200e11d6100fb",
+      "sourceLine": 4199,
+      "targetLine": 4197,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "005a4ec23163c1a33b4f33da81bcf667d7b23a07698e1f9425646b029f0e9740",
+      "sourceLine": 4285,
+      "targetLine": 4284,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "005eef5748f758d964f375b77e75f4e754a28aa112870b02c99dc95083bc426b",
+      "sourceLine": 2494,
+      "targetLine": 2493,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "pairHash": "006b81518ad790ae6724b2b2616376481b9bc29562c140bbf1dfcc25953bc60d",
+      "sourceLine": 2724,
+      "targetLine": 2721,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "repeat",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "006b9032b63d681f3a770528a43f614a371529037db574f9bd4067e8531d599d",
+      "sourceLine": 715,
+      "targetLine": 714,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "00ae2a98153bcc1d41bfe97f42cdedc1468eba085cb5b2296602ea28e7bd01bc",
+      "sourceLine": 2105,
+      "targetLine": 2104,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "keyboard",
+          "pos": 1,
+          "char": "n"
+        }
+      ]
+    },
+    {
+      "pairHash": "00efa6873b858922cec4722d8b8c74380e37ef57bf0830da4aec074e17be80cf",
+      "sourceLine": 464,
+      "targetLine": 463,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "repeat",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "pairHash": "012167ecb94484138af6d0ab4e6068b8921ec6cf762c13188b91cfe4e0c463de",
+      "sourceLine": 1296,
+      "targetLine": 1295,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0146f9e44002ec2eb46fe0a636e2bc9f53cdfb8466775c31c1c0f3153e3e9d36",
+      "sourceLine": 391,
+      "targetLine": 389,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "017e1e82f4d836cd9df409116e462b9ef269eecd36a5144c4c6052ae1868f79f",
+      "sourceLine": 1543,
+      "targetLine": 1541,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "repeat",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "pairHash": "01a1326a505198bcbe9e98563f3d7acbe94000d330849a3b0be4c84e571ebb63",
+      "sourceLine": 63,
+      "targetLine": 62,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "01ba4969f97bd493db80c8fb8e76337567120caf5bb5c0a710e0bc7b27399f99",
+      "sourceLine": 659,
+      "targetLine": 658,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "022772f12598942f78c881cbc8d314214cc79f341aa77fa923a52adca89db2f6",
+      "sourceLine": 2066,
+      "targetLine": 2065,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0229c622d2637cd7ac280e764937ad297299af8c0980ad7a163c50767c768631",
+      "sourceLine": 1623,
+      "targetLine": 1622,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "repeat",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "pairHash": "023bd041e7d9fe19d024ce5b0f44198ddb61feb9189c689dc734d296dbeea431",
+      "sourceLine": 2948,
+      "targetLine": 2947,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "024cb91b76124f9432728b3989e604c2f6e77dcf4794e899029d43fcaf53ac0f",
+      "sourceLine": 3366,
+      "targetLine": 3365,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "025e48a73e2d86b2f802a0d1ed4c92792573e9420f7dfbe59a36d0ae903f7810",
+      "sourceLine": 1938,
+      "targetLine": 1936,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "026772fed05d42ef80941e2e87fff1b7f989fae1ef0d663ac33adedf38218d47",
+      "sourceLine": 435,
+      "targetLine": 434,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "027185eb4bfd5ae539fed7b7b8061f47e95808b0d051326704d47eb59a271dab",
+      "sourceLine": 3748,
+      "targetLine": 3747,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "028f703a1a391f106189f88b3ef2d2fb31d624029da671031a81c58d7d2fea95",
+      "sourceLine": 1092,
+      "targetLine": 1091,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "02a97b92e4acb8158c5f2c607f0cf31db122d4c171d5350add009c2087dd1b91",
+      "sourceLine": 613,
+      "targetLine": 612,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "02ad71cc7a490e490d21e58d7af58b2aeb6d00180a4011f4cdc687dcb1a4857a",
+      "sourceLine": 1129,
+      "targetLine": 1128,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "pairHash": "02c82364bcd0226a50b2103adb2684fb58fe9e43db7e92b33828c47dd7c6ba1e",
+      "sourceLine": 2383,
+      "targetLine": 2382,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "pairHash": "02cf312a0847260b241e57492cc41beaa2622fb7259af84756fc9ca1f3d8271a",
+      "sourceLine": 4225,
+      "targetLine": 4224,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "pairHash": "02e1ff2c3dc0399babb550ddb3e23ea2bf6534b3aa477623f14c2102c433709a",
+      "sourceLine": 1508,
+      "targetLine": 1507,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "repeat",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "pairHash": "02ebbe050f52c299dac193a7efc5c8c568052cd3ce3fa0e201e19ea25f22d046",
+      "sourceLine": 820,
+      "targetLine": 819,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "02ff55ea59ccfc58e209a94994741b3a95760c8bfddee143e1031c783fa61890",
+      "sourceLine": 1341,
+      "targetLine": 1340,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "030212ca0266173928c87e19e401fa0f0e856e8e0b6941e2eedcf1db98879ace",
+      "sourceLine": 27,
+      "targetLine": 26,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0306cb9b9a324e6ccaa7fb3c2ce9e80a1f796e97541268817edba831280b824c",
+      "sourceLine": 2050,
+      "targetLine": 2049,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 0
+        }
+      ]
+    },
+    {
+      "pairHash": "03132b2d153959618b79ea058dc1781f2de13eae87b77d6121ac96c02b9368fe",
+      "sourceLine": 1422,
+      "targetLine": 1420,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "pairHash": "03169db10124e4b80d2be06bc911f61c09bdf75629645df6011bd8b33165004e",
+      "sourceLine": 1462,
+      "targetLine": 1461,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0324657a8b12994a972c47f6cf14fba91d467310f8a11198164a1a6d9ade0ffc",
+      "sourceLine": 2338,
+      "targetLine": 2337,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0328f49193daf5040f63443e8716180c9db8eac7f058f0ca0b132dfc4ba30ccb",
+      "sourceLine": 375,
+      "targetLine": 374,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "keyboard",
+          "pos": 7,
+          "char": "a"
+        }
+      ]
+    },
+    {
+      "pairHash": "0342166ad9dfe7f1f2315a07b85c67cadb021ca6f327d31e588194ec68f19999",
+      "sourceLine": 2743,
+      "targetLine": 2741,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "03589d8f342b8292fad28e5f45798825f473da2f0ef1baed6e47c74f3520b0ba",
+      "sourceLine": 3448,
+      "targetLine": 3447,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 12
+        }
+      ]
+    },
+    {
+      "pairHash": "0359c6b635518cf8931883bce0bd8eef72d9a9ec53fa8d66a421a3ddea59cdd3",
+      "sourceLine": 4133,
+      "targetLine": 4132,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "pairHash": "0361d2a9d2f9739d92e8c699bc42b43473ef30428f1c06e3115447e5737172de",
+      "sourceLine": 3694,
+      "targetLine": 3693,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "03a6c59fc779e5b635ed4b93c7ba365e1460a84775e407cb40f0a44082d106fd",
+      "sourceLine": 2044,
+      "targetLine": 2043,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "pairHash": "03ea6303e3d3dce1399d0d4232d9a0fc9454ec0fca939977d383992757737564",
+      "sourceLine": 3336,
+      "targetLine": 3335,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "repeat",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "0428f5f3de35da7690a545e1140cc76a86f1b7ada777d03fd649c60acc4898e6",
+      "sourceLine": 2655,
+      "targetLine": 2654,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "042f47f6fa5a1c8a92748a1936933f2302328c4df5ff96958f82d07305300733",
+      "sourceLine": 3690,
+      "targetLine": 3689,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "044967e26ad614af3a6b1abdf9a92d3e01d59c5135576756ddc2b5f9692863f5",
+      "sourceLine": 1234,
+      "targetLine": 1233,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "046eb7537b5ee2ac986fb1bea47f633427f2ed0f361bb4e864452cc9af72fc41",
+      "sourceLine": 1815,
+      "targetLine": 1814,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "pairHash": "047a34ef7d6e1897d0a8b7f6d5afc05f0816e5ac454b29ae5a4ea24b18585dda",
+      "sourceLine": 1704,
+      "targetLine": 1703,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 7
+        }
+      ]
+    },
+    {
+      "pairHash": "04b1501dcb1e4a3548aa017b7975bd35264ec43429e5c557e08b8ee910a738d2",
+      "sourceLine": 2428,
+      "targetLine": 2425,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "04e4359ca5c3ba3a36c601c0e1f9943bb23fe62be59167c95b000712e5192c42",
+      "sourceLine": 818,
+      "targetLine": 817,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "04eead2a3e14c2d8ae59d9cf98b72bba6150cc8d55f6a64c0811849863a85489",
+      "sourceLine": 1330,
+      "targetLine": 1329,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "05052648c58c7442099ee03e6fc2c32a915cffc5f493e602c5675d0b81ff0a34",
+      "sourceLine": 2865,
+      "targetLine": 2864,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0506682c9cab272000de40902ca3458935d0c7b60afde59945808b92b70b0867",
+      "sourceLine": 1090,
+      "targetLine": 1089,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "0517aa914420b7096487fa1be2071743f2b497c3cb84ed5d121a68bcc18b9b49",
+      "sourceLine": 773,
+      "targetLine": 772,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "pairHash": "0524db0c6c1eee438d32f04c42fe6451a4b93301a5fac536e3627966502ecc16",
+      "sourceLine": 2336,
+      "targetLine": 2335,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0538cebb4c4abfc07deec782f2e0c7a5943236462f5d5e7a23ec9a6dd023a429",
+      "sourceLine": 1647,
+      "targetLine": 1646,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "05503ce4c4216652b4c0f4e0b11351178cfb5c3b99e6d1290a3a476337231b19",
+      "sourceLine": 647,
+      "targetLine": 646,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "pairHash": "055cb7991845a700e35a081359678aca482eed9114a20513d9f84f468fa34c67",
+      "sourceLine": 2139,
+      "targetLine": 2138,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "058912243b3d0c24ab1257835ea17d696f6695bf30fa99a02d3a320ffda56ee8",
+      "sourceLine": 395,
+      "targetLine": 394,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "059c633c6ac14d5508aa6acd02093e820c57beda1cbfd0c67d40bf209b89b3f7",
+      "sourceLine": 2023,
+      "targetLine": 2022,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "05f1a6dac1bb1f4dc7f69a78b9bc7beedddfd9e94a83bbf852626ce501d14d93",
+      "sourceLine": 3722,
+      "targetLine": 3721,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "pairHash": "0625657fa8557258af69258493718d321117c3c4ff3beb4aad1d81ef4da56c36",
+      "sourceLine": 2533,
+      "targetLine": 2531,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "062cb5893c2fd35e50b9a1f5ca8d8f113ee2bcf436abefb98c833f320a5a00ed",
+      "sourceLine": 933,
+      "targetLine": 932,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "063db8c5cddb1fb57f9b431ab40b57c32ecf3bbe2e3163365cd5ea55c5e4bc04",
+      "sourceLine": 206,
+      "targetLine": 204,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "06680d62b2b5c51edd23227ffca8623cf997e501c1cd01fb31cf2302d4be0962",
+      "sourceLine": 3723,
+      "targetLine": 3721,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "pairHash": "06b68c9b6c4f22d5634e137bd42bc6ab948d62d1f55d857e4121479b455dd8d5",
+      "sourceLine": 2003,
+      "targetLine": 2001,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "06bee3185d0904d443b27caab915dc50aaf547ebd10c8dad5d36e269c336bfca",
+      "sourceLine": 2791,
+      "targetLine": 2790,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "pairHash": "06e146002ce86082e2604e8c77960a7bf0068fa359be9de61b48a90e878a2157",
+      "sourceLine": 4151,
+      "targetLine": 4150,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "06f669e1c2cea231fafc979e7f160e826a7259ab7e7a779f7762cb8ff2aafe78",
+      "sourceLine": 1435,
+      "targetLine": 1434,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "06fab7451d3ec4d28b0c79aacf748af7605a88157ed285ec7d102e954135c042",
+      "sourceLine": 3232,
+      "targetLine": 3231,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0729691ef20cca56b076a0fba39d6d8f2f9cdd476b0b3fad987e2eb45ea07b70",
+      "sourceLine": 1099,
+      "targetLine": 1097,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 8
+        }
+      ]
+    },
+    {
+      "pairHash": "0730dbcbe74aa5ff25cf44cb202fd8e071c2a7c290039268b242bcf869256ca3",
+      "sourceLine": 3910,
+      "targetLine": 3909,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "pairHash": "073fc07b7efc27fca26c936dbc830ad74f7fafe8590f79359122571f20ffe41a",
+      "sourceLine": 2438,
+      "targetLine": 2437,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "pairHash": "0748b353ec2a1e34899f5b4cf82e94ed07cb0cfe603d4690cb151d9c43a45283",
+      "sourceLine": 3034,
+      "targetLine": 3033,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "pairHash": "074a2c0e08c0897ed8d9c4657fbe2344b2b7e573116911b35daca7196fe6e06a",
+      "sourceLine": 1254,
+      "targetLine": 1253,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "079d690097dcf16e5943fb922655339e796401d62dbfa544ec9d47c739370637",
+      "sourceLine": 2812,
+      "targetLine": 2810,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "07aa6084c396a7af65185df224c9de42b2a8fdd2f9e14818f114f5c3db8aa77b",
+      "sourceLine": 3097,
+      "targetLine": 3096,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "07aff2094b4d5b40863bf43660ebf23fe6961e8eff63056364033d5d06906dd1",
+      "sourceLine": 927,
+      "targetLine": 926,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "repeat",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "pairHash": "0806f680c8285e679ef6b5bf0e64f9a82d1742d0bd71e905e20485f9519efe41",
+      "sourceLine": 2479,
+      "targetLine": 2478,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "080cdc1cf3e11f43abb8918f69432535eb2e6e43b5310fa63f0b1f5994c85a44",
+      "sourceLine": 4312,
+      "targetLine": 4311,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 0
+        }
+      ]
+    },
+    {
+      "pairHash": "08154aab89671f36f36239d7582d12df2ee5efb2b8f1086731b515c053cbba3e",
+      "sourceLine": 2356,
+      "targetLine": 2355,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "pairHash": "081db7e83e3b837d3d527563867f34329b4cb38c68b02e41ef11d6517bf56f97",
+      "sourceLine": 2500,
+      "targetLine": 2499,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0862b7becf3bd71a340ad66709b2ae1fd19c07861e48cb41c7004b1e6370d0e7",
+      "sourceLine": 2979,
+      "targetLine": 2978,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "pairHash": "08a26b5526c0c9f0bdf300d4e2cacba499d1fcb5ad740cd16c7865407e43f84f",
+      "sourceLine": 3427,
+      "targetLine": 3426,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "08a8c6e26481497be43620b2a2047f2a335aa03bef70d90ab8298ce2065a0ccb",
+      "sourceLine": 2629,
+      "targetLine": 2628,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 0
+        }
+      ]
+    },
+    {
+      "pairHash": "08c26c67ead728e97d8d9a65bbfb6d2757925b932a85f0eb1565f18b3b91671f",
+      "sourceLine": 261,
+      "targetLine": 260,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "keyboard",
+          "pos": 1,
+          "char": "d"
+        }
+      ]
+    },
+    {
+      "pairHash": "08deffd525135211bcc8ca50926ed770e2058834c7daeb77d08941dd1db95a2a",
+      "sourceLine": 423,
+      "targetLine": 421,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "pairHash": "08ee5700a90d1f63e535b86fadf4d9617cca99bc0197e2b8f42e58acef6b8509",
+      "sourceLine": 3184,
+      "targetLine": 3183,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "08f56dc2631e7aae985216bcc6d312982b5d093b141d99efc403ac7cc94c4d29",
+      "sourceLine": 3149,
+      "targetLine": 3148,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 5
+        }
+      ]
+    },
+    {
+      "pairHash": "090e3c6983e1dc48ceb0413d261292143c451db61109d70490c582650a34fbe4",
+      "sourceLine": 1661,
+      "targetLine": 1660,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "091663b5a846cc7079796d0a4eb06e92edaf8c0d42447faaf4fa61fd12ce3e3b",
+      "sourceLine": 1405,
+      "targetLine": 1404,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "pairHash": "09210a028aa8334f50260f988dac8f399afe7e3fd46d9fec50c103a533e343c1",
+      "sourceLine": 777,
+      "targetLine": 776,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 6
+        }
+      ]
+    },
+    {
+      "pairHash": "095db7c1d7632079eb3e316fa15db08c2aa378f80fd40d2d492ddca799b7d808",
+      "sourceLine": 1198,
+      "targetLine": 1196,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "097a0489f59765a0cd97b4b65afb9396d6168fac1616141c814618191c911c82",
+      "sourceLine": 4022,
+      "targetLine": 4021,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 2
+        }
+      ]
+    },
+    {
+      "pairHash": "098bda95a1fccb68685e97c85627f8b403201642fb582e421b84379489325d43",
+      "sourceLine": 579,
+      "targetLine": 578,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "delete",
+          "pos": 4
+        }
+      ]
+    },
+    {
+      "pairHash": "09abb2738b427621ac4bca5e6fbc1556ae581b5d8abf5c009d8dd8afde077167",
+      "sourceLine": 2579,
+      "targetLine": 2578,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 1
+        }
+      ]
+    },
+    {
+      "pairHash": "09b37317b3d511a14ae1b85885a87a3b6c6029d146d7768c2767b3b29039cca5",
+      "sourceLine": 3809,
+      "targetLine": 3808,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0a0460e6d0031d407e0019c5ad24aa313688c79903489178099e8e1512f7300e",
+      "sourceLine": 1116,
+      "targetLine": 1115,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    },
+    {
+      "pairHash": "0a2cd86d17753c3028067f93cc4d0d5e47061ea42947ad40eec109e725069d64",
+      "sourceLine": 699,
+      "targetLine": 698,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "pairHash": "0a3e9a82dcfc73dcf62666e537a1a0de8069cc1b169f4a8355827789409572e7",
+      "sourceLine": 713,
+      "targetLine": 712,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "covered",
+      "minimumCostWithinBudget": 1,
+      "operations": [
+        {
+          "token": 0,
+          "op": "swap",
+          "pos": 3
+        }
+      ]
+    },
+    {
+      "pairHash": "0a6ff05b4a78999e3790ebf7a67aa76b2c290686f076541752c42e6265ac4dd3",
+      "sourceLine": 2282,
+      "targetLine": 2281,
+      "cleanTokens": 1,
+      "erroneousTokens": 1,
+      "status": "outside_channel_or_budget",
+      "minimumCostWithinBudget": null
+    }
+  ],
+  "limits": "Curated type-level Wikipedia misspellings with source lexicon filtering; not frequency-weighted query logs, semantic-equivalence labels or RAG evaluation. Most targets are single words; B2 need not add coverage.",
+  "rawTextsRedistributed": false,
+  "encoding": "UTF-8; underscore decoded as space per author documentation"
+}

@@ -21,3 +21,9 @@ jobs:
         run: |
           python -m reviewer_audit_2026_10_31.check_archive
           sha256sum --quiet -c reviewer_audit_2026_10_31/checksums.sha256
+      - name: Exact decision witnesses and actual channel-membership checks
+        run: python -m unittest discover -s decision_audit_2026_10_31 -p 'test_*.py' -v
+      - name: Audit decision, budget-profile and observed-type records
+        run: |
+          python -m decision_audit_2026_10_31.check_archive
+          sha256sum --quiet -c decision_audit_2026_10_31/checksums.sha256

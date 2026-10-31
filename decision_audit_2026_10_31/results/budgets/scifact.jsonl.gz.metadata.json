@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE",
+  "retrospective": true,
+  "queries": 48,
+  "profiles": {
+    "discrete_fast": {
+      "kind": "discrete",
+      "cuts": 10,
+      "pairs": 30
+    },
+    "milp_0p1": {
+      "kind": "milp",
+      "solverSeconds": 0.1
+    },
+    "discrete_default": {
+      "kind": "discrete",
+      "cuts": 40,
+      "pairs": 120
+    },
+    "milp_1": {
+      "kind": "milp",
+      "solverSeconds": 1.0
+    },
+    "discrete_extended": {
+      "kind": "discrete",
+      "cuts": 160,
+      "pairs": 480
+    },
+    "milp_5": {
+      "kind": "milp",
+      "solverSeconds": 5.0
+    }
+  },
+  "interpretation": "Independent budget-setting runs, not a continuous anytime trace; no monotone best-of selection",
+  "modelFingerprint": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+  "numericalThreads": 1,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-fdde5778.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+      "version": null
+    }
+  ],
+  "rowsSha256": "18cc6b163b34cc40fabe1844884bac5b3fbc417c35b220420e9c118f1befcbb5",
+  "freezeSha256": "d0d03a6018c9c47fcd54273932a774f1aeacd0e2c90a9b9c5ff1803925689306"
+}
