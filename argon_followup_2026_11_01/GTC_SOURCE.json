@@ -1,0 +1,16 @@
+{
+  "archiveUrl": "https://web.archive.org/web/20200906123950id_/https://github-typo-corpus.s3.amazonaws.com/data/github-typo-corpus.v1.0.0.jsonl.gz",
+  "originalUrl": "https://github-typo-corpus.s3.amazonaws.com/data/github-typo-corpus.v1.0.0.jsonl.gz",
+  "timestamp": "20200906123950",
+  "httpStatus": 200,
+  "bytes": 43769081,
+  "sha256": "98219d275a49ad28fca832891876c255581b890d893b6d9c974ceb454ba2909d",
+  "sha1Base32": "IDRMZ4JVCEGPABJ6FFSXE42INRS2LBPW",
+  "cdxDigest": "IDRMZ4JVCEGPABJ6FFSXE42INRS2LBPW",
+  "matchesCdxDigest": true,
+  "headers": {
+    "content-type": "application/x-gzip",
+    "content-length": "43769081",
+    "memento-datetime": "Sun, 06 Sep 2020 12:39:50 GMT"
+  }
+}
