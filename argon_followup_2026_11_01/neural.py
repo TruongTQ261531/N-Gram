@@ -13,6 +13,7 @@ from lazy_cert_study.core import screen,IncrementalScorer,topk
 from lazy_cert_study.benchmark import View
 
 ROOT=Path(__file__).resolve().parent
+RUNTIME_METADATA={'backend':'PyTorch FP32','attention':'sdpa'}
 
 
 def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -78,6 +79,7 @@ def main():
               'gradePolicy':'max grade per repeated pair; Exact2/Partial1/Irrelevant0; unjudged0; gain2^grade-1',
               'lexicalUnionGivenForDiagnostics':True,'sharedCacheAcrossDifferentQueries':False,
               'cpu':next(s.split(':',1)[1].strip() for s in Path('/proc/cpuinfo').read_text().splitlines() if s.startswith('model name'))}
+    metadata.update(RUNTIME_METADATA)
     (a.output/'metadata.json').write_text(json.dumps(metadata,indent=2)+'\n')
     predictor=Predictor(a.model,texts)
     warm=time.perf_counter()
