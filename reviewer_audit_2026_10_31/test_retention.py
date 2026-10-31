@@ -3,7 +3,7 @@ import itertools
 import unittest
 import warnings
 import numpy as np
-from reviewer_audit_2026_10_31.retention import kernel
+from reviewer_audit_2026_10_31.retention import kernel,evaluate,Index
 
 
 def brute(D,budget):
@@ -52,6 +52,24 @@ class TestRetentionSupplement(unittest.TestCase):
                         # A solved numerical relaxation cannot have a bound below its incumbent.
                         self.assertGreaterEqual(detail['milp']['count_upper']+1e-5,
                                                 detail['milp'].get('feasible_count',0))
+
+    def test_full_orchestration_matches_frozen_budget2_adapter(self):
+        from replay import predict
+        docs=['alpha beta gamma','search query rank','alpha search beta',
+              'beta gamma query','a a alpha','bài giảng tốt','alpha gamma',
+              'search rank gamma','beta query alpha','a beta']
+        index=Index(docs,[str(i) for i in range(len(docs))],'char')
+        with warnings.catch_warnings():
+            warnings.simplefilter('ignore')
+            for text in ['alpha beta','a a','bài giảng']:
+                custom,_=predict(index,text,'lp_enum',budget_max=2)
+                generic,_=predict(index,text,'direct_lp_enum',budget_max=2)
+                expected={'best_lp_enum':min(custom[1],generic[1])}
+                expected['discrete']=predict(index,text,'proposed',budget_max=2)[0][1]
+                expected['milp_enum']=predict(index,text,'mip_enum',budget_max=2)[0][1]
+                for method,rank in expected.items():
+                    got,_,_,_=evaluate(index,text,method)
+                    self.assertEqual(got,rank,(text,method))
 
 
 if __name__=='__main__':unittest.main()
