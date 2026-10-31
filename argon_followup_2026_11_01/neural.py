@@ -72,9 +72,11 @@ def main():
     for r in labels.to_dict('records'):
         d=gold.setdefault(r['query_id'],{});d[r['product_id']]=max(d.get(r['product_id'],0),grade_map[r['label']])
     cost_ids=sorted([r['queryId'] for r in old],key=lambda q:hashlib.sha256(('argon-ce-cost-v1|'+q).encode()).digest())[:16]
+    original_ids=[r['queryId'] for r in old]
+    old=[r for r in old if r['queryId'] not in set(RUNTIME_METADATA.get('completedQueryIds',[]))]
     metadata={'source':spec,'python':platform.python_version(),'torch':torch.__version__,'transformers':transformers.__version__,
               'threads':4,'device':'CPU','dtype':'float32','attention':'sdpa','maxLength':256,'batchSize':32,
-              'plannedIds':[r['queryId'] for r in old],'costPanelIds':cost_ids,'scorerHash':index.model_hash,
+              'plannedIds':[r['queryId'] for r in old],'originalPlannedIds':original_ids,'costPanelIds':cost_ids,'scorerHash':index.model_hash,
               'protocolSha256':digest(ROOT/'PROTOCOL.md'),'codeSha256':digest(ROOT/'neural.py'),
               'gradePolicy':'max grade per repeated pair; Exact2/Partial1/Irrelevant0; unjudged0; gain2^grade-1',
               'lexicalUnionGivenForDiagnostics':True,'sharedCacheAcrossDifferentQueries':False,
@@ -99,7 +101,7 @@ def main():
             if qid in cost_ids:
                 P,_,proof=screen(index,text,2,10);cost={'queryId':qid,'union':U.tolist(),'pool':P.tolist(),'runs':[]}
                 assert set(U)<=set(P)
-                for repeat in range(2):
+                for repeat in range(RUNTIME_METADATA.get('costRepeats',2)):
                     order=['U','P'] if (int(hashlib.sha256(qid.encode()).hexdigest(),16)+repeat)%2==0 else ['P','U']
                     outputs={}
                     for name in order:
