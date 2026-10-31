@@ -1,0 +1,61 @@
+{
+  "unitTests": 38,
+  "status": "PASS",
+  "testGroups": [
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "reviewer_audit_2026_10_31",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "tests": 18,
+      "status": "PASS"
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "decision_audit_2026_10_31",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "tests": 9,
+      "status": "PASS"
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "utk_adapter_study.test_adapter",
+        "argon_followup_2026_11_01.test_graph",
+        "argon_followup_2026_11_01.test_multiword",
+        "-v"
+      ],
+      "tests": 11,
+      "status": "PASS"
+    }
+  ],
+  "sourcePairReplay": {
+    "status": "PASS",
+    "sourcePairsReplayed": {
+      "human_ref0": 200,
+      "enchant": 200,
+      "gtc": 200
+    },
+    "independentWitnessAndNoB1CheckForAcceptedCost2": 8,
+    "rawTextsRedistributed": false,
+    "scope": "Source identities and exact channel membership, not human semantic labeling"
+  },
+  "oldScientificArchivesPreserved": true,
+  "figuresCreated": false,
+  "latexOutsideGit": true,
+  "retrospective": true
+}

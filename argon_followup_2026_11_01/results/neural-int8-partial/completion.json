@@ -1,0 +1,15 @@
+{
+  "status": "INTERRUPTED_FOR_RUNTIME_OPTIMIZATION",
+  "reason": "Fixed256 padding still dominates CPU cost. Final complete attempt uses standard length-bucketed dynamic padding on original FP32 ONNX weights; retain INT8 as distinct partial numerical diagnostic.",
+  "counts": {
+    "raw": 11,
+    "cost": 0,
+    "trace": 10
+  },
+  "fileHashes": {
+    "trace.jsonl.gz": "4645041ddae946a84784dbe71d931e603a26deff87262b33f03c9a195bab9217",
+    "cost.jsonl.gz": "8bf6c94e3bd1d4512b7f3ca5d81aa3eea41c098470741526c270d23553c81a8f",
+    "metadata.json": "76a2d0e1c9eebb8a90cbb9f140fcb02a663b5efb322cace591d64014f845d089",
+    "raw.jsonl.gz": "bcfba08506d62eab69d835032941c0c6871edbd801c6a53e3068c9f5d9a52722"
+  }
+}

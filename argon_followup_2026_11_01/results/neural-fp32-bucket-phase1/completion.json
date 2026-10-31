@@ -1,0 +1,48 @@
+{
+  "status": "CONTINUE_REMAINING_WITH_SINGLE_PRIMARY_PAIRING",
+  "completedQueryIds": [
+    "110",
+    "115",
+    "123",
+    "129",
+    "135",
+    "137",
+    "148",
+    "159",
+    "185",
+    "186",
+    "196",
+    "224",
+    "242",
+    "263",
+    "268",
+    "277",
+    "283",
+    "288",
+    "31",
+    "347",
+    "361",
+    "394",
+    "42",
+    "435",
+    "466",
+    "472",
+    "473",
+    "476",
+    "485",
+    "80",
+    "91"
+  ],
+  "counts": {
+    "raw": 32,
+    "cost": 3,
+    "trace": 31
+  },
+  "fileHashes": {
+    "trace.jsonl.gz": "1cfef98595dbc5f24eef527c80bf08f647e8247f5c6bc16acbddac8d63ab5763",
+    "cost.jsonl.gz": "74b778ac5d1638e376f28b9bc4b5558a2d90ab2a2d08d62d27be67a610bab33f",
+    "metadata.json": "3c2935f63b1f4a97e859826e80e7468717f02a48432d0e692311f2ac40982e5b",
+    "raw.jsonl.gz": "bfda70951575e231fb2efbfddb2fa4ee7d93aa4d08ca24f80a9b9f5c1050a276"
+  },
+  "reason": "Preserve all completed pairs. Primary analysis uses repeat0 on every fixed cost ID; continue all unfinished IDs with one measured pairing, same model/backend/input window and controls."
+}

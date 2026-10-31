@@ -1,0 +1,9 @@
+{
+  "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "path": "onnx/model_qint8_avx512_vnni.onnx",
+  "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2/resolve/233902d25c440f23af6f7d6e94d2946bac0bee0a/onnx/model_qint8_avx512_vnni.onnx",
+  "bytes": 23200716,
+  "sha256": "3573b6b9593cb2f75987a31815d409ca3dd8808629118fd20451bb1a5d90cec7",
+  "numerics": "dynamic INT8; distinct numerical scorer from PyTorch FP32"
+}

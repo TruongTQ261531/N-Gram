@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "sourcePairsReplayed": {
+    "human_ref0": 200,
+    "enchant": 200,
+    "gtc": 200
+  },
+  "independentWitnessAndNoB1CheckForAcceptedCost2": 8,
+  "rawTextsRedistributed": false,
+  "scope": "Source identities and exact channel membership, not human semantic labeling"
+}
