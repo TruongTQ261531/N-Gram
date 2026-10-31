@@ -1,0 +1,135 @@
+{
+  "scope": "Native continuous-region conformance, NOT matched NLP baseline/runtime",
+  "upstream": "https://github.com/cupermanrose/UTK_source",
+  "upstreamCommit": "16466c87b08e2e368ba870cdcbbf31dc36be406b",
+  "localVariant": "guard-corrected",
+  "binarySha256": "1f4b98288e8242985a97b97c35b96f0a639f8566ed360bdce0fac5f49c2ee4f3",
+  "localSourceHashes": {
+    "src/main.cpp": "31c2cd2c47321ee27b586130ccfc47e4969112e7e5c3d1037b6b298d3ee73fa5",
+    "src/utk.cpp": "8d2a14c541ad06a043f379e88363535f7da9825b9114636a91cfa288ee96ba1f",
+    "src/cellTree.cpp": "744c289accb10174ca7494324ce4f0507eedeead70b3072ebfd2a9f1a5665f9b",
+    "src/skyline.cpp": "7ef7856d0b727b18c9b7eb7af79ca458d5beaaec1dcfc38c02b5e2426bb9e0f4"
+  },
+  "fixture": {
+    "records": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "1"
+      ],
+      [
+        "5/8",
+        "5/8",
+        "5/8"
+      ]
+    ],
+    "continuousRegion": {
+      "w1": [
+        "1/4",
+        "3/4"
+      ],
+      "w2": [
+        "1/20",
+        "1/10"
+      ],
+      "w3": "1-w1-w2"
+    },
+    "finiteAllowedWeights": [
+      [
+        "1/4",
+        "3/40",
+        "27/40"
+      ],
+      [
+        "3/4",
+        "3/40",
+        "7/40"
+      ]
+    ],
+    "finiteUnion": [
+      1,
+      2
+    ],
+    "continuousUnion": [
+      1,
+      2,
+      3
+    ],
+    "witnesses": [
+      {
+        "weights": [
+          "1/4",
+          "3/40",
+          "27/40"
+        ],
+        "scores": [
+          "1/4",
+          "3/4",
+          "5/8"
+        ],
+        "top1": [
+          2
+        ]
+      },
+      {
+        "weights": [
+          "3/4",
+          "3/40",
+          "7/40"
+        ],
+        "scores": [
+          "3/4",
+          "1/4",
+          "5/8"
+        ],
+        "top1": [
+          1
+        ]
+      },
+      {
+        "weights": [
+          "1/2",
+          "3/40",
+          "17/40"
+        ],
+        "scores": [
+          "1/2",
+          "1/2",
+          "5/8"
+        ],
+        "top1": [
+          3
+        ]
+      }
+    ],
+    "scope": "Domain/output counterexample, not a claim that RSA/JAA cannot be adapted."
+  },
+  "runs": {
+    "RSA": {
+      "exitCode": 0,
+      "reportedIds": [
+        1,
+        2,
+        3
+      ],
+      "matchesContinuousUnion": true,
+      "logSha256": "6f9b49df5f5c9b535f03d374b9fe20f9cc4a27192d018866a8c02cf2471b8541"
+    },
+    "JAA": {
+      "exitCode": 0,
+      "reportedIds": [
+        1,
+        2,
+        3
+      ],
+      "matchesContinuousUnion": true,
+      "logSha256": "278cac042733ec9af6fff39f873afe24645df0b2abfadfd74fd47928c77a47d0"
+    }
+  },
+  "thirdPartyFilesRedistributed": false
+}

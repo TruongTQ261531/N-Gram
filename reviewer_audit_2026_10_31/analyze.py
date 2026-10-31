@@ -26,6 +26,19 @@ def describe(values):
         [np.median(values),np.quantile(values,.25),np.quantile(values,.75),np.quantile(values,.95),np.sum(values)])}
 
 
+def paired_cost(control,discrete,seed):
+    """Descriptive whole-pipeline cost ratios; no new primary speed test."""
+    ratios=np.asarray(control)/np.asarray(discrete)
+    assert np.all(np.isfinite(ratios)) and np.all(ratios>0)
+    logs=np.log(ratios);rng=np.random.default_rng(seed)
+    sample=logs[rng.integers(0,len(logs),size=(2000,len(logs)))].mean(axis=1)
+    return {'direction':'control_seconds / discrete_seconds; greater than1 favors discrete',
+        'geometricMean':float(np.exp(logs.mean())),
+        'pairedBootstrap95':np.exp(np.quantile(sample,[.025,.975])).tolist(),
+        'discreteFasterQueries':int((ratios>1).sum()),'queries':len(ratios),
+        'descriptiveRetrospective':True}
+
+
 def analyze(run_dir):
     scope=json.loads((ROOT/'scope.json').read_text());datasets={};paired=[]
     for ds,ids in scope['replicationIds'].items():
@@ -51,8 +64,22 @@ def analyze(run_dir):
                 assert len(selected)==1;first[method].append(selected[0])
         row['supplementStatus']='COMPLETE'
         row['supplementCoverage']={m:sum(r['rankUpper']<=10 for r in runs) for m,runs in first.items()}
+        gains=[record['queryId'] for record,a,b in zip(records,first['discrete'],first['best_lp_enum'])
+            if a['rankUpper']<=10 and b['rankUpper']>10]
+        for a,b in zip(first['discrete'],first['best_lp_enum']):
+            if a['rankUpper']<=10 and b['rankUpper']>10:assert a['detail']['graphRank']<=10
+        row['discreteOnlyVsLpQueryIds']=gains
+        row['mechanismScope']='Every added discrete certificate vs matched bestLP requires the incompatibility cover; not a proof of global algorithmic novelty'
         row['milpCertified']=row['supplementCoverage']['milp_enum']
         row['controlledTiming']={m:describe([r['seconds'] for r in runs]) for m,runs in first.items()}
+        row['pairedCostRatios']={m:paired_cost([r['seconds'] for r in first[m]],
+            [r['seconds'] for r in first['discrete']],20261031+len(datasets))
+            for m in ['best_lp_enum','milp_enum']}
+        row['firstPassMethodPositions']={m:[0,0,0] for m in methods}
+        for record in records:
+            order=[r['method'] for r in record['runs'] if r['repeat']==0]
+            assert sorted(order)==sorted(methods)
+            for position,method in enumerate(order):row['firstPassMethodPositions'][method][position]+=1
         status={}
         for record in first['milp_enum']:
             d=record['detail'];solver=d.get('milp',{})
@@ -72,14 +99,22 @@ def analyze(run_dir):
         paired.append(comparison)
         row['repeatedSubsetQueries']=len(scope['timingRepeatedSubset'][ds])
         row['repeatedSubsetNoise']={}
+        row['repeatedSubsetBoundStability']={}
         for method in methods:
-            ratios=[]
+            ratios=[];rank_changes=[];decision_changes=[]
             for record in records:
                 if record['queryId'] not in scope['timingRepeatedSubset'][ds]:continue
-                t=[r['seconds'] for r in record['runs'] if r['method']==method]
+                runs=[r for r in record['runs'] if r['method']==method]
+                assert sorted(r['repeat'] for r in runs)==[0,1,2]
+                t=[r['seconds'] for r in runs]
                 assert len(t)==3
                 ratios.append(float(np.median(t)/t[0]))
+                if len({r['rankUpper'] for r in runs})>1:rank_changes.append(record['queryId'])
+                if len({r['rankUpper']<=10 for r in runs})>1:decision_changes.append(record['queryId'])
             row['repeatedSubsetNoise'][method]=describe(ratios)
+            row['repeatedSubsetBoundStability'][method]={'queries':len(ratios),
+                'rankChangedQueryIds':rank_changes,'decisionChangedQueryIds':decision_changes,
+                'notUsedToSelectPrimaryResults':True}
         datasets[ds]=row
     if len(paired)==3:
         for row,p in zip(paired,holm([r['twoSidedExactP'] for r in paired])):row['holmP']=p

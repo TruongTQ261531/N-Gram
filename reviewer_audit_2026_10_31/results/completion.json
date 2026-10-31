@@ -1,0 +1,15 @@
+{
+  "releasedAtUtc": "2026-10-31T08:50:31.491756+00:00",
+  "retrospective": true,
+  "allOriginalInputsRestored": 20,
+  "retentionQueries": 970,
+  "measuredMethodExecutions": 3774,
+  "allQueryFirstPassUsed": true,
+  "originalLpAndDiscreteRanksReplayed": true,
+  "timingDatasetsSequential": true,
+  "missingExperimentsNotInvented": true,
+  "matchedOriginalRsaJaaNlpBenchmarkComplete": false,
+  "globalSotaEstablished": false,
+  "historicalBlockedSnapshots": "history/pre-network-revision7",
+  "newManuscriptFilesInGit": false
+}

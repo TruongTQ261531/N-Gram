@@ -1,5 +1,5 @@
 {
-  "status": "INCOMPLETE",
+  "status": "COMPLETE",
   "retrospective": true,
   "datasets": {
     "scifact": {
@@ -17,9 +17,142 @@
         "total": 200.69443296000463
       },
       "archivalTimingScope": "proposed+genericLP+diagnostics; concurrent jobs possible; NOT isolated per-method latency",
-      "supplementStatus": "BLOCKED_OR_NOT_RUN",
-      "milpCertified": null,
-      "controlledTiming": null
+      "supplementStatus": "COMPLETE",
+      "supplementCoverage": {
+        "best_lp_enum": 115,
+        "discrete": 123,
+        "milp_enum": 123
+      },
+      "discreteOnlyVsLpQueryIds": [
+        "936",
+        "384",
+        "49",
+        "350",
+        "437",
+        "684",
+        "1232",
+        "597"
+      ],
+      "mechanismScope": "Every added discrete certificate vs matched bestLP requires the incompatibility cover; not a proof of global algorithmic novelty",
+      "milpCertified": 123,
+      "controlledTiming": {
+        "best_lp_enum": {
+          "median": 0.19571304499999087,
+          "q25": 0.08643633099998738,
+          "q75": 0.27947835799997733,
+          "p95": 0.44289240679999,
+          "total": 41.8176224419999
+        },
+        "discrete": {
+          "median": 0.19930966900000158,
+          "q25": 0.08773413050002432,
+          "q75": 0.29006981349999705,
+          "p95": 0.4584796664000578,
+          "total": 42.49253754300037
+        },
+        "milp_enum": {
+          "median": 0.21679360299998507,
+          "q25": 0.08934429700002511,
+          "q75": 0.7608397974999548,
+          "p95": 1.3412658625999767,
+          "total": 92.75397675400006
+        }
+      },
+      "pairedCostRatios": {
+        "best_lp_enum": {
+          "direction": "control_seconds / discrete_seconds; greater than1 favors discrete",
+          "geometricMean": 0.9777490152332792,
+          "pairedBootstrap95": [
+            0.9463269808022038,
+            1.0122917563723715
+          ],
+          "discreteFasterQueries": 85,
+          "queries": 199,
+          "descriptiveRetrospective": true
+        },
+        "milp_enum": {
+          "direction": "control_seconds / discrete_seconds; greater than1 favors discrete",
+          "geometricMean": 1.499638247834116,
+          "pairedBootstrap95": [
+            1.3663741642671714,
+            1.6446519450153236
+          ],
+          "discreteFasterQueries": 127,
+          "queries": 199,
+          "descriptiveRetrospective": true
+        }
+      },
+      "firstPassMethodPositions": {
+        "best_lp_enum": [
+          71,
+          62,
+          66
+        ],
+        "discrete": [
+          66,
+          71,
+          62
+        ],
+        "milp_enum": [
+          62,
+          66,
+          71
+        ]
+      },
+      "milpStatusCounts": {
+        "solver_status_0": 157,
+        "solver_status_1": 41,
+        "matrix_entries_resource_cap": 1
+      },
+      "repeatedSubsetQueries": 48,
+      "repeatedSubsetNoise": {
+        "best_lp_enum": {
+          "median": 1.0,
+          "q25": 0.9719579890456039,
+          "q75": 1.0,
+          "p95": 1.0255788971258968,
+          "total": 47.28598836223887
+        },
+        "discrete": {
+          "median": 1.0,
+          "q25": 0.9844731396643163,
+          "q75": 1.0104457253027372,
+          "p95": 1.0406068989780302,
+          "total": 47.83173372239771
+        },
+        "milp_enum": {
+          "median": 1.0,
+          "q25": 0.991088000908069,
+          "q75": 1.0170961696694347,
+          "p95": 1.0539581855126225,
+          "total": 48.12492035878956
+        }
+      },
+      "repeatedSubsetBoundStability": {
+        "best_lp_enum": {
+          "queries": 48,
+          "rankChangedQueryIds": [],
+          "decisionChangedQueryIds": [],
+          "notUsedToSelectPrimaryResults": true
+        },
+        "discrete": {
+          "queries": 48,
+          "rankChangedQueryIds": [],
+          "decisionChangedQueryIds": [],
+          "notUsedToSelectPrimaryResults": true
+        },
+        "milp_enum": {
+          "queries": 48,
+          "rankChangedQueryIds": [
+            "1363",
+            "1099",
+            "94",
+            "821"
+          ],
+          "decisionChangedQueryIds": [],
+          "notUsedToSelectPrimaryResults": true
+        }
+      }
     },
     "nfcorpus": {
       "queries": 223,
@@ -36,9 +169,142 @@
         "total": 132.39290663301108
       },
       "archivalTimingScope": "proposed+genericLP+diagnostics; concurrent jobs possible; NOT isolated per-method latency",
-      "supplementStatus": "BLOCKED_OR_NOT_RUN",
-      "milpCertified": null,
-      "controlledTiming": null
+      "supplementStatus": "COMPLETE",
+      "supplementCoverage": {
+        "best_lp_enum": 41,
+        "discrete": 45,
+        "milp_enum": 47
+      },
+      "discreteOnlyVsLpQueryIds": [
+        "PLAIN-2291",
+        "PLAIN-2991",
+        "PLAIN-2740",
+        "PLAIN-56"
+      ],
+      "mechanismScope": "Every added discrete certificate vs matched bestLP requires the incompatibility cover; not a proof of global algorithmic novelty",
+      "milpCertified": 47,
+      "controlledTiming": {
+        "best_lp_enum": {
+          "median": 0.13894682599993757,
+          "q25": 0.07243571300011808,
+          "q75": 0.21995134500002678,
+          "p95": 0.47599567399993237,
+          "total": 39.53853875000095
+        },
+        "discrete": {
+          "median": 0.11772584699997424,
+          "q25": 0.0752086279999844,
+          "q75": 0.14557564749998164,
+          "p95": 0.20016786269999326,
+          "total": 25.1413572769992
+        },
+        "milp_enum": {
+          "median": 1.099320898999963,
+          "q25": 0.09480630649994737,
+          "q75": 1.1802881314999922,
+          "p95": 2.0889986768998594,
+          "total": 188.23876002699944
+        }
+      },
+      "pairedCostRatios": {
+        "best_lp_enum": {
+          "direction": "control_seconds / discrete_seconds; greater than1 favors discrete",
+          "geometricMean": 1.3059734205029896,
+          "pairedBootstrap95": [
+            1.2437560956803984,
+            1.3724248095444316
+          ],
+          "discreteFasterQueries": 165,
+          "queries": 223,
+          "descriptiveRetrospective": true
+        },
+        "milp_enum": {
+          "direction": "control_seconds / discrete_seconds; greater than1 favors discrete",
+          "geometricMean": 3.922374012904262,
+          "pairedBootstrap95": [
+            3.4287676691532027,
+            4.525514465332352
+          ],
+          "discreteFasterQueries": 188,
+          "queries": 223,
+          "descriptiveRetrospective": true
+        }
+      },
+      "firstPassMethodPositions": {
+        "best_lp_enum": [
+          68,
+          75,
+          80
+        ],
+        "discrete": [
+          80,
+          68,
+          75
+        ],
+        "milp_enum": [
+          75,
+          80,
+          68
+        ]
+      },
+      "milpStatusCounts": {
+        "solver_status_1": 111,
+        "solver_status_0": 101,
+        "zero_reference": 11
+      },
+      "repeatedSubsetQueries": 48,
+      "repeatedSubsetNoise": {
+        "best_lp_enum": {
+          "median": 1.0,
+          "q25": 0.9692850039867273,
+          "q75": 1.0004984886313186,
+          "p95": 1.0363225565080851,
+          "total": 47.10969618676404
+        },
+        "discrete": {
+          "median": 1.0,
+          "q25": 0.9829662584076629,
+          "q75": 1.0038289374694138,
+          "p95": 1.0787679212375765,
+          "total": 47.529218073165325
+        },
+        "milp_enum": {
+          "median": 1.0,
+          "q25": 1.0,
+          "q75": 1.0,
+          "p95": 1.0234514819614389,
+          "total": 47.638106112662996
+        }
+      },
+      "repeatedSubsetBoundStability": {
+        "best_lp_enum": {
+          "queries": 48,
+          "rankChangedQueryIds": [],
+          "decisionChangedQueryIds": [],
+          "notUsedToSelectPrimaryResults": true
+        },
+        "discrete": {
+          "queries": 48,
+          "rankChangedQueryIds": [],
+          "decisionChangedQueryIds": [],
+          "notUsedToSelectPrimaryResults": true
+        },
+        "milp_enum": {
+          "queries": 48,
+          "rankChangedQueryIds": [
+            "PLAIN-238",
+            "PLAIN-3332",
+            "PLAIN-227",
+            "PLAIN-3141",
+            "PLAIN-2460",
+            "PLAIN-3037",
+            "PLAIN-541",
+            "PLAIN-3014"
+          ],
+          "decisionChangedQueryIds": [],
+          "notUsedToSelectPrimaryResults": true
+        }
+      }
     },
     "fiqa": {
       "queries": 548,
@@ -55,11 +321,201 @@
         "total": 3476.2294589479916
       },
       "archivalTimingScope": "proposed+genericLP+diagnostics; concurrent jobs possible; NOT isolated per-method latency",
-      "supplementStatus": "BLOCKED_OR_NOT_RUN",
-      "milpCertified": null,
-      "controlledTiming": null
+      "supplementStatus": "COMPLETE",
+      "supplementCoverage": {
+        "best_lp_enum": 71,
+        "discrete": 91,
+        "milp_enum": 90
+      },
+      "discreteOnlyVsLpQueryIds": [
+        "5264",
+        "3934",
+        "5369",
+        "7925",
+        "9291",
+        "5505",
+        "3177",
+        "5646",
+        "6005",
+        "5150",
+        "6875",
+        "766",
+        "3694",
+        "10596",
+        "5331",
+        "10152",
+        "6278",
+        "10547",
+        "9332",
+        "4955"
+      ],
+      "mechanismScope": "Every added discrete certificate vs matched bestLP requires the incompatibility cover; not a proof of global algorithmic novelty",
+      "milpCertified": 90,
+      "controlledTiming": {
+        "best_lp_enum": {
+          "median": 1.3366811584998004,
+          "q25": 0.9363211855003328,
+          "q75": 1.850738229250112,
+          "p95": 2.940894807900144,
+          "total": 814.4927510410012
+        },
+        "discrete": {
+          "median": 1.2844503879998683,
+          "q25": 0.9158660372503391,
+          "q75": 1.6887407372499865,
+          "p95": 2.282868720199667,
+          "total": 714.6181411699943
+        },
+        "milp_enum": {
+          "median": 2.199324772500063,
+          "q25": 1.607888704750053,
+          "q75": 2.681712545250093,
+          "p95": 3.4264714749998575,
+          "total": 1143.1032842909985
+        }
+      },
+      "pairedCostRatios": {
+        "best_lp_enum": {
+          "direction": "control_seconds / discrete_seconds; greater than1 favors discrete",
+          "geometricMean": 1.0720249142681597,
+          "pairedBootstrap95": [
+            1.0523630558255597,
+            1.093401981160769
+          ],
+          "discreteFasterQueries": 339,
+          "queries": 548,
+          "descriptiveRetrospective": true
+        },
+        "milp_enum": {
+          "direction": "control_seconds / discrete_seconds; greater than1 favors discrete",
+          "geometricMean": 1.5587403416280972,
+          "pairedBootstrap95": [
+            1.520849807996037,
+            1.5965986609991367
+          ],
+          "discreteFasterQueries": 489,
+          "queries": 548,
+          "descriptiveRetrospective": true
+        }
+      },
+      "firstPassMethodPositions": {
+        "best_lp_enum": [
+          195,
+          182,
+          171
+        ],
+        "discrete": [
+          171,
+          195,
+          182
+        ],
+        "milp_enum": [
+          182,
+          171,
+          195
+        ]
+      },
+      "milpStatusCounts": {
+        "solver_status_1": 370,
+        "solver_status_0": 158,
+        "matrix_entries_resource_cap": 20
+      },
+      "repeatedSubsetQueries": 48,
+      "repeatedSubsetNoise": {
+        "best_lp_enum": {
+          "median": 1.0,
+          "q25": 1.0,
+          "q75": 1.021073500044693,
+          "p95": 1.0910866655034306,
+          "total": 48.22177726956828
+        },
+        "discrete": {
+          "median": 1.0,
+          "q25": 0.986858140697107,
+          "q75": 1.031311415805168,
+          "p95": 1.0955930731840497,
+          "total": 48.40219673440933
+        },
+        "milp_enum": {
+          "median": 1.0,
+          "q25": 0.9951109417601314,
+          "q75": 1.0147641098866926,
+          "p95": 1.0833553397836675,
+          "total": 48.14068213122725
+        }
+      },
+      "repeatedSubsetBoundStability": {
+        "best_lp_enum": {
+          "queries": 48,
+          "rankChangedQueryIds": [],
+          "decisionChangedQueryIds": [],
+          "notUsedToSelectPrimaryResults": true
+        },
+        "discrete": {
+          "queries": 48,
+          "rankChangedQueryIds": [],
+          "decisionChangedQueryIds": [],
+          "notUsedToSelectPrimaryResults": true
+        },
+        "milp_enum": {
+          "queries": 48,
+          "rankChangedQueryIds": [
+            "4415",
+            "8202",
+            "8947",
+            "6668",
+            "3091",
+            "3822",
+            "4411",
+            "3148",
+            "7801"
+          ],
+          "decisionChangedQueryIds": [],
+          "notUsedToSelectPrimaryResults": true
+        }
+      }
     }
   },
-  "discreteVsMilp": [],
+  "discreteVsMilp": [
+    {
+      "dataset": "scifact",
+      "wins": 0,
+      "losses": 0,
+      "difference": 0.0,
+      "pairedBootstrap95": [
+        0.0,
+        0.0
+      ],
+      "twoSidedExactP": 1.0,
+      "retrospective": true,
+      "holmP": 1.0
+    },
+    {
+      "dataset": "nfcorpus",
+      "wins": 0,
+      "losses": 2,
+      "difference": -0.008968609865470852,
+      "pairedBootstrap95": [
+        -0.02242152466367713,
+        0.0
+      ],
+      "twoSidedExactP": 0.5,
+      "retrospective": true,
+      "holmP": 1.0
+    },
+    {
+      "dataset": "fiqa",
+      "wins": 1,
+      "losses": 0,
+      "difference": 0.0018248175182481751,
+      "pairedBootstrap95": [
+        0.0,
+        0.005474452554744526
+      ],
+      "twoSidedExactP": 1.0,
+      "retrospective": true,
+      "holmP": 1.0
+    }
+  ],
   "interpretation": "Missing MILP values are unmeasured, not zero. Archived costs never stand in for controlled per-method timings."
 }

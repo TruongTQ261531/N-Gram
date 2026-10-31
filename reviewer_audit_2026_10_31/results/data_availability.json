@@ -1,108 +1,108 @@
 {
-  "status": "BLOCKED",
+  "status": "READY",
   "files": [
     {
       "path": "data/scifact/source/README.md",
       "expectedSha256": "b5f57be1839fdb75867073986a019a78afe0a149950f79d1165509efc5e5cf2f",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/scifact/source/corpus/corpus-00000-of-00001.parquet",
       "expectedSha256": "243324b35f03d82bd6d98a5f575966876e86cad7ce16e5333a35b1b793dc4f45",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/scifact/source/queries/queries-00000-of-00001.parquet",
       "expectedSha256": "1c37956c5dc8b810b60302323c24d1a9e79e26411ba8f5ad9d0888642e2a9034",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/scifact/qrels/README.md",
       "expectedSha256": "fd34a2830e557f1e32d46d0b34a218d280c9800ee4071579610d4ff587b4fd45",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/scifact/qrels/test.tsv",
       "expectedSha256": "0864bb985e0ca2367ba217977e72004d549054b2b06666ed9d4825ac7c21284c",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/scifact/qrels/train.tsv",
       "expectedSha256": "a53f2114831916c096b6c37d9e54da68cef4efdcdbd5ed46533601af972acf1d",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/nfcorpus/source/README.md",
       "expectedSha256": "f989282ab56b5a7b9cf2328e2e96bc6a74207fe16b9bd517fe9a2d289b692eb6",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/nfcorpus/source/corpus/corpus-00000-of-00001.parquet",
       "expectedSha256": "f2a1c0b570a5efdf23cfa36f5e573d062cc113c6e7251e22c69b323a33ea895e",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/nfcorpus/source/queries/queries-00000-of-00001.parquet",
       "expectedSha256": "edd2b878b8130fb3b5e3c4b9428ddc1e67fbd6eedf8ae099fca3b87838ba6b29",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/nfcorpus/qrels/README.md",
       "expectedSha256": "fd34a2830e557f1e32d46d0b34a218d280c9800ee4071579610d4ff587b4fd45",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/nfcorpus/qrels/dev.tsv",
       "expectedSha256": "b1d38b5e8f78c4a5820bce2b7ec2db54911d7690dc601e76811846b211180bd8",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/nfcorpus/qrels/test.tsv",
       "expectedSha256": "f8fba6ef3d4dd9c3a242a8ba4ae38276fc3622fce7dcbae764766d564542fd2a",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/nfcorpus/qrels/train.tsv",
       "expectedSha256": "6336b80f9bffc4f063f3aa450047ad35c0b7c534efe4a6ba35e16dbace047f6a",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/fiqa/source/README.md",
       "expectedSha256": "aa8389d527feaffdf7ac73b708914155df2781ad9d2a8d146287f1abc7fc762f",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/fiqa/source/corpus/corpus-00000-of-00001.parquet",
       "expectedSha256": "b36bb07dab3bfad488190818828e749a52faf5ba391c1d51dac8b06064576f99",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/fiqa/source/queries/queries-00000-of-00001.parquet",
       "expectedSha256": "e9b3863724ffd538d8efff19684ef8ae495bdbddd96b35e81bdc39e3e22860d6",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/fiqa/qrels/README.md",
       "expectedSha256": "fd34a2830e557f1e32d46d0b34a218d280c9800ee4071579610d4ff587b4fd45",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/fiqa/qrels/dev.tsv",
       "expectedSha256": "03b27e547cd29dc721c3b93ce8ddd70df6b2d0ce954d8ef3659d386e8cd72c11",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/fiqa/qrels/test.tsv",
       "expectedSha256": "6adc2a640dcdd22bb8b3858f89107adef2a7c3db20a63550dfa7a0f71e379e44",
-      "status": "missing"
+      "status": "verified"
     },
     {
       "path": "data/fiqa/qrels/train.tsv",
       "expectedSha256": "e46a99529aa61b12e086a5c057e4e0ecaeda9502e53d5fe855efce778f1ec59a",
-      "status": "missing"
+      "status": "verified"
     }
   ],
-  "verified": 0,
+  "verified": 20,
   "required": 20,
   "reason": "Exact historical source bytes required; no synthetic/replacement data permitted."
 }

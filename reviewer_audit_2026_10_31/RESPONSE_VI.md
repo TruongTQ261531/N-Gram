@@ -1,5 +1,7 @@
 # Phân tích phản biện Argon và những sửa đổi có bằng chứng
 
+> Cập nhật: MILP và timing đã hoàn tất trên 970 truy vấn. Các đoạn ghi “bị chặn/chưa chạy” dưới đây thuộc bản phân tích ban đầu; xem mục “Cập nhật sau khi mở mạng” ở cuối và README cho trạng thái hiện tại.
+
 31/10/2026, Asia/Saigon. Kết luận: phản biện chỉ đúng phần lớn; có hai
 chỗ cần điều chỉnh cách diễn giải. Đây là sửa scope và kiểm tra bổ sung
 sau khi đã biết kết quả, không phải một đợt confirmation độc lập mới.
@@ -121,3 +123,55 @@ thực hiện matched numerical bridge có counterexample công khai. Chưa đó
 được benchmark MILP970, broad controlled timing và original RSA/JAA.
 Chúng là thiếu hụt thật, không phải vấn đề có thể giải quyết chỉ bằng câu
 chữ, và không có căn cứ nâng đánh giá lên “sẵn sàng Q1”.
+
+## Cập nhật sau khi mở mạng — trạng thái hiện tại
+
+Các đoạn “bị chặn/chưa chạy” phía trên mô tả thời điểm phản biện ban đầu.
+Mạng hiện đã mở;20/20 file gốc khớp SHA256 và cả ba index khớp fingerprint.
+Đã hoàn tất MILP/controlled timing cho đúng970 query IDs cũ, B2/K10.
+Không thay dữ liệu, không đổi freeze, không dùng repeat thuận lợi để chọn
+kết quả. Lượt đầu trên tất cả query là kết quả báo cáo chính của supplement.
+
+| Corpus | n | BestLP+enum | Discrete | MILP+enum |
+|---|---:|---:|---:|---:|
+| SciFact | 199 | 115 | 123 | 123 |
+| NFCorpus | 223 | 41 | 45 | 47 |
+| FiQA | 548 | 71 | 91 | 90 |
+
+MILP là numerical solver reference; không giả làm formal dual proof.
+Các giới hạn1giây solver/2triệu matrix entries, timeout/skip/fallback và
+witness replay được công khai. Discrete không vượt MILP nói chung.
+Bảng paired mới và runtime đầy đủ nằm trong coverage_and_runtime_status.json.
+Đây là phần bổ sung hồi cứu trên query cũ, không gọi là replication mới.
+
+Có3774 method executions:970 lượt đầu cho mỗi method và hai repeat thêm
+trên48query/corpus. Chỉ199/223/548 query là các đơn vị thống kê độc lập theo
+query; không nhân cỡ mẫu bằng số repeat. Timing đo cả pipeline với warm
+index, một numerical thread, các corpus chạy tuần tự. Bảng10query cũ vẫn
+chỉ là exploratory B1/B2/B3; archival combined cost cũng không được dùng
+thay timing riêng method. Median/IQR/P95, paired ratios, thứ tự chạy và
+biến động kết quả MILP ở repeat đều được giữ.
+
+Verifier riêng xét đủ34query có quyết định coverage khác nhau giữa ba method; 34query được upper-enclosure xác nhận K10. Cap lớn chỉ để kiểm tra, không đổi rank/timing của phương pháp trong bảng.
+Verifier dùng lại screening và margin enclosures gốc, không là kiểm chứng
+độc lập toàn bộ sparse libraries. UNKNOWN/inconclusive không phải bằng
+chứng MILP sai.
+
+Đã lấy được bản gốc UTK và một source mirror tự dẫn đúng DOI, pin16466c8.
+Native RSA khớp union liên tục trong fixture3doc. JAA với IO harness gốc
+bỏ các subregion vì guard dịch bit trả0; giữ nguyên thất bại và tách variant
+sửa guard với hashes/logs riêng. Xem native_utk reports cho kết quả thực.
+Đây chưa phải đối chứng RSA/JAA trên cùng NLP lattice; việc sửa guard
+không chứng minh thuật toán công bố sai. Không publish source/binary bị
+hạn chế phân phối, và không đổi tên baseline hiện có thành RSA/JAA.
+
+CostCert đã có shared atomic vote budget. Fixture nguyên nhỏ phân biệt
+free allocation với correlated bundle, không nhận là chạy code tác giả
+hay chứng minh novelty toàn cục. UTK đã có possible-result union; CertEx
+cũng đã có screening số học an toàn. Đổi domain/heading hoặc thêm trích dẫn
+không tự tăng novelty. Phần tách biệt thuật toán với closest methods và
+benchmark matched UTK vẫn là việc thật cần làm trước khi bảo vệ Q1.
+
+Bản main/bib được sửa cục bộ, ngoài Git; Fig1/Fig2 vẫn chưa vẽ. Các số liệu
+âm của session cũ, counterexample casefold, và giới hạn novelty đều còn.
+Không có căn cứ gọi bài là global SOTA hoặc cam kết đã đủ Q1.

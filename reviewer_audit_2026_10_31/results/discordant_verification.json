@@ -1,0 +1,1011 @@
+{
+  "kind": "Retrospective verification-only audit of ALL coverage-discordant queries among three methods",
+  "sharedAssumptions": "Uses the same frozen screening and margin enclosures; not independent validation of sparse libraries or screening",
+  "records": [
+    {
+      "dataset": "scifact",
+      "queryId": "936",
+      "bestLpRank": 13,
+      "discreteRank": 9,
+      "milpRank": 9,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 37119,
+        "cells": 482547,
+        "rankUpper": 9,
+        "upperEnvelopeMaximizer": [
+          76,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "scifact",
+      "queryId": "384",
+      "bestLpRank": 12,
+      "discreteRank": 10,
+      "milpRank": 10,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 182245,
+        "cells": 2186940,
+        "rankUpper": 10,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          40,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "scifact",
+      "queryId": "49",
+      "bestLpRank": 11,
+      "discreteRank": 9,
+      "milpRank": 9,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 22148,
+        "cells": 243628,
+        "rankUpper": 9,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          22,
+          0,
+          0,
+          46
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "scifact",
+      "queryId": "350",
+      "bestLpRank": 12,
+      "discreteRank": 10,
+      "milpRank": 10,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 194828,
+        "cells": 2337936,
+        "rankUpper": 10,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          39,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "scifact",
+      "queryId": "437",
+      "bestLpRank": 11,
+      "discreteRank": 10,
+      "milpRank": 10,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 327700,
+        "cells": 3604700,
+        "rankUpper": 10,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "scifact",
+      "queryId": "684",
+      "bestLpRank": 12,
+      "discreteRank": 10,
+      "milpRank": 10,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 95436,
+        "cells": 1145232,
+        "rankUpper": 10,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          70,
+          0,
+          0,
+          0,
+          14,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "scifact",
+      "queryId": "1232",
+      "bestLpRank": 16,
+      "discreteRank": 10,
+      "milpRank": 10,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 99928,
+        "cells": 1698776,
+        "rankUpper": 10,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "scifact",
+      "queryId": "597",
+      "bestLpRank": 17,
+      "discreteRank": 6,
+      "milpRank": 6,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 40313,
+        "cells": 806260,
+        "rankUpper": 6,
+        "upperEnvelopeMaximizer": [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "nfcorpus",
+      "queryId": "PLAIN-2291",
+      "bestLpRank": 20,
+      "discreteRank": 7,
+      "milpRank": 6,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 3838,
+        "cells": 80598,
+        "rankUpper": 6,
+        "upperEnvelopeMaximizer": [
+          18,
+          32
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "nfcorpus",
+      "queryId": "PLAIN-2991",
+      "bestLpRank": 12,
+      "discreteRank": 6,
+      "milpRank": 5,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 12952,
+        "cells": 155424,
+        "rankUpper": 5,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          12,
+          18
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "nfcorpus",
+      "queryId": "PLAIN-2240",
+      "bestLpRank": 23,
+      "discreteRank": 12,
+      "milpRank": 7,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 2915,
+        "cells": 72875,
+        "rankUpper": 7,
+        "upperEnvelopeMaximizer": [
+          7,
+          8
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "nfcorpus",
+      "queryId": "PLAIN-1141",
+      "bestLpRank": 36,
+      "discreteRank": 22,
+      "milpRank": 9,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 5700,
+        "cells": 222300,
+        "rankUpper": 9,
+        "upperEnvelopeMaximizer": [
+          64,
+          43
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "nfcorpus",
+      "queryId": "PLAIN-2740",
+      "bestLpRank": 11,
+      "discreteRank": 6,
+      "milpRank": 5,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 16983,
+        "cells": 186813,
+        "rankUpper": 5,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          7,
+          7
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "nfcorpus",
+      "queryId": "PLAIN-56",
+      "bestLpRank": 15,
+      "discreteRank": 7,
+      "milpRank": 7,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 4174,
+        "cells": 62610,
+        "rankUpper": 7,
+        "upperEnvelopeMaximizer": [
+          32,
+          0,
+          9
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "5264",
+      "bestLpRank": 14,
+      "discreteRank": 9,
+      "milpRank": 9,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 86901,
+        "cells": 1303515,
+        "rankUpper": 9,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          31,
+          0,
+          11
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "3934",
+      "bestLpRank": 14,
+      "discreteRank": 7,
+      "milpRank": 7,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 155655,
+        "cells": 2334825,
+        "rankUpper": 7,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          41,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "5369",
+      "bestLpRank": 19,
+      "discreteRank": 8,
+      "milpRank": 13,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 120248,
+        "cells": 2765704,
+        "rankUpper": 8,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "7925",
+      "bestLpRank": 15,
+      "discreteRank": 7,
+      "milpRank": 7,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 10260,
+        "cells": 215460,
+        "rankUpper": 7,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          16,
+          0,
+          11,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "9291",
+      "bestLpRank": 13,
+      "discreteRank": 7,
+      "milpRank": 9,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 189869,
+        "cells": 2658166,
+        "rankUpper": 7,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "5505",
+      "bestLpRank": 20,
+      "discreteRank": 10,
+      "milpRank": 9,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 77837,
+        "cells": 1712414,
+        "rankUpper": 9,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          4,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "3177",
+      "bestLpRank": 14,
+      "discreteRank": 6,
+      "milpRank": 6,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 10609,
+        "cells": 180353,
+        "rankUpper": 6,
+        "upperEnvelopeMaximizer": [
+          9,
+          9,
+          0,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "5646",
+      "bestLpRank": 11,
+      "discreteRank": 5,
+      "milpRank": 5,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 30250,
+        "cells": 363000,
+        "rankUpper": 5,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          45,
+          0,
+          63,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "6005",
+      "bestLpRank": 13,
+      "discreteRank": 8,
+      "milpRank": 8,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 76213,
+        "cells": 1066982,
+        "rankUpper": 8,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "5150",
+      "bestLpRank": 12,
+      "discreteRank": 9,
+      "milpRank": 9,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 209791,
+        "cells": 2517492,
+        "rankUpper": 9,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          33,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "6875",
+      "bestLpRank": 18,
+      "discreteRank": 10,
+      "milpRank": 10,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 64275,
+        "cells": 1221225,
+        "rankUpper": 10,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          80,
+          0,
+          13
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "766",
+      "bestLpRank": 15,
+      "discreteRank": 8,
+      "milpRank": 8,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 46508,
+        "cells": 790636,
+        "rankUpper": 8,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          56,
+          0,
+          0,
+          0,
+          0,
+          0,
+          58
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "3694",
+      "bestLpRank": 14,
+      "discreteRank": 7,
+      "milpRank": 7,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 113926,
+        "cells": 1708890,
+        "rankUpper": 7,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          66,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "10596",
+      "bestLpRank": 12,
+      "discreteRank": 9,
+      "milpRank": 9,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 33964,
+        "cells": 407568,
+        "rankUpper": 9,
+        "upperEnvelopeMaximizer": [
+          6,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "5331",
+      "bestLpRank": 15,
+      "discreteRank": 6,
+      "milpRank": 6,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 18012,
+        "cells": 342228,
+        "rankUpper": 6,
+        "upperEnvelopeMaximizer": [
+          10,
+          0,
+          0,
+          0,
+          6
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "10152",
+      "bestLpRank": 11,
+      "discreteRank": 7,
+      "milpRank": 7,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 102819,
+        "cells": 1233828,
+        "rankUpper": 7,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "6278",
+      "bestLpRank": 12,
+      "discreteRank": 8,
+      "milpRank": 7,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 105316,
+        "cells": 1474424,
+        "rankUpper": 7,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          17,
+          0,
+          0,
+          0,
+          0,
+          0,
+          29,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "10547",
+      "bestLpRank": 13,
+      "discreteRank": 8,
+      "milpRank": 8,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 33164,
+        "cells": 464296,
+        "rankUpper": 8,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          57,
+          0,
+          46,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "9332",
+      "bestLpRank": 12,
+      "discreteRank": 6,
+      "milpRank": 6,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 76648,
+        "cells": 1149720,
+        "rankUpper": 6,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    },
+    {
+      "dataset": "fiqa",
+      "queryId": "4955",
+      "bestLpRank": 11,
+      "discreteRank": 7,
+      "milpRank": 7,
+      "audit": {
+        "status": "COMPLETE",
+        "states": 53250,
+        "cells": 692250,
+        "rankUpper": 7,
+        "upperEnvelopeMaximizer": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0
+        ],
+        "interpretation": "Max over upper-margin enclosures; not an attack witness."
+      },
+      "enclosureCertifiesK10": true,
+      "modelFingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "primaryBoundsAndTimesUnchanged": true
+    }
+  ],
+  "queries": 34,
+  "enclosureCertified": 34,
+  "notUsedToModifyPrimaryResults": true
+}

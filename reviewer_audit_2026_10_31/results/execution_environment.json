@@ -1,0 +1,19 @@
+{
+  "capturedAtUtc": "2026-10-31T08:31:18.807114+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cpuModel": "AMD EPYC 9V74 80-Core Processor",
+  "cpuQuota": "400000 100000",
+  "memoryMaxBytes": 34359738368,
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "pandas": "2.2.3",
+    "pyarrow": "23.0.1"
+  },
+  "numericalThreads": 1,
+  "scope": "Environment captured during supplementary run; not a reconstructed timestamp for earlier measurements",
+  "timingScope": "Warm immutable index shared, whole method pipeline timed; initial data restoration/index construction excluded",
+  "scheduling": "Dataset jobs sequential; no other study benchmark or compilation during controlled timing. Ordinary OS/container sharing cannot be ruled out."
+}

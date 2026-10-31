@@ -1,0 +1,290 @@
+{
+  "kind": "Mathematical contract fixtures, not additional corpus evidence",
+  "costcertSingleRegionBundleExamples": [
+    {
+      "competitors": 2,
+      "mutableVotes": 2,
+      "fixedCleanVotes": [
+        1,
+        0,
+        0
+      ],
+      "allowedBundledStates": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "finiteBundleWorstRank": 2,
+      "independentAllocationWorstRank": 3,
+      "interpretation": "The free-vote relaxation is sound but omits bundle attainability. This is not a failure of CostCert on its declared input model."
+    },
+    {
+      "competitors": 3,
+      "mutableVotes": 3,
+      "fixedCleanVotes": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "allowedBundledStates": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          3,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          3
+        ]
+      ],
+      "finiteBundleWorstRank": 2,
+      "independentAllocationWorstRank": 4,
+      "interpretation": "The free-vote relaxation is sound but omits bundle attainability. This is not a failure of CostCert on its declared input model."
+    },
+    {
+      "competitors": 4,
+      "mutableVotes": 4,
+      "fixedCleanVotes": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "allowedBundledStates": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "finiteBundleWorstRank": 2,
+      "independentAllocationWorstRank": 5,
+      "interpretation": "The free-vote relaxation is sound but omits bundle attainability. This is not a failure of CostCert on its declared input model."
+    },
+    {
+      "competitors": 5,
+      "mutableVotes": 5,
+      "fixedCleanVotes": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "allowedBundledStates": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "finiteBundleWorstRank": 2,
+      "independentAllocationWorstRank": 6,
+      "interpretation": "The free-vote relaxation is sound but omits bundle attainability. This is not a failure of CostCert on its declared input model."
+    }
+  ],
+  "utkFiniteVsConvex": {
+    "records": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "1"
+      ],
+      [
+        "5/8",
+        "5/8",
+        "5/8"
+      ]
+    ],
+    "continuousRegion": {
+      "w1": [
+        "1/4",
+        "3/4"
+      ],
+      "w2": [
+        "1/20",
+        "1/10"
+      ],
+      "w3": "1-w1-w2"
+    },
+    "finiteAllowedWeights": [
+      [
+        "1/4",
+        "3/40",
+        "27/40"
+      ],
+      [
+        "3/4",
+        "3/40",
+        "7/40"
+      ]
+    ],
+    "finiteUnion": [
+      1,
+      2
+    ],
+    "continuousUnion": [
+      1,
+      2,
+      3
+    ],
+    "witnesses": [
+      {
+        "weights": [
+          "1/4",
+          "3/40",
+          "27/40"
+        ],
+        "scores": [
+          "1/4",
+          "3/4",
+          "5/8"
+        ],
+        "top1": [
+          2
+        ]
+      },
+      {
+        "weights": [
+          "3/4",
+          "3/40",
+          "7/40"
+        ],
+        "scores": [
+          "3/4",
+          "1/4",
+          "5/8"
+        ],
+        "top1": [
+          1
+        ]
+      },
+      {
+        "weights": [
+          "1/2",
+          "3/40",
+          "17/40"
+        ],
+        "scores": [
+          "1/2",
+          "1/2",
+          "5/8"
+        ],
+        "top1": [
+          3
+        ]
+      }
+    ],
+    "scope": "Domain/output counterexample, not a claim that RSA/JAA cannot be adapted."
+  },
+  "noveltyClaim": false,
+  "authorCodeExecution": "Separate native UTK report; no author CostCert execution claimed"
+}

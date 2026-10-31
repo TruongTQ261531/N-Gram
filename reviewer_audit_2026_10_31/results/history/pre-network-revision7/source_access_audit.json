@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-31",
+  "timezone": "Asia/Saigon",
+  "requests": [
+    {
+      "source": "https://huggingface.co/datasets/BeIR/scifact/resolve/b3b5335604bf5ee3c4447671af975ea25143d4f5/queries/queries-00000-of-00001.parquet",
+      "status": "HTTP403 destination policy; no bytes restored"
+    },
+    {
+      "source": "https://www.vldb.org/pvldb/vol11/p866-mouratidis.pdf",
+      "status": "HTTP403 destination policy; no fresh full-text access"
+    },
+    {
+      "source": "https://github.com/search?q=%22Exact+Processing+of+Uncertain%22&type=repositories",
+      "status": "Accessible GitHub repository search; zero repositories returned for this query only",
+      "sha256": "1ab15573c962862cd0270cecb4c71d54b4d2146eff4e34cec5de66f4c60eb676",
+      "scope": "Bounded search, not evidence that author code does not exist"
+    },
+    {
+      "source": "https://github.com/search?q=UTK+Mouratidis&type=repositories",
+      "status": "Accessible GitHub repository search; zero repositories returned for this query only",
+      "sha256": "eb430bb3ede272b689de6dac0eeae28a1aa81365901a971f58241be20a2a4a81",
+      "scope": "Bounded search, not evidence that author code does not exist"
+    }
+  ],
+  "networkDraftAlreadySaved": true,
+  "runtimeCustomHostsApplied": false
+}
