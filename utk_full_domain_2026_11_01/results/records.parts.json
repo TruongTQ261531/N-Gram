@@ -1,0 +1,57 @@
+{
+  "originalGzipSha256": "6608f9750d33c42745ebb3d878e3ddfa8fe69240491dab44eda6ce0f16eb25bf",
+  "originalBytes": 81222932,
+  "parts": [
+    {
+      "name": "records.jsonl.gz.part000",
+      "bytes": 8388608,
+      "sha256": "0b9f0da9b69a2987774294d8491df04a198ed3f10b771c82f9d377faba592899"
+    },
+    {
+      "name": "records.jsonl.gz.part001",
+      "bytes": 8388608,
+      "sha256": "b3ef85fd04972cb05473edb2097dc21c090a9bfadc62dc03f09863dfd9fc16cc"
+    },
+    {
+      "name": "records.jsonl.gz.part002",
+      "bytes": 8388608,
+      "sha256": "5542b8d6d3da4e455fd0cee8b85061ff11b5cae859b8d718f4897d6097177740"
+    },
+    {
+      "name": "records.jsonl.gz.part003",
+      "bytes": 8388608,
+      "sha256": "dffe215ef4f9367174c5a4233b0e1ba214bd82cf1df6847bd2c572b421a27f60"
+    },
+    {
+      "name": "records.jsonl.gz.part004",
+      "bytes": 8388608,
+      "sha256": "311b6e321958a5a758949c719a97a45709d23626f6e419e03945680ade76eaa5"
+    },
+    {
+      "name": "records.jsonl.gz.part005",
+      "bytes": 8388608,
+      "sha256": "d2362ea0f070a758be72d905f17a8afc4552c9ce5f18ac8da269be36cd9d4fc3"
+    },
+    {
+      "name": "records.jsonl.gz.part006",
+      "bytes": 8388608,
+      "sha256": "307b9199e8c05383c13a674398368ee631c0c1d10d97e99518dbaaa10e1da130"
+    },
+    {
+      "name": "records.jsonl.gz.part007",
+      "bytes": 8388608,
+      "sha256": "d2192b3fe69356e3e03d815231c44791d8c1788185a8f6ad91c27d9d3846e673"
+    },
+    {
+      "name": "records.jsonl.gz.part008",
+      "bytes": 8388608,
+      "sha256": "ae86f99362e3f3cba16522775b38367e3459afd5175c731442b8f3f204dec534"
+    },
+    {
+      "name": "records.jsonl.gz.part009",
+      "bytes": 5725460,
+      "sha256": "3fd03ced55c2aab6135fbef29041ea15a4786b2393aa0f500613db41f2f93771"
+    }
+  ],
+  "encoding": "Concatenate exact bytes in order; then gzip decompress. No numerical data changed."
+}

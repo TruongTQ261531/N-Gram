@@ -1,0 +1,58 @@
+{
+  "status": "COMPLETE",
+  "startedUtc": "2026-11-01T12:11:20.630006+00:00",
+  "retrospective": true,
+  "freezeSha256": "f093c3566de8e89712aa5611ff5578bf5e82cf390ad26df463d5d8c05a848d97",
+  "modelHash": "3640aa299076386d0bb5c8e95b1b43979f4d1a36337fd435bfb327dc3ae5d244",
+  "gitCommit": "a72c425150c97c78a948874dcf581cc30a934302",
+  "methods": [
+    "screen_batch",
+    "parent",
+    "rsa_fd",
+    "jaa_fd"
+  ],
+  "repeats": 3,
+  "oldOutcomesReadByRunner": false,
+  "numericalThreads": 1,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-fdde5778.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+      "version": null
+    }
+  ],
+  "cpuQuota": "400000 100000",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "timingScope": "Whole pipeline including lattice/screen/factors/refinement, shared warm index excluded",
+  "originalCppRuntimeReproduction": false,
+  "queries": 128,
+  "finishedUtc": "2026-11-01T12:47:03.522111+00:00",
+  "recordsSha256": "6608f9750d33c42745ebb3d878e3ddfa8fe69240491dab44eda6ce0f16eb25bf"
+}

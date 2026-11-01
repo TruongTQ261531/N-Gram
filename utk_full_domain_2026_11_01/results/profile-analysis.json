@@ -1,0 +1,76 @@
+{
+  "status": "COMPLETE",
+  "queries": 128,
+  "allAdmissibleStates": 6684,
+  "retrospectiveSupplement": true,
+  "repeats": 1,
+  "arrangementNodeCap": "disabled",
+  "wallSeconds": 120,
+  "stateScoreCellCap": 50000000,
+  "originalCppRuntimeReproduction": false,
+  "methods": {
+    "screen_batch": {
+      "queries": 128,
+      "exactQueries": 128,
+      "runStatuses": {
+        "exact": 128
+      },
+      "incompleteQueryIds": [],
+      "medianSeconds": 0.015936278500021217,
+      "p95Seconds": 0.046604884650014354,
+      "maxSeconds": 0.0698519029997442,
+      "capReasons": {},
+      "mismatchedExactRuns": 0
+    },
+    "parent": {
+      "queries": 128,
+      "exactQueries": 128,
+      "runStatuses": {
+        "exact": 128
+      },
+      "incompleteQueryIds": [],
+      "medianSeconds": 0.0714011570000821,
+      "p95Seconds": 0.10203997674989292,
+      "maxSeconds": 0.12732176000008621,
+      "capReasons": {},
+      "mismatchedExactRuns": 0
+    },
+    "rsa_fd": {
+      "queries": 128,
+      "exactQueries": 127,
+      "runStatuses": {
+        "exact": 127,
+        "resource_unknown": 1
+      },
+      "incompleteQueryIds": [
+        "170"
+      ],
+      "medianSeconds": 0.20810156600009577,
+      "p95Seconds": 6.536343043000192,
+      "maxSeconds": 120.004026436,
+      "capReasons": {
+        "wall_guard": 1
+      },
+      "mismatchedExactRuns": 0
+    },
+    "jaa_fd": {
+      "queries": 128,
+      "exactQueries": 127,
+      "runStatuses": {
+        "exact": 127,
+        "resource_unknown": 1
+      },
+      "incompleteQueryIds": [
+        "170"
+      ],
+      "medianSeconds": 0.16759226349995515,
+      "p95Seconds": 5.870133434550051,
+      "maxSeconds": 120.00423668500025,
+      "capReasons": {
+        "wall_guard": 1
+      },
+      "mismatchedExactRuns": 0
+    }
+  },
+  "identicalFactorsLinkedToValidatedDefaultReceipts": true
+}

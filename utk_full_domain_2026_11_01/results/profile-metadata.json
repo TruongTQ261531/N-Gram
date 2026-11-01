@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "retrospectiveSupplement": true,
+  "repeats": 1,
+  "arrangementNodeCap": "disabled",
+  "wallSeconds": 120,
+  "stateScoreCellCap": 50000000,
+  "oldOutcomesReadByRunner": false,
+  "profileFreezeSha256": "850792c7772e32d718dd7c980304fd797c0f868777b8a05d219100833cf07bf1",
+  "originalCppRuntimeReproduction": false,
+  "queries": 128,
+  "recordsSha256": "5544e96d899a35ddd81c8f662707883d1a8fe462c9da3da2f278bb070137f765"
+}

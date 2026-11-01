@@ -1,0 +1,130 @@
+{
+  "status": "COMPLETE",
+  "retrospective": true,
+  "queries": 128,
+  "corpus": 42994,
+  "allAdmissibleStates": 6684,
+  "methods": {
+    "screen_batch": {
+      "queries": 128,
+      "allThreeRepeatsExact": 128,
+      "incompleteQueryIds": [],
+      "runStatuses": {
+        "exact": 384
+      },
+      "medianSeconds": 0.01673754150010609,
+      "p95Seconds": 0.05356772944987824,
+      "maxSeconds": 0.08289344200011328,
+      "mismatchedExactRuns": 0,
+      "terminations": {
+        "complete_enumeration": 384
+      },
+      "costRelativeToScreenBatch": {
+        "queries": 128,
+        "geometric": 1.0,
+        "bootstrap95": [
+          1.0,
+          1.0
+        ],
+        "slowerQueries": 0,
+        "fasterQueries": 0,
+        "scope": "Descriptive retrospective, instrumented finite implementations"
+      }
+    },
+    "parent": {
+      "queries": 128,
+      "allThreeRepeatsExact": 128,
+      "incompleteQueryIds": [],
+      "runStatuses": {
+        "exact": 384
+      },
+      "medianSeconds": 0.07286921050001638,
+      "p95Seconds": 0.1021436980998942,
+      "maxSeconds": 0.12468197999987751,
+      "mismatchedExactRuns": 0,
+      "terminations": {
+        "None": 384
+      },
+      "costRelativeToScreenBatch": {
+        "queries": 128,
+        "geometric": 3.714021199647964,
+        "bootstrap95": [
+          3.440020264510235,
+          4.008078811744139
+        ],
+        "slowerQueries": 127,
+        "fasterQueries": 1,
+        "scope": "Descriptive retrospective, instrumented finite implementations"
+      }
+    },
+    "rsa_fd": {
+      "queries": 128,
+      "allThreeRepeatsExact": 126,
+      "incompleteQueryIds": [
+        "170",
+        "308"
+      ],
+      "runStatuses": {
+        "exact": 378,
+        "resource_unknown": 6
+      },
+      "medianSeconds": 0.19122423249984877,
+      "p95Seconds": 6.718953380050048,
+      "maxSeconds": 120.00644966400023,
+      "mismatchedExactRuns": 0,
+      "terminations": {
+        "None": 384
+      },
+      "firstRepeatCapReasons": {
+        "arrangement_nodes": 1,
+        "wall_guard": 1
+      },
+      "costRelativeToScreenBatch": {
+        "queries": 126,
+        "geometric": 11.774492915221293,
+        "bootstrap95": [
+          9.26096038087007,
+          15.106074114564496
+        ],
+        "slowerQueries": 124,
+        "fasterQueries": 2,
+        "scope": "Descriptive retrospective, instrumented finite implementations"
+      }
+    },
+    "jaa_fd": {
+      "queries": 128,
+      "allThreeRepeatsExact": 127,
+      "incompleteQueryIds": [
+        "170"
+      ],
+      "runStatuses": {
+        "exact": 381,
+        "resource_unknown": 3
+      },
+      "medianSeconds": 0.17324533700002576,
+      "p95Seconds": 6.026410966199726,
+      "maxSeconds": 120.00526993799986,
+      "mismatchedExactRuns": 0,
+      "terminations": {
+        "None": 384
+      },
+      "firstRepeatCapReasons": {
+        "wall_guard": 1
+      },
+      "costRelativeToScreenBatch": {
+        "queries": 127,
+        "geometric": 11.659233396994164,
+        "bootstrap95": [
+          9.075606133614826,
+          15.10424913447387
+        ],
+        "slowerQueries": 126,
+        "fasterQueries": 1,
+        "scope": "Descriptive retrospective, instrumented finite implementations"
+      }
+    }
+  },
+  "originalOracleDifferences": [],
+  "originalCppRuntimeReproduction": false,
+  "scope": "Full finite-channel matched controls; no convex-domain or global-SOTA claim"
+}

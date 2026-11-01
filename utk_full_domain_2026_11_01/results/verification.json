@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "unitTests": 48,
+  "newUnitTests": 8,
+  "testGroups": [
+    18,
+    9,
+    4,
+    7,
+    2,
+    8
+  ],
+  "previousArchiveAndChecksumGroups": 5,
+  "oldScientificFilesUnchanged": true,
+  "newArchiveValidatedFromBinaryPartsOnly": true,
+  "queries": 128,
+  "corpus": 42994,
+  "states": 6684,
+  "exactDominanceMinimaChecked": 8298930,
+  "originalCppRuntimeReproduction": false,
+  "originalPrimaryClaimsOrTestsReplaced": false,
+  "wallOnlyProfileExactQueries": {
+    "rsa_fd": 127,
+    "jaa_fd": 127
+  },
+  "wallOnlyProfileUnknownIds": [
+    "170"
+  ],
+  "manuscriptFilesAddedToGit": false,
+  "updatedLocalDate": "2026-11-02",
+  "timezone": "Asia/Saigon"
+}

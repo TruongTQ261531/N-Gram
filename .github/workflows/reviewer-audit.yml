@@ -42,3 +42,8 @@ jobs:
           python -m unittest claims_consolidation_2026_11_01.test_routing -v
           python -m claims_consolidation_2026_11_01.check_archive
           sha256sum --quiet -c claims_consolidation_2026_11_01/checksums.sha256
+      - name: Full finite-domain UTK controls, tie semantics and source receipts
+        run: |
+          python -m unittest utk_full_domain_2026_11_01.test_algorithms utk_full_domain_2026_11_01.test_archive -v
+          python -m utk_full_domain_2026_11_01.check_archive
+          sha256sum --quiet -c utk_full_domain_2026_11_01/checksums.sha256
