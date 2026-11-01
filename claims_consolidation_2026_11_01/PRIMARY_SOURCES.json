@@ -1,0 +1,51 @@
+{
+  "reviewDate": "2026-11-01",
+  "boundedReviewNotPriorityProof": true,
+  "sources": [
+    {
+      "title": "CostCert",
+      "primaryOrPublisherUrl": "https://arxiv.org/pdf/2507.23335v1",
+      "inspectedVersion": "arXiv2507.23335v1",
+      "inspectedSections": "3.1\u20133.4;Eq1;Algorithm1;Theorems2\u20133",
+      "pdfSha256": "babfb0ff91d628d281d018b41b228c2e35536f44728685c5552876d4189e7c14",
+      "pdfBytes": 1711802,
+      "redistributed": false
+    },
+    {
+      "title": "UTK",
+      "primaryOrPublisherUrl": "https://www.vldb.org/pvldb/vol11/p866-mouratidis.pdf",
+      "inspectedVersion": "PVLDB11(8),866\u2013879,2018",
+      "inspectedSections": "3.1;4.1\u20134.2;5",
+      "pdfSha256": "5edc8d96282248c2f240b9ddec737506b12293d2704ad4b5def172ed106ee143",
+      "pdfBytes": 822915,
+      "redistributed": false
+    },
+    {
+      "title": "Convex verification",
+      "primaryOrPublisherUrl": "https://proceedings.mlr.press/v80/wong18a/wong18a.pdf",
+      "inspectedVersion": "PMLR80,2018",
+      "inspectedSections": "2;3.1;3.2 Theorem1",
+      "pdfSha256": "ff71d9568c607f3b382b521c28cdbce0c00410189da70b70e89784def7c4f32b",
+      "pdfBytes": 1145131,
+      "redistributed": false
+    },
+    {
+      "title": "Fuzzy search",
+      "primaryOrPublisherUrl": "https://doi.org/10.1145/2457465.2457470",
+      "inspectedVersion": "cached author manuscript;placeholder publisher fields",
+      "inspectedSections": "abstract;2.2;3 filtering",
+      "pdfSha256": "fd13b418e8ac6396f0f63858b5b25f4886db26804a6f5e53e0cd2543d18c05ac",
+      "pdfBytes": 776842,
+      "redistributed": false
+    },
+    {
+      "title": "CertEx",
+      "primaryOrPublisherUrl": "https://arxiv.org/pdf/2610.21325v3",
+      "inspectedVersion": "arXiv2610.21325v3",
+      "inspectedSections": "3 exclusion/lifted-bound/numerical-certificate",
+      "pdfSha256": "2611c51f1471708ddb247ce6850fab66d235a691f1f9af5ce1580e15541e32b6",
+      "pdfBytes": 4356239,
+      "redistributed": false
+    }
+  ]
+}

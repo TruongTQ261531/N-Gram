@@ -37,3 +37,8 @@ jobs:
           python -m unittest argon_followup_2026_11_01.test_graph argon_followup_2026_11_01.test_multiword -v
           python -m argon_followup_2026_11_01.check_archive
           sha256sum --quiet -c argon_followup_2026_11_01/checksums.sha256
+      - name: Label-free all-query refinement replay and claim boundaries
+        run: |
+          python -m unittest claims_consolidation_2026_11_01.test_routing -v
+          python -m claims_consolidation_2026_11_01.check_archive
+          sha256sum --quiet -c claims_consolidation_2026_11_01/checksums.sha256
