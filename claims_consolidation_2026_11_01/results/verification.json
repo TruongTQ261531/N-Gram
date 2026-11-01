@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "unitTests": 40,
+  "unitGroups": {
+    "reviewer_audit": 18,
+    "decision_audit": 9,
+    "utk_adapter": 4,
+    "argon_followup": 7,
+    "new_routing": 2
+  },
+  "archiveChecks": [
+    "reviewer_audit_2026_10_31",
+    "decision_audit_2026_10_31",
+    "utk_adapter_study",
+    "argon_followup_2026_11_01",
+    "claims_consolidation_2026_11_01"
+  ],
+  "oldChecksumManifestsUnchangedAndPassing": true,
+  "full970ReplayCompleted": true,
+  "numericalThreads": 1,
+  "runnerReadsOutcomeLabels": false,
+  "newMethodsModelsCorporaChannels": false,
+  "rawDataOrManuscriptFilesAddedToGit": false,
+  "checksAreNotIndependentFormalVerificationOfEntireNumericalStack": true
+}

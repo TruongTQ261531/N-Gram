@@ -1,0 +1,61 @@
+{
+  "status": "COMPLETE",
+  "retrospective": true,
+  "labelsReadByRunner": false,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "numericalThreads": 1,
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-fdde5778.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-6cdc3b4a.so",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scikit_learn.libs/libgomp-e985bcbb.so.1.0.0",
+      "version": null
+    }
+  ],
+  "freezeSha256": "17389aaede78ea987f29bd479264e327c55f996e1b4c3f18147bc6f6e4a0fb8d",
+  "timingScope": "Integrated prefix + incremental existing refinement; shared index load excluded",
+  "datasets": {
+    "scifact": {
+      "queries": 199,
+      "fingerprint": "979de27a2d32076c1aa694a617f5f1ecf74f9fe4e72674962f8565a87a344751",
+      "recordsSha256": "7e8f49adad8fc0d85f35570ffb9a59b86e98ebc64ecf0f27f9d66c097ab9d9cf"
+    },
+    "nfcorpus": {
+      "queries": 223,
+      "fingerprint": "6e516e21bf241503a77d473320f36fa47284982468f5d14597fe5c8577400e9b",
+      "recordsSha256": "25139694b73d171b799ce9ecdfaf5890f224852b64b0631c6a5be9125aa97b11"
+    },
+    "fiqa": {
+      "queries": 548,
+      "fingerprint": "294e2e29ba35f0c2aaec2f5531a2fa7b13855636c6d9f9677e1384e95df60838",
+      "recordsSha256": "6584259691b6c1f0d4c291ae6a12aa5d22c7e154507b3a9baddf76c39c2830ed"
+    }
+  },
+  "queries": 970
+}
