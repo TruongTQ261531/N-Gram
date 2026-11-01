@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "queries": 128,
+  "states": 6684,
+  "seconds": 10.083919672999855,
+  "oracleSha256": "3a542a4371b9689ca385552938fea08b195528d1c49b562975f0998c2490a291",
+  "modelHash": "3640aa299076386d0bb5c8e95b1b43979f4d1a36337fd435bfb327dc3ae5d244",
+  "privateIndexSha256": "bd6d9d51deed6abfd18aca80c510067c59cf2b5bc8bdc4a4d7dbc7ba4cb8f3f9",
+  "scope": "Independent full-text, full-corpus, all-state replay; separate from method timers"
+}
