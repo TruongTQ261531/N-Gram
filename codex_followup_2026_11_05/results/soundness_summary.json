@@ -1,0 +1,8 @@
+{
+  "cases": 12,
+  "method_budget_checks": 396,
+  "unsound": 0,
+  "nonvacuous_positive_method_budget_checks": 185,
+  "oracle": "manual NFC/casefold grams; exact stored-float dyadic integer arithmetic; complete Cartesian product with changed-position filtering",
+  "limitations": "tiny synthetic domains only; channel and stored index define the common contract; not an independent reconstruction of index training"
+}

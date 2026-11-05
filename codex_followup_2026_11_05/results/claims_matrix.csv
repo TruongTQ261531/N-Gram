@@ -1,0 +1,11 @@
+claim,status,evidence,boundary
+retention_vs_LP,supported_scope,locked970:259 vs227;two of three Holm tests,fixed scorer/channel;not relevance or global LP superiority
+retention_vs_MILP,no_uniform_dominance,259 vs260;B3 new panel11 vs12,capped numerical reference;native dual proof not supplied
+component_necessity,partial_only,graph15 vsLP13;support-only14;noLP/noenum both15,36 retrospective queries;not all components necessary
+all_query_refinement,retrospective_supported,266 robust certified;0/704 nonrobust;121.792 extra seconds,not new confirmation;171 nonrobust routes consume120.198 seconds
+offline_union,supported_scope,original paired geometric ratio2.3474,original controls only;integer compact channel
+session_speed,failed,38/128;ratio0.7472;repeated1/128,no online acceleration or measured break-even
+neural_transfer,input_only,lexical cascade same pairs67571;coarse top10 containment65%,no neural topK/RAG guarantee or matched neural savings
+dataset_novelty,not_claimed,computational labels on inherited corpora,not new natural queries or human annotations
+soundness,conditional_supported,396 tiny-domain checks;185 nonvacuous positive outcomes,stored weights/channel;not formal library proof
+IPM_novelty,editorial_judgment,scoped specialization plus empirical contract audit,"no guarantee of priority, desk-review or acceptance"

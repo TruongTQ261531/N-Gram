@@ -1,0 +1,70 @@
+{
+  "rows": 684,
+  "queries": 36,
+  "sensitivity_rows": 2736,
+  "default_LP_Discrete_rank_mismatches": 0,
+  "no_screen_context_caps": [
+    "7484",
+    "4981",
+    "10482",
+    "2589",
+    "6146",
+    "7279",
+    "7879",
+    "5369"
+  ],
+  "all_context_caps": 20,
+  "B2K10_counts": {
+    "best_lp_enum": 13,
+    "custom_lp_enum": 13,
+    "discrete": 15,
+    "discrete_no_enum": 15,
+    "discrete_no_lp": 15,
+    "discrete_no_screen": 13,
+    "discrete_support_only": 14,
+    "lp_no_enum": 13,
+    "milp_enum": 14,
+    "pair_enum": 11,
+    "pair_only": 11
+  },
+  "B_K10_counts": {
+    "1": {
+      "best_lp_enum": 28,
+      "discrete": 28,
+      "milp_enum": 28,
+      "pair_enum": 28
+    },
+    "2": {
+      "best_lp_enum": 13,
+      "discrete": 15,
+      "milp_enum": 14,
+      "pair_enum": 11
+    },
+    "3": {
+      "best_lp_enum": 10,
+      "discrete": 11,
+      "milp_enum": 12,
+      "pair_enum": 10
+    }
+  },
+  "discrete_over_best_lp": [
+    "fiqa:5369",
+    "scifact:936"
+  ],
+  "full_over_support_only": [
+    "fiqa:5369"
+  ],
+  "discrete_no_lp_differences": 12,
+  "discrete_no_enum_differences": 1,
+  "K20_support_only_over_full": [
+    "nfcorpus:PLAIN-2430"
+  ],
+  "soundness": {
+    "cases": 12,
+    "method_budget_checks": 396,
+    "unsound": 0,
+    "nonvacuous_positive_method_budget_checks": 185,
+    "oracle": "manual NFC/casefold grams; exact stored-float dyadic integer arithmetic; complete Cartesian product with changed-position filtering",
+    "limitations": "tiny synthetic domains only; channel and stored index define the common contract; not an independent reconstruction of index training"
+  }
+}

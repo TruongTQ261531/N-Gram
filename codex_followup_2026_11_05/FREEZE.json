@@ -1,0 +1,40 @@
+{
+  "source_commit": "63ceeda350a0f7e3c9138c3b1232d2ea06e49054",
+  "study": "retrospective exploratory follow-up; not a new confirmation",
+  "selected_queries": 36,
+  "pipelines": 684,
+  "budgets": [
+    1,
+    2,
+    3
+  ],
+  "K": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "K_policy": "same K-independent bound; threshold only; not four independent timing runs",
+  "repeats": 1,
+  "threads": 1,
+  "dense_cell_cap": 20000000,
+  "study_wall_seconds": 4500,
+  "selection": "within-corpus token-length quartiles, three smallest fixed SHA256 values per quartile; no outcome filtering",
+  "method_order": "SHA256(ipm-order-v1|dataset|queryid|budget|method)",
+  "code_sha256": {
+    "codex_followup_2026_11_05/run.py": "04b9fd934b65032b0ad433691e67cb8f8d61026ff91687d79971d0b4365fbcc7",
+    "codex_followup_2026_11_05/experiments.py": "d5d4428bda2f63c437678c8a39b4ed860da81f0703dc7f8946ea2ed6162607f1",
+    "codex_followup_2026_11_05/test_experiments.py": "499319acd9eb985e6035b6a435b9eccecdb83a0b336c03f10a468b5ccb259114",
+    "codex_followup_2026_11_05/extract.py": "b3d5a8cd5af12618e7e9ca6f5478446832e3ed68978dc98e2c90002ef13e88d3",
+    "codex_followup_2026_11_05/selection.json": "d33c8b87305f4b5cd765c60785f398fa16e7a9202e95399dc9ffef31776cbc7f",
+    "round3/core.py": "ae55ede83f9f4d302ad73b89929afdc0d6f2e3cd628bfcc169527f5d77a1e2a2",
+    "round3/screening.py": "de9c0f992bcdf072c5a66cdf4d08bd1b6bb230af6a6863f1eb7d974211f31c6f",
+    "round3/rank_bound.py": "8718b985970b41f195fe02538ecf7d41d2e2b7cd6b55055cd810f65fbb7b53dc",
+    "round3/compatibility.py": "c3dcf1b8053a968cac41afb70aa760aa246c49e94851360710271edd1560d9cb",
+    "round3/enumeration.py": "11dd913526fbadad7eeaefa2d859e02260a507a145a743c46b801d1d9f557913",
+    "round3/mip_reference.py": "12826475662024d0d2bdb6042f7048604283c5d31ad73265876e7936cf17f068"
+  },
+  "python": "3.12.14",
+  "processor_quota": "400000 100000",
+  "memory_max": "34359738368"
+}

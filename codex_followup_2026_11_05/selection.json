@@ -1,0 +1,191 @@
+{
+  "rule": "3hash-selected IDs per within-corpus token-length quartile;no outcomes used",
+  "datasets": {
+    "scifact": [
+      {
+        "queryId": "936",
+        "lengthQuartile": 1,
+        "usedTokens": 7
+      },
+      {
+        "queryId": "539",
+        "lengthQuartile": 1,
+        "usedTokens": 6
+      },
+      {
+        "queryId": "100",
+        "lengthQuartile": 1,
+        "usedTokens": 8
+      },
+      {
+        "queryId": "1290",
+        "lengthQuartile": 2,
+        "usedTokens": 11
+      },
+      {
+        "queryId": "1140",
+        "lengthQuartile": 2,
+        "usedTokens": 10
+      },
+      {
+        "queryId": "279",
+        "lengthQuartile": 2,
+        "usedTokens": 11
+      },
+      {
+        "queryId": "1213",
+        "lengthQuartile": 3,
+        "usedTokens": 13
+      },
+      {
+        "queryId": "575",
+        "lengthQuartile": 3,
+        "usedTokens": 12
+      },
+      {
+        "queryId": "124",
+        "lengthQuartile": 3,
+        "usedTokens": 13
+      },
+      {
+        "queryId": "528",
+        "lengthQuartile": 4,
+        "usedTokens": 24
+      },
+      {
+        "queryId": "180",
+        "lengthQuartile": 4,
+        "usedTokens": 19
+      },
+      {
+        "queryId": "784",
+        "lengthQuartile": 4,
+        "usedTokens": 16
+      }
+    ],
+    "nfcorpus": [
+      {
+        "queryId": "PLAIN-997",
+        "lengthQuartile": 1,
+        "usedTokens": 1
+      },
+      {
+        "queryId": "PLAIN-1983",
+        "lengthQuartile": 1,
+        "usedTokens": 1
+      },
+      {
+        "queryId": "PLAIN-902",
+        "lengthQuartile": 1,
+        "usedTokens": 1
+      },
+      {
+        "queryId": "PLAIN-531",
+        "lengthQuartile": 2,
+        "usedTokens": 2
+      },
+      {
+        "queryId": "PLAIN-771",
+        "lengthQuartile": 2,
+        "usedTokens": 2
+      },
+      {
+        "queryId": "PLAIN-2364",
+        "lengthQuartile": 2,
+        "usedTokens": 2
+      },
+      {
+        "queryId": "PLAIN-2450",
+        "lengthQuartile": 3,
+        "usedTokens": 4
+      },
+      {
+        "queryId": "PLAIN-1320",
+        "lengthQuartile": 3,
+        "usedTokens": 4
+      },
+      {
+        "queryId": "PLAIN-3251",
+        "lengthQuartile": 3,
+        "usedTokens": 2
+      },
+      {
+        "queryId": "PLAIN-2430",
+        "lengthQuartile": 4,
+        "usedTokens": 6
+      },
+      {
+        "queryId": "PLAIN-165",
+        "lengthQuartile": 4,
+        "usedTokens": 8
+      },
+      {
+        "queryId": "PLAIN-102",
+        "lengthQuartile": 4,
+        "usedTokens": 5
+      }
+    ],
+    "fiqa": [
+      {
+        "queryId": "7109",
+        "lengthQuartile": 1,
+        "usedTokens": 6
+      },
+      {
+        "queryId": "5464",
+        "lengthQuartile": 1,
+        "usedTokens": 5
+      },
+      {
+        "queryId": "8779",
+        "lengthQuartile": 1,
+        "usedTokens": 7
+      },
+      {
+        "queryId": "7484",
+        "lengthQuartile": 2,
+        "usedTokens": 9
+      },
+      {
+        "queryId": "4981",
+        "lengthQuartile": 2,
+        "usedTokens": 9
+      },
+      {
+        "queryId": "10482",
+        "lengthQuartile": 2,
+        "usedTokens": 10
+      },
+      {
+        "queryId": "2589",
+        "lengthQuartile": 3,
+        "usedTokens": 13
+      },
+      {
+        "queryId": "6146",
+        "lengthQuartile": 3,
+        "usedTokens": 13
+      },
+      {
+        "queryId": "2051",
+        "lengthQuartile": 3,
+        "usedTokens": 13
+      },
+      {
+        "queryId": "7279",
+        "lengthQuartile": 4,
+        "usedTokens": 16
+      },
+      {
+        "queryId": "7879",
+        "lengthQuartile": 4,
+        "usedTokens": 16
+      },
+      {
+        "queryId": "5369",
+        "lengthQuartile": 4,
+        "usedTokens": 15
+      }
+    ]
+  }
+}
