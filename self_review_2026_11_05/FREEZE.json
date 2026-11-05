@@ -1,0 +1,40 @@
+{
+  "base_commit": "d4b417f5354628a76007f59765a78e1d1ca0b043",
+  "status": "retrospective local freeze before graph-replay outcomes;not prospective registration",
+  "queries": 970,
+  "B": 2,
+  "threshold_K": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "graph_checks": 120,
+  "graph_candidates": 80,
+  "support_weights": [
+    0.5,
+    0.5
+  ],
+  "prefix": "reuse frozen pair/custom-LP/enum rank bounds;shared between both graph methods",
+  "context": "original retention.context with no added20M-cell cap",
+  "timing": "common context and graph-only components;not independent whole-pipeline speed comparison",
+  "wall_guard_seconds": 2700,
+  "source_sha256": {
+    "self_review_2026_11_05/replay.py": "660418ac1a577c98f77ef6bd200f2706399d9e0a25753b0ae8349ecba6e17b65",
+    "self_review_2026_11_05/test_graph_review.py": "5949f3b7591288e001fc10e6d2829741adb6768d95e593059bf52caddfc3c907",
+    "reviewer_audit_2026_10_31/retention.py": "9ec58e017a0025b48c7120699cdcbdf3d639c0eb7f5e7adf58eb6e91489ce892",
+    "codex_followup_2026_11_05/experiments.py": "d5d4428bda2f63c437678c8a39b4ed860da81f0703dc7f8946ea2ed6162607f1",
+    "argon_followup_2026_11_01/schedule_certificate.py": "5aa5086853732fa598ddc3553c020d789742bfbbb24f13006f8935f7843c25de",
+    "round3/core.py": "ae55ede83f9f4d302ad73b89929afdc0d6f2e3cd628bfcc169527f5d77a1e2a2",
+    "round3/screening.py": "de9c0f992bcdf072c5a66cdf4d08bd1b6bb230af6a6863f1eb7d974211f31c6f",
+    "round3/rank_bound.py": "8718b985970b41f195fe02538ecf7d41d2e2b7cd6b55055cd810f65fbb7b53dc",
+    "round3/compatibility.py": "c3dcf1b8053a968cac41afb70aa760aa246c49e94851360710271edd1560d9cb",
+    "round3/enumeration.py": "11dd913526fbadad7eeaefa2d859e02260a507a145a743c46b801d1d9f557913",
+    "round3/results/replication_ids.json": "718f28fb64fbcb0defd594953c0fe8d8fcca24bad38969ec3dfbc58b17a45362",
+    "round3/download_manifest.json": "5e4e0488d0a817f3f9d5c984dd1c871662a7e9f7da135eb887e8317d5d2ec29f",
+    "round3/results/index_fingerprints.json": "bd687a63808f2157337d8675f376735fbb8af9bd300ae5158426e0199cf39320",
+    "round3/results/fiqa_independent_replication.jsonl.gz": "8165ee721adc2efb0a0c7c26c18dee61a0a95558de228cc2015cb71c22a5f7a1",
+    "round3/results/nfcorpus_independent_replication.jsonl.gz": "8d02ff22b974604d8f8d82915182a6216684b959f94bb98d17cbf04b6f8df687",
+    "round3/results/scifact_independent_replication.jsonl.gz": "0bdc528e98f20424bd1146d880e8098dfb9d2dbce9c813e2cf8ab56868611cc0"
+  }
+}

@@ -1,0 +1,7 @@
+# Self-review continuation — 5 November 2026
+
+Retrospective same-cohort component audit. Original scientific files are read-only. Run the original full-corpus context on every one of the970 original B2 IDs, replay the original full graph to verify its bound, and swap only the graph prover for support-only under the same120 checks/80 candidate caps. Both variants share the unchanged historical pair/custom-LP/enumeration prefix. No LP or MILP rerun, no outcome-based query selection and no added20M context cap. This isolates the graph-component decision effect; graph-only times and shared context times must not be advertised as matched end-to-end latency.
+
+Join original qrel indicators and decision labels only after graph replay. Report every query, including zero witnesses and candidate caps, at K1/5/10/20; keep all original259/227/260 counts and primary tests. Relevance stratification is descriptive and uses the original query judgments; no-positive-judgment does not mean irrelevant. No new significance family is selected.
+
+Four small combinatorial checks pass before this replay: actual first-fit scheduler with64 abstract oracles; uncapped stronger-oracle counterexample;192 completed-graph edge additions (3 nonmonotone first-fit outcomes);63 integer-scaled separation instances. The last-member proposition remains valid for the scheduler's disclosed partial graph. No core algorithm is changed.

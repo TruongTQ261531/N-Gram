@@ -1,0 +1,190 @@
+Integration checksums verified: 16 files
+Checking CAPC recorded archive
+Frozen configuration/protocol hashes match
+Independent reconstruction passed: 2430 metric rows
+SHA-256 integrity passed
+Checking BOLT recorded archive
+SHA-256 files verified
+Frozen source/config hashes verified; independently reconstructed 270 metric rows and 162 diagnostic rows
+Checking Discrete retrieval recorded archive
+Round 3 archive checksums: 230
+Frozen preconfirmation files verified: 17
+Verified 270 summary rows; 5882 stored incompatibility edges; 300 queries and all recorded observed-rank checks
+Structural/statistical verification only; full corpus re-encoding and numerical audits are separate.
+Verified 27000 individual sampled predictions, clean metrics, 300 full-corpus replay agreements, 300 B2 adapter agreements and independent exact/Holm tests
+Verified independent stage: 970 preregistered queries; 8129 recorded conflict edges; disjoint ID/input hashes; all metric/bootstrap/exact/Holm recomputations
+This is artifact verification; it does not substitute for full corpus certificate replay or peer review.
+Recorded evidence verified. Numerical-library assumptions, new-corpus generalization, originality and journal acceptance require separate assessment.
+Checking Browser application exact audit
+{
+  "cases": 288,
+  "exactCasesChecked": 288,
+  "statesChecked": 334815,
+  "independentTokenDocumentScores": 998688,
+  "independentlyVerifiedConflictEdges": 23,
+  "allBoundsSoundOnEnumeratedStates": true,
+  "familySplitDisjoint": true,
+  "arbitraryPrecisionPythonIntegers": true,
+  "seconds": 5.441875335999953
+}
+Verified: frozen10 files; complete288-case audit; model/corpus/content hashes; independent full integer oracle and source-family splits.
+Checking Reusable pool real-text audit
+{
+  "queries": 64,
+  "cases": 256,
+  "states": 73659,
+  "topKMembershipsChecked": 1107901,
+  "conditionalLeavesChecked": 5868,
+  "missingOracleDocuments": 0,
+  "statewiseCachedFullTopKEqual": true,
+  "seconds": 32.17285231400001
+}
+{
+  "queries": 64,
+  "cases": 256,
+  "states": 29354,
+  "topKMembershipsChecked": 440310,
+  "conditionalLeavesChecked": 5818,
+  "missingOracleDocuments": 0,
+  "statewiseCachedFullTopKEqual": true,
+  "seconds": 35.85217857500004
+}
+Verified 430 manifest files, prospective10-file freeze, all128 selected queries,512 cases, complete finite-state top-k traces, source-replay receipts and summaries.
+Three recorded studies, synthetic application audit and reusable-pool real-text evidence verified. Global novelty and Q1 acceptance are not established.
+test_cover_count (test_compatibility.CompatibilityChecks.test_cover_count) ... ok
+test_discrete_edge_beyond_convex_support (test_compatibility.CompatibilityChecks.test_discrete_edge_beyond_convex_support) ... ok
+test_pareto_against_exhaustive (test_compatibility.CompatibilityChecks.test_pareto_against_exhaustive) ... ok
+test_resource_cap_never_claims_edge (test_compatibility.CompatibilityChecks.test_resource_cap_never_claims_edge) ... ok
+test_differential (test_core.Checks.test_differential) ... ok
+test_features_and_witness (test_core.Checks.test_features_and_witness) ... ok
+test_shared_shift (test_core.Checks.test_shared_shift) ... ok
+test_variants (test_core.Checks.test_variants) ... ok
+test_zero_tie (test_core.Checks.test_zero_tie) ... ok
+test_against_enumerated_relaxation (test_rank_bound.BoundChecks.test_against_enumerated_relaxation) ... /tmp/ipm-selfreview-baseline-pxozc7ie/round3/rank_bound.py:62: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(m),1.],A_ub=A,b_ub=np.zeros(len(cuts)),bounds=list(zip(np.zeros(m),caps))+[(None,None)],method='highs',options={'dual_feasibility_tolerance':1e-8,'primal_feasibility_tolerance':1e-8,'threads':1})
+/tmp/ipm-selfreview-baseline-pxozc7ie/round3/test_rank_bound.py:23: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(len(states)),-np.ones(m)],A_ub=A,b_ub=np.ones(m),A_eq=eq,b_eq=[1.],bounds=[(0,None)]*len(states)+[(0,1)]*m,method='highs',options={'threads':1})
+ok
+test_incompatible_promotions (test_rank_bound.BoundChecks.test_incompatible_promotions) ... ok
+test_support_bruteforce (test_rank_bound.BoundChecks.test_support_bruteforce) ... ok
+test_enumeration_and_mip (test_references.ReferenceChecks.test_enumeration_and_mip) ... /tmp/ipm-selfreview-baseline-pxozc7ie/round3/mip_reference.py:22: RuntimeWarning: Unrecognized options detected: {'threads'}. These will be passed to HiGHS verbatim.
+  r=milp(c,integrality=np.ones(S+m),bounds=Bounds(np.zeros(S+m),np.ones(S+m)),constraints=LinearConstraint(sparse.vstack(rows,format='csc'),np.concatenate(lo),np.concatenate(hi)),options={'time_limit':seconds,'mip_rel_gap':0.,'threads':1})
+ok
+test_enumeration_resource_limit (test_references.ReferenceChecks.test_enumeration_resource_limit) ... ok
+test_coarse_exhaustive (test_screening.ScreeningChecks.test_coarse_exhaustive) ... ok
+test_decimal_dot_intervals (test_screening.ScreeningChecks.test_decimal_dot_intervals) ... ok
+test_generic_lp_matches_oracle_solver (test_screening.ScreeningChecks.test_generic_lp_matches_oracle_solver) ... /tmp/ipm-selfreview-baseline-pxozc7ie/round3/rank_bound.py:102: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(S),-np.ones(m)],A_ub=A,b_ub=np.r_[np.ones(m),budget],A_eq=eq.tocsr(),b_eq=np.ones(len(D)),bounds=[(0,1)]*(S+m),method='highs',options={'threads':1})
+ok
+test_screened_matches_full (test_screening.ScreeningChecks.test_screened_matches_full) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 1.341s
+
+OK
+Independent exhaustive comparisons: 1200
+High-precision dot-product interval checks: 210
+test_quantizer_bound_against_exact_rationals (test_bridge.TestBridge.test_quantizer_bound_against_exact_rationals) ... ok
+test_rank_transfer_against_adversarial_weight_residuals (test_bridge.TestBridge.test_rank_transfer_against_adversarial_weight_residuals) ... ok
+test_tied_boundary_is_unresolved (test_bridge.TestBridge.test_tied_boundary_is_unresolved) ... ok
+test_zero_query_has_exact_persistent_ties (test_bridge.TestBridge.test_zero_query_has_exact_persistent_ties) ... ok
+test_correlated_bundle_is_strictly_smaller_than_free_vote_domain (test_contract_checks.TestContractExamples.test_correlated_bundle_is_strictly_smaller_than_free_vote_domain) ... ok
+test_discrete_union_does_not_equal_convex_region_union (test_contract_checks.TestContractExamples.test_discrete_union_does_not_equal_convex_region_union) ... ok
+test_tie_cost_specialization_against_all_small_vote_allocations (test_contract_checks.TestContractExamples.test_tie_cost_specialization_against_all_small_vote_allocations) ... ok
+test_batches_match_frozen_scalar_enumeration (test_discordant_verifier.TestBatchedEnclosure.test_batches_match_frozen_scalar_enumeration) ... ok
+test_cap_is_unknown_not_a_certificate (test_discordant_verifier.TestBatchedEnclosure.test_cap_is_unknown_not_a_certificate) ... ok
+test_zero_competitors_and_unsupported_budget (test_discordant_verifier.TestBatchedEnclosure.test_zero_competitors_and_unsupported_budget) ... ok
+test_cap_returns_unknown_instead_of_breaking_ties (test_refinement.TestExactBoundary.test_cap_returns_unknown_instead_of_breaking_ties) ... ok
+test_complete_rank_and_ties_against_exact_all_document_sums (test_refinement.TestExactBoundary.test_complete_rank_and_ties_against_exact_all_document_sums) ... ok
+test_dyadic_sum_against_fraction_oracle (test_refinement.TestExactBoundary.test_dyadic_sum_against_fraction_oracle) ... ok
+test_zero_query_is_exact_all_tie (test_refinement.TestExactBoundary.test_zero_query_is_exact_all_tie) ... ok
+test_all_backends_against_small_exhaustive_rank (test_retention.TestRetentionSupplement.test_all_backends_against_small_exhaustive_rank) ... ok
+test_archived_fixture_numerical_controls (test_retention.TestRetentionSupplement.test_archived_fixture_numerical_controls) ... ok
+test_empty_competitor_set (test_retention.TestRetentionSupplement.test_empty_competitor_set) ... ok
+test_full_orchestration_matches_frozen_budget2_adapter (test_retention.TestRetentionSupplement.test_full_orchestration_matches_frozen_budget2_adapter) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 6.321s
+
+OK
+test_default_is_the_frozen_method_on_nontrivial_fixture (test_budgets.TestBudgetProfiles.test_default_is_the_frozen_method_on_nontrivial_fixture) ... ok
+test_empty_competitors_never_become_a_failure (test_budgets.TestBudgetProfiles.test_empty_competitors_never_become_a_failure) ... ok
+test_a_unique_winner_is_not_mistaken_for_a_violation (test_decisions.TestExactWitness.test_a_unique_winner_is_not_mistaken_for_a_violation) ... ok
+test_tied_competitors_are_real_unfavorable_violations (test_decisions.TestExactWitness.test_tied_competitors_are_real_unfavorable_violations) ... ok
+test_zero_score_is_exact_and_outside_variant_is_rejected (test_decisions.TestExactWitness.test_zero_score_is_exact_and_outside_variant_is_rejected) ... ok
+test_corpus_format_and_interval (test_typos.TestActualChannelMembership.test_corpus_format_and_interval) ... ok
+test_empty_alternative_can_remove_a_one_letter_token (test_typos.TestActualChannelMembership.test_empty_alternative_can_remove_a_one_letter_token) ... ok
+test_normalization_does_not_become_covered_typo (test_typos.TestActualChannelMembership.test_normalization_does_not_become_covered_typo) ... ok
+test_two_char_changes_inside_one_token_are_not_budget_two (test_typos.TestActualChannelMembership.test_two_char_changes_inside_one_token_are_not_budget_two) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.090s
+
+OK
+test_cycle_separates_cover_from_pairwise_clique_bound (test_graph.GraphTests.test_cycle_separates_cover_from_pairwise_clique_bound) ... ok
+test_first_fit_query_graph_last_representative_lemma (test_graph.GraphTests.test_first_fit_query_graph_last_representative_lemma) ... ok
+test_label_free_refinement_certificate (test_graph.GraphTests.test_label_free_refinement_certificate) ... ok
+test_pair_proofs_never_underestimate_joint_lattice_count (test_graph.GraphTests.test_pair_proofs_never_underestimate_joint_lattice_count) ... ok
+test_random_graphs_against_bruteforce (test_graph.GraphTests.test_random_graphs_against_bruteforce) ... ok
+test_selection_does_not_filter_to_channel_or32token_scope (test_multiword.MultiwordTests.test_selection_does_not_filter_to_channel_or32token_scope) ... ok
+test_two_changed_tokens_require_two_budget_units (test_multiword.MultiwordTests.test_two_changed_tokens_require_two_budget_units) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.172s
+
+OK
+test_routing_uses_computed_bound_and_margins_without_labels (test_routing.RoutingTests.test_routing_uses_computed_bound_and_margins_without_labels) ... ok
+test_zero_witness_cannot_become_empty_matrix_certificate (test_routing.RoutingTests.test_zero_witness_cannot_become_empty_matrix_certificate) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK
+test_oracle_against_global_arrangement (test_adapter.AdapterTests.test_oracle_against_global_arrangement) ... ok
+test_screen_and_quantized_embedding (test_adapter.AdapterTests.test_screen_and_quantized_embedding) ... ok
+test_simultaneous_crossings_and_persistent_ties (test_adapter.AdapterTests.test_simultaneous_crossings_and_persistent_ties) ... ok
+test_strict_interior_extra (test_adapter.AdapterTests.test_strict_interior_extra) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.135s
+
+OK
+test_all_boundary_ties_are_preserved (test_algorithms.TestFiniteUTK.test_all_boundary_ties_are_preserved) ... ok
+test_budget_changes_joint_attainability (test_algorithms.TestFiniteUTK.test_budget_changes_joint_attainability) ... ok
+test_caps_never_claim_exactness (test_algorithms.TestFiniteUTK.test_caps_never_claim_exactness) ... ok
+test_finite_domain_does_not_add_fractional_winner (test_algorithms.TestFiniteUTK.test_finite_domain_does_not_add_fractional_winner) ... ok
+test_minimum_support_matches_all_finite_states (test_algorithms.TestFiniteUTK.test_minimum_support_matches_all_finite_states) ... ok
+test_random_integer_factors_against_enumeration (test_algorithms.TestFiniteUTK.test_random_integer_factors_against_enumeration) ... ok
+test_corrupt_part_cannot_pass_integrity (test_archive.TestLosslessArchive.test_corrupt_part_cannot_pass_integrity) ... ok
+test_records_replay_without_private_monolithic_copy (test_archive.TestLosslessArchive.test_records_replay_without_private_monolithic_copy) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.166s
+
+OK
+test_equivalent_integer_scores_for_every_position_form_and_document (test_fast_factors.Tests.test_equivalent_integer_scores_for_every_position_form_and_document) ... ok
+test_all_quotients_match_complete_oracle (test_method.Tests.test_all_quotients_match_complete_oracle) ... ok
+test_compiled_conditional_bounds (test_method.Tests.test_compiled_conditional_bounds) ... ok
+test_zero_effects_min_cost_ties_and_caps (test_method.Tests.test_zero_effects_min_cost_ties_and_caps) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.914s
+
+OK
+test_context_cap_returns_whole_corpus_unknown (test_experiments.TestControlledAblations.test_context_cap_returns_whole_corpus_unknown) ... ok
+test_screened_context_matches_original (test_experiments.TestControlledAblations.test_screened_context_matches_original) ... ok
+test_support_only_never_calls_pareto_and_edges_are_safe (test_experiments.TestControlledAblations.test_support_only_never_calls_pareto_and_edges_are_safe) ... ok
+test_unchanged_method_bounds_match_original_kernels (test_experiments.TestControlledAblations.test_unchanged_method_bounds_match_original_kernels) ... /tmp/ipm-selfreview-baseline-pxozc7ie/round3/rank_bound.py:62: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(m),1.],A_ub=A,b_ub=np.zeros(len(cuts)),bounds=list(zip(np.zeros(m),caps))+[(None,None)],method='highs',options={'dual_feasibility_tolerance':1e-8,'primal_feasibility_tolerance':1e-8,'threads':1})
+/tmp/ipm-selfreview-baseline-pxozc7ie/round3/rank_bound.py:102: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(S),-np.ones(m)],A_ub=A,b_ub=np.r_[np.ones(m),budget],A_eq=eq.tocsr(),b_eq=np.ones(len(D)),bounds=[(0,1)]*(S+m),method='highs',options={'threads':1})
+/tmp/ipm-selfreview-baseline-pxozc7ie/round3/mip_reference.py:22: RuntimeWarning: Unrecognized options detected: {'threads'}. These will be passed to HiGHS verbatim.
+  r=milp(c,integrality=np.ones(S+m),bounds=Bounds(np.zeros(S+m),np.ones(S+m)),constraints=LinearConstraint(sparse.vstack(rows,format='csc'),np.concatenate(lo),np.concatenate(hi)),options={'time_limit':seconds,'mip_rel_gap':0.,'threads':1})
+ok
+test_unscreened_pipeline_preserves_reference_and_bound (test_experiments.TestControlledAblations.test_unscreened_pipeline_preserves_reference_and_bound) ... ok
+test_zero_witness_not_an_empty_candidate_certificate (test_experiments.TestControlledAblations.test_zero_witness_not_an_empty_candidate_certificate) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.084s
+
+OK

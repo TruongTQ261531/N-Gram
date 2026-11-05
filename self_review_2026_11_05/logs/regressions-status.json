@@ -1,0 +1,135 @@
+[
+  {
+    "command": [
+      "verify_all.py"
+    ],
+    "return_code": 0,
+    "seconds": 114.96578247000002
+  },
+  {
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "round3",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "return_code": 0,
+    "seconds": 3.617985603000079
+  },
+  {
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "reviewer_audit_2026_10_31",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "return_code": 0,
+    "seconds": 7.916660253000032
+  },
+  {
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "decision_audit_2026_10_31",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "return_code": 0,
+    "seconds": 1.3472739499999307
+  },
+  {
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "argon_followup_2026_11_01",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "return_code": 0,
+    "seconds": 1.6163631590000023
+  },
+  {
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "claims_consolidation_2026_11_01",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "return_code": 0,
+    "seconds": 1.250080625999999
+  },
+  {
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "utk_adapter_study",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "return_code": 0,
+    "seconds": 0.30516772900000433
+  },
+  {
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "utk_full_domain_2026_11_01",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "return_code": 0,
+    "seconds": 0.3619338669999479
+  },
+  {
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "exact_pool_study",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "return_code": 0,
+    "seconds": 2.21699946800004
+  },
+  {
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "codex_followup_2026_11_05",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "return_code": 0,
+    "seconds": 1.367432497999971
+  }
+]

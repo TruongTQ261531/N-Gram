@@ -1,0 +1,31 @@
+{
+  "base_commit": "d4b417f5354628a76007f59765a78e1d1ca0b043",
+  "study": "retrospective self-review continuation;no core method changes",
+  "sha256": {
+    "FREEZE.json": "ec7425c6bc9f2741ed72b62808b446c3f667c8b3fe24465220e890a406b59c6a",
+    "LINEAR_PROBE_SCOPE.json": "014552e91177f56296032f3c0f0f1fce2037d1409288ae72a59bebe5abc393d9",
+    "PLAN.md": "e101abe2c3fc151cfbc5eca1225db9fb3797fc13440b098d366221c688ce7afa",
+    "README.md": "2bb89073b580cc505815153d6a68dcf182b0d64c4a3e9d88f978bb3750b027d6",
+    "SELF_REVIEW.md": "860b0a9f65b76827351ee3502f5f6cd8b17a7a652554fcfe7c83652ff9503c5b",
+    "analyze.py": "d1a383e69b00ca5913f5934c10dd6cb0cb3be61f0aad075fa9b1a0b6bcdc1b7e",
+    "linear_probe.py": "8c4de1c8dfc7d5d3d5f30775a26d174a28bc1f35a9a01ce5dbae793165ed0fe2",
+    "logs/graph-replay.txt": "4306ee76860433a4f3e72e5077462669240480b02cab8571958309dc9630f8ae",
+    "logs/graph-tests.txt": "1032b2a02253a7d3b6c03abd7def628309d3450011edb90451ad63af5d4d6d80",
+    "logs/linear-probe.txt": "d2b726da7c3006713cdb932895e23f2f7107b7249769cfd486bc577706dcf5ff",
+    "logs/regressions-status.json": "8ecfee3ebd8897ec213ed8ab7b80c9a59bdb2b490c4282f016602f46a6853b20",
+    "logs/regressions.txt": "cad9c5aff72a5a313abb1a61e41d2cc0b57ee2504ab9ed55a26d1f14d8004f51",
+    "logs/verify.txt": "2231bebc81ea029a73ac1d22065bd81afe10676810d85bdb143f17dfb5dc3a02",
+    "replay.py": "660418ac1a577c98f77ef6bd200f2706399d9e0a25753b0ae8349ecba6e17b65",
+    "results/coverage.csv": "e34ae1af1a4acb08b2d6e42c0179f1fe8a3c76da2309fb8b5e10e0b010da25c3",
+    "results/full_support_disagreements_K10.csv": "d84409e3da476ec1df73dfa340cb2ebf70edf715cd4c818dcce10b3d333659e2",
+    "results/graph_replay.jsonl.gz": "14026fb14dfba7e2b91e8fd107503825fd7d7ab2788405b37ff35999613e1a96",
+    "results/linear_probe.jsonl.gz": "d2d7b652811ea9f3fa84324bc213a64b06f9ad1f8bebd47cc2218698d95f4a37",
+    "results/linear_probe_summary.json": "7beaa100ea735ac373dbdb1398ee8be5089d36615802afe3f9c2d65ff277a773",
+    "results/progress.json": "8401daaf437b9c884901c5bc6271f5aa0fba43381e0a625b13fb58684dc7f85d",
+    "results/qrel_strata.csv": "0640120f12c70ce84dda624cc102216251908884f79e59525bc12d2258e2b1a6",
+    "results/query_graph_comparison.csv": "40862bcf321bd53a873284384b6fe85491f800752277f9e63931e9f97c0888ff",
+    "results/summary.json": "d48bc3794a377ec67e5ce9081eccf80737e979f7a1b7dc63c3ba6834610e6a73",
+    "test_graph_review.py": "5949f3b7591288e001fc10e6d2829741adb6768d95e593059bf52caddfc3c907",
+    "verify.py": "6b3a526226613d0c5fe8fdbfafa4aedc8b58716427e20280a0712d8f51194e6c"
+  }
+}

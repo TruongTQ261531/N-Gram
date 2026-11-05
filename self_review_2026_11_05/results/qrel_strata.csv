@@ -1,0 +1,9 @@
+dataset,positive_original_qrel,queries,lp_certified,full_certified,support_certified,milp_certified,refined_certified,full_gain_over_lp
+scifact,True,108,79,83,80,83,83,4
+scifact,False,91,36,40,38,40,40,4
+nfcorpus,True,102,29,31,31,33,33,2
+nfcorpus,False,121,12,14,14,14,14,2
+fiqa,True,101,37,44,43,44,44,7
+fiqa,False,447,34,47,44,46,52,13
+TOTAL,True,311,145,158,154,160,160,13
+TOTAL,False,659,82,101,96,100,106,19
