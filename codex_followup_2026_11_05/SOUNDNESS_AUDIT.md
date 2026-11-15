@@ -1,0 +1,5 @@
+# Independent tiny-domain arithmetic audit
+
+PASS: 12 full synthetic domains, 16 documents each, 11 configurations x 3 budgets = 396 method-budget checks, zero bounds below exact worst rank. 185 checks yield at least one nonvacuous positive certificate at K=1/5/10 (<16). Complete ties, OOV/all-zero, empty deletion, repeated positions, casefolding, stable winners and three-position channels are included.
+
+The oracle manually counts NFC/casefold character 3/4/5-grams and accumulates stored float64 coefficients as unbounded dyadic integers. It enumerates the Cartesian product and counts changed positions without the certifier DP, sparse scoring or graph. Channel generation and stored index construction still define the shared contract; this is not independent training or a formal compiled-library proof. Tiny-domain success does not supply new full-corpus ground truth. Raw cases and worst-state witnesses are in results/correctness_cases.jsonl. The previous 1,200 exhaustive and 210 high precision checks remain unchanged.

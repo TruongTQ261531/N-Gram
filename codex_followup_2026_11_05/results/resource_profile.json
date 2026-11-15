@@ -1,0 +1,12 @@
+{
+  "cpu_max": "400000 100000",
+  "memory_max_bytes": "34359738368",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "sampling_seconds": 0.02,
+  "method_memory_scope": "sampled process RSS including immutable index;not isolated marginal memory",
+  "max_sampled_rss_mib": 3553.25390625,
+  "runtime_rows_historical": 3774,
+  "runtime_first_pass_rows_historical": 2910,
+  "new_pipeline_rows": 684
+}

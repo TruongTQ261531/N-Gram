@@ -1,2 +1,3 @@
-# The BOLT dependency set also contains all CAPC requirements.
+# Pinned combined environment for the recorded research stages (Python 3.12).
+# The BOLT set includes root requirements, numba and pyarrow; no version upgrades.
 -r round2/requirements.txt

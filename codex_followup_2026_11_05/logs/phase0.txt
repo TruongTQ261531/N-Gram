@@ -1,0 +1,90 @@
+
+COMMAND: /workspace/research-data/reviewer-venv/bin/python verify_all.py
+Integration checksums verified: 16 files
+Checking CAPC recorded archive
+Frozen configuration/protocol hashes match
+Independent reconstruction passed: 2430 metric rows
+SHA-256 integrity passed
+Checking BOLT recorded archive
+SHA-256 files verified
+Frozen source/config hashes verified; independently reconstructed 270 metric rows and 162 diagnostic rows
+Checking Discrete retrieval recorded archive
+Round 3 archive checksums: 230
+Frozen preconfirmation files verified: 17
+Verified 270 summary rows; 5882 stored incompatibility edges; 300 queries and all recorded observed-rank checks
+Structural/statistical verification only; full corpus re-encoding and numerical audits are separate.
+Verified 27000 individual sampled predictions, clean metrics, 300 full-corpus replay agreements, 300 B2 adapter agreements and independent exact/Holm tests
+Verified independent stage: 970 preregistered queries; 8129 recorded conflict edges; disjoint ID/input hashes; all metric/bootstrap/exact/Holm recomputations
+This is artifact verification; it does not substitute for full corpus certificate replay or peer review.
+Recorded evidence verified. Numerical-library assumptions, new-corpus generalization, originality and journal acceptance require separate assessment.
+Checking Browser application exact audit
+{
+  "cases": 288,
+  "exactCasesChecked": 288,
+  "statesChecked": 334815,
+  "independentTokenDocumentScores": 998688,
+  "independentlyVerifiedConflictEdges": 23,
+  "allBoundsSoundOnEnumeratedStates": true,
+  "familySplitDisjoint": true,
+  "arbitraryPrecisionPythonIntegers": true,
+  "seconds": 5.5150154900038615
+}
+Verified: frozen10 files; complete288-case audit; model/corpus/content hashes; independent full integer oracle and source-family splits.
+Checking Reusable pool real-text audit
+{
+  "queries": 64,
+  "cases": 256,
+  "states": 73659,
+  "topKMembershipsChecked": 1107901,
+  "conditionalLeavesChecked": 5868,
+  "missingOracleDocuments": 0,
+  "statewiseCachedFullTopKEqual": true,
+  "seconds": 55.14582627499476
+}
+{
+  "queries": 64,
+  "cases": 256,
+  "states": 29354,
+  "topKMembershipsChecked": 440310,
+  "conditionalLeavesChecked": 5818,
+  "missingOracleDocuments": 0,
+  "statewiseCachedFullTopKEqual": true,
+  "seconds": 80.49851249500352
+}
+Verified 430 manifest files, prospective10-file freeze, all128 selected queries,512 cases, complete finite-state top-k traces, source-replay receipts and summaries.
+Three recorded studies, synthetic application audit and reusable-pool real-text evidence verified. Global novelty and Q1 acceptance are not established.
+
+COMMAND: /workspace/research-data/reviewer-venv/bin/python -m unittest discover -s round3 -p test_*.py -v
+test_cover_count (test_compatibility.CompatibilityChecks.test_cover_count) ... ok
+test_discrete_edge_beyond_convex_support (test_compatibility.CompatibilityChecks.test_discrete_edge_beyond_convex_support) ... ok
+test_pareto_against_exhaustive (test_compatibility.CompatibilityChecks.test_pareto_against_exhaustive) ... ok
+test_resource_cap_never_claims_edge (test_compatibility.CompatibilityChecks.test_resource_cap_never_claims_edge) ... ok
+test_differential (test_core.Checks.test_differential) ... ok
+test_features_and_witness (test_core.Checks.test_features_and_witness) ... ok
+test_shared_shift (test_core.Checks.test_shared_shift) ... ok
+test_variants (test_core.Checks.test_variants) ... ok
+test_zero_tie (test_core.Checks.test_zero_tie) ... ok
+test_against_enumerated_relaxation (test_rank_bound.BoundChecks.test_against_enumerated_relaxation) ... /tmp/ipm-phase0-gpnaxt_2/round3/rank_bound.py:62: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(m),1.],A_ub=A,b_ub=np.zeros(len(cuts)),bounds=list(zip(np.zeros(m),caps))+[(None,None)],method='highs',options={'dual_feasibility_tolerance':1e-8,'primal_feasibility_tolerance':1e-8,'threads':1})
+/tmp/ipm-phase0-gpnaxt_2/round3/test_rank_bound.py:23: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(len(states)),-np.ones(m)],A_ub=A,b_ub=np.ones(m),A_eq=eq,b_eq=[1.],bounds=[(0,None)]*len(states)+[(0,1)]*m,method='highs',options={'threads':1})
+ok
+test_incompatible_promotions (test_rank_bound.BoundChecks.test_incompatible_promotions) ... ok
+test_support_bruteforce (test_rank_bound.BoundChecks.test_support_bruteforce) ... ok
+test_enumeration_and_mip (test_references.ReferenceChecks.test_enumeration_and_mip) ... /tmp/ipm-phase0-gpnaxt_2/round3/mip_reference.py:22: RuntimeWarning: Unrecognized options detected: {'threads'}. These will be passed to HiGHS verbatim.
+  r=milp(c,integrality=np.ones(S+m),bounds=Bounds(np.zeros(S+m),np.ones(S+m)),constraints=LinearConstraint(sparse.vstack(rows,format='csc'),np.concatenate(lo),np.concatenate(hi)),options={'time_limit':seconds,'mip_rel_gap':0.,'threads':1})
+ok
+test_enumeration_resource_limit (test_references.ReferenceChecks.test_enumeration_resource_limit) ... ok
+test_coarse_exhaustive (test_screening.ScreeningChecks.test_coarse_exhaustive) ... ok
+test_decimal_dot_intervals (test_screening.ScreeningChecks.test_decimal_dot_intervals) ... ok
+test_generic_lp_matches_oracle_solver (test_screening.ScreeningChecks.test_generic_lp_matches_oracle_solver) ... /tmp/ipm-phase0-gpnaxt_2/round3/rank_bound.py:102: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(S),-np.ones(m)],A_ub=A,b_ub=np.r_[np.ones(m),budget],A_eq=eq.tocsr(),b_eq=np.ones(len(D)),bounds=[(0,1)]*(S+m),method='highs',options={'threads':1})
+ok
+test_screened_matches_full (test_screening.ScreeningChecks.test_screened_matches_full) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.946s
+
+OK
+Independent exhaustive comparisons: 1200
+High-precision dot-product interval checks: 210

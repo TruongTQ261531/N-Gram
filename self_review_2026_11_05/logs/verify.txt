@@ -1,0 +1,1 @@
+{"status": "PASS", "queries": 970, "default_rank_mismatches": 0, "false_support_certifications_K10": 0, "Pareto_edges_probed": 285, "grid_linear_proofs": 155, "positive_qrel_queries": 311}

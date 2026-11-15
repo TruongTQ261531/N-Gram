@@ -1,0 +1,9 @@
+test_actual_query_schedule_last_representatives_all_64_oracles (self_review_2026_11_05.test_graph_review.GraphReview.test_actual_query_schedule_last_representatives_all_64_oracles) ... ok
+test_additive_separation_integer_scaled_instances (self_review_2026_11_05.test_graph_review.GraphReview.test_additive_separation_integer_scaled_instances) ... ok
+test_completed_graph_first_fit_is_not_monotone (self_review_2026_11_05.test_graph_review.GraphReview.test_completed_graph_first_fit_is_not_monotone) ... ok
+test_stronger_oracle_can_weaken_cover_without_caps (self_review_2026_11_05.test_graph_review.GraphReview.test_stronger_oracle_can_weaken_cover_without_caps) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.025s
+
+OK

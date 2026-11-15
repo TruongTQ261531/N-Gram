@@ -1,0 +1,319 @@
+{
+  "queries": 970,
+  "replayed_default_rank_mismatches": 0,
+  "false_support_K10_certifications": 0,
+  "full_K10": 259,
+  "support_K10": 250,
+  "full_only_K10": [
+    {
+      "dataset": "scifact",
+      "query_id": "384",
+      "full_rank": 10,
+      "support_rank": 11,
+      "qrel_positive": false
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "350",
+      "full_rank": 10,
+      "support_rank": 11,
+      "qrel_positive": true
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "437",
+      "full_rank": 10,
+      "support_rank": 11,
+      "qrel_positive": false
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "684",
+      "full_rank": 10,
+      "support_rank": 11,
+      "qrel_positive": true
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "1232",
+      "full_rank": 10,
+      "support_rank": 13,
+      "qrel_positive": true
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "5369",
+      "full_rank": 8,
+      "support_rank": 12,
+      "qrel_positive": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "5505",
+      "full_rank": 10,
+      "support_rank": 13,
+      "qrel_positive": true
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "6875",
+      "full_rank": 10,
+      "support_rank": 13,
+      "qrel_positive": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "10547",
+      "full_rank": 8,
+      "support_rank": 11,
+      "qrel_positive": false
+    }
+  ],
+  "support_only_K10": [],
+  "original32_LP_gains_also_certified_by_support": 23,
+  "numerical_LP_diagnostic": {
+    "gain_queries": 32,
+    "generic_LP_reported_objective_min": 10.080938475818629,
+    "generic_LP_reported_objective_max": 19.455931705081863,
+    "certification_count_threshold": 10,
+    "raw_objectives_below_threshold_by_1e_6": 0,
+    "interpretation": "numerical objective diagnostic, not a formal primal/dual certificate"
+  },
+  "coverage": [
+    {
+      "dataset": "scifact",
+      "K": 1,
+      "queries": 199,
+      "full_certified": 56,
+      "support_certified": 56,
+      "full_only": 0,
+      "support_only": 0
+    },
+    {
+      "dataset": "scifact",
+      "K": 5,
+      "queries": 199,
+      "full_certified": 97,
+      "support_certified": 91,
+      "full_only": 6,
+      "support_only": 0
+    },
+    {
+      "dataset": "scifact",
+      "K": 10,
+      "queries": 199,
+      "full_certified": 123,
+      "support_certified": 118,
+      "full_only": 5,
+      "support_only": 0
+    },
+    {
+      "dataset": "scifact",
+      "K": 20,
+      "queries": 199,
+      "full_certified": 137,
+      "support_certified": 137,
+      "full_only": 0,
+      "support_only": 0
+    },
+    {
+      "dataset": "nfcorpus",
+      "K": 1,
+      "queries": 223,
+      "full_certified": 5,
+      "support_certified": 5,
+      "full_only": 0,
+      "support_only": 0
+    },
+    {
+      "dataset": "nfcorpus",
+      "K": 5,
+      "queries": 223,
+      "full_certified": 27,
+      "support_certified": 26,
+      "full_only": 1,
+      "support_only": 0
+    },
+    {
+      "dataset": "nfcorpus",
+      "K": 10,
+      "queries": 223,
+      "full_certified": 45,
+      "support_certified": 45,
+      "full_only": 0,
+      "support_only": 0
+    },
+    {
+      "dataset": "nfcorpus",
+      "K": 20,
+      "queries": 223,
+      "full_certified": 55,
+      "support_certified": 56,
+      "full_only": 0,
+      "support_only": 1
+    },
+    {
+      "dataset": "fiqa",
+      "K": 1,
+      "queries": 548,
+      "full_certified": 17,
+      "support_certified": 17,
+      "full_only": 0,
+      "support_only": 0
+    },
+    {
+      "dataset": "fiqa",
+      "K": 5,
+      "queries": 548,
+      "full_certified": 62,
+      "support_certified": 57,
+      "full_only": 5,
+      "support_only": 0
+    },
+    {
+      "dataset": "fiqa",
+      "K": 10,
+      "queries": 548,
+      "full_certified": 91,
+      "support_certified": 87,
+      "full_only": 4,
+      "support_only": 0
+    },
+    {
+      "dataset": "fiqa",
+      "K": 20,
+      "queries": 548,
+      "full_certified": 111,
+      "support_certified": 109,
+      "full_only": 2,
+      "support_only": 0
+    },
+    {
+      "dataset": "TOTAL",
+      "K": 1,
+      "queries": 970,
+      "full_certified": 78,
+      "support_certified": 78,
+      "full_only": 0,
+      "support_only": 0
+    },
+    {
+      "dataset": "TOTAL",
+      "K": 5,
+      "queries": 970,
+      "full_certified": 186,
+      "support_certified": 174,
+      "full_only": 12,
+      "support_only": 0
+    },
+    {
+      "dataset": "TOTAL",
+      "K": 10,
+      "queries": 970,
+      "full_certified": 259,
+      "support_certified": 250,
+      "full_only": 9,
+      "support_only": 0
+    },
+    {
+      "dataset": "TOTAL",
+      "K": 20,
+      "queries": 970,
+      "full_certified": 303,
+      "support_certified": 302,
+      "full_only": 2,
+      "support_only": 1
+    }
+  ],
+  "qrel_strata": [
+    {
+      "dataset": "scifact",
+      "positive_original_qrel": true,
+      "queries": 108,
+      "lp_certified": 79,
+      "full_certified": 83,
+      "support_certified": 80,
+      "milp_certified": 83,
+      "refined_certified": 83,
+      "full_gain_over_lp": 4
+    },
+    {
+      "dataset": "scifact",
+      "positive_original_qrel": false,
+      "queries": 91,
+      "lp_certified": 36,
+      "full_certified": 40,
+      "support_certified": 38,
+      "milp_certified": 40,
+      "refined_certified": 40,
+      "full_gain_over_lp": 4
+    },
+    {
+      "dataset": "nfcorpus",
+      "positive_original_qrel": true,
+      "queries": 102,
+      "lp_certified": 29,
+      "full_certified": 31,
+      "support_certified": 31,
+      "milp_certified": 33,
+      "refined_certified": 33,
+      "full_gain_over_lp": 2
+    },
+    {
+      "dataset": "nfcorpus",
+      "positive_original_qrel": false,
+      "queries": 121,
+      "lp_certified": 12,
+      "full_certified": 14,
+      "support_certified": 14,
+      "milp_certified": 14,
+      "refined_certified": 14,
+      "full_gain_over_lp": 2
+    },
+    {
+      "dataset": "fiqa",
+      "positive_original_qrel": true,
+      "queries": 101,
+      "lp_certified": 37,
+      "full_certified": 44,
+      "support_certified": 43,
+      "milp_certified": 44,
+      "refined_certified": 44,
+      "full_gain_over_lp": 7
+    },
+    {
+      "dataset": "fiqa",
+      "positive_original_qrel": false,
+      "queries": 447,
+      "lp_certified": 34,
+      "full_certified": 47,
+      "support_certified": 44,
+      "milp_certified": 46,
+      "refined_certified": 52,
+      "full_gain_over_lp": 13
+    },
+    {
+      "dataset": "TOTAL",
+      "positive_original_qrel": true,
+      "queries": 311,
+      "lp_certified": 145,
+      "full_certified": 158,
+      "support_certified": 154,
+      "milp_certified": 160,
+      "refined_certified": 160,
+      "full_gain_over_lp": 13
+    },
+    {
+      "dataset": "TOTAL",
+      "positive_original_qrel": false,
+      "queries": 659,
+      "lp_certified": 82,
+      "full_certified": 101,
+      "support_certified": 96,
+      "milp_certified": 100,
+      "refined_certified": 106,
+      "full_gain_over_lp": 19
+    }
+  ],
+  "scope": "retrospective graph-only replay with shared frozen pair/custom-LP/enum prefix;no new full-pipeline solver timing"
+}

@@ -1,0 +1,269 @@
+{
+  "scope": "retrospective proof-replacement diagnostic of all32 original LP gain cases;not a new end-to-end algorithm",
+  "queries": 32,
+  "checked_pareto_edges": 285,
+  "grid_linear_recovered": 155,
+  "grid_unresolved": 130,
+  "existing_partitions_linearly_certifiable": 3,
+  "within_group_pareto_pairs": 172,
+  "within_group_pareto_grid_unresolved": 76,
+  "rows": [
+    {
+      "dataset": "scifact",
+      "query_id": "1232",
+      "within_group_pairs": 10,
+      "within_group_pareto_pairs": 4,
+      "within_group_pareto_grid_unresolved": 1,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "350",
+      "within_group_pairs": 6,
+      "within_group_pareto_pairs": 3,
+      "within_group_pareto_grid_unresolved": 2,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "384",
+      "within_group_pairs": 4,
+      "within_group_pareto_pairs": 2,
+      "within_group_pareto_grid_unresolved": 1,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "437",
+      "within_group_pairs": 2,
+      "within_group_pareto_pairs": 1,
+      "within_group_pareto_grid_unresolved": 0,
+      "original_partition_certifiable_with_grid_linear_support": true
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "49",
+      "within_group_pairs": 4,
+      "within_group_pareto_pairs": 2,
+      "within_group_pareto_grid_unresolved": 1,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "597",
+      "within_group_pairs": 39,
+      "within_group_pareto_pairs": 8,
+      "within_group_pareto_grid_unresolved": 6,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "684",
+      "within_group_pairs": 6,
+      "within_group_pareto_pairs": 1,
+      "within_group_pareto_grid_unresolved": 1,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "scifact",
+      "query_id": "936",
+      "within_group_pairs": 7,
+      "within_group_pareto_pairs": 3,
+      "within_group_pareto_grid_unresolved": 2,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "nfcorpus",
+      "query_id": "PLAIN-2291",
+      "within_group_pairs": 73,
+      "within_group_pareto_pairs": 15,
+      "within_group_pareto_grid_unresolved": 7,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "nfcorpus",
+      "query_id": "PLAIN-2740",
+      "within_group_pairs": 16,
+      "within_group_pareto_pairs": 2,
+      "within_group_pareto_grid_unresolved": 1,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "nfcorpus",
+      "query_id": "PLAIN-2991",
+      "within_group_pairs": 14,
+      "within_group_pareto_pairs": 6,
+      "within_group_pareto_grid_unresolved": 2,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "nfcorpus",
+      "query_id": "PLAIN-56",
+      "within_group_pairs": 27,
+      "within_group_pareto_pairs": 7,
+      "within_group_pareto_grid_unresolved": 1,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "10152",
+      "within_group_pairs": 13,
+      "within_group_pareto_pairs": 4,
+      "within_group_pareto_grid_unresolved": 1,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "10547",
+      "within_group_pairs": 17,
+      "within_group_pareto_pairs": 6,
+      "within_group_pareto_grid_unresolved": 1,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "10596",
+      "within_group_pairs": 4,
+      "within_group_pareto_pairs": 3,
+      "within_group_pareto_grid_unresolved": 2,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "3177",
+      "within_group_pairs": 49,
+      "within_group_pareto_pairs": 9,
+      "within_group_pareto_grid_unresolved": 2,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "3694",
+      "within_group_pairs": 16,
+      "within_group_pareto_pairs": 7,
+      "within_group_pareto_grid_unresolved": 3,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "3934",
+      "within_group_pairs": 12,
+      "within_group_pareto_pairs": 3,
+      "within_group_pareto_grid_unresolved": 3,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "4955",
+      "within_group_pairs": 22,
+      "within_group_pareto_pairs": 1,
+      "within_group_pareto_grid_unresolved": 0,
+      "original_partition_certifiable_with_grid_linear_support": true
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "5150",
+      "within_group_pairs": 5,
+      "within_group_pareto_pairs": 2,
+      "within_group_pareto_grid_unresolved": 1,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "5264",
+      "within_group_pairs": 11,
+      "within_group_pareto_pairs": 4,
+      "within_group_pareto_grid_unresolved": 4,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "5331",
+      "within_group_pairs": 38,
+      "within_group_pareto_pairs": 5,
+      "within_group_pareto_grid_unresolved": 3,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "5369",
+      "within_group_pairs": 65,
+      "within_group_pareto_pairs": 14,
+      "within_group_pareto_grid_unresolved": 6,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "5505",
+      "within_group_pairs": 25,
+      "within_group_pareto_pairs": 8,
+      "within_group_pareto_grid_unresolved": 3,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "5646",
+      "within_group_pairs": 12,
+      "within_group_pareto_pairs": 2,
+      "within_group_pareto_grid_unresolved": 0,
+      "original_partition_certifiable_with_grid_linear_support": true
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "6005",
+      "within_group_pairs": 13,
+      "within_group_pareto_pairs": 4,
+      "within_group_pareto_grid_unresolved": 1,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "6278",
+      "within_group_pairs": 11,
+      "within_group_pareto_pairs": 5,
+      "within_group_pareto_grid_unresolved": 3,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "6875",
+      "within_group_pairs": 21,
+      "within_group_pareto_pairs": 9,
+      "within_group_pareto_grid_unresolved": 6,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "766",
+      "within_group_pairs": 23,
+      "within_group_pareto_pairs": 6,
+      "within_group_pareto_grid_unresolved": 4,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "7925",
+      "within_group_pairs": 55,
+      "within_group_pareto_pairs": 13,
+      "within_group_pareto_grid_unresolved": 2,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "9291",
+      "within_group_pairs": 14,
+      "within_group_pareto_pairs": 9,
+      "within_group_pareto_grid_unresolved": 4,
+      "original_partition_certifiable_with_grid_linear_support": false
+    },
+    {
+      "dataset": "fiqa",
+      "query_id": "9332",
+      "within_group_pairs": 34,
+      "within_group_pareto_pairs": 4,
+      "within_group_pareto_grid_unresolved": 2,
+      "original_partition_certifiable_with_grid_linear_support": false
+    }
+  ],
+  "limitations": "Grid failure is inconclusive about the optimal separating weight. Frozen partitions were chosen by the full prover; linear recertification does not imply a support-only scheduler finds them or has the same cost."
+}

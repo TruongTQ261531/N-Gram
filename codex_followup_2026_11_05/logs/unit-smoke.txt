@@ -1,0 +1,17 @@
+test_context_cap_returns_whole_corpus_unknown (codex_followup_2026_11_05.test_experiments.TestControlledAblations.test_context_cap_returns_whole_corpus_unknown) ... ok
+test_screened_context_matches_original (codex_followup_2026_11_05.test_experiments.TestControlledAblations.test_screened_context_matches_original) ... ok
+test_support_only_never_calls_pareto_and_edges_are_safe (codex_followup_2026_11_05.test_experiments.TestControlledAblations.test_support_only_never_calls_pareto_and_edges_are_safe) ... ok
+test_unchanged_method_bounds_match_original_kernels (codex_followup_2026_11_05.test_experiments.TestControlledAblations.test_unchanged_method_bounds_match_original_kernels) ... /workspace/N-Gram/round3/rank_bound.py:62: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  result=linprog(np.r_[np.zeros(m),1.],A_ub=A,b_ub=np.zeros(len(cuts)),bounds=list(zip(np.zeros(m),caps))+[(None,None)],method='highs',options={'dual_feasibility_tolerance':1e-8,'primal_feasibility_tolerance':1e-8,'threads':1})
+/workspace/N-Gram/round3/rank_bound.py:102: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+  r=linprog(np.r_[np.zeros(S),-np.ones(m)],A_ub=A,b_ub=np.r_[np.ones(m),budget],A_eq=eq.tocsr(),b_eq=np.ones(len(D)),bounds=[(0,1)]*(S+m),method='highs',options={'threads':1})
+/workspace/N-Gram/round3/mip_reference.py:22: RuntimeWarning: Unrecognized options detected: {'threads'}. These will be passed to HiGHS verbatim.
+  r=milp(c,integrality=np.ones(S+m),bounds=Bounds(np.zeros(S+m),np.ones(S+m)),constraints=LinearConstraint(sparse.vstack(rows,format='csc'),np.concatenate(lo),np.concatenate(hi)),options={'time_limit':seconds,'mip_rel_gap':0.,'threads':1})
+ok
+test_unscreened_pipeline_preserves_reference_and_bound (codex_followup_2026_11_05.test_experiments.TestControlledAblations.test_unscreened_pipeline_preserves_reference_and_bound) ... ok
+test_zero_witness_not_an_empty_candidate_certificate (codex_followup_2026_11_05.test_experiments.TestControlledAblations.test_zero_witness_not_an_empty_candidate_certificate) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.074s
+
+OK

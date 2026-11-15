@@ -1,0 +1,17 @@
+dataset,K,queries,full_certified,support_certified,full_only,support_only
+scifact,1,199,56,56,0,0
+scifact,5,199,97,91,6,0
+scifact,10,199,123,118,5,0
+scifact,20,199,137,137,0,0
+nfcorpus,1,223,5,5,0,0
+nfcorpus,5,223,27,26,1,0
+nfcorpus,10,223,45,45,0,0
+nfcorpus,20,223,55,56,0,1
+fiqa,1,548,17,17,0,0
+fiqa,5,548,62,57,5,0
+fiqa,10,548,91,87,4,0
+fiqa,20,548,111,109,2,0
+TOTAL,1,970,78,78,0,0
+TOTAL,5,970,186,174,12,0
+TOTAL,10,970,259,250,9,0
+TOTAL,20,970,303,302,2,1

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "queries": 970,
+  "sourceFiles": {
+    "round3/results/scifact_independent_replication.jsonl.gz": "0bdc528e98f20424bd1146d880e8098dfb9d2dbce9c813e2cf8ab56868611cc0",
+    "reviewer_audit_2026_10_31/results/retention/scifact.jsonl.gz": "c0b959d2203f3369df18aa2de2c5072ede20705cb036a076af3a22b17897468f",
+    "claims_consolidation_2026_11_01/results/scifact.jsonl.gz": "7e8f49adad8fc0d85f35570ffb9a59b86e98ebc64ecf0f27f9d66c097ab9d9cf",
+    "round3/results/nfcorpus_independent_replication.jsonl.gz": "8d02ff22b974604d8f8d82915182a6216684b959f94bb98d17cbf04b6f8df687",
+    "reviewer_audit_2026_10_31/results/retention/nfcorpus.jsonl.gz": "d7b683bebcb1b0557192174228fd7a3ad657aea41fb76ec36f372f02dad2a032",
+    "claims_consolidation_2026_11_01/results/nfcorpus.jsonl.gz": "25139694b73d171b799ce9ecdfaf5890f224852b64b0631c6a5be9125aa97b11",
+    "round3/results/fiqa_independent_replication.jsonl.gz": "8165ee721adc2efb0a0c7c26c18dee61a0a95558de228cc2015cb71c22a5f7a1",
+    "reviewer_audit_2026_10_31/results/retention/fiqa.jsonl.gz": "b4198944d29a61cabf449f2631826901f18f15e52d8e7c39fdbb63f91721fe5e",
+    "claims_consolidation_2026_11_01/results/fiqa.jsonl.gz": "6584259691b6c1f0d4c291ae6a12aa5d22c7e154507b3a9baddf76c39c2830ed"
+  },
+  "runtimeRows": 3774,
+  "labelsRetrospective": true,
+  "newSourceReplay": "Only clean scores and input descriptors;not970new solver runs",
+  "cleanScoresAreDescriptivePointArithmetic": true,
+  "modelOrChannelChanges": false
+}
