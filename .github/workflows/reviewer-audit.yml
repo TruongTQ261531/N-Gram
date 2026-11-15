@@ -47,3 +47,11 @@ jobs:
           python -m unittest utk_full_domain_2026_11_01.test_algorithms utk_full_domain_2026_11_01.test_archive -v
           python -m utk_full_domain_2026_11_01.check_archive
           sha256sum --quiet -c utk_full_domain_2026_11_01/checksums.sha256
+      - name: November 5 sensitivity panel and independent exact oracle
+        run: |
+          python -m unittest codex_followup_2026_11_05.test_experiments -v
+          python -m codex_followup_2026_11_05.verify
+      - name: Full-cohort graph replay and linear-support self-review
+        run: |
+          python -m unittest self_review_2026_11_05.test_graph_review -v
+          python -m self_review_2026_11_05.verify

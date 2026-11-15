@@ -1,58 +1,100 @@
-# N-Gram — ba vòng nghiên cứu và một bản công bố thống nhất
+# Certified lexical retrieval under shared query edits
 
-**Mở rộng ứng dụng30/10/2026:** đã có bộ đệm bao phủ mọi top-k dưới bộ lỗi hữu hạn và truy hồi lại trực tiếp trên web, từ chối truy vấn ngoài phạm vi/chứng nhận cũ. [Báo cáo mới](pool_study/REPORT_VI.md) dùng128 truy vấn trên toàn bộ34.331 tài liệu ArguAna/SciDocs,512 cấu hình, oracle duyệt hết và kiểm tra độc lập. Ở B=2,k=10, pool trung bình giảm47,56%/55,82% so với cận từng cặp; chi phí ban đầu dự phóng cần45/35 lần sửa mới hòa vốn trung vị. [Toàn bộ factor/oracle/log](pool_study/results/), [khóa trước kết quả](pool_study/PROTOCOL.md), [rà soát novelty](pool_study/RELATED_WORK.md). Đây là dữ liệu dẫn xuất từ corpus cũ với lỗi tổng hợp, không phải log lỗi tự nhiên; chia miền/dominance/cache đã có tiền lệ và **chưa xác lập đủ Q1**.
+[![Research archive](https://github.com/TruongTQ261531/N-Gram/actions/workflows/integration.yml/badge.svg)](https://github.com/TruongTQ261531/N-Gram/actions/workflows/integration.yml)
+[![Reviewer audits](https://github.com/TruongTQ261531/N-Gram/actions/workflows/reviewer-audit.yml/badge.svg)](https://github.com/TruongTQ261531/N-Gram/actions/workflows/reviewer-audit.yml)
+[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 
+Research software and recorded experiments for **certifying a fixed character-n-gram lexical retriever under a finite set of shared query edits**. The central question is whether the clean-query winner remains in top-K for every allowed edited query, using the same edit choices against all competing documents.
 
-**Web N-Gram Lab đã triển khai — 30/10/2026:** [mở ứng dụng](https://ngram-research-lab-tq261531.tealrook33.chatgpt.site) (quyền truy cập hiện tại: chủ sở hữu). Nhập corpus JSON/JSONL/CSV, kiểm tra truy vấn EN/VI, chọn bộ lỗi, xem witness và xuất dataset/chứng nhận trên trình duyệt. Không gửi corpus/query lên API.
+The repository also studies exact possible-result unions for offline auditing. These are complementary tasks with different scoring and edit contracts, rather than a single evaluated online or neural retrieval pipeline. Earlier CAPC/BOLT classification studies remain available as historical research.
 
-Ứng dụng dùng scorer trọng số nguyên riêng; không gán số liệu float64 vòng3 cho phiên bản web. [Bộ audit v0.1 và báo cáo](application_study/REPORT_VI.md) có288 case tổng hợp/bán tổng hợp,334.815 trạng thái được Python kiểm tra độc lập. Cover cải thiện17case, mỗi case một tài liệu; chưa tăng acceptance ở cap1/5/10/20. Bộ này còn nhỏ/dễ, không phải log người dùng thật và chưa xác lập novelty đủ Q1. [Mã web](webapp/), [protocol khóa trước kết quả](application_study/PROTOCOL.md), [rà soát ứng dụng/dataset](application_study/RELATED_WORK.md).
+Working manuscript title: *Bounding the Worst-Case: Certified Lexical Retrieval under Shared Query Edits*. Manuscripts, submission files and bibliography files are maintained separately from this code repository. This repository does not imply publication or acceptance.
 
-Cập nhật 29/10/2026. Vòng 3 đã xây dựng và thực nghiệm **bộ chứng nhận rời rạc cho truy hồi character n-gram**, có lý thuyết, đối chứng LP/MILP, 300 truy vấn xác nhận ban đầu và 970 truy vấn xác nhận độc lập. Mã/kết quả nằm trong [round3](round3/README.md).
+## Current evidence
 
-**Chưa xác lập đủ novelty hoặc khả năng được nhận Q1.** Kết quả mới hỗ trợ một đóng góp hẹp về khả năng chứng nhận; không làm tăng chất lượng bộ xếp hạng và không biến ba hướng thành một mô hình lai đã được kiểm thử.
+The original independent replication contains **970 queries**, at edit budget B=2 and K=10. Later exact-decision auditing identifies 266 robust and 704 nonrobust cases.
 
-| Vòng | Nội dung | Kết luận hiện tại |
-|---|---|---|
-| 1 — CAPC | Consistency có trọng số nhập nhằng; 156 fit theo giao thức | Chưa vượt rõ đối chứng mạnh; [báo cáo](REPORT_VI.md) |
-| 2 — BOLT | Oracle nhiễu và huấn luyện robust; 99 fit theo giao thức | Chưa có lợi thế nhất quán; [báo cáo](round2/REPORT_VI.md) |
-| 3 — Chứng nhận truy hồi | Scorer character-BM25 cố định; LP dùng chung truy vấn và cover xung đột rời rạc; không fit thêm | Cải thiện so với LP trên dữ liệu mới, có ý nghĩa sau Holm ở 2/3 corpus; [báo cáo đầy đủ](round3/REPORT_VI.md) |
+| Dataset | Queries | Audited robust | Best LP + enumeration | Discrete (original) | MILP + enumeration (later numerical control) |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| SciFact | 199 | 123 | 115 | 123 | 123 |
+| NFCorpus | 223 | 47 | 41 | 45 | 47 |
+| FiQA | 548 | 96 | 71 | 91 | 90 |
+| **Total** | **970** | **266** | **227** | **259** | **260** |
 
-## Kết quả mới: giữ winner trong top-10, tối đa hai token bị sửa
+The original Discrete-versus-LP comparison passes the prespecified Holm-adjusted tests on two of three datasets. Discrete does **not** uniformly dominate MILP. Later optional refinement certifies all 266 audited robust cases with zero certifications among the 704 audited nonrobust cases, but is a **retrospective all-query replay**, with additional cost, rather than a new independent confirmation.
 
-Đây là tỷ lệ truy vấn **được chứng nhận** trong mô hình nhiễu hữu hạn, không phải accuracy hay recall.
+Further validation includes:
 
-| Corpus | Truy vấn mới | Best LP + enumeration | Phương pháp rời rạc | p exact sau Holm |
-|---|---:|---:|---:|---:|
-| SciFact | 199 | 115/199 (57,79%) | 123/199 (61,81%) | 0,015625 |
-| NFCorpus | 223 | 41/223 (18,39%) | 45/223 (20,18%) | 0,125 |
-| FiQA | 548 | 71/548 (12,96%) | 91/548 (16,61%) | 0,00000572 |
+- **970-query graph ablation:** full support/Pareto gives 259 certificates versus 250 for equal-weight support, with the same frozen prefix. This isolates the graph component; it is not 970 fresh solver or timing runs.
+- **36-query sensitivity panel:** 684 fresh pipeline executions and 2,736 threshold decisions, including every capped/unknown outcome. It does not establish uniform component dominance.
+- **Independent tiny-domain oracle:** 396 exact-dyadic checks, 185 nonvacuous positive outcomes and zero unsound bounds in the tested cases. This is validation evidence, not a formal proof of the complete software stack.
 
-NFCorpus chưa đủ bằng chứng thống kê. Mọi truy vấn tăng thêm đều có generic LP chạy thành công, nhưng chỉ 4/2/7 winner tăng thêm có qrel dương. Lượt 300 truy vấn đầu giữ riêng, không gộp để sửa p-value. Các cấu hình không có lợi, MILP thắng, cap/timeout và sai lệch luồng ban đầu đều được báo cáo.
+The complementary **WANDS offline union audit** uses 128 queries, 42,994 products and 6,684 finite query states. All 128 unions match full enumeration. Median coarse-pool and exact-union sizes are 2,613 and 45. The original matched construction comparison gives a paired geometric speed ratio of **2.3474×** (95% bootstrap interval 2.0824–2.6293), winning 107/128 queries against the faster executed per-query offline control. The **20-request session gate fails**: 38/128 wins and ratio 0.7472. No interactive speedup or observed session break-even is claimed.
 
-Đọc [bản thảo tiếng Anh](round3/MANUSCRIPT.md), [lý thuyết](round3/THEORY.md), [rà soát tài liệu mới và rủi ro novelty](round3/RELATED_WORK_UPDATE.md), [lịch sử chạy/sửa lỗi](round3/RUN_HISTORY.md). Các thành phần LP, DP, graph cover, pruning và top-K certification đã có prior art, đặc biệt CostCert; không được gọi riêng chúng là phát minh mới.
+See [Results and scope](docs/RESULTS_AND_SCOPE.md) for provenance, timing definitions, negative findings and the distinction between original and retrospective evidence.
 
-## Kiểm tra toàn bộ bản công bố
+## Quick start: verify the recorded evidence
 
-Python 3.12, từ repository root:
+Use Python **3.12** on Linux. This checks the archived records without downloading raw corpora or rerunning optimization benchmarks.
 
 ```bash
-python -m venv .venv
+git clone https://github.com/TruongTQ261531/N-Gram.git
+cd N-Gram
+python3.12 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements-all.txt
+python -m pip install -r requirements-all.txt
 python verify_all.py
-python -m unittest discover -s round3 -p 'test_*.py'
 ```
 
-Verifier ngoại tuyến tái tính metric từ dự đoán, CI/exact test/Holm, ID/nguồn đã khóa và checksum cho cả ba vòng, không tải corpus hay huấn luyện. Vòng 3 có 27.000 dự đoán nhiễu từng mẫu; 300/300 cận rank khớp khi replay toàn corpus một luồng; 18 unit test và 12 fixture truy vấn thật. Artifact verification và CI không phải chứng minh mọi compiled library, xác nhận novelty hoặc quyết định tạp chí.
+The complete verifier checks release hashes and all 16 archive stages, including the two November 5 follow-ups. It fails if a required archive is missing or inconsistent. Scientific libraries are pinned; gzip/NPZ factors, proof receipts, solver logs and split archive parts are intentional reproduction inputs. A full checkout is several hundred MB.
 
-## Tái lập hoặc dùng thuật toán
+For a focused check of the latest audits:
 
-[Hướng dẫn vòng 3](round3/REPRODUCE.md) có tải dữ liệu được pin, dựng index, chạy truy vấn mới không cần nhãn và chạy lại từng giai đoạn. Cloud hai lõi/8 GiB đã hoàn tất các kết quả; local là tùy chọn cho tái lập độc lập hoặc tăng tốc, không tăng khả năng suy luận của mô hình. Không cần GPU, API trả phí hoặc gán nhãn mới.
+```bash
+python -m codex_followup_2026_11_05.verify
+python -m self_review_2026_11_05.verify
+python -m unittest codex_followup_2026_11_05.test_experiments -v
+python -m unittest self_review_2026_11_05.test_graph_review -v
+```
 
-[Quy trình CAPC/BOLT](REPRODUCE.md), [tổng quan hợp nhất cũ](docs/CAPC_BOLT_OVERVIEW.md), [hướng dẫn CAPC gốc](docs/CAPC_REPRODUCIBILITY.md), [BOLT](round2/README.md), [metadata trạng thái](PROJECT_STATUS.json). Metric các vòng không so trực tiếp vì khác nhiệm vụ và threat model.
+For unit checks, local browser tests, pinned external inputs and fresh experiment runs, see [Reproducibility](docs/REPRODUCIBILITY.md). Re-execution requires a separate working copy and must preserve the original evidence.
 
-## Dữ liệu và lịch sử
+## Repository guide
 
-Mã, mô hình và kết quả khoa học CAPC/BOLT giữ nguyên byte. README mới thay trang tổng quan nên hash README trong manifest CAPC được cập nhật; các thay đổi tích hợp có manifest riêng. Vòng 3 có checksum và hai lần công bố khóa trước metric: [8dd7972](https://github.com/TruongTQ261531/N-Gram/commit/8dd7972dc13d85159e908f9b6ea03c394289acd2) và [5fcf816](https://github.com/TruongTQ261531/N-Gram/commit/5fcf816da7d686427f518845c71e682d95626cee).
+| Location | Purpose |
+| --- | --- |
+| [round3/](round3/) | Central float64 retention certifier, theory, original 300-query confirmation and independent 970-query replication |
+| [reviewer_audit_2026_10_31/](reviewer_audit_2026_10_31/) | Backend bridge, full-cohort MILP and controlled runtime audits |
+| [decision_audit_2026_10_31/](decision_audit_2026_10_31/) | Exact robust/nonrobust decisions and observed correction-channel membership |
+| [claims_consolidation_2026_11_01/](claims_consolidation_2026_11_01/) | Closest-work mapping and retrospective all-query refinement |
+| [codex_followup_2026_11_05/](codex_followup_2026_11_05/) | Complete cohort join, fresh sensitivity panel and independent tiny-domain oracle |
+| [self_review_2026_11_05/](self_review_2026_11_05/) | Full-cohort graph ablation, fixed-grid linear-support diagnostic and qrel strata |
+| [lazy_cert_study/](lazy_cert_study/), [exact_pool_study/](exact_pool_study/), [pool_study/](pool_study/) | Index-first screening, offline unions and session controls |
+| [utk_full_domain_2026_11_01/](utk_full_domain_2026_11_01/), [utk_adapter_study/](utk_adapter_study/) | Finite-domain RSA/JAA adaptations and native-output fixtures, with performance limits documented |
+| [argon_followup_2026_11_01/](argon_followup_2026_11_01/) | Graph refinements, natural-correction and neural-cascade boundary analyses |
+| [webapp/](webapp/), [application_study/](application_study/) | Local browser demonstrator and independent integer-score oracle |
+| Root study files and [round2/](round2/) | Historical CAPC/BOLT classification experiments; separate tasks and metrics |
 
-Dùng nhãn công khai có sẵn; không có đợt gán nhãn mới. Raw corpus, index pickle, tài liệu full text và file Word không thuộc gói công bố. Truy vấn kế thừa, factor và oracle mới được công bố riêng với nguồn/điều khoản tại [pool_study](pool_study/DATA_LICENSE.md). MIT áp dụng cho mã; điều khoản nguồn riêng tại [CAPC](results/DATA_LICENSE.md), [BOLT](round2/DATA_LICENSE.md), [vòng 3](round3/DATA_LICENSE.md). Chưa nộp hoặc tuyên bố paper được nhận.
+Dated directories and legacy reports retain their original paths for source freezes and provenance. The root README, [results guide](docs/RESULTS_AND_SCOPE.md), [reproduction guide](docs/REPRODUCIBILITY.md) and [PROJECT_STATUS.json](PROJECT_STATUS.json) describe the current project; dated planning documents describe their historical stage.
+
+## Guarantees and boundaries
+
+- **Retention:** fixed float64 character-BM25 scorer, NFC/casefold normalization, at most 32 query tokens and the declared finite per-token delete/swap/repeat/QWERTY edit channel. Bounds use the documented outward numerical enclosures and conservative ties; the implementation is not a mechanized verification of SciPy/BLAS/HiGHS.
+- **Offline union:** integerized weights (scale 10^6), NFC/lowercase normalization and a separate compact full-query edit channel. A measured backend bridge does not make the two contracts universally equivalent.
+- **Scope:** certificates concern lexical ranks under allowed edits. They do not certify relevance, preservation of meaning, unrestricted spelling errors, neural top-K, RAG answers or global SOTA. Synthetic audit cases are not a newly collected natural-query dataset.
+
+## Local browser demonstrator
+
+The static application runs locally; no build step is required:
+
+```bash
+python -m http.server 4173 --directory webapp/dist
+```
+
+Open <http://localhost:4173>. The browser limits (500 documents, 500,000 characters and 16 tokens) differ from the Python corpus experiments. This is a demonstrator, not a public production service. See [application documentation](application_study/README.md).
+
+## License, data and contributions
+
+Project code is under the [MIT license](LICENSE). Third-party corpora, dictionary-derived material and upstream software retain their own terms; see [round3 data terms](round3/DATA_LICENSE.md), [pool data terms](pool_study/DATA_LICENSE.md), [application data terms](application_study/DATA_LICENSE.md) and [UTK acquisition notes](utk_adapter_study/). Raw corpora, indexes and restricted upstream dependencies are not redistributed here.
+
+Please follow [CONTRIBUTING.md](CONTRIBUTING.md): preserve frozen evidence, keep new runs separate and report limitations alongside gains. The [maintenance record](docs/REPOSITORY_MAINTENANCE_2026-11-15.md) explains the conservative repository cleanup.

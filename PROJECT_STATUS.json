@@ -1,86 +1,104 @@
 {
-  "integrated_date": "2026-10-29",
-  "timezone": "Asia/Bangkok",
-  "status": "research_and_application_candidates_global_novelty_unconfirmed",
-  "methods": {
-    "CAPC": {
-      "source_commit": "d3e7de0732eaedbebcf612dbf5261b82d5a9ff01",
-      "code": "study.py",
-      "report": "REPORT_VI.md",
-      "protocol_fits": 156,
-      "novelty": "not established",
-      "decision": "no_go_for_current_candidate"
+  "updated_date": "2026-11-15",
+  "timezone": "Asia/Saigon",
+  "status": "research_software_with_archived_validation",
+  "scientific_baseline_commit": "33c0d031740342ef4ac4e761c70d92ac819111f1",
+  "working_manuscript_title": "Bounding the Worst-Case: Certified Lexical Retrieval under Shared Query Edits",
+  "manuscripts": "maintained outside this repository",
+  "current_documentation": {
+    "overview": "README.md",
+    "results": "docs/RESULTS_AND_SCOPE.md",
+    "reproduction": "docs/REPRODUCIBILITY.md",
+    "maintenance": "docs/REPOSITORY_MAINTENANCE_2026-11-15.md"
+  },
+  "retention": {
+    "code": "round3/",
+    "scorer": "float64 character-BM25; NFC/casefold; declared finite per-token edits",
+    "initial_confirmation_queries": 300,
+    "independent_replication_queries": 970,
+    "budget": 2,
+    "k": 10,
+    "audited_robust": 266,
+    "audited_nonrobust": 704,
+    "original_best_lp_enum_certified": 227,
+    "original_discrete_certified": 259,
+    "later_numerical_milp_enum_certified": 260,
+    "original_lp_comparisons_passing_holm": 2,
+    "original_lp_comparisons_total": 3,
+    "retrospective_refinement": {
+      "certified_robust": 266,
+      "certified_nonrobust": 0,
+      "extra_seconds": 121.792,
+      "independent_confirmation": false,
+      "records": "claims_consolidation_2026_11_01/"
     },
-    "BOLT": {
-      "source_commit": "0d04b8db6c87431315aeababee5e2e145e29c3a5",
-      "code": "round2/run.py",
-      "report": "round2/REPORT_VI.md",
-      "protocol_fits": 99,
-      "novelty": "not established",
-      "decision": "insufficient_evidence_for_q1"
+    "graph_ablation": {
+      "queries": 970,
+      "support_only_certified": 250,
+      "full_certified": 259,
+      "frozen_prefix_reused": true,
+      "fresh_full_solver_runs": false,
+      "records": "self_review_2026_11_05/"
     },
-    "discrete_query_retention": {
-      "code": "round3/replay.py",
-      "report": "round3/REPORT_VI.md",
-      "manuscript": "round3/MANUSCRIPT.md",
-      "primary_queries": 300,
-      "independent_queries": 970,
-      "random_diagnostic_predictions": 27000,
-      "new_model_fits": 0,
-      "novelty": "targeted review only; global novelty unconfirmed",
-      "decision": "specific LP comparison supported on 2 of 3 datasets; not a Q1 guarantee",
-      "preconfirmation_commit": "8dd7972dc13d85159e908f9b6ea03c394289acd2",
-      "independent_preregistration_commit": "5fcf816da7d686427f518845c71e682d95626cee"
+    "sensitivity_panel": {
+      "queries": 36,
+      "fresh_pipeline_runs": 684,
+      "threshold_decisions": 2736,
+      "retrospective": true,
+      "records": "codex_followup_2026_11_05/"
+    },
+    "tiny_exact_oracle": {
+      "checks": 396,
+      "nonvacuous_positive_outcomes": 185,
+      "unsound_tested_bounds": 0,
+      "complete_formal_verification": false
     }
   },
-  "hybrid_method_implemented": false,
-  "hybrid_method_evaluated": false,
-  "new_human_annotations": 0,
-  "documentation_changes": "Third-round report, manuscript, reproduction and complete evidence added; unified entrypoints updated; old scientific outputs unchanged.",
-  "original_capc_readme_sha256": "0395202ba1f2171f1e921e5ade113700a12e4cf2b0ca95b2a03e65d87eb362a9",
-  "q1_goal": "not established; no acceptance guarantee",
-  "verification": "python verify_all.py",
-  "legacy_scientific_artifacts_modified": false,
-  "application_update_date": "2026-10-30",
-  "application": {
-    "url": "https://ngram-research-lab-tq261531.tealrook33.chatgpt.site",
-    "access": "owner-private",
-    "source": "webapp/",
-    "report": "application_study/REPORT_VI.md",
-    "scorer": "ngramlab-fixedpoint-v1; different from round3 float64",
-    "audit_cases": 288,
-    "synthetic_documents": 48,
-    "query_seeds": 48,
-    "source_families": 12,
-    "exact_states_verified": 334815,
-    "new_human_relevance_labels": 0,
-    "cover_improved_cases": 17,
-    "improved_acceptance_at_prespecified_caps": false,
-    "novelty": "candidate specialization; global novelty and Q1 suitability unconfirmed",
-    "deployment": "succeeded",
-    "preoutcome_commit": "8055553afd53d4477988910b1454c8640d075946",
-    "features": [
-      "reference retention",
-      "possible-top-k reusable pool",
-      "finite-state cached replay with scope invalidation",
-      "proof and local dataset export"
-    ],
-    "possible_pool_version": "finite-query-pool-web-v1",
-    "ui_version": "0.2.0"
-  },
-  "pool_study": {
-    "report": "pool_study/REPORT_VI.md",
-    "prospective_commit": "596435bef3ab039b8abfbf672399c761e0c6e7ae",
+  "offline_union": {
+    "scorer": "integerized character-BM25, scale 1000000; NFC/lowercase; separate compact full-query channel",
+    "dataset": "WANDS",
     "queries": 128,
-    "cases": 512,
-    "inherited_corpus_documents": 34331,
-    "budget_state_checks": 103013,
-    "max_budget_query_states": 98023,
-    "independent_token_document_scores": 97964788,
-    "missing_oracle_documents": 0,
-    "new_human_or_llm_labels": 0,
-    "novelty": "interval/dominance/partition/cache have strong prior art; candidate specialization only",
-    "q1_ready": false,
-    "natural_typo_data": false
-  }
+    "documents": 42994,
+    "query_states": 6684,
+    "exact_unions_matching_enumeration": 128,
+    "median_coarse_pool": 2613,
+    "median_exact_union": 45,
+    "original_construction_median_ms": 24.39,
+    "original_matched_offline_geometric_speed_ratio": 2.3474,
+    "original_offline_wins": 107,
+    "distinct_20_request_session": {
+      "wins": 38,
+      "geometric_speed_ratio": 0.7472,
+      "gate": "failed"
+    },
+    "repeated_session": {
+      "wins": 1,
+      "geometric_speed_ratio": 0.4595
+    },
+    "observed_session_break_even": false,
+    "rsa_fd_exact_queries": 126,
+    "jaa_fd_exact_queries": 127,
+    "native_cpp_performance_comparison": false
+  },
+  "historical_studies": {
+    "CAPC": "root study files and results/",
+    "BOLT": "round2/",
+    "application": "application_study/",
+    "evaluated_hybrid": false
+  },
+  "verification": {
+    "command": "python verify_all.py",
+    "archive_stages": 16,
+    "requires_raw_corpora": false,
+    "runs_new_benchmarks": false,
+    "assertions_required": true
+  },
+  "scope_limits": [
+    "finite declared edit channels",
+    "fixed lexical scorer",
+    "no semantic or edited-query relevance guarantee",
+    "no full-corpus neural top-k or RAG guarantee",
+    "no global SOTA or publication acceptance claim"
+  ],
+  "scientific_payloads_modified_by_maintenance": false
 }

@@ -5,12 +5,16 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Install offline-verification dependencies
-        run: pip install numpy==2.3.5 pandas==2.2.3
-      - name: Verify all three studies and integration manifests
+        run: pip install -r requirements-all.txt
+      - name: Verify all recorded research stages and integration manifests
         run: python verify_all.py

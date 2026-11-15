@@ -67,7 +67,7 @@ Kết quả B2/K10 hỗ trợ một lợi ích chứng nhận cụ thể ở2/3c
 
 Có18unit test, LP/MILP/DP/Decimal checks,12fixture thật,27000 dự đoán nhiễu từng mẫu và300/300cận khớp khi replay một luồng. Đã kiểm tra20sourcehash và dựng lại index SciFact từ byte gốc. Sai lệch OpenBLAS3thread của lượt đầu được công khai và profile/replay riêng một luồng; không dùng thời gian đó để tuyên bố speedup. Lý thuyết có guard/assumptions và họ additive-factor; chưa chứng minh formal compiled code hoặc global firstness của định lý.
 
-**Đóng góp mạnh nhất tới hiện tại:** bộ chứng nhận cụ thể, lý thuyết có điều kiện, đối chứng cùng bài toán và xác nhận mới minh bạch. **Nút thắt:** overlap CostCert/top-K verification/LP/DP/graph cover và giá trị triển khai còn hạn chế. [Báo cáo](round3/REPORT_VI.md), [theory](round3/THEORY.md), [manuscript](round3/MANUSCRIPT.md), [novelty](round3/RELATED_WORK_UPDATE.md), [lịch sử](round3/RUN_HISTORY.md).
+**Đóng góp mạnh nhất tới hiện tại:** bộ chứng nhận cụ thể, lý thuyết có điều kiện, đối chứng cùng bài toán và xác nhận mới minh bạch. **Nút thắt:** overlap CostCert/top-K verification/LP/DP/graph cover và giá trị triển khai còn hạn chế. [Báo cáo](round3/REPORT_VI.md), [theory](round3/THEORY.md), bản thảo (hiện được quản lý riêng ngoài repository), [novelty](round3/RELATED_WORK_UPDATE.md), [lịch sử](round3/RUN_HISTORY.md).
 
 ## 6. Ứng dụng web và audit dataset v0.1
 
